@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias - Canais TV PT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://vjs.zencdn.net/7.20.3/video-js.css" rel="stylesheet" />
+    <script defer src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
+</head>
+
+<main><header>
+  <div style="text-align: center;">
+    <img src="logo.png" height="150" alt="Image">
+  </div>
+  <nav>   
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="desporto.html">Desporto</a></li>
+        <li><a href="noticias.html">Notícias (Atual)</a></li>
+        <li><a href="secundarios.html">Secundários</a></li>
+        <li><a href="fil_doc.html">Filmes/<br>Doc.</a></li>
+        <li><a href="banda_d.html">Desenhos<br>Anim.</a></li>
+        <li><a href="radio.html">Rádios</a></li>
+        <li><a href="aleatorio.html">Aleatório</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+      </ul>
+  </nav>
+</header></main>
+<body>
+    <nav id="nav_escolha">
+        <a id="escolha_canal" href="#home" onclick="changeChannel('escolha_not/escolha.mp4', 'escolha_not/escolha.png'); return false;">Home</a>
+        <a id="escolha_canal" href="#rtp1" onclick="changeChannel('https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8', 'https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png'); return false;">RTP1<sup>HD</sup></a>
+        <a id="escolha_canal" href="#rtp2" onclick="changeChannel('https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/playlist.m3u8', 'https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png'); return false;">RTP2<sup>HD</sup></a>
+        <a id="escolha_canal" href="#sic" onclick="changeChannel('https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8', 'https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png'); return false;">SIC<sup>HD</sup></a>
+        <a id="escolha_canal" href="#tvi" onclick="changeChannel('https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/tvi.m3u8', 'https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png'); return false;">TVI<sup>HD</sup></a>
+        <a id="escolha_canal" href="#sicnoticias" onclick="changeChannel('https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/index_3.m3u8', 'https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Notícias.png'); return false;">SIC Notícias<sup>HD</sup></a>
+        <a id="escolha_canal" href="#rtp3" onclick="changeChannel('https://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8', 'https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP3.png'); return false;">RTP3<sup>HD</sup></a>
+        <a id="escolha_canal" href="#cnnportugal" onclick="changeChannel('https://raw.githubusercontent.com/ipstreet312/freeiptv/master/ressources/tvipt/sh/cnnpt.m3u8', 'https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png'); return false;">CNN Portugal<sup>HD</sup></a>
+        <a id="escolha_canal" href="#portocanal" onclick="changeChannel('https://bcovlive-a.akamaihd.net/34ec8f209dcc48dda853aca054c97ab2/eu-west-1/6415811594001/playlist.m3u8', 'https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Porto-Canal.png'); return false;">Porto Canal</a>
+        <a id="escolha_canal" href="#euronewspt " onclick="changeChannel('https://0ff3c09c7580460e8e018cdcaacbadee.mediatailor.us-east-1.amazonaws.com/v1/manifest/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pt_EuroNewsLive/de58ab88-b103-4df8-b87a-71190e6f9482/5.m3u8', 'https://provider-static.plex.tv/epg/cms/production/996b6c5a-a42f-42b6-8f21-4a140fedc797/Logo_Euronews_stacked_white_on_portuguese_2000x3000rdxvert.jpg'); return false;">Euronews PT<sup>HD</sup></a>
+    </nav>
+
+    <video
+        id="escolha_player"
+        class="video-js"
+        controls
+        preload="auto"
+        width="900"
+        height="500"
+        poster="escolha_not/escolha.png"
+        data-setup="{}"
+    >
+        <source
+            id="video_source"
+            src="escolha_not/escolha.mp4"
+            type="video/mp4"
+        />
+    </video>
+    <br><br><h1 class="nomecanal">CMTV</h1>
+    <iframe src="http://tvdesporto.live/play.php?canal=cmtv&height=500&width=900" height="500" width="900" frameborder="0" scrolling="no" marginheight="0" allowFullScreen></iframe>
+    <br><br><h1 class="nomecanal">NewsNow</h1>
+    <iframe id="cmtv-player" src="escolha_not/escolhann.html" width="900" height="500"></iframe><br><br>
+    <script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var player = videojs('escolha_player');
+
+            window.changeChannel = function(url, poster) {
+                player.poster(poster);
+                player.src({ src: url, type: url.endsWith('.m3u8') ? 'application/x-mpegURL' : 'video/mp4' });
+
+                // Adiciona um atraso de 500ms antes de reproduzir o vídeo
+                setTimeout(function() {
+                    player.play();
+                }, 500);
+            };
+        });
+    </script>
+
+    <footer>Feito por Tomás Afonso. 2024</footer>
+</body>
+</html>

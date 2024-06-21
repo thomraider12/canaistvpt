@@ -1,0 +1,136 @@
+#EXTM3U url-tvg="https://github.com/LITUATUI/M3UPT/raw/main/EPG/epg-pt.xml.xz"
+
+#EXTINF:-1 group-title="TV" tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP 1
+#EXTVLCOPT:http-user-agent=Firefox
+#EXTVLCOPT:http-referrer=https://rtp.pt/
+https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="RTP2.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",RTP 2
+#EXTVLCOPT:http-user-agent=Firefox
+#EXTVLCOPT:http-referrer=https://rtp.pt/
+https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="SIC.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png",SIC
+https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
+https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8yMS8yMDI0IDEwOjU6NDAgQU0maGFzaF92YWx1ZT1BTG1vNGlSRHFWVCs1aXBSMGJHNU1RPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9M2YyYTVmZjMtZjcyNy00M2MyLWJhMjAtNjAyYjg4NzRlYzcx/
+
+#EXTINF:-1 group-title="TV" tvg-id="SICNoticias.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Notícias.png",SIC Notícias
+#EXTVLCOPT:http-referrer=https://sic.pt/
+https://sicnot.live.impresa.pt/sicnot.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="RTP3.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP3.png",RTP 3
+#EXTVLCOPT:http-user-agent=Firefox
+#EXTVLCOPT:http-referrer=https://rtp.pt/
+https://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="CNNPortugal.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",CNN Portugal
+https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ni8yMS8yMDI0IDEwOjU6NDEgQU0maGFzaF92YWx1ZT15OGY5Q2ZwejlUOGhUTzVrZ0hLa0p3PT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9ZjkyNmU4OTYtYmVjMS00ZmUyLWExNDctZWY5MWUyYjkzYzk1/
+
+#EXTINF:-1 group-title="TV" tvg-id="PortoCanal.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Porto-Canal.png",Porto Canal
+https://bcovlive-a.akamaihd.net/34ec8f209dcc48dda853aca054c97ab2/eu-west-1/6415811594001/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="EuronewsPortuguese.fr" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",Euronews PT
+https://0ff3c09c7580460e8e018cdcaacbadee.mediatailor.us-east-1.amazonaws.com/v1/manifest/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pt_EuroNewsLive/de58ab88-b103-4df8-b87a-71190e6f9482/5.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="ARTV.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ARTV.png",ARTV
+https://playout175.livextend.cloud/livenlin4/_definst_/2liveartvpub2/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="RTPMemoria.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Memória.png",RTP Memória
+#EXTVLCOPT:http-user-agent=Firefox
+#EXTVLCOPT:http-referrer=https://rtp.pt/
+https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Fama-TV.jpg",Fama TV
+https://204280.global.ssl.fastly.net/64cd4f589272294ee667108d/live_2f24d2e05bfd11eeb524673aae68b8ac/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CamoesTV.png",Camões TV
+https://customer-3s66icmlj6pe1jxm.cloudflarestream.com/5591a95d07ca3d04141053f912543447/manifest/video.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="CNNInternationalEurope.us" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN.png",CNN
+https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="NASA TV Public" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/NASA.png",NASA TV Public
+https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="MyTime Movie Network" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/My-Time-Movie-Network.png",MyTime Movie Network (BR)
+https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="TV",Rakuten Documentaries
+https://rakuten-documentaries-14-pt.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="MovieSphere" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/MovieSphere.jpg",MovieSphere
+https://moviesphere-plex.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="Anime TV" tvg-logo="",Anime TV
+https://stmv1.srvif.com/animetv/animetv/playlist.m3u8
+
+#EXTINF:-1 group-title="TV",Rakuten Family
+https://rakuten-family-14-pt.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="Retrô Cartoon" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Retro-TV.png",Retrô Cartoon
+https://stmv1.srvif.com/retrotv/retrotv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://snworksceo.imgix.net/ids/e9de11da-b8dd-4adf-a23f-e4f721646170.sized-1000x1000.jpg?w=1000",5-Minute-Crafts LIVE
+https://i.mjh.nz/Plex/5e20b730f2f8d5003d739db7-63894c1965b848bf2c8a7800.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Gametoon.png",Gametoon
+http://iptv.prosto.tv:7000/ch256/video.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Love-Nature-TV.png",Love Nature 4K
+https://lnc-love-nature.tubi.video/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TRACE-Urban.png",Trace Urban
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00398-zeasneuropebv-traceurban-zeasn/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TRACE-Latina.png",Trace Latina
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00398-zeasneuropebv-tracelatina-zeasn/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Clubbing-TV.png",ClubbingTV
+https://clubbingtv-rakuten.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://radiocomercial.pt/images/logos/logo-radio-comercial.png",Rádio Comercial
+https://stream-icy.bauermedia.pt/comercial.aac
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/9/9c/Logo_rfm_curto.png",RFM
+https://playerservices.streamtheworld.com/api/livestream-redirect/RFMAAC_SC
+
+#EXTINF:-1 tvg-logo="https://static.mytuner.mobi/media/tvos_radios/k6msundlglag.jpeg",Fama Rádio
+http://famaradio.mywire.org:8000/digitalfm64
+
+#EXTINF:-1 tvg-logo="https://bordalo.observador.pt/v2/q:84/rs:fill:1540:866/c:1540:866:nowe:0:0/plain/https://s3.observador.pt/wp-content/uploads/2023/01/18151509/radioobs-16x9-1.png",Observador
+https://playerservices.streamtheworld.com/api/livestream-redirect/OBSERVADORAAC.aac?dist=web-popup&devicename=aac
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/9/98/TSF_RN.png",TSF
+http://tsfdirecto.tsf.pt/tsfdirecto.mp3#
+
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/QDXv-dwPSiRg0WA_Gp9JotWMWRnLWIIInC1qouZfQzpHHbzxnmyx_iwOPQZp8tx5fNDE",M80
+https://stream-icy.bauermedia.pt/m80.aac
+
+#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_mpLujoLzRdMbXJ3TuM5tX1nVTZUD-mlaxWzZioQ2F79kg=s900-c-k-c0x00ffffff-no-rj",Rádio Voz Santo Tirso
+https://radios.justweb.pt/8024/stream
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/b/be/Log%C3%B3tipo_da_Mega_Hits.png",MegaHits
+http://25703.live.streamtheworld.com/MEGA_HITS_SC
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU0rmPHhuiVg56Pso88Vl_oZuLQwk02oBqRA&s",Nova Era
+http://centova.radios.pt:9478/stream/1/
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjbpP28o9Y1YbhXEll54CrUfjRxnB-yfNiVw&s",MEO Sudoeste
+http://centova.radio.com.pt:8495/stream/1/
+
+#EXTINF:-1 tvg-logo="https://cdn-profiles.tunein.com/s15270/images/logod.png?t=637183574800000000",Orbital
+https://centova.radios.pt/proxy/401?mp=/stream/
+
+#EXTINF:-1 tvg-logo="https://nove3cinco.pt/sv/wp-content/uploads/2015/05/Nove3Cinco-Menu-Logo.png",Nove3Cinco
+https://centova.radios.pt/proxy/522?mp=/stream/1/
+
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/GAVi2EgqHp_c4k9_hyFjr45-n7vV-mD17gW9_B_no6BEn-Rempp_dDTQWL0DqBnW2s88",Cidade FM
+https://stream-icy.bauermedia.pt/cidade.aac
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQacd-rM1-BeKWNbitroDdktSnbBpI7qbw9LA&s",Cidade Hoje
+http://centova.radio.com.pt:8119/;
+
+#EXTINF:-1 tvg-logo="https://app.tugafm.com/images/33803_radio.png",Tuga FM
+https://stream.zenolive.com/sy89zzvs0rquv.aac

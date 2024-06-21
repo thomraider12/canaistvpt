@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secundários - Canais TV PT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://vjs.zencdn.net/7.20.3/video-js.css" rel="stylesheet" />
+    <script defer src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
+</head>
+
+<main><header>
+  <div style="text-align: center;">
+    <img src="logo.png" height="150" alt="Image">
+  </div>
+  <nav>   
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="desporto.html">Desporto</a></li>
+        <li><a href="noticias.html">Notícias</a></li>
+        <li><a href="secundarios.html">Secundários<br>(Atual)</a></li>
+        <li><a href="fil_doc.html">Filmes/
+          <br>Doc.</a></li>
+          <li><a href="banda_d.html">Desenhos<br>Anim.</a></li>
+        <li><a href="radio.html">Rádios</a></li>
+        <li><a href="aleatorio.html">Aleatório</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+      </ul>
+  </nav>
+</header></main>
+<body>
+    <nav id="nav_escolha">
+        <a id="escolha_canal" href="#" onclick="changeChannel('escolha_sec/escolha.mp4', 'escolha_sec/escolha.png'); return false;">Home</a>
+        <a id="escolha_canal" href="#" onclick="changeChannel('https://playout175.livextend.cloud/livenlin4/_definst_/2liveartvpub2/playlist.m3u8', 'https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ARTV.png'); return false;">ARTV</a>
+        <a id="escolha_canal" href="#" onclick="changeChannel('https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8', 'https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Memória.png'); return false;">RTP Memória*</a>
+        <a id="escolha_canal" href="#" onclick="changeChannel('https://204280.global.ssl.fastly.net/64cd4f589272294ee667108d/live_2f24d2e05bfd11eeb524673aae68b8ac/tracks-v2a1/playlist.m3u8', 'https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Fama-TV.jpg'); return false;">Fama TV</a>
+        <a id="escolha_canal" href="#" onclick="changeChannel('https://customer-3s66icmlj6pe1jxm.cloudflarestream.com/5591a95d07ca3d04141053f912543447/manifest/video.m3u8', 'https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CamoesTV.png'); return false;">CamõesTV</a>
+        <a id="escolha_canal" href="#" onclick="changeChannel('https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8', 'https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN.png'); return false;">CNN</a>
+        <a id="escolha_canal" href="#" onclick="changeChannel('https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8', 'https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/NASA.png'); return false;">NASA TV</a>
+    </nav>
+    <h3>* = Pode não estar sempre disponível</h3>
+    <video
+        id="escolha_player"
+        class="video-js"
+        controls
+        preload="auto"
+        width="900"
+        height="500"
+        poster="escolha_sec/escolha.png"
+        data-setup="{}"
+    >
+        <source
+            id="video_source"
+            src="escolha_sec/escolha.mp4"
+            type="video/mp4"
+        />
+    </video><br><br>
+    <script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var player = videojs('escolha_player');
+
+            window.changeChannel = function(url, poster) {
+                player.poster(poster);
+                player.src({ src: url, type: url.endsWith('.m3u8') ? 'application/x-mpegURL' : 'video/mp4' });
+
+                // Adiciona um atraso de 500ms antes de reproduzir o vídeo
+                setTimeout(function() {
+                    player.play();
+                }, 500);
+            };
+        });
+    </script>
+
+    <footer>Feito por Tomás Afonso. 2024</footer>
+</body>
+</html>

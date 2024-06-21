@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desporto - Canais TV PT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://vjs.zencdn.net/7.20.3/video-js.css" rel="stylesheet">
+    <script defer src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
+    <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
+</head>
+<main><header>
+    <div style="text-align: center;">
+      <img src="logo.png" height="150" alt="Image">
+    </div>
+    <nav>   
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="desporto.html">Desporto (Atual)</a></li>
+          <li><a href="noticias.html">Notícias</a></li>
+          <li><a href="secundarios.html">Secun-<br>dários</a></li>
+          <li><a href="fil_doc.html">Filmes/
+            <br>Doc.</a></li>
+            <li><a href="banda_d.html">Desenhos<br>Anim.</a></li>
+          <li><a href="radio.html">Rádios</a></li>
+          <li><a href="aleatorio.html">Aleatório</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+    </nav>
+  </header></main>
+<body>
+    <br><br><nav id="nav_escolha">
+      <a id="escolha_canal" href='escolha_d/escolha.html' target='vid'>Home</a>
+        <a id="escolha_canal" href='https://sportsonline.su/channels/pt/sporttv1.php' target='vid'>SportTV1</a>
+        <a id="escolha_canal" href='https://sportsonline.su/channels/pt/sporttv2.php' target='vid'>SportTV2</a>
+        <a id="escolha_canal" href='https://sportsonline.su/channels/pt/sporttv3.php' target='vid'>SportTV3</a>
+        <a id="escolha_canal" href='https://sportsonline.su/channels/pt/sporttv4.php' target='vid'>SportTV4</a>
+        <a id="escolha_canal" href='https://sportsonline.si/channels/pt/eleven1.php' target='vid'>ElevenSports</a>
+        <a id="escolha_canal" href='https://sportsonline.si/channels/pt/eleven2.php' target='vid'>ElevenSports2</a>
+        <a id="escolha_canal" href='https://sportsonline.si/channels/pt/eleven3.php' target='vid'>ElevenSports3</a>
+        <a id="escolha_canal" href='http://tvdesporto.live/play.php?canal=abolatv&height=500&width=900' target='vid'>A Bola TV</a>
+        <a id="escolha_canal" href='http://tvdesporto.live/play.php?canal=canal11&height=500&width=900' target='vid'>Canal 11</a>
+    </nav>
+    <iframe id="escolha_player" src='escolha_d/escolha.html' name='vid' width='900' height='500' allowFullScreen></iframe>
+    <br><br><h1 class="nomecanal">RedBull TV</h1>
+    <video
+  id="my-video"
+  class="video-js"
+  controls
+  preload="auto"
+  width="900"
+  height="500"
+  poster="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Red-Bull-TV.png"
+  controls
+  data-setup="{}"
+>
+  <source
+    src="https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8"
+    type="application/x-mpegURL"
+  />
+  </video>
+  <br><br><h1 class="nomecanal">Fifth Gear</h1>
+  <h2 class="nomecanal2">(tem legendas)</h2>
+    <video
+  id="my-video"
+  class="video-js"
+  controls
+  preload="auto"
+  width="900"
+  height="500"
+  poster="https://upload.wikimedia.org/wikipedia/en/0/09/FifthGear.jpg"
+  controls
+  data-setup="{}"
+>
+  <source
+    src="https://dapdwco2fkcoa.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=88887625&ads.csid=vidaa_us_fifthgear_ssai&ads.caid=FifthGear&ads.appVersion=1&ads._fw_content_category=IAB1-7&ads._fw_content_genre=television&ads._fw_content_language=en&ads._fw_content_rating=tv-14&ads._fw_coppa=0&ads._fw_gdpr_consent=&ads._fw_gdpr=0&ads._fw_player_width=1920&ads._fw_player_height=1080&ads.xumo_contentId=3867&ads.xumo_contentName=All3MediaFifthGear&ads.xumo_providerId=3867&ads.xumo_providerName=All3MediaFifthGear&ads.vidaa_ads_param=1188362017&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=5407"
+    type="application/x-mpegURL"
+  />
+  </video>
+  <br>
+  <br>
+  </body>
+</html>

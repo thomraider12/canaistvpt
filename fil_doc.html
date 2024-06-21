@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes e Doc. - Canais TV PT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://vjs.zencdn.net/7.20.3/video-js.css" rel="stylesheet" />
+    <script defer src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
+</head>
+
+<main><header>
+  <div style="text-align: center;">
+    <img src="logo.png" height="150" alt="Image">
+  </div>
+  <nav>   
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="desporto.html">Desporto</a></li>
+        <li><a href="noticias.html">Notícias</a></li>
+        <li><a href="secundarios.html">Secundários</a></li>
+        <li><a href="fil_doc.html">Filmes/
+        <br>Doc. (Atual)</a></li>
+        <li><a href="banda_d.html">Desenhos<br>Anim.</a></li>
+        <li><a href="radio.html">Rádios</a></li>
+        <li><a href="aleatorio.html">Aleatório</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+      </ul>
+  </nav>
+</header></main>
+<body>
+  <h1 class="nomecanal">NatGeo Wild</h1>
+  <iframe width="900" height="500" src="https://www.youtube.com/embed/BJ3Yv572V1A" title="NatGeo WILD" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <br><br><h1 class="nomecanal">MyTimeMovieNetwork</h1>
+  <video
+  id="my-video"
+  class="video-js"
+  controls
+  preload="auto"
+  width="900"
+  height="500"
+  poster="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/My-Time-Movie-Network.png"
+  controls
+  data-setup="{}"
+>
+  <source
+    src="https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8"
+    type="application/x-mpegURL"
+  />
+  </video>
+  <br><br><h1 class="nomecanal">Rakuten Documentaries</h1>
+  <video
+  id="my-video"
+  class="video-js"
+  controls
+  preload="auto"
+  width="900"
+  height="500"
+  poster="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVc0qFsgwBq_9I-JU_MMsrsG57gN3uqAlZc5EIa1HLTG7LFRTJLYk-2Ax4WaZWr07nlws&usqp=CAU"
+  controls
+  data-setup="{}"
+>
+  <source
+    src="https://rakuten-documentaries-14-pt.samsung.wurl.tv/playlist.m3u8"
+    type="application/x-mpegURL"
+  />
+  </video>
+  <br><br><h1 class="nomecanal">MovieSphere</h1>
+  <h2>(apenas em inglês)</h2>
+  <video
+  id="my-video"
+  class="video-js"
+  controls
+  preload="auto"
+  width="900"
+  height="500"
+  poster="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/MovieSphere.jpg"
+  controls
+  data-setup="{}"
+>
+  <source
+    src="https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,MovieSphere.m3u8"
+    type="application/x-mpegURL"
+  />
+  </video>
+    <br>
+    <br>
+    <footer>Feito por Tomás Afonso. 2024</footer>
+</body>
+</html>
