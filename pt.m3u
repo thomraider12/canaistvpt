@@ -48,7 +48,7 @@ https://204280.global.ssl.fastly.net/64cd4f589272294ee667108d/live_2f24d2e05bfd1
 #EXTINF:-1 group-title="TV" tvg-id="" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CamoesTV.png",Camões TV
 https://customer-3s66icmlj6pe1jxm.cloudflarestream.com/5591a95d07ca3d04141053f912543447/manifest/video.m3u8
 
-#EXTINF:-1 group-title="Secundários" tvg-id="" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Red-Bull-TV.png",RedBullTV
+#EXTINF:-1 group-title="Secundários" tvg-id="" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Red-Bull-TV.png",RedBull TV (ENG)
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 
 #EXTINF:-1 group-title="Secundários" tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/09/FifthGear.jpg",Fifth Gear (ENG)
