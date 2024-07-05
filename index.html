@@ -7,12 +7,20 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style_principal.css">
 </head>
-
 <body>
+    <div class="loading-screen">
+        <video id="loading-video" width="320" height="240" autoplay muted>
+            <source src="CanaisTVPT.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+        <div class="progress-bar">
+            <div class="progress-bar-inner"></div>
+        </div>
+    </div>
     <main>
         <div style="text-align: center;">
             <img src="logo.png" height="150" alt="Image">
-          </div>
+        </div>
         <nav>
             <ul>
                 <li><a href="desporto.html">Desporto</a></li>
@@ -26,6 +34,35 @@
             </ul>
         </nav>
     </main>
+    <footer>Feito por Tomás Afonso. 2024</footer>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+    var progressBarInner = document.querySelector('.progress-bar-inner');
+    var loadingScreen = document.querySelector('.loading-screen');
+    var duration = 5000; // 5 seconds
+
+    var startTime = Date.now();
+
+    function updateProgressBar() {
+        var elapsedTime = Date.now() - startTime;
+        var progress = Math.min(elapsedTime / duration, 1);
+        progressBarInner.style.width = (progress * 100) + '%';
+
+        if (progress < 1) {
+            requestAnimationFrame(updateProgressBar);
+        } else {
+            loadingScreen.style.display = 'none';
+        }
+    }
+
+    requestAnimationFrame(updateProgressBar);
+
+    // Remove the loading screen after the duration
+    setTimeout(function() {
+        loadingScreen.style.display = 'none';
+    }, duration);
+});
+
+    </script>
 </body>
-<footer>Feito por Tomás Afonso. 2024</footer>
 </html>
