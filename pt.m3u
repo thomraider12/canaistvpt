@@ -63,8 +63,8 @@ https://eb9a3a62.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/T05PX1
 #EXTINF:-1 group-title="Secundários" tvg-id="CNNInternationalEurope.us" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN.png",CNN (USA)
 https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 group-title="Secundários" tvg-logo="https://yt3.googleusercontent.com/y_esGAQOhX4rTpWvrALErAJlFbm_2TIVrvcVfcZny7TuA8dJZgOQcC6KRfd_J5hljFe-foYXj9U=s900-c-k-c0x00ffffff-no-rj",BBC News (UK)
-https://d1kvlt93j1bc49.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6vpx7bvwjm7ao/v1/amcnetworks_bbcnews_1/samsungheadend_us/latest/main/hls/playlist.m3u8
+#EXTINF:-1 tvg-id="BBCWorldNews.it" group-title="Secundários" tvg-logo="https://yt3.googleusercontent.com/y_esGAQOhX4rTpWvrALErAJlFbm_2TIVrvcVfcZny7TuA8dJZgOQcC6KRfd_J5hljFe-foYXj9U=s900-c-k-c0x00ffffff-no-rj",BBC News (UK)
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 
 #EXTINF:-1 group-title="Secundários" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Sky-News.png",SkyNews (UK)
 https://linear417-gb-hls3-prd-ak.cdn.skycdp.com/100e/Content/HLS_004_1080_30/Live/channel(skynews)/index_1080.m3u8
