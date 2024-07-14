@@ -1,3 +1,8 @@
+# CanaisTVPT
+	Este projeto foi criado por Tomás Afonso, e tem vários canais de Portugal e do Mundo para entreter as pessoas.
+ 	Pode ser usado o meu m3u (<https://raw.githubusercontent.com/thomraider12/canaistvpt/main/pt.m3u>), com os canais e rádios aqui em baixo.
+  ---
+
 # Canais:
 	- RTP 1 HD
 	- RTP 2 HD
