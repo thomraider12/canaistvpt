@@ -54,7 +54,7 @@ https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 #EXTINF:-1 group-title="Desporto" tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/09/FifthGear.jpg",Fifth Gear (UK)
 https://dapdwco2fkcoa.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=88887625&ads.csid=vidaa_us_fifthgear_ssai&ads.caid=FifthGear&ads.appVersion=1&ads._fw_content_category=IAB1-7&ads._fw_content_genre=television&ads._fw_content_language=en&ads._fw_content_rating=tv-14&ads._fw_coppa=0&ads._fw_gdpr_consent=&ads._fw_gdpr=0&ads._fw_player_width=1920&ads._fw_player_height=1080&ads.xumo_contentId=3867&ads.xumo_contentName=All3MediaFifthGear&ads.xumo_providerId=3867&ads.xumo_providerName=All3MediaFifthGear&ads.vidaa_ads_param=1188362017&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=5407
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2_AyPOUi1MyxUCZCETNIjjBUWDhV-cAyF4g&s" group-title="Desporto",Fuel TV (USA/SPAIN)
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2_AyPOUi1MyxUCZCETNIjjBUWDhV-cAyF4g&s" group-title="Desporto" tvg-id="FUELTV.at",Fuel TV (USA/SPAIN)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01074-fueltv-fueltvemeaes-lges/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.seat42f.com/wp-content/uploads/2022/10/13183056/speedvision-logo-2022.jpg" group-title="Desporto",SpeedVision (USA)
@@ -69,7 +69,7 @@ https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8
 #EXTINF:-1 tvg-id="BBCWorldNews.it" group-title="Secundários" tvg-logo="https://yt3.googleusercontent.com/y_esGAQOhX4rTpWvrALErAJlFbm_2TIVrvcVfcZny7TuA8dJZgOQcC6KRfd_J5hljFe-foYXj9U=s900-c-k-c0x00ffffff-no-rj",BBC News (UK)
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 
-#EXTINF:-1 group-title="Secundários" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Sky-News.png",SkyNews (UK)
+#EXTINF:-1 group-title="Secundários" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Sky-News.png" tvg-id="SkyNewsInternational.uk",SkyNews (UK)
 https://linear417-gb-hls3-prd-ak.cdn.skycdp.com/100e/Content/HLS_004_1080_30/Live/channel(skynews)/index_1080.m3u8
 
 #EXTINF:-1 group-title="Secundários" tvg-id="NASA TV Public" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/NASA.png",NASA TV Public (USA)
@@ -99,13 +99,13 @@ https://amg02051-soulpublishing-amg02051c3-lg-pe-587.playouts.now.amagi.tv/playl
 #EXTINF:-1 group-title="Aleatório" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Gametoon.png",Gametoon
 http://iptv.prosto.tv:7000/ch256/video.m3u8
 
-#EXTINF:-1 group-title="Aleatório" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Love-Nature-TV.png",Love Nature 4K
+#EXTINF:-1 group-title="Aleatório" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Love-Nature-TV.png" tvg-id="Love Nature TV",Love Nature 4K
 https://lnc-love-nature.tubi.video/playlist.m3u8
 
-#EXTINF:-1 group-title="Radio" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TRACE-Urban.png",Trace Urban
+#EXTINF:-1 group-title="Radio" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TRACE-Urban.png" tvg-id="TraceUrban.fr",Trace Urban
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00398-zeasneuropebv-traceurban-zeasn/playlist.m3u8
 
-#EXTINF:-1 group-title="Radio" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TRACE-Latina.png",Trace Latina
+#EXTINF:-1 group-title="Radio" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TRACE-Latina.png" tvg-id="TraceLatina.fr",Trace Latina
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00398-zeasneuropebv-tracelatina-zeasn/playlist.m3u8
 
 #EXTINF:-1 group-title="Radio" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Clubbing-TV.png",ClubbingTV
