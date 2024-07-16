@@ -7,21 +7,22 @@ jobs:
   Update-streams:
     runs-on: ubuntu-latest
     steps:
-    
-      - name: checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: update streams
+      - name: Update streams
         run: sh streams.sh
 
-      - name: setup git config
+      - name: Configure Git
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
 
-      - name: commit
+      - name: Commit changes
         run: |
-          git pull
+          git pull origin main
           git add *.m3u
           git commit -m "Update streams"
           git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
