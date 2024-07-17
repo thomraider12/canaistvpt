@@ -108,7 +108,7 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00398-zeasneuropebv-traceurban-zeas
 #EXTINF:-1 group-title="Radio" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TRACE-Latina.png" tvg-id="TraceLatina.fr",Trace Latina
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00398-zeasneuropebv-tracelatina-zeasn/playlist.m3u8
 
-#EXTINF:-1 group-title="Radio" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Clubbing-TV.png",ClubbingTV
+#EXTINF:-1 group-title="Radio" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Clubbing-TV.png" tvg-id="ClubbingTV.fr",ClubbingTV
 https://clubbingtv-rakuten.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 group-title="Radio" radio="true" tvg-logo="https://radiocomercial.pt/images/logos/logo-radio-comercial.png",Rádio Comercial
