@@ -1,28 +1,29 @@
-name: Update streams
+# Thanks to LITUATUI user on github
+name: tvi-pt action
 on:
   schedule:
     - cron: "0 */2 * * *"
+    
+  workflow_dispatch:
 
 jobs:
-  Update-streams:
+  update-stream:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+    
+      - name: checkout
+        uses: actions/checkout@v3
 
-      - name: Update streams
+      - name: updating tvi-pt
         run: sh streams.sh
 
-      - name: Configure Git
+      - name: setup git config
         run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
-
-      - name: Commit changes
+          git config user.name "tvi-pt bot"
+          git config user.email "<>"
+      - name: commit
         run: |
-          git pull origin main
-          git add *.m3u
-          git commit -m "Update streams"
-          git push origin main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git pull
+          git add pt.m3u
+          git commit -m "tvi-pt updated"
+          git push origin master
