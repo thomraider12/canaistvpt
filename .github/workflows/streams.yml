@@ -1,0 +1,29 @@
+# Código provém do LITUATUI no GitHub
+
+name: Update streams
+on:
+  schedule:
+    - cron: "0 */2 * * *"
+
+jobs:
+  Update-streams:
+    runs-on: ubuntu-latest
+    steps:
+    
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: update streams
+        run: sh streams.sh
+
+      - name: setup git config
+        run: |
+          git config user.name "tvi-cnnpt bot"
+          git config user.email "<>"
+
+      - name: commit
+        run: |
+          git pull
+          git add *.m3u
+          git commit -m "Update streams"
+          git push origin main
