@@ -113,47 +113,47 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00398-zeasneuropebv-tracelatina-zea
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://clubbingtv-rakuten.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://radiocomercial.pt/images/logos/logo-radio-comercial.png",Rádio Comercial
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/radiocomercial.png",Rádio Comercial
 https://stream-icy.bauermedia.pt/comercial.aac
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/9/9c/Logo_rfm_curto.png",RFM
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rfm.png",RFM
 https://playerservices.streamtheworld.com/api/livestream-redirect/RFMAAC_SC
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://static.mytuner.mobi/media/tvos_radios/k6msundlglag.jpeg",Fama Rádio
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/famaradio.png",Fama Rádio
 http://famaradio.mywire.org:8000/digitalfm64
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://bordalo.observador.pt/v2/q:84/rs:fill:1540:866/c:1540:866:nowe:0:0/plain/https://s3.observador.pt/wp-content/uploads/2023/01/18151509/radioobs-16x9-1.png",Observador
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/observador.png",Observador
 https://playerservices.streamtheworld.com/api/livestream-redirect/OBSERVADORAAC.aac?dist=web-popup&devicename=aac
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/9/98/TSF_RN.png",TSF
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tsf.png",TSF
 http://tsfdirecto.tsf.pt/tsfdirecto.mp3#
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://play-lh.googleusercontent.com/QDXv-dwPSiRg0WA_Gp9JotWMWRnLWIIInC1qouZfQzpHHbzxnmyx_iwOPQZp8tx5fNDE",M80
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/m80.png",M80
 https://stream-icy.bauermedia.pt/m80.aac
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_mpLujoLzRdMbXJ3TuM5tX1nVTZUD-mlaxWzZioQ2F79kg=s900-c-k-c0x00ffffff-no-rj",Rádio Voz Santo Tirso
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/radiovozsantotirso.png",Rádio Voz Santo Tirso
 https://radios.justweb.pt/8024/stream
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/b/be/Log%C3%B3tipo_da_Mega_Hits.png",MegaHits
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/megahits.png",MegaHits
 http://25703.live.streamtheworld.com/MEGA_HITS_SC
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU0rmPHhuiVg56Pso88Vl_oZuLQwk02oBqRA&s",Nova Era
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/novaera.png",Nova Era
 http://centova.radios.pt:9478/stream/1/
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjbpP28o9Y1YbhXEll54CrUfjRxnB-yfNiVw&s",MEO Sudoeste
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/meosudoeste.png",MEO Sudoeste
 http://centova.radio.com.pt:8495/stream/1/
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://cdn-profiles.tunein.com/s15270/images/logod.png?t=637183574800000000",Orbital
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/orbital.png",Orbital
 https://centova.radios.pt/proxy/401?mp=/stream/
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://nove3cinco.pt/sv/wp-content/uploads/2015/05/Nove3Cinco-Menu-Logo.png",Nove3Cinco
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/nove3cinco.png",Nove3Cinco
 https://centova.radios.pt/proxy/522?mp=/stream/1/
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://play-lh.googleusercontent.com/GAVi2EgqHp_c4k9_hyFjr45-n7vV-mD17gW9_B_no6BEn-Rempp_dDTQWL0DqBnW2s88",Cidade FM
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/cidadefm.png",Cidade FM
 https://stream-icy.bauermedia.pt/cidade.aac
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQacd-rM1-BeKWNbitroDdktSnbBpI7qbw9LA&s",Cidade Hoje
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/cidadehoje.png",Cidade Hoje
 http://centova.radio.com.pt:8119/;
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://app.tugafm.com/images/33803_radio.png",Tuga FM
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tugafm.png",Tuga FM
 https://tugafm.stream.laut.fm/tugafm
