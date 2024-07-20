@@ -7,7 +7,6 @@ jobs:
   Update-streams:
     runs-on: ubuntu-latest
     steps:
-    
       - name: checkout
         uses: actions/checkout@v4
 
@@ -23,11 +22,12 @@ jobs:
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
+          git remote set-url origin https://$PAT_TOKEN@github.com/thomraider12/canaistvpt.git
           git pull
           if [ -n "$(git status --porcelain)" ]; then
             git add *.m3u
             git commit -m "Update streams"
-            git push https://$PAT_TOKEN@github.com/thomraider12/canaistvpt.git
+            git push origin main
           else
             echo "No changes to commit"
           fi
