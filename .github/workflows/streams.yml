@@ -19,17 +19,6 @@ jobs:
           git config user.name "tvi-cnnpt bot"
           git config user.email "<>"
 
-      - name: verify changes
-        id: changes
-        run: |
-          if git diff --exit-code; then
-            echo "No changes detected"
-            exit 0
-          else
-            echo "Changes detected"
-            exit 1
-          fi
-
       - name: commit
         if: steps.changes.outcome != 'success'
         run: |
