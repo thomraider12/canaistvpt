@@ -1,0 +1,30 @@
+name: Update Streams
+
+on:
+  schedule:
+    - cron: '*/5 * * * *' # Executa o workflow diariamente à meia-noite
+  workflow_dispatch: # Permite executar o workflow manualmente a partir da interface do GitHub
+
+jobs:
+  update-streams:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Git
+      run: |
+        git config --global user.name "github-actions"
+        git config --global user.email "actions@github.com"
+
+    - name: Run streams.sh
+      run: |
+        chmod +x streams.sh
+        ./streams.sh
+
+    - name: Commit changes
+      run: |
+        git add pt.m3u
+        git commit -m "Update stream URLs"
+        git push
