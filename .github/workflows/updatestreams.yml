@@ -2,7 +2,7 @@ name: Update Streams
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '0 */2 * * *'
   workflow_dispatch: # Permite executar o workflow manualmente a partir da interface do GitHub
 
 jobs:
