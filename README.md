@@ -12,8 +12,8 @@ Pode ser usado o meu m3u (<https://raw.githubusercontent.com/thomraider12/canais
 - TVI HD
 - SIC Notícias HD
 - RTP 3 HD
-- CNN Portugal
-- Porto Canal 
+- CNN Portugal HD
+- Porto Canal HD
 - Euronews PT HD
 - ARTV HD
 - RTP Memória
