@@ -3,7 +3,7 @@ name: Update Streams
 on:
   schedule:
     - cron: '0 */2 * * *'
-  workflow_dispatch: # Permite executar o workflow manualmente a partir da interface do GitHub
+  workflow_dispatch:
 
 jobs:
   update-streams:
@@ -15,7 +15,7 @@ jobs:
 
     - name: Set up Git
       run: |
-        git config --global user.name "github-actions"
+        git config --global user.name "tvi-cnn bot"
         git config --global user.email "actions@github.com"
 
     - name: Run streams.sh
