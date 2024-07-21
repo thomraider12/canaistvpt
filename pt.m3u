@@ -64,7 +64,7 @@ https://linear417-gb-hls3-prd-ak.cdn.skycdp.com/100e/Content/HLS_004_1080_30/Liv
 https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
 
 #EXTINF:-1 group-title="Desporto" tvg-id="SportTV1.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/Sport_TV1.png", SportTV1 (não funciona)
-https://sportsonline.si/channels/pt/sporttv1.php
+https://ynfdb2hms7zt964p8rjc3g.cdnkidney.net:8443/hls/xt4p2tyjgzsp4t.m3u8?s=W5AIPwL62tnaCV8uDorAhw&e=1721581096
 
 #EXTINF:-1 group-title="Desporto" tvg-id="SportTV2.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/Sport_TV2.png", SportTV2 (não funciona)
 https://sportsonline.si/channels/pt/sporttv2.php
