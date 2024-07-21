@@ -117,10 +117,10 @@ http://iptv.prosto.tv:7000/ch256/video.m3u8
 #EXTINF:-1 group-title="Aleatório" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/lovenature4k.png" tvg-id="Love Nature TV",Love Nature 4K
 https://lnc-love-nature.tubi.video/playlist.m3u8
 
-#EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/traceurban.png" tvg-id="TraceUrban.fr",Trace Urban
+#EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/traceurban.png" tvg-id="TraceUrban.pt",Trace Urban
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00398-zeasneuropebv-traceurban-zeasn/playlist.m3u8
 
-#EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tracelatina.png" tvg-id="TraceLatina.fr",Trace Latina
+#EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tracelatina.png" tvg-id="TraceLatina.pt",Trace Latina
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00398-zeasneuropebv-tracelatina-zeasn/playlist.m3u8
 
 #EXTINF:-1 group-title="Rádios" tvg-id="ClubbingTV.fr" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/clubbingtv.png",Clubbing TV
