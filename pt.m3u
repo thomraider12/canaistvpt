@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://github.com/LITUATUI/M3UPT/blob/main/EPG/epg-meo-pt.xml.xz"
+#EXTM3U url-tvg="https://m3upt.com/epg-pt2"
 
 #EXTINF:-1 group-title="TV" tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp1.png",RTP 1
 #EXTVLCOPT:http-user-agent=Firefox
