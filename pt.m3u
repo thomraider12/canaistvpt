@@ -63,21 +63,6 @@ https://linear417-gb-hls3-prd-ak.cdn.skycdp.com/100e/Content/HLS_004_1080_30/Liv
 #EXTINF:-1 group-title="Secundários" tvg-id="NASA TV Public" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/nasatv.png",NASA TV Public (USA)
 https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
 
-#EXTINF:-1 group-title="Desporto" tvg-id="SportTV1.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/Sport_TV1.png", SportTV1 (não funciona)
-https://ynfdb2hms7zt964p8rjc3g.cdnkidney.net:8443/hls/xt4p2tyjgzsp4t.m3u8?s=W5AIPwL62tnaCV8uDorAhw&e=1721581096
-
-#EXTINF:-1 group-title="Desporto" tvg-id="SportTV2.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/Sport_TV2.png", SportTV2 (não funciona)
-https://sportsonline.si/channels/pt/sporttv2.php
-
-#EXTINF:-1 group-title="Desporto" tvg-id="SportTV3.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/Sport_TV3.png", SportTV3 (não funciona)
-https://sportsonline.si/channels/pt/sporttv3.php
-
-#EXTINF:-1 group-title="Desporto" tvg-id="SportTV4.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/Sport_TV4.png", SportTV4 (não funciona)
-https://sportsonline.si/channels/pt/sporttv4.php
-
-#EXTINF:-1 group-title="Desporto" tvg-id="SportTV5.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/Sport_TV5.png", SportTV5 (não funciona)
-https://sportsonline.si/channels/pt/sporttv5.php
-
 #EXTINF:-1 group-title="Desporto" tvg-id="" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/redbulltv.png",RedBull TV (USA)
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 
