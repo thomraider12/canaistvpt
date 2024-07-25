@@ -14,7 +14,7 @@ https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/playlist.m3u8
 https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
 
 #EXTINF:-1 group-title="TV" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tvi.png",TVI
-https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8yNS8yMDI0IDY6MTI6NiBBTSZoYXNoX3ZhbHVlPXgxS0J1MXdJUlhLSEZRQWgrQWdnU3c9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD0yZjNjODQ5ZS02YTJiLTQ1MmYtODQ4YS0wOTY1Mjk2N2U3N2E=/
+https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8yNS8yMDI0IDg6MTE6NDggQU0maGFzaF92YWx1ZT04Q3o1SUtxOGNFS0VBY1hEK1BBYnBBPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9NjRmYmYxNTItZWFiZi00NTYwLTk1NzAtNDBiYjkyYTJlNGM1/
 
 #EXTINF:-1 group-title="TV" tvg-id="SICNoticias.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/sicnot.png",SIC Notícias
 #EXTVLCOPT:http-referrer=https://sic.pt/
@@ -26,7 +26,7 @@ https://sicnot.live.impresa.pt/sicnot.m3u8
 https://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="TV" tvg-id="CNNPortugal.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/cnnpt.png",CNN Portugal
-https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8yNS8yMDI0IDY6MTI6NyBBTSZoYXNoX3ZhbHVlPUZxR0lzdDRuaSs0Tjl4cS95MlNNRGc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD1iZGNkOTk2NS1hYjEwLTQ0ODYtOGYzMi00NjFkOGQ0YmQ5Njk=/
+https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8yNS8yMDI0IDg6MTE6NDkgQU0maGFzaF92YWx1ZT1WbWM2VzVnN2R5QW9TZ0JiUnE0QWJRPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9N2UzOGNmNDMtNTUxMi00MTY3LTg1NjUtOWE4N2M3YjI4MjNi/
 
 #EXTINF:-1 group-title="TV" tvg-id="PortoCanal.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/portocanal.png",Porto Canal (não funciona)
 https://bcovlive-a.akamaihd.net/34ec8f209dcc48dda853aca054c97ab2/eu-west-1/6415811594001/playlist.m3u8
