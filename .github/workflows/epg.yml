@@ -2,6 +2,7 @@ name: Atualizar EPG
 on:
   schedule:
     - cron: "0 */12 * * *"
+  workflow_dispatch:
 
 jobs:
   Update-EPG:
