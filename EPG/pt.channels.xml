@@ -90,6 +90,7 @@
   <channel site="nostv.pt" lang="en" xmltv_id="CGTNEurope.cn" site_id="312">CGTN</channel>
   <channel site="meo.pt" lang="pt" xmltv_id="CGTNDocumentary.cn" site_id="CGTNDHD">CGTN Documentary</channel>
   <channel site="nostv.pt" lang="en" xmltv_id="AlJazeera.qa" site_id="108">Al Jazeera</channel>
+  <channel site="meo.pt" lang="en" xmltv_id="BBC Entertainment" site_id="BBC E">BBC Entertainment</channel>
   <channel site="nostv.pt" lang="en" xmltv_id="SkyNewsInternational.uk" site_id="39">Sky News</channel>
   <channel site="nostv.pt" lang="en" xmltv_id="CNNInternationalEurope.us" site_id="26">CNN</channel>
   <channel site="meo.pt" lang="en" xmltv_id="TRTWorld.tr" site_id="TRTWHD">TRT World</channel>
