@@ -14,7 +14,7 @@ https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/playlist.m3u8
 https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
 
 #EXTINF:-1 group-title="Notícias" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tvi.png",TVI
-https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC85LzIwMjQgNjoxMDo1OCBQTSZoYXNoX3ZhbHVlPXJWS1ZERkdqTlU2SW4zQzIvNjlkTlE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD02OWUzYTQyOC04Y2I3LTRkODYtOGJjZC03OGI3YjEwN2U4OWU=/
+https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC85LzIwMjQgODo5OjE1IFBNJmhhc2hfdmFsdWU9L3FJUTlXS3hRZFd4Y1N2TDFhS3A4QT09JnZhbGlkbWludXRlcz0xNDQwJmlkPWMwZWNiOTRmLWRiN2ItNGZjNC05NGNkLTllZGRmNzExZTQ0MQ==/
 
 #EXTINF:-1 group-title="Notícias" tvg-id="SICNoticias.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/sicnot.png",SIC Notícias
 #EXTVLCOPT:http-referrer=https://sic.pt/
@@ -26,7 +26,7 @@ https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/in
 https://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="Notícias" tvg-id="CNNPortugal.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/cnnpt.png",CNN Portugal
-https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC85LzIwMjQgNjoxMDo1OCBQTSZoYXNoX3ZhbHVlPXJzNzNQdERzTzFRdkVwYWlkY2pzSmc9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD04YzZkNGJlYS01YTI1LTQ3MzMtYTg2Yy04OTNmMjIwYzg5MzM=/
+https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC85LzIwMjQgODo5OjE2IFBNJmhhc2hfdmFsdWU9YnZIUE14emZTY3E0SjEyOHBqSEFodz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTA2Mzk1ZmU4LWY3MjItNGFjMS04OTY1LTI5ZjM5ZTc2ZTBmZg==/
 
 #EXTINF:-1 group-title="Notícias" tvg-id="VMAISTVI" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/vmaistvi.png",V+TVI
 #KODIPROP:inputstream=inputstream.adaptive
