@@ -37,8 +37,7 @@
   <channel site="nostv.pt" lang="pt" xmltv_id="SICRadical.pt" site_id="422">SIC Radical</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="SICMulher.pt" site_id="420">SIC Mulher</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="SICCaras.pt" site_id="421">SIC Caras</channel>
-  <channel site="meo.pt" site_id="VMAISTVI" xmltv_id="VmaisTVI_meo.pt">V+TVI</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="VmaisTVI_nos.pt" site_id="574">V+ TVI</channel>
+  <channel site="meo.pt" site_id="VMAISTVI" xmltv_id="VmaisTVI.pt">V+ TVI</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="TVIReality.pt" site_id="567">TVI Reality</channel>  
   <channel site="nostv.pt" lang="pt" xmltv_id="GloboPortugal.pt" site_id="447">Globo</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="24Kitchen.pt" site_id="243">24Kitchen</channel>
