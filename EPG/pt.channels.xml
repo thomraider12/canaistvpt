@@ -63,6 +63,7 @@
   <channel site="nostv.pt" lang="pt" xmltv_id="NickJr.pt" site_id="444">Nick Jr.</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="DisneyJunior.pt" site_id="673">Disney Junior</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="BabyTV.uk" site_id="448">Baby TV</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="Kanuca.pt" site_id="KANUCA">Kanuka TV</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="SportTV1.pt" site_id="137">Sport TV 1</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="SportTV2.pt" site_id="187">Sport TV 2</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="SportTV3.pt" site_id="188">Sport TV 3</channel>
