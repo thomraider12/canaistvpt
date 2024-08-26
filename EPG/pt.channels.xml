@@ -8,6 +8,7 @@
   <channel site="nostv.pt" lang="pt" xmltv_id="SICNoticias.pt" site_id="419">SIC Notícias</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="CNNPortugal.pt" site_id="557">CNN Portugal</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="CMTV.pt" site_id="425">CMTV</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="NewsNow.pt" site_id="NEWSNOW">NewsNow</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="EuronewsPortuguese.fr" site_id="25">Euronews PT</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="ARTV.pt" site_id="49">ARTV</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="SPlus.pt" site_id="510">S+</channel>
