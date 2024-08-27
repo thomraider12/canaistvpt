@@ -48,12 +48,12 @@ jobs:
 
       - name: Compress EPG xml files
         run: |
-          cd iptv-org-epg/EPG
+          cd EPG
           xz -k -f -9 epg*.xml && gzip -k -f -9 epg*.xml
 
       - name: Remove original EPG xml files
         run: |
-          cd iptv-org-epg/EPG
+          cd EPG
           rm epg*.xml
 
       - name: Setup Git config
