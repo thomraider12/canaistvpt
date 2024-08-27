@@ -8,15 +8,15 @@ npm run grab -- --channels=../EPG/pt.channels.xml --output=../EPG/epg-pt.xml --d
 
 # Meo EPG
 
-npm run grab -- --channels=../EPG/meo.pt.channels.xml --output=../EPG/epg-meo-pt.xml --days=7 --maxConnections=2
+npm run grab -- --channels=../EPG/meo.pt.channels.xml --output=../EPG/epg-meo-pt.xml --days=7 --maxConnections=15
 
 # Nos EPG
 
-npm run grab -- --channels=../EPG/nos.pt.channels.xml --output=../EPG/epg-nos-pt.xml --days=7 --maxConnections=10
+npm run grab -- --channels=../EPG/nos.pt.channels.xml --output=../EPG/epg-nos-pt.xml --days=7 --maxConnections=15
 
 # RTP EPG
 
-npm run grab -- --site=rtp.pt --output=../EPG/epg-rtp-pt.xml --days=7 --maxConnections=5
+npm run grab -- --site=rtp.pt --output=../EPG/epg-rtp-pt.xml --days=7 --maxConnections=15
 
 # Rytec EPG
 
