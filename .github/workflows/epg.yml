@@ -29,7 +29,7 @@ jobs:
       - name: Atualizar epg-meo
         run: |
           cd iptv-org-epg
-          npm run grab -- --channels=../EPG/meo.pt.channels.xml --output=../EPG/epg-meo-pt.xml --days=7 --maxConnections=2  # Update this line if needed
+          npm run grab -- --channels=../EPG/meo.pt.channels.xml --output=../EPG/epg-meo-pt.xml --days=7 --maxConnections=10  # Update this line if needed
 
       - name: Atualizar epg-nos
         run: |
