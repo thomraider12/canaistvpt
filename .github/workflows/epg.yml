@@ -59,7 +59,7 @@ jobs:
       - name: Setup Git config
         run: |
           git config user.name "EPG's bot"
-          git config user.email "<>"
+          git config user.email "example@example.com"
 
       - name: Commit changes
         run: |
