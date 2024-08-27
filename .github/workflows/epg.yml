@@ -43,7 +43,7 @@ jobs:
 
       - name: Atualizar epg-rytec
         run: |
-          cd iptv-org-epg/EPG
+          cd EPG
           wget -O epg-rytec-pt.xml.xz "http://www.xmltvepg.nl/rytecPT.xz"
 
       - name: Compress EPG xml files
