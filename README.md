@@ -13,12 +13,14 @@ Pode ser usado o meu m3u (<https://bit.ly/4dUs2qb>), com os canais e rádios aqu
 - SIC Notícias HD
 - RTP 3 HD
 - CNN Portugal HD
+- V+TVI
 - Porto Canal HD
 - Euronews PT HD
 - ARTV HD
 - RTP Memória
 - Fama TV HD
 - Camões TV
+- TVI Reality
 
 ##	Secundários e Desporto:
 - RedBull TV (USA)
