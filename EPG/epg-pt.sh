@@ -12,7 +12,7 @@ npm run grab -- --channels=../EPG/meo.pt.channels.xml --output=../EPG/epg-meo-pt
 
 # Nos EPG
 
-npm run grab -- --site=nostv.pt --output=../EPG/epg-nos-pt.xml --days=7 --maxConnections=10
+npm run grab -- --channels=../EPG/nos.pt.channels.xml --output=../EPG/epg-nos-pt.xml --days=7 --maxConnections=10
 
 # RTP EPG
 
