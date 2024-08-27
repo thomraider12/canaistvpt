@@ -124,7 +124,7 @@ https://linear-46.frequency.stream/dist/localnow/46/hls/master/playlist.m3u8
 #EXTINF:-1 group-title="Aleatórios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/lovenature4k.png" tvg-id="Love Nature TV",Love Nature (US)
 https://lnc-love-nature.tubi.video/playlist.m3u8
 
-#EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/traceurban.png" tvg-id="TraceUrban.pt",Trace Urban (FR)
+#EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/traceurban.png" tvg-id="TraceUrban.fr",Trace Urban (FR)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00398-zeasneuropebv-traceurban-zeasn/playlist.m3u8
 
 #EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tracelatina.png" tvg-id="TraceLatina.fr",Trace Latina (FR)
