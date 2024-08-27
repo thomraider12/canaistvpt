@@ -36,11 +36,7 @@ jobs:
           cd iptv-org-epg
           npm run grab -- --channels=../EPG/nos.pt.channels.xml --output=../EPG/epg-nos-pt.xml --days=7 --maxConnections=10  # Update this line if needed
 
-      - name: Atualizar epg-rtp
-        run: |
-          cd iptv-org-epg
-          npm run grab -- --site=rtp.pt --output=../EPG/epg-rtp-pt.xml --days=7 --maxConnections=5  # Update this line if needed
-
+      
       - name: Atualizar epg-rytec
         run: |
           cd EPG
