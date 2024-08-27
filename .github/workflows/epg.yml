@@ -1,4 +1,5 @@
 name: Atualizar EPG
+
 on:
   schedule:
     - cron: "0 */12 * * *"
@@ -8,27 +9,62 @@ jobs:
   Update-EPG:
     runs-on: ubuntu-latest
     steps:
-    
-      - name: checkout
+      - name: Checkout
         uses: actions/checkout@v4
-        
-      - name: checkout iptv-org/epg repo
+
+      - name: Checkout iptv-org/epg repo
         uses: actions/checkout@v4
         with:
-         repository: iptv-org/epg
-         path: iptv-org-epg
+          repository: iptv-org/epg
+          path: iptv-org-epg
 
-      - name: update EPG
-        run: sh EPG/epg-pt.sh
+      - name: Install dependencies
+        run: cd iptv-org-epg && npm install
 
-      - name: setup git config
+      - name: Atualizar epg-pt
         run: |
-          git config user.name "EPG's bot"
-          git config user.email "<>"
+          cd iptv-org-epg
+          npm run grab -- --channels=../EPG/pt.channels.xml --output=../EPG/epg-pt.xml --days=7 --maxConnections=10
 
-      - name: commit
+      - name: Atualizar epg-meo
+        run: |
+          cd iptv-org-epg
+          npm run grab -- --channels=../EPG/meo.pt.channels.xml --output=../EPG/epg-meo-pt.xml --days=7 --maxConnections=2  # Update this line if needed
+
+      - name: Atualizar epg-nos
+        run: |
+          cd iptv-org-epg
+          npm run grab -- --channels=../EPG/nos.pt.channels.xml --output=../EPG/epg-nos-pt.xml --days=7 --maxConnections=10  # Update this line if needed
+
+      - name: Atualizar epg-rtp
+        run: |
+          cd iptv-org-epg
+          npm run grab -- --site=rtp.pt --output=../EPG/epg-rtp-pt.xml --days=7 --maxConnections=5  # Update this line if needed
+
+      - name: Atualizar epg-rytec
+        run: |
+          cd EPG
+          wget -O epg-rytec-pt.xml.xz "http://www.xmltvepg.nl/rytecPT.xz"
+
+      - name: Compress EPG xml files
+        run: |
+          cd EPG
+          xz -k -f -9 epg*.xml && gzip -k -f -9 epg*.xml
+
+      - name: Remove original EPG xml files
+        run: |
+          cd EPG
+          rm epg*.xml
+
+      - name: Setup Git config
+        run: |
+          git config --global user.name "EPG's bot"
+          git config --global user.email "example@example.com"
+
+      - name: Commit changes
         run: |
           git pull
-          cd EPG && git add .
+          cd iptv-org-epg
+          git add .
           git commit -m "Atualizar EPG's"
           git push origin main
