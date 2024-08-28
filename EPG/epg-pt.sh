@@ -30,6 +30,13 @@ npm run grab -- --site=rtp.pt --output=../EPG/epg-rtp-pt.xml --days=7 --maxConne
 echo "EPG da RTP atualizada!"
 sleep 3
 
+# Plex EPG 
+
+npm run grab -- --channels=../EPG/plex.tv.channels.xml --output=../EPG/epg-plex-tv.xml --days=7 --maxConnections=100
+
+echo "EPG do Plex atualizada!"
+sleep 3
+
 # Rytec EPG
 
 cd ../EPG
