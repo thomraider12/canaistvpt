@@ -91,7 +91,6 @@
   <channel site="nostv.pt" lang="en" xmltv_id="CGTNEurope.cn" site_id="312">CGTN</channel>
   <channel site="meo.pt" lang="pt" xmltv_id="CGTNDocumentary.cn" site_id="CGTNDHD">CGTN Documentary</channel>
   <channel site="nostv.pt" lang="en" xmltv_id="AlJazeera.qa" site_id="108">Al Jazeera</channel>
-  <channel site="meo.pt" lang="pt" xmltv_id="BBCEntertainment.uk" site_id="BBC E">BBC Entertainment</channel>
   <channel site="nostv.pt" lang="en" xmltv_id="SkyNewsInternational.uk" site_id="39">Sky News</channel>
   <channel site="nostv.pt" lang="en" xmltv_id="CNNInternationalEurope.us" site_id="26">CNN</channel>
   <channel site="meo.pt" lang="en" xmltv_id="TRTWorld.tr" site_id="TRTWHD">TRT World</channel>
@@ -111,7 +110,7 @@
   <channel site="nostv.pt" lang="fr" xmltv_id="France24French.fr" site_id="132">France 24 Français</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="GaliciaTVEuropa.es" site_id="54">TV Galicia</channel>
   <channel site="nostv.pt" lang="en" xmltv_id="DWEnglish.de" site_id="115">Deutsche Welle</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="DWDeutsch.de" site_id="541">Deutsche Welle Deutsch</channel>
+  <channel site="nostv.pt" lang="pt" xmltv_id="DWDeutsch.de" site_id="115">Deutsche Welle Deutsch</channel>
   <channel site="nostv.pt" lang="fr" xmltv_id="TV5MondeEurope.fr" site_id="53">TV5 Monde</channel>
   <channel site="meo.pt" lang="pt" xmltv_id="BFMTV.fr" site_id="BFM">BFM TV</channel>
   <channel site="meo.pt" lang="pt" xmltv_id="BFMBusiness.fr" site_id="BFMB">BFM Business</channel>
@@ -125,10 +124,6 @@
   <channel site="nostv.pt" lang="pt" xmltv_id="" site_id="138">TPA Notícias</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="" site_id="343">STV Notícias</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="" site_id="588">Canal Galeria</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="" site_id="684">Dazn EXTRA 1</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="" site_id="685">Dazn EXTRA 2</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="" site_id="686">Dazn EXTRA 3</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="" site_id="687">Dazn EXTRA 4</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="" site_id="689">Unifé TV</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="" site_id="694">OneToro TV</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="" site_id="697">New Brasil</channel>
@@ -155,8 +150,6 @@
   <channel site="nostv.pt" lang="en" xmltv_id="MTVLive.uk" site_id="560">MTV Live</channel>
   <channel site="nostv.pt" lang="en" xmltv_id="MyZenTV.fr" site_id="167">MyZen TV</channel>
   <channel site="nostv.pt" lang="en" xmltv_id="NauticalChannel.it" site_id="679">Nautical Channel</channel>
-  <channel site="nostv.pt" lang="en" xmltv_id="PhoenixCNEChannel.hk" site_id="119">Phoenix CNE</channel>
-  <channel site="nostv.pt" lang="en" xmltv_id="PhoenixInfoNewsChannel.hk" site_id="120">Phoenix Infonews</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="RecordNews.br" site_id="30">Record News</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="RecordTVEuropa.pt" site_id="350">Record TV</channel>
   <channel site="nostv.pt" lang="de" xmltv_id="RTL.hr" site_id="40">RTL</channel>
@@ -168,14 +161,14 @@
   <channel site="nostv.pt" lang="pt" xmltv_id="TCVInternacional.cv" site_id="237">TCV Internacional</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="TLC.pt" site_id="23">TLC</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="TraceToca.fr" site_id="543">Trace Toca</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="TravelChannelEMEA.uk" site_id="100">Travel Channel</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="TravelChannelHD.uk" site_id="70">Travel Channel HD</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="TravelXP.uk" site_id="TRAXP">TravelXP HD</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="TVCancaoNova.pt" site_id="142">Canção Nova</channel>
   <channel site="nostv.pt" lang="es" xmltv_id="TVEInternacionalEuropeAsia.es" site_id="48">TVEi</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="TVRInternational.ro" site_id="123">TVR Internacional</channel>
   <channel site="nostv.pt" lang="en" xmltv_id="WSport.za" site_id="701">W-Sport</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="ZapViva.ao" site_id="538">ZAP Viva</channel>
-  <channel site="nostv.pt" lang="en" xmltv_id="ZeeTV.in" site_id="57">Zee TV</channel>
+  <channel site="meo.pt" lang="en" xmltv_id="ZeeTV.in" site_id="ZEETV">Zee TV</channel>
   <channel site="rtp.pt" lang="pt" xmltv_id="RTPiAmerica.pt" site_id="rja#5">RTP Internacional América</channel>
   <channel site="rtp.pt" lang="pt" xmltv_id="RTPiAsia.pt" site_id="per#5">RTP Internacional Ásia</channel>
 </channels>
