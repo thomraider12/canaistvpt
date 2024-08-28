@@ -39,7 +39,7 @@
   <channel site="plex.tv" lang="en" xmltv_id="" site_id="5e20b730f2f8d5003d739db7-650b5bb3f4b2d9579946a500">Mythical 24/7</channel>
   <channel site="plex.tv" lang="en" xmltv_id="" site_id="5e20b730f2f8d5003d739db7-654eb862dde2222e8ba551f1">Stingray Holidayscapes</channel>
   <channel site="plex.tv" lang="en" xmltv_id="" site_id="5e20b730f2f8d5003d739db7-6164a963766ab4f9f57e81b1">Camp Spoopy</channel>
-  <channel site="plex.tv" lang="en" xmltv_id="" site_id="5e20b730f2f8d5003d739db7-6408c82eebb23ab878e8ddbb">Motorsport.tv</channel>
+  <channel site="plex.tv" lang="en" xmltv_id="Motorsport.tv" site_id="5e20b730f2f8d5003d739db7-6408c82eebb23ab878e8ddbb">Motorsport.tv</channel>
   <channel site="plex.tv" lang="en" xmltv_id="" site_id="5e20b730f2f8d5003d739db7-6448ba1baf92c31f4a190c27">JAIL</channel>
   <channel site="plex.tv" lang="en" xmltv_id="" site_id="5e20b730f2f8d5003d739db7-6490c01f3b3ce9e1aaad95be">FashionTV</channel>
   <channel site="plex.tv" lang="en" xmltv_id="" site_id="5e20b730f2f8d5003d739db7-6490d0a03b3ce9e1aaad95c0">WITZ-Comedy TV</channel>
