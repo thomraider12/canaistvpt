@@ -91,7 +91,7 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01074-fueltv-fueltvemeaes-lges/play
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/motorvision.png" group-title="Desporto" tvg-id="Motorvision.de",Motorvision (NZ)
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01329-otterainc-motorvisionnz-samsungnz/playlist.m3u8?checkedby:iptvcat.com
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/speedvision.png" group-title="Desporto",SpeedVision (US)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/speedvision.png" tvg-id="SPEEDVISION.us" group-title="Desporto",SpeedVision (US)
 https://eb9a3a62.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/T05PX1NwZWVkdmlzaW9uX0hMUw/playlist.m3u8?ads.wurl_channel=1325&ads.wurl_name=Speedvision&ads.coppa=0&ads.device_id=%7BDEVICE_ID%7D&ads.dnt=%7BDNT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.gdpr=%7BGDPR%7D&ads.consent=%7BCONSENT%7D&ads.app_name=%7BAPP_NAME%7D&ads.app_bundle=%7BAPP_BUNDLE%7D&ads.app_store_url=%7BAPP_STORE_URL%7D&ads.ifa_type=%7BIFA_TYPE%7D&ads.custom=%7BCUSTOM%7D&ads.device_make=%7BDEVICE_MAKE%7D&ads.device_model=%7BDEVICE_MODEL%7D
 
 #EXTINF:-1 group-title="FilDoc" tvg-id="MyTime Movie Network" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/mtmn.png",MyTime Movie Network (BR)
@@ -115,7 +115,7 @@ https://rakuten-family-14-pt.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="BD" tvg-id="Retrô Cartoon" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/retrotv.png",Retrô Cartoon
 https://stmv1.srvif.com/retrotv/retrotv/playlist.m3u8
 
-#EXTINF:-1 group-title="Aleatórios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/5mincrafts.png",5-Minute-Crafts (ESP)
+#EXTINF:-1 group-title="Aleatórios" tvg-id="Ideas5Min" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/5mincrafts.png",5-Minute-Crafts (ESP)
 https://amg02051-soulpublishing-amg02051c3-lg-pe-587.playouts.now.amagi.tv/playlist/amg02051-admecyltd-5minutecraftsspanish-lgpe/playlist.m3u8
 
 #EXTINF:-1 group-title="Aleatórios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/gametoon.png",Gametoon
