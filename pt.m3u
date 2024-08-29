@@ -135,8 +135,8 @@ https://lnc-love-nature.tubi.video/playlist.m3u8
 #EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/traceurban.png" tvg-id="TraceUrban.fr",Trace Urban (FR)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00398-zeasneuropebv-traceurban-zeasn/playlist.m3u8
 
-#EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tracelatina.png" tvg-id="TraceLatina.fr",Trace Latina (FR)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00398-zeasneuropebv-tracelatina-zeasn/playlist.m3u8
+#EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tracebrazil.png" tvg-id="TraceBrasil.br",Trace Brazil
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracebrazuca-xiaomi/playlist.m3u8
 
 #EXTINF:-1 group-title="Rádios" tvg-id="clubbing-tv" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/clubbingtv.png",Clubbing TV
 #KODIPROP:inputstream=inputstream.adaptive
