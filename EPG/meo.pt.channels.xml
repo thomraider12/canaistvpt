@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
-  <channel site="starhubtvplus.com" lang="en" xmltv_id="BBCWorldNews.uk" site_id="701">BBC World News HD</channel>
   <channel site="meo.pt" lang="pt" site_id="RTP1" xmltv_id="RTP1.pt">RTP 1</channel>
   <channel site="meo.pt" lang="pt" site_id="RTP2" xmltv_id="RTP2.pt">RTP 2</channel>
   <channel site="meo.pt" lang="pt" site_id="SIC" xmltv_id="SIC.pt">SIC</channel>
