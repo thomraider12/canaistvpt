@@ -18,9 +18,9 @@ Pode ser usado o meu m3u (<https://bit.ly/4dUs2qb>), com os canais e rádios aqu
 - Euronews PT HD
 - ARTV HD
 - RTP Memória
+- TVI Reality
 - Fama TV HD
 - Camões TV
-- TVI Reality
 
 ##	Secundários e Desporto:
 - RedBull TV (USA)
