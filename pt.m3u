@@ -112,7 +112,7 @@ https://moviesphere-plex.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="BD" tvg-id="Anime TV" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/animetv.png",Anime TV
 https://stmv1.srvif.com/animetv/animetv/playlist.m3u8
 
-#EXTINF:-1 group-title="BD" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rakuten.png",Rakuten Family
+#EXTINF:-1 group-title="BD" tvg-id="6806" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rakuten.png",Rakuten Family
 https://rakuten-family-14-pt.samsung.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 group-title="BD" tvg-id="Retrô Cartoon" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/retrotv.png",Retrô Cartoon
