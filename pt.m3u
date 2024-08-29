@@ -91,7 +91,7 @@ https://dapdwco2fkcoa.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=88887625
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/fueltv.png" group-title="Desporto" tvg-id="FUELTV.at",Fuel TV (ESP)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01074-fueltv-fueltvemeaes-lges/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/motorvision.png" group-title="Desporto" tvg-id="Motorvision.de",Motorvision (NZ)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/motorvision.png" group-title="Desporto" tvg-id="motorvision-tv",Motorvision (NZ)
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01329-otterainc-motorvisionnz-samsungnz/playlist.m3u8?checkedby:iptvcat.com
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/speedvision.png" tvg-id="SPEEDVISION.us" group-title="Desporto",SpeedVision (US)
