@@ -21,6 +21,21 @@ jobs:
       - name: update EPG
         run: sh EPG/epg-pt.sh
 
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Executar script Python
+        run: | 
+          cd EPG
+          python generate.py
+
       - name: setup git config
         run: |
           git config user.name "EPG's bot"
