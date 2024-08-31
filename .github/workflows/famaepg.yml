@@ -1,9 +1,10 @@
-name: Atualizar EPG Fama
+name: Atualizar EPG 2
 
 on:
   schedule:
-    - cron: '20 */5 * * *' # Executa a cada hora
+    - cron: '10 */5 * * *'
   workflow_dispatch:
+
 
 jobs:
   update-epg:
@@ -16,24 +17,20 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y xz-utils
-
     - name: Descompactar arquivo EPG
       run: |
         cd EPG
         xz -d -k epg-meo-pt.xml.xz  # Descompacta o arquivo e mantém o original
-
     - name: Adicionar programação ao FamaTV
       run: |
         python3 update_epg.py
-
     - name: Compactar novamente o arquivo EPG
       run: |
         xz -z epg-meo-pt.xml
-
     - name: Commit e Push alterações
       run: |
-        git config --global user.name "EPG's bot"
-        git config --global user.email "email@exemplo.com"
+        git config --global user.name "Seu Nome"
+        git config --global user.email "seu-email@exemplo.com"
         git add epg-meo-pt.xml.xz
         git commit -m "Atualizando EPG com o canal FamaTV"
         git push
