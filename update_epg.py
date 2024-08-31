@@ -27,6 +27,5 @@ for i in range(24):
     title = ET.SubElement(programme, 'title', lang="pt")
     title.text = "FamaTV"
 
-# Cria a árvore XML e salva o arquivo
-tree = ET.ElementTree(root)
-tree.write('EPG/epg-fama-pt.xml', encoding='utf-8', xml_declaration=True)
+# Salva o arquivo XML no diretório raiz do projeto
+tree.write('epg-fama-pt.xml', encoding='utf-8', xml_declaration=True)
