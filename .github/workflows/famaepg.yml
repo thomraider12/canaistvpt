@@ -20,6 +20,7 @@ jobs:
 
     - name: Descompactar arquivo EPG
       run: |
+        cd EPG
         xz -d -k epg-meo-pt.xml.xz  # Descompacta o arquivo e mantém o original
 
     - name: Adicionar programação ao FamaTV
