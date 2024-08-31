@@ -33,4 +33,4 @@ for i in range(24):
     title.text = "FamaTV"
 
 # Salva o arquivo XML
-tree.write('epg-meo-pt.xml', encoding='utf-8', xml_declaration=True)
+tree.write('EPG/epg-meo-pt.xml', encoding='utf-8', xml_declaration=True)
