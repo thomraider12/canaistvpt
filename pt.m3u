@@ -61,7 +61,7 @@ https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tvgalicia.png" tvg-id="GaliciaTVEuropa.es" group-title="Secundários",TVGalicia (ESP)
 https://crtvg-europa.flumotion.cloud/crtvg/europa_high/chunks.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/foxnews.png" group-title="Secundários",Fox Now (US)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/foxnews.png" tvg-id="5e20b730f2f8d5003d739db7-6377ea0e13bb6b1757e14695" group-title="Secundários",Fox Now (US)
 https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8
 
 #EXTINF:-1 tvg-id="BBCNews.uk" group-title="Secundários" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/bbcnews.png",BBC News (UK)
