@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 
 # Carrega o arquivo XML
-tree = ET.parse('epg-meo-pt.xml')
+tree = ET.parse('EPG/epg-meo-pt.xml')
 root = tree.getroot()
 
 # Verifica se o canal FamaTV já existe
