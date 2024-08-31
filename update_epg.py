@@ -28,4 +28,5 @@ for i in range(24):
     title.text = "FamaTV"
 
 # Salva o arquivo XML no diretório raiz do projeto
+tree = ET.ElementTree(root)
 tree.write('epg-fama-pt.xml', encoding='utf-8', xml_declaration=True)
