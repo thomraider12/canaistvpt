@@ -37,6 +37,12 @@ jobs:
           cd EPG
           python rakuten.py
 
+      - name: Atualizar listas FamaTV
+        run: | 
+          cd EPG
+          python famatv.py
+          xz -z epg-fama-pt.xml
+
       - name: setup git config
         run: |
           git config user.name "EPG's bot"
