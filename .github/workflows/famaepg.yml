@@ -2,7 +2,9 @@ name: Atualizar EPG 2
 
 on:
   schedule:
-    - cron: '10 */5 * * *' # Executa a cada hora
+    - cron: '10 */5 * * *'
+  workflow_dispatch:
+
 
 jobs:
   update-epg:
