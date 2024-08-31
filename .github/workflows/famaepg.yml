@@ -19,7 +19,7 @@ jobs:
 
     - name: Criar arquivo EPG para FamaTV
       run: |
-        python3 create_epg_fama.py
+        python3 update_epg.py
 
     - name: Compactar arquivo em .xz
       run: |
