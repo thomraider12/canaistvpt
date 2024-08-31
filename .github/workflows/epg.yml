@@ -41,6 +41,7 @@ jobs:
         run: | 
           cd EPG
           python famatv.py
+          rm -f epg-fama-pt.xml.xz
           xz -z epg-fama-pt.xml
 
       - name: setup git config
