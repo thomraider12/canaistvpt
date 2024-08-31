@@ -55,9 +55,6 @@ https://video-auth4.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvirea
 #EXTINF:-1 group-title="Secundários" tvg-id="" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/famatv.png",Fama TV
 https://204280.global.ssl.fastly.net/64cd4f589272294ee667108d/live_2f24d2e05bfd11eeb524673aae68b8ac/playlist.m3u8
 
-#EXTINF:-1 group-title="Secundários" tvg-id="" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/camoestv.png",Camões TV
-https://customer-3s66icmlj6pe1jxm.cloudflarestream.com/5591a95d07ca3d04141053f912543447/manifest/video.m3u8
-
 #EXTINF:-1 group-title="Secundários" tvg-id="CNNInternationalEurope.us" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/cnn.png",CNN (US)
 https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8
 
