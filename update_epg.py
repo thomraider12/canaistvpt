@@ -9,8 +9,9 @@ channel = ET.SubElement(root, 'channel', id="FamaTV.pt")
 display_name = ET.SubElement(channel, 'display-name')
 display_name.text = "FamaTV"
 
-# Obtém a hora atual
-current_time = datetime.utcnow()
+# Obtém a hora atual e ajusta para a próxima hora cheia (minutos = 0)
+current_time = datetime.utcnow().replace(minute=0, second=0, microsecond=0)
+
 # Define a programação de hora em hora para os próximos 7 dias
 for i in range(168):
     start_time = current_time + timedelta(hours=i)
