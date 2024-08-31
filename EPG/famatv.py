@@ -44,6 +44,6 @@ except Exception as e:
     print(f"Erro ao escrever o ficheiro: {e}")
     sucesso = False
 if sucesso:
-    print("Ficheiro escrito com sucesso."
+    print("Ficheiro escrito com sucesso.")
 else:
  print("Erro desconhecido!?")
