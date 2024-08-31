@@ -28,8 +28,8 @@ jobs:
 
       - name: Instalar dependências
         run: |
-          python -m pip install --upgrade pip
           cd EPG
+          python -m pip install --upgrade pip
           pip install -r requirements.txt
 
       - name: Atualizar listas Rakuten
