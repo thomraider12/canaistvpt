@@ -23,20 +23,23 @@ jobs:
 
     - name: Compactar arquivo em .xz
       run: |
-        cd EPG
         xz -z epg-fama-pt.xml
 
     - name: Compactar arquivo em .gz
       run: |
-        cd EPG
         gzip -k epg-fama-pt.xml
+
+    - name: Mover arquivos comprimidos para o diretório EPG
+      run: |
+        mv epg-fama-pt.xml.xz EPG/
+        mv epg-fama-pt.xml.gz EPG/
 
     - name: Verificar modificações do Git
       run: git status
 
     - name: Commit e Push dos arquivos
       run: |
-        git config --global user.name "Seu Nome"
+        git config --global user.name "actions-user"
         git config --global user.email "seu-email@exemplo.com"
         git add EPG/epg-fama-pt.xml.xz EPG/epg-fama-pt.xml.gz
         git commit -m "Criando EPG para FamaTV"
