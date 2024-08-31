@@ -100,7 +100,7 @@ https://rakuten-documentaries-14-pt.samsung.wurl.tv/playlist.m3u8
 https://moviesphere-plex.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 group-title="BD" tvg-id="608181d420fc8500075f612a" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/anime.png",Anime
-http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/608181d420fc8500075f612a/master.m3u8
+https://bit.ly/3qY2y4m?profile=608181d420fc8500075f612a.m3u8
 
 #EXTINF:-1 group-title="BD" tvg-id="" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rakuten.png",Rakuten Family
 https://rakuten-family-14-pt.samsung.wurl.tv/playlist.m3u8
