@@ -1,8 +1,9 @@
-name: Atualizar EPG
+name: Atualizar EPG Fama
 
 on:
   schedule:
     - cron: '0 * * * *' # Executa a cada hora
+  workflow_dispatch:
 
 jobs:
   update-epg:
