@@ -2,7 +2,7 @@ name: Atualizar EPG Fama
 
 on:
   schedule:
-    - cron: '0 * * * *' # Executa a cada hora
+    - cron: '20 */5 * * *' # Executa a cada hora
   workflow_dispatch:
 
 jobs:
@@ -28,7 +28,6 @@ jobs:
 
     - name: Compactar novamente o arquivo EPG
       run: |
-        cd EPG
         xz -z epg-meo-pt.xml
 
     - name: Commit e Push alterações
