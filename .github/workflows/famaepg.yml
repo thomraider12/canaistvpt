@@ -38,6 +38,6 @@ jobs:
       run: |
         git config --global user.name "Seu Nome"
         git config --global user.email "seu-email@exemplo.com"
-        git add epg-fama-pt.xml.xz epg-fama-pt.xml.gz
+        git add EPG/epg-fama-pt.xml.xz EPG/epg-fama-pt.xml.gz
         git commit -m "Criando EPG para FamaTV"
         git push
