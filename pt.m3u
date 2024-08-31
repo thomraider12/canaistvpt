@@ -71,7 +71,7 @@ https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8
 https://d1kvlt93j1bc49.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6vpx7bvwjm7ao/v1/amcnetworks_bbcnews_1/samsungheadend_us/latest/main/hls/playlist.m3u8
 
 #EXTINF:-1 group-title="Secundários" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/skynews.png" tvg-id="SkyNewsInternational.uk",SkyNews (UK)
-http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/55b285cd2665de274553d66f/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/55b285cd2665de274553d66f/master.m3u8
 
 #EXTINF:-1 group-title="Secundários" tvg-id="NASAPlus" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/nasatv.png",NASA+ (US)
 https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
@@ -80,13 +80,13 @@ https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
 https://7c8b579d.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/T05PX01vdG9yc3BvcnR0dl9ITFM/playlist.m3u8
 
 #EXTINF:-1 tvg-id="U2Ftc3VuZy1icl9GSUZBUGx1c19ITFM" tvg-name="" group-title="Desporto" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200008JG_20231229T002804SQUARE.png_20231229002805.png",Fifa+
-https://f7ccf7fc.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXB0X0ZJRkFQbHVzUG9ydHVndWVzZV9ITFM/playlist.m3u8?ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakutentv.web&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_classification=0&ads.device_lmt=0&ads.device_make=chrome&ads.device_model=GENERIC&ads.device_type=web&ads.device_year=1970&ads.env=prod&ads.gam_correlator=60682902794721&ads.gdpr_consent=CQEHLdgQEHLdgAcABBPTBDFsAP_gAEPgACiQKVsV5C5cTWFgcXp1QPsEeYUH1sAwgkAAABCBAqABCCAEMBQAgiAgMASABAACAAIAIBJBAQAkCAAEAEAAQAAAAABIIACAgBAIIABAABEBAABACAACAAAAAACIgAAVAAAAkAAAAFKEAEAAAAAAAkAAAAAAAAAAAAKABAAIAAIAAEAIACgAAAAAAAAAAAAAARAAAAkAAAAAAAAAAAAAABAQEAAAAAAgABeCisEMABAACwAKgAXAA4AB4AEAAJAAZQA0ADUAHAAPAAiABHACYAFKALgAugBiADQAG8APQAfgBCACGgEQARIAlgBhgDKAGaANEAc4A-AB-gEIAIsAR0AkoBdQDFAGvANwAcQA6gB_QD_gImAReAkQBKwCYgFIgK7AWwAvMBggDFgGWANVAayA8cB-4D-wI_gTeAnMBO4CioAA.f_wACHwAAAAA&ads.market=pt&ads.os_language=&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=80468c00-cffa-492b-9f15-5b0a76093204&ads.rtv_content_id=6130&ads.rtv_content_language=por&ads.rtvid=271863&ads.streaming_id=955d4209-3041-4a4b-b792-213b4d10e84e&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&ads.tivo_usid=&ads.tivo_uxloc=&ads.user_type=visitor&ads.wurl_channel=1776
+https://f7ccf7fc.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXB0X0ZJRkFQbHVzUG9ydHVndWVzZV9ITFM/playlist.m3u8
 
 #EXTINF:-1 group-title="Desporto" tvg-id="red-bull-tv-en" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/redbulltv.png",RedBull TV (US)
 https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX1JlZEJ1bGxUVl9ITFM/playlist.m3u8
 
 #EXTINF:-1 group-title="Desporto" tvg-id="" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/fifthgear.png",Fifth Gear (UK)
-https://dapdwco2fkcoa.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=88887625&ads.csid=vidaa_us_fifthgear_ssai&ads.caid=FifthGear&ads.appVersion=1&ads._fw_content_category=IAB1-7&ads._fw_content_genre=television&ads._fw_content_language=en&ads._fw_content_rating=tv-14&ads._fw_coppa=0&ads._fw_gdpr_consent=&ads._fw_gdpr=0&ads._fw_player_width=1920&ads._fw_player_height=1080&ads.xumo_contentId=3867&ads.xumo_contentName=All3MediaFifthGear&ads.xumo_providerId=3867&ads.xumo_providerName=All3MediaFifthGear&ads.vidaa_ads_param=1188362017&ads.vidaa_ads_contentType=600007&ads.vidaa_ads_contentId=5407
+https://dapdwco2fkcoa.cloudfront.net/hls/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/fueltv.png" group-title="Desporto" tvg-id="FUELTV.at",Fuel TV (ESP)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01074-fueltv-fueltvemeaes-lges/playlist.m3u8
@@ -95,7 +95,7 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01074-fueltv-fueltvemeaes-lges/play
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01329-otterainc-motorvisionnz-samsungnz/playlist.m3u8?checkedby:iptvcat.com
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/speedvision.png" tvg-id="SPEEDVISION.us" group-title="Desporto",SpeedVision (US)
-https://eb9a3a62.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/T05PX1NwZWVkdmlzaW9uX0hMUw/playlist.m3u8?ads.wurl_channel=1325&ads.wurl_name=Speedvision&ads.coppa=0&ads.device_id=%7BDEVICE_ID%7D&ads.dnt=%7BDNT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.gdpr=%7BGDPR%7D&ads.consent=%7BCONSENT%7D&ads.app_name=%7BAPP_NAME%7D&ads.app_bundle=%7BAPP_BUNDLE%7D&ads.app_store_url=%7BAPP_STORE_URL%7D&ads.ifa_type=%7BIFA_TYPE%7D&ads.custom=%7BCUSTOM%7D&ads.device_make=%7BDEVICE_MAKE%7D&ads.device_model=%7BDEVICE_MODEL%7D
+https://eb9a3a62.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/T05PX1NwZWVkdmlzaW9uX0hMUw/playlist.m3u8
 
 #EXTINF:-1 group-title="FilDoc" tvg-id="MyTime Movie Network" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/mtmn.png",MyTime Movie Network (BR)
 https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8
@@ -123,6 +123,7 @@ https://b3cc72d0160f4e168712e880c78c4dcc.mediatailor.us-east-1.amazonaws.com/v1/
 
 #EXTINF:-1 group-title="Aleatórios" tvg-id="5-minutes-craft-en" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/5mincrafts.png",5-Minute-Crafts (US)
 https://rakutenaa-soul-5mincraftenglish-rakuten-du9p7.amagi.tv/playlist/rakutenAA-soul-5mincraftenglish-rakuten/playlist.m3u8
+
 #EXTINF:-1 group-title="Aleatórios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/gametoon.png",Gametoon
 http://iptv.prosto.tv:7000/ch256/video.m3u8
 
@@ -144,7 +145,7 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracebrazuca-xiaomi/p
 https://clubbingtv-rakuten.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 group-title="Rádios" tvg-id="" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/vevo.png",VEVO
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fd7bca3e0a4ee0007a38e8c/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fd7bca3e0a4ee0007a38e8c/master.m3u8
 
 #EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tomasafonso.ico",DJ Tomás Afonso
 http://2.81.172.226:8000/listen.mp3
