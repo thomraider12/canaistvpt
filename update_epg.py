@@ -11,8 +11,8 @@ display_name.text = "FamaTV"
 
 # Obtém a hora atual
 current_time = datetime.utcnow()
-# Define a programação de hora em hora para as próximas 24 horas
-for i in range(24):
+# Define a programação de hora em hora para os próximos 7 dias
+for i in range(168):
     start_time = current_time + timedelta(hours=i)
     end_time = start_time + timedelta(hours=1)
 
@@ -26,6 +26,13 @@ for i in range(24):
     # Adiciona o título do programa
     title = ET.SubElement(programme, 'title', lang="pt")
     title.text = "FamaTV"
+
+    # Adiciona a descrição do programa
+    description = ET.SubElement(programme, 'desc', lang="pt")
+    description.text = "As notícias mais recentes de Famalicão e de Portugal no canal Fama TV."
+
+    # Adiciona o ícone do programa
+    icon = ET.SubElement(programme, 'icon', src="https://ae-minho.pt/assets/img/noticias/115.jpg")
 
 # Salva o arquivo XML no diretório raiz do projeto
 tree = ET.ElementTree(root)
