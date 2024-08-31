@@ -1,0 +1,36 @@
+import xml.etree.ElementTree as ET
+from datetime import datetime, timedelta
+
+# Carrega o arquivo XML
+tree = ET.parse('epg-meo-pt.xml')
+root = tree.getroot()
+
+# Verifica se o canal FamaTV já existe
+channel_exists = any(channel.attrib['id'] == "FamaTV.pt" for channel in root.findall('channel'))
+
+if not channel_exists:
+    # Adiciona o canal FamaTV
+    channel = ET.SubElement(root, 'channel', id="FamaTV.pt")
+    display_name = ET.SubElement(channel, 'display-name')
+    display_name.text = "FamaTV"
+
+# Obtém a hora atual
+current_time = datetime.utcnow()
+# Define a programação de hora em hora para as próximas 24 horas
+for i in range(24):
+    start_time = current_time + timedelta(hours=i)
+    end_time = start_time + timedelta(hours=1)
+
+    # Formata as datas no formato correto para XMLTV (YYYYMMDDHHMMSS + timezone)
+    start_str = start_time.strftime('%Y%m%d%H%M%S +0000')
+    end_str = end_time.strftime('%Y%m%d%H%M%S +0000')
+
+    # Cria o elemento do programa
+    programme = ET.SubElement(root, 'programme', start=start_str, stop=end_str, channel="FamaTV.pt")
+    
+    # Adiciona o título do programa
+    title = ET.SubElement(programme, 'title', lang="pt")
+    title.text = "FamaTV"
+
+# Salva o arquivo XML
+tree.write('epg-meo-pt.xml', encoding='utf-8', xml_declaration=True)
