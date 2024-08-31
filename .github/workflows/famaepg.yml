@@ -23,10 +23,12 @@ jobs:
 
     - name: Compactar arquivo em .xz
       run: |
+        cd EPG
         xz -z epg-fama-pt.xml
 
     - name: Compactar arquivo em .gz
       run: |
+        cd EPG
         gzip -k epg-fama-pt.xml
 
     - name: Verificar modificações do Git
