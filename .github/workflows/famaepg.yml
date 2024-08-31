@@ -25,14 +25,9 @@ jobs:
       run: |
         xz -z epg-fama-pt.xml
 
-    - name: Compactar arquivo em .gz
-      run: |
-        gzip -k epg-fama-pt.xml
-
     - name: Mover arquivos comprimidos para o diretório EPG
       run: |
         mv epg-fama-pt.xml.xz EPG/
-        mv epg-fama-pt.xml.gz EPG/
 
     - name: Verificar modificações do Git
       run: git status
