@@ -6,52 +6,56 @@ Pode ser usado o meu m3u (<https://bit.ly/4dUs2qb>), com os canais e rádios aqu
   ---
 
 # Canais:
-- RTP 1 HD
-- RTP 2 HD
-- SIC HD
-- TVI HD
-- SIC Notícias HD
-- RTP 3 HD
-- CNN Portugal HD
-- V+TVI
-- Porto Canal HD
-- Euronews PT HD
-- ARTV HD
-- RTP Memória
-- TVI Reality
-- Fama TV HD
-- Camões TV
+- RTP 1 ᴴᴰ 
+- RTP 2 ᴴᴰ
+- SIC ᴴᴰ
+- TVI ᴴᴰ
+- SIC Notícias ᴴᴰ
+- RTP 3 ᴴᴰ
+- CNN Portugal ᴴᴰ
+- V+TVI ᴴᴰ
+- Porto Canal ᴴᴰ
+- Euronews PT ᴴᴰ
+- ARTV ᴴᴰ
+- RTP Memória ѕᴅ
+- TVI Reality ᴴᴰ
+- Fama TV ᴴᴰ
 
 ##	Secundários e Desporto:
-- RedBull TV (USA)
-- Fifth Gear (UK)
-- Fuel TV (USA/SPA)
-- SpeedVision (USA)
-- CNN (USA) HD
-- BBC News (UK) HD
-- SkyNews (UK) HD
-- NASA TV Public (USA)
+- CNN (US) ᴴᴰ
+- TVGalicia (ESP) ᴴᴰ
+- Fox Now (US) ᴴᴰ
+- BBC News (UK) ᴴᴰ
+- SkyNews (UK) ᴴᴰ
+- Motorsport.tv (US) ᴴᴰ
+- FIFA+ ᴴᴰ
+- RedBull TV (US) ᴴᴰ
+- Fuel TV (ESP) ᴴᴰ
+- Motorvision (NZ) ᴴᴰ
+- SpeedVision (US) ᴴᴰ
 
 ##	Filmes e Documentários:
-- MyTimeMovieNetwork (BR)
-- Rakuten Documentários
-- MovieSphere (BR)
+- MyTimeMovieNetwork (BR) ᴴᴰ
+- Rakuten Documentários ᴴᴰ
+- MovieSphere (BR) ᴴᴰ
 
 ##	Desenhos Animados:
-- Anime TV (BR)
-- Rakuten Família HD
-- Retrô Cartoon (BR)
+- Anime (BR) ᴴᴰ
+- Rakuten Família ᴴᴰ
+
+##	Aleatórios:
+- TravelXP ᴴᴰ
+- 5-Minute-Crafts (US) ᴴᴰ
+- Gametoon (US) ᴴᴰ
+- Love Nature ⁴ᴷ
 
 ##	Música:
-- Trace Urban HD
-- Trace Latina HD
-- ClubbingTV HD
-##	Aleatórios:
-- 5-Minute-Crafts (SPAIN) HD
-- Gametoon (English)
-- Love Nature 4K
+- Trace Urban ᴴᴰ
+- Trace Brasil ᴴᴰ
+- ClubbingTV ᴴᴰ
 
 # Rádios:
+- DJ Tomás Afonso
 - Rádio Comercial
 - RFM
 - Fama Rádio
