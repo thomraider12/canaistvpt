@@ -89,7 +89,7 @@ for radio in radios:
 
         try:
             icon = ET.SubElement(programme, 'icon', src=radio["logo"])
-        sucessoicon = True
+            sucessoicon = True
         except Exception as e:
             print(f"Erro ao escrever os ícones: {e}")
             sucessoicon = False
