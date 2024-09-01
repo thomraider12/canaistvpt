@@ -211,16 +211,6 @@
     <display-name lang="en">Lone Star</display-name>
     <icon src="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork_negative/c5e98fcd-d269-41d5-886e-0af79ca5d43b-lone-star-1643370871.png"></icon>
   </channel>
-  <programme channel="the-guardian" start="20240901073700 +0100" stop="20240901100253 +0100">
-    <title lang="pt">Modern Masculinity: Season 1</title>
-    <desc lang="pt">Is modern masculinity in crisis? Guardian journalist Iman Amrani speaks to men across the country about the issues affecting men and boys today.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
-  <programme channel="the-guardian" start="20240901090259 +0100" stop="20240901103322 +0100">
-    <title lang="pt">Desert Fire</title>
-    <desc lang="pt">Football’s world cup for unrecognised territories is viewed through the eyes of the manager and players of one of the most fascinating teams, Iraqi Kurdistan.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
   <programme channel="the-guardian" start="20240901093329 +0100" stop="20240901110032 +0100">
     <title lang="pt">Sprinter Factory</title>
     <desc lang="pt">These are the girls running as fast as they can to be Jamaica’s new sprint champions in a country obsessed with its athletes. This is the story of the Champs national youth athletics competition that could change their lives.</desc>
@@ -1060,26 +1050,6 @@
   <programme channel="the-guardian" start="20240904005111 +0100" stop="20240904020746 +0100">
     <title lang="pt">"I want to bring up a warrior": Ukraine's far-right children's camp</title>
     <desc lang="pt">In Ukraine, the far-right Azov militia is fighting on the frontline – and running a summer camp for children. The Guardian visited the camp and followed 16-year-old Anton through his experiences. Is Azov really a modern Hitler Youth organisation, or is it trying to prepare young Ukrainians for the tough reality that awaits them?</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
-  <programme channel="france-24-en" start="20240901084501 +0100" stop="20240901100000 +0100">
-    <title lang="pt">Sports</title>
-    <desc lang="pt">A summary of world sports news of the day, both on and off the pitch.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
-  <programme channel="france-24-en" start="20240901090001 +0100" stop="20240901101500 +0100">
-    <title lang="pt">News</title>
-    <desc lang="pt">An international news bulletin, presented live from the newsroom.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
-  <programme channel="france-24-en" start="20240901091501 +0100" stop="20240901103000 +0100">
-    <title lang="pt">Down To Earth</title>
-    <desc lang="pt">We meet the people behind fascinating environmental, health and technological innovations in a bid for sustainable solutions to our changing world.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
-  <programme channel="france-24-en" start="20240901093001 +0100" stop="20240901104500 +0100">
-    <title lang="pt">News</title>
-    <desc lang="pt">An international news bulletin, presented live from the newsroom.</desc>
     <category lang="pt">Novidades</category>
   </programme>
   <programme channel="france-24-en" start="20240901094501 +0100" stop="20240901110000 +0100">
@@ -2347,24 +2317,6 @@
     <desc lang="pt">Politicians, activists and researchers debate the issues facing the EU and a 'guest of the week' offers their insight in a long-format interview that gets to the heart of the matter.</desc>
     <category lang="pt">Novidades</category>
   </programme>
-  <programme channel="breaking-news-pt" start="20240901084001 +0100" stop="20240901100000 +0100">
-    <title lang="pt">940AM NEWS</title>
-    <sub-title lang="pt">S01 : E01 940AM NEWS</sub-title>
-    <desc lang="pt">Stay informed with the latest breaking news from around the world, every 20 minutes. Keep up-to-date on what’s happening near you, with stories from the world’s most trusted news outlets including ABC, Al Jazeera, Bloomberg, CNBC and Reuters.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
-  <programme channel="breaking-news-pt" start="20240901090001 +0100" stop="20240901102000 +0100">
-    <title lang="pt">10AM NEWS</title>
-    <sub-title lang="pt">S01 : E01 10AM NEWS</sub-title>
-    <desc lang="pt">Stay informed with the latest breaking news from around the world, every 20 minutes. Keep up-to-date on what’s happening near you, with stories from the world’s most trusted news outlets including ABC, Al Jazeera, Bloomberg, CNBC and Reuters.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
-  <programme channel="breaking-news-pt" start="20240901092001 +0100" stop="20240901104000 +0100">
-    <title lang="pt">1020AM NEWS</title>
-    <sub-title lang="pt">S01 : E01 1020AM NEWS</sub-title>
-    <desc lang="pt">Stay informed with the latest breaking news from around the world, every 20 minutes. Keep up-to-date on what’s happening near you, with stories from the world’s most trusted news outlets including ABC, Al Jazeera, Bloomberg, CNBC and Reuters.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
   <programme channel="breaking-news-pt" start="20240901094001 +0100" stop="20240901110000 +0100">
     <title lang="pt">1040AM NEWS</title>
     <sub-title lang="pt">S01 : E01 1040AM NEWS</sub-title>
@@ -3505,16 +3457,6 @@
     <desc lang="pt">Stay informed with the latest breaking news from around the world, every 20 minutes. Keep up-to-date on what’s happening near you, with stories from the world’s most trusted news outlets including ABC, Al Jazeera, Bloomberg, CNBC and Reuters.</desc>
     <category lang="pt">Novidades</category>
   </programme>
-  <programme channel="newsworld" start="20240901083001 +0100" stop="20240901100000 +0100">
-    <title lang="pt">News</title>
-    <desc lang="pt">Current news summaries and breaking stories about politics, business, health, sports, technology, and entertainment.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
-  <programme channel="newsworld" start="20240901090001 +0100" stop="20240901103000 +0100">
-    <title lang="pt">The News</title>
-    <desc lang="pt">Current news summaries and breaking stories about politics, business, health, sports, technology, and entertainment.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
   <programme channel="newsworld" start="20240901093001 +0100" stop="20240901110000 +0100">
     <title lang="pt">The News</title>
     <desc lang="pt">Current news summaries and breaking stories about politics, business, health, sports, technology, and entertainment.</desc>
@@ -4150,16 +4092,6 @@
     <desc lang="pt">Current news summaries and breaking stories about politics, business, health, sports, technology, and entertainment.</desc>
     <category lang="pt">Novidades</category>
   </programme>
-  <programme channel="cgtn" start="20240901084501 +0100" stop="20240901100000 +0100">
-    <title lang="pt">The World Today</title>
-    <desc lang="pt">The World Today is the core rolling service of CGTN. keep viewers up-to-date with all the world's top stories as they happen.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
-  <programme channel="cgtn" start="20240901090001 +0100" stop="20240901103000 +0100">
-    <title lang="pt">Biz Talk</title>
-    <desc lang="pt">A groundbreaking 30-minute interview show, giving an in-depth look into how top companies around the world conduct business and how policymakers view the fast-changing world economy. It presents 360 degree profiles of industry movers and shakers, tech mavericks and policymakers, and drills down on the stories behind their success, to give you clarity on what’s happening in every facet of business.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
   <programme channel="cgtn" start="20240901093001 +0100" stop="20240901110000 +0100">
     <title lang="pt">The World Today</title>
     <desc lang="pt">The World Today is the core rolling service of CGTN. keep viewers up-to-date with all the world's top stories as they happen.</desc>
@@ -4690,11 +4622,6 @@
     <desc lang="pt">Rediscovering China is a half-hour documentary program on CGTN. Each edition offers unique insight into various aspects of life in China today. With unrivalled access to the country's people and places, the program aims to show the global audience an inclusive and vigorous China.</desc>
     <category lang="pt">Novidades</category>
   </programme>
-  <programme channel="africanews-en" start="20240901090000 +0100" stop="20240901105953 +0100">
-    <title lang="pt">Africanews</title>
-    <desc lang="pt">Africanews is the only independent national and international news channel from an African perspective. It reports breaking news from the continent and delivers unbiased reporting. It is available on TV and digital platforms in French and English. Africanews, your voice.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
   <programme channel="africanews-en" start="20240901095959 +0100" stop="20240901115952 +0100">
     <title lang="pt">Africanews</title>
     <desc lang="pt">Africanews is the only independent national and international news channel from an African perspective. It reports breaking news from the continent and delivers unbiased reporting. It is available on TV and digital platforms in French and English. Africanews, your voice.</desc>
@@ -5023,11 +4950,6 @@
   <programme channel="africanews-en" start="20240904005949 +0100" stop="20240904020000 +0100">
     <title lang="pt">Africanews</title>
     <desc lang="pt">Africanews is the only independent national and international news channel from an African perspective. It reports breaking news from the continent and delivers unbiased reporting. It is available on TV and digital platforms in French and English. Africanews, your voice.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
-  <programme channel="bloomberg-tv-new" start="20240901090005 +0100" stop="20240901105958 +0100">
-    <title lang="pt">Bloomberg TV+</title>
-    <desc lang="pt">Bloomberg TV+ UHD delivers Live 24x7 global business and markets news, data, analysis, and stories from Bloomberg News and Businessweek – available in a 4K ultra high definition (UHD) viewing experience.</desc>
     <category lang="pt">Novidades</category>
   </programme>
   <programme channel="bloomberg-tv-new" start="20240901100005 +0100" stop="20240901115958 +0100">
@@ -5479,16 +5401,6 @@
     <title lang="pt">Take the Lead</title>
     <desc lang="pt">The people and companies impacting your money.</desc>
     <category lang="pt">documentário</category>
-  </programme>
-  <programme channel="ticker-news" start="20240901083001 +0100" stop="20240901100000 +0100">
-    <title lang="pt">Talk Ya Book</title>
-    <desc lang="pt">Join AFL Legend Chris Judd and financ expoerts, who shine the light on trending investments.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
-  <programme channel="ticker-news" start="20240901090001 +0100" stop="20240901103000 +0100">
-    <title lang="pt">In the Driver's Seat</title>
-    <desc lang="pt">Info not available</desc>
-    <category lang="pt">Novidades</category>
   </programme>
   <programme channel="ticker-news" start="20240901093001 +0100" stop="20240901110000 +0100">
     <title lang="pt">Crypto Corner</title>
@@ -6125,12 +6037,6 @@
     <desc lang="pt">Info not available</desc>
     <category lang="pt">Novidades</category>
   </programme>
-  <programme channel="revry-news" start="20240901081506 +0100" stop="20240901103000 +0100">
-    <title lang="pt">Good Monsters</title>
-    <sub-title lang="pt">S01 : E01 Good Monsters</sub-title>
-    <desc lang="pt">One man's journey to understand his incarcerated father, through his art.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
   <programme channel="revry-news" start="20240901093006 +0100" stop="20240901120000 +0100">
     <title lang="pt">Baloney</title>
     <sub-title lang="pt">S01 : E01 Baloney</sub-title>
@@ -6712,11 +6618,6 @@
     <title lang="pt">Reuters Evening News</title>
     <sub-title lang="pt">S01 : E01 Reuters Evening News</sub-title>
     <desc lang="pt">Reuters delivers fast, accurate, unbiased and trusted news around the globe.</desc>
-  </programme>
-  <programme channel="euronews-live-pt" start="20240901090000 +0100" stop="20240901105953 +0100">
-    <title lang="pt">Euronews Live</title>
-    <desc lang="pt">Canal de notícias internacional líder da Europa. Uma perspetiva europeia que cobre assuntos atuais, negócios, cultura, desporto, ciência e tecnologia e estilo de vida, patrocinado pela Rakuten TV. Notícias do momento, transmissão 24/7.</desc>
-    <category lang="pt">Novidades</category>
   </programme>
   <programme channel="euronews-live-pt" start="20240901095959 +0100" stop="20240901115952 +0100">
     <title lang="pt">Euronews Live</title>
@@ -7373,11 +7274,6 @@
     <desc lang="pt">A documentary series featuring historical and archaeological exploration.</desc>
     <category lang="pt">documentário</category>
   </programme>
-  <programme channel="weather-spy-new" start="20240901080006 +0100" stop="20240901100000 +0100">
-    <title lang="pt">WeatherSpy</title>
-    <desc lang="pt">WeatherSpy</desc>
-    <category lang="pt">Slow TV</category>
-  </programme>
   <programme channel="weather-spy-new" start="20240901090006 +0100" stop="20240901110000 +0100">
     <title lang="pt">WeatherSpy</title>
     <desc lang="pt">WeatherSpy</desc>
@@ -7918,24 +7814,6 @@
     <title lang="pt">HairStyle, The Talent Show -Episódios 5 - 6</title>
     <desc lang="pt">Nem sempre é fácil agradar os clientes, mas os participantes não podem desiludir. Irão indicar os seus modelos e descobrir o que querem, para concretizarem os seus desejos na máxima medida possível. A atriz, modelo e celebridade televisiva e Christine Quinn irá visitar o salão e partilhar algumas das suas dicas de cuidados capilares com os participantes.  No segundo desafio, os participantes irão trabalhar com modelos e dedicar-se à pintura de cabelo. Cada visual pode destacar a beleza natural da modelo, ao mesmo tempo que alimenta os seus cabelos, dado que as tintas podem ser prejudiciais.</desc>
     <category lang="pt">documentário</category>
-  </programme>
-  <programme channel="baby-shark-tv" start="20240901085336 +0100" stop="20240901101024 +0100">
-    <title lang="pt">Baby Shark Workout</title>
-    <sub-title lang="pt">S01 : E01 Episode 1</sub-title>
-    <desc lang="pt">Move your body and exercise with your favorite Baby Shark Songs!</desc>
-    <category lang="pt">Kids</category>
-  </programme>
-  <programme channel="baby-shark-tv" start="20240901091031 +0100" stop="20240901103003 +0100">
-    <title lang="pt">Baby Shark Toy Song</title>
-    <sub-title lang="pt">S01 : E01 Baby Shark Toy Song</sub-title>
-    <desc lang="pt">Have joyful learning and singing with Baby Shark and the Shark Family toy!</desc>
-    <category lang="pt">Kids</category>
-  </programme>
-  <programme channel="baby-shark-tv" start="20240901093009 +0100" stop="20240901105055 +0100">
-    <title lang="pt">Pinkfong Super Rescue Team</title>
-    <sub-title lang="pt">S01 : E01 Episode 1</sub-title>
-    <desc lang="pt">We Are The Pinkfong's Super Rescue Team! We solve all the problems in the town! Meet Roger the Police Car, Ready the Fire Truck, Forrest the Ambulance, Cloudia the Helicopter. Vroom Vroom, I am the Fire Truck Ready, dreaming of becoming a super-fire car! You're watching "Ready, the Fire Truck's Day", an educational and interactive Super Rescue Team series prepared to you by Pinkfong!</desc>
-    <category lang="pt">Kids</category>
   </programme>
   <programme channel="baby-shark-tv" start="20240901095101 +0100" stop="20240901111339 +0100">
     <title lang="pt">Pinkfong Super Rescue Team</title>
@@ -8850,12 +8728,6 @@
     <desc lang="pt">Classic 90s rock songs from The Stone Roses, Blur &amp; The Stereophonics to Aerosmith, KISS &amp; The Foo Fighters.</desc>
     <category lang="pt">Música</category>
   </programme>
-  <programme channel="now-80s" start="20240901080001 +0100" stop="20240901100000 +0100">
-    <title lang="pt">The Hit Factory! SAW's Big Hits</title>
-    <sub-title lang="pt">S00 : E00 The Hit Factory! SAW's Big Hits</sub-title>
-    <desc lang="pt">Hits that rocked the UK's dancefloors in the 80s from the mega production trio Stock, Aitken &amp; Waterman. Expect Kylie, Jason, Rick, Sonia &amp; Sinitta.</desc>
-    <category lang="pt">Música</category>
-  </programme>
   <programme channel="now-80s" start="20240901090001 +0100" stop="20240901120500 +0100">
     <title lang="pt">Is This Really How They Started?</title>
     <sub-title lang="pt">S00 : E00 Is This Really How They Started?</sub-title>
@@ -9060,12 +8932,6 @@
     <desc lang="pt">A year in which Stock, Aitken &amp; Waterman cranked out an endless stream of massive, catchy hits - these are the classic music videos that made 1987!</desc>
     <category lang="pt">Música</category>
   </programme>
-  <programme channel="now-70s" start="20240901080001 +0100" stop="20240901100000 +0100">
-    <title lang="pt">Who Won Wot in 1971?</title>
-    <sub-title lang="pt">S00 : E00 Who Won Wot in 1971?</sub-title>
-    <desc lang="pt">Mark Goodier with 1971's big music award winners. Who was 'Best Newcomer' at the Grammys &amp; which comedian got the coveted UK Christmas Number 1?</desc>
-    <category lang="pt">Música</category>
-  </programme>
   <programme channel="now-70s" start="20240901090001 +0100" stop="20240901121500 +0100">
     <title lang="pt">Hamilton's Hotshots! Top 30</title>
     <sub-title lang="pt">S00 : E00 Hamilton's Hotshots! Top 30</sub-title>
@@ -9268,11 +9134,6 @@
     <title lang="pt">1970 Unleashed!</title>
     <sub-title lang="pt">S00 : E00 1970 Unleashed!</sub-title>
     <desc lang="pt">Classic hits from just 1 year - 1970!</desc>
-    <category lang="pt">Música</category>
-  </programme>
-  <programme channel="qello-concerts-by-stingray" start="20240901080212 +0100" stop="20240901100211 +0100">
-    <title lang="pt">Qello Concerts by Stingray - DE</title>
-    <desc lang="pt">Qello Concerts by Stingray - DE</desc>
     <category lang="pt">Música</category>
   </programme>
   <programme channel="qello-concerts-by-stingray" start="20240901090212 +0100" stop="20240901110211 +0100">
@@ -10023,11 +9884,6 @@
   <programme channel="qwest-tv" start="20240903224801 +0100" stop="20240904020000 +0100">
     <title lang="pt">Chillin’ with Qwest TV</title>
     <desc lang="pt">Enjoy our chillin' playlist cooked with love and get your day off to a good start with Qwest TV!</desc>
-    <category lang="pt">Música</category>
-  </programme>
-  <programme channel="clubbing-tv" start="20240901080001 +0100" stop="20240901100000 +0100">
-    <title lang="pt">Live DJ Set</title>
-    <desc lang="pt">Every Thursday &amp; Friday, Clubbing TV welcome an artist in its studios for one hour of LIVE DJ Set. In this weekly show, viewers will be able to discover new talents and to re-discover world-renowned Dj's. </desc>
     <category lang="pt">Música</category>
   </programme>
   <programme channel="clubbing-tv" start="20240901090001 +0100" stop="20240901110000 +0100">
@@ -10810,11 +10666,6 @@
     <desc lang="pt">Recorded Live from festivals all around the globe, get a total immersion in the Underground music scene and party with a lot of techno, minimal and house sets!</desc>
     <category lang="pt">Música</category>
   </programme>
-  <programme channel="gusto-tv-new" start="20240901090005 +0100" stop="20240901105958 +0100">
-    <title lang="pt">Gusto TV</title>
-    <desc lang="pt">Gusto TV is the world's best food channel. We celebrate culture and diversity in fun and innovative ways. We make your mouth water and your tummy rumble. Food is the one true global language and Gusto TV speaks all dialects.</desc>
-    <category lang="pt">cozinha</category>
-  </programme>
   <programme channel="gusto-tv-new" start="20240901100005 +0100" stop="20240901115958 +0100">
     <title lang="pt">Gusto TV</title>
     <desc lang="pt">Gusto TV is the world's best food channel. We celebrate culture and diversity in fun and innovative ways. We make your mouth water and your tummy rumble. Food is the one true global language and Gusto TV speaks all dialects.</desc>
@@ -11128,12 +10979,6 @@
   <programme channel="gusto-tv-new" start="20240904000005 +0100" stop="20240904015958 +0100">
     <title lang="pt">Gusto TV</title>
     <desc lang="pt">Gusto TV is the world's best food channel. We celebrate culture and diversity in fun and innovative ways. We make your mouth water and your tummy rumble. Food is the one true global language and Gusto TV speaks all dialects.</desc>
-    <category lang="pt">cozinha</category>
-  </programme>
-  <programme channel="bon-appetit" start="20240901080001 +0100" stop="20240901100000 +0100">
-    <title lang="pt">Sommelier Tries 16 Boxed Wines and More...</title>
-    <sub-title lang="pt">S01 : E05 World of Wine</sub-title>
-    <desc lang="pt">Traverse the beguiling world of wine with the guidance of Bon Appétit's Contributing Sommelier André Mack.</desc>
     <category lang="pt">cozinha</category>
   </programme>
   <programme channel="bon-appetit" start="20240901090001 +0100" stop="20240901110000 +0100">
@@ -11789,18 +11634,6 @@
     <title lang="pt">73 Questions</title>
     <desc lang="pt">Filmed in a single shot, some of our favorite personalities are challenged to answer 73 rapid-fire questions.</desc>
     <category lang="pt">Lifestyle</category>
-  </programme>
-  <programme channel="5-minutes-craft-en" start="20240901083123 +0100" stop="20240901100437 +0100">
-    <title lang="pt">Clever Hacks To Simplify Everyday Life</title>
-    <sub-title lang="pt">S01 : E458 5-Minute Crafts</sub-title>
-    <desc lang="pt">Useful hacks for any occasion that make life much easier!</desc>
-    <category lang="pt">Entretenimento</category>
-  </programme>
-  <programme channel="5-minutes-craft-en" start="20240901090438 +0100" stop="20240901103457 +0100">
-    <title lang="pt">How To Create Unusual Furniture And Accessories For Your Home</title>
-    <sub-title lang="pt">S01 : E428 5-Minute Crafts</sub-title>
-    <desc lang="pt">Surprise your guests with a variety of homemade furniture and unusual accessories!</desc>
-    <category lang="pt">Entretenimento</category>
   </programme>
   <programme channel="5-minutes-craft-en" start="20240901093458 +0100" stop="20240901110224 +0100">
     <title lang="pt">Top Repair Hacks: Simple Solutions For Common Problems</title>
@@ -12599,11 +12432,6 @@
     <desc lang="pt">Program information is not yet available</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="stingray-naturescape" start="20240901085901 +0100" stop="20240901105900 +0100">
-    <title lang="pt">Hollyford Track: New Zealand</title>
-    <desc lang="pt">Take a stroll through a remote beech forest, full of diverse vegetation, waterfalls, and rocky streams.</desc>
-    <category lang="pt">Slow TV</category>
-  </programme>
   <programme channel="stingray-naturescape" start="20240901095901 +0100" stop="20240901115900 +0100">
     <title lang="pt">New Chums Beach: New Zealand</title>
     <desc lang="pt">New Chums Beach offers a unique and idyllic coastal experience, combining natural beauty, tranquility, and seclusion; it's the perfect backdrop for nature lovers seeking the peaceful and serene with tranquil ocean views.</desc>
@@ -12925,24 +12753,6 @@
     <title lang="pt">Rainbow Reef Relaxation 2</title>
     <desc lang="pt">Vibrant underwater reefs, including many scenes which no longer look as depicted due to coral bleaching.</desc>
     <category lang="pt">Slow TV</category>
-  </programme>
-  <programme channel="powernation" start="20240901083115 +0100" stop="20240901100112 +0100">
-    <title lang="pt">Engine Power</title>
-    <sub-title lang="pt">S09 : E07 Engine Power</sub-title>
-    <desc lang="pt">We seek more power from our twin-engine dyno setup, by reconfiguring the exhaust and phasing the 496 Big Block Chevy engines. Plus we head to Texas to check out SAM Tech's engine program!</desc>
-    <category lang="pt">Lifestyle</category>
-  </programme>
-  <programme channel="powernation" start="20240901090113 +0100" stop="20240901102903 +0100">
-    <title lang="pt">Detroit Muscle</title>
-    <sub-title lang="pt">S09 : E03 Detroit Muscle</sub-title>
-    <desc lang="pt">Our '69 Road Runner, nicknamed Road Burner, gets a big bump in power when we perform a Gen III Hemi engine swap.</desc>
-    <category lang="pt">Lifestyle</category>
-  </programme>
-  <programme channel="powernation" start="20240901092904 +0100" stop="20240901105655 +0100">
-    <title lang="pt">Music City Trucks</title>
-    <sub-title lang="pt">S02 : E06 Music City Trucks</sub-title>
-    <desc lang="pt">We upgrade the brakes, repair underside problems, and put some great new off-road and recovery mods on our 2007 Jeep Wrangler JK. Then we'll take it out for a wheeling adventure.</desc>
-    <category lang="pt">Lifestyle</category>
   </programme>
   <programme channel="powernation" start="20240901095656 +0100" stop="20240901112446 +0100">
     <title lang="pt">Carcass</title>
@@ -13766,18 +13576,6 @@
     <desc lang="pt">The Carcass crew gives you some tips on how to repair rusty trouble spots and remove dents on your project. Then we'll walk you through getting it ready for primer.</desc>
     <category lang="pt">Lifestyle</category>
   </programme>
-  <programme channel="travelxp-pt" start="20240901085624 +0100" stop="20240901102648 +0100">
-    <title lang="pt">World Spas</title>
-    <sub-title lang="pt">S01 : E02 World Spas Fusion Maia</sub-title>
-    <desc lang="pt">Natural Living Massage, one of the signature treatments at the Fusion Maia all-inclusive spa resort in Da Nang, Vietnam, is a combination of eastern healing and aromatherapy. Jamie Srubis tries this along with other treatments such as a lymphatic warm bamboo massage, which is good for detoxing, and Mindful Energy, a spa treatment that combines reiki with a head massage session.</desc>
-    <category lang="pt">Lifestyle</category>
-  </programme>
-  <programme channel="travelxp-pt" start="20240901092654 +0100" stop="20240901105648 +0100">
-    <title lang="pt">Xp Guide</title>
-    <sub-title lang="pt">S01 : E52 Xp Guide Singapore 2</sub-title>
-    <desc lang="pt">The Singapore Zoo is one of the world's most inviting, enlightening animal sanctuaries, where open-air enclosures allow for both freedom for the animals to roam and unobstructed visitor views. From an exciting jungle breakfast surrounded by exotic animals to the magical Night Safari, the world’s first nocturnal zoo, Sukhmani’s experiences at the zoo leave her with the same craze for wildlife that Singapore is known to possess.</desc>
-    <category lang="pt">Lifestyle</category>
-  </programme>
   <programme channel="travelxp-pt" start="20240901095655 +0100" stop="20240901112649 +0100">
     <title lang="pt">Food Fact Fun</title>
     <sub-title lang="pt">S01 : E07 Food Fact Fun Whistler, Canada</sub-title>
@@ -14538,18 +14336,6 @@
     <title lang="pt">Boarding Pass</title>
     <sub-title lang="pt">S01 : E01 Boarding Pass Helsinki, Finland</sub-title>
     <desc lang="pt">Renowned journalist and traveler, Emeline Nsingi Nkosi visits the colourful, clean and minimalist seaside city of Helsinki, the capital of Finland. Here, she explores the iconic attractions, right from magnificent historical fortresses and monuments to churches and libraries with groundbreaking design. She finds out that Helsinki offers a fascinating journey through centuries of evolving architecture and style. She also pampers herself at a Finnish sauna.</desc>
-    <category lang="pt">Lifestyle</category>
-  </programme>
-  <programme channel="the-design-network-new" start="20240901083023 +0100" stop="20240901100018 +0100">
-    <title lang="pt">The Vision Maker</title>
-    <sub-title lang="pt">S01 : E04 The Vision Maker</sub-title>
-    <desc lang="pt">Anne-Marie Barton offers homeowners a transformation that will change their spaces and their lives.</desc>
-    <category lang="pt">Lifestyle</category>
-  </programme>
-  <programme channel="the-design-network-new" start="20240901090025 +0100" stop="20240901103020 +0100">
-    <title lang="pt">The Vision Maker</title>
-    <sub-title lang="pt">S01 : E03 The Vision Maker</sub-title>
-    <desc lang="pt">Anne-Marie Barton offers homeowners a transformation that will change their spaces and their lives.</desc>
     <category lang="pt">Lifestyle</category>
   </programme>
   <programme channel="the-design-network-new" start="20240901093026 +0100" stop="20240901110021 +0100">
@@ -15394,16 +15180,6 @@
     <desc lang="pt">FashionTV L'Original</desc>
     <category lang="pt">Lifestyle</category>
   </programme>
-  <programme channel="gq" start="20240901082511 +0100" stop="20240901100240 +0100">
-    <title lang="pt">On the Rocks</title>
-    <desc lang="pt">GQ's "On the Rocks" video series lets our favorite stars show off their favorite pieces of jewelry and tell the stories behind the big purchases.</desc>
-    <category lang="pt">Lifestyle</category>
-  </programme>
-  <programme channel="gq" start="20240901090241 +0100" stop="20240901104752 +0100">
-    <title lang="pt">GQ Entertainment</title>
-    <desc lang="pt">See what's new on GQ.</desc>
-    <category lang="pt">Lifestyle</category>
-  </programme>
   <programme channel="gq" start="20240901094753 +0100" stop="20240901115637 +0100">
     <title lang="pt">Iconic Characters</title>
     <desc lang="pt">Take a deep dive into the best roles the celebrity has played.</desc>
@@ -15813,17 +15589,6 @@
     <title lang="pt">Actually Me</title>
     <desc lang="pt">Cardi B, Nick Jonas, Jimmy Kimmel and more celebrities go undercover on social media.</desc>
     <category lang="pt">Lifestyle</category>
-  </programme>
-  <programme channel="motorvision-tv" start="20240901080001 +0100" stop="20240901100000 +0100">
-    <title lang="pt">DreamCars</title>
-    <sub-title lang="pt">S02 : E12 DreamCars</sub-title>
-    <desc lang="pt">They represent the American dream of wealth, excess, beauty, and eternal youth: the American Beauties, the most extravagant and most spectacular American cars.</desc>
-    <category lang="pt">Sports</category>
-  </programme>
-  <programme channel="motorvision-tv" start="20240901090001 +0100" stop="20240901103000 +0100">
-    <title lang="pt">Supercars</title>
-    <desc lang="pt">Follows W Motors as they present their prototype of the Lykan HyperSport at the Dubai Motor Show, where the twin turbo flat six 770 hp engine comes alive as a fully assembled car for the first time.</desc>
-    <category lang="pt">Sports</category>
   </programme>
   <programme channel="motorvision-tv" start="20240901093001 +0100" stop="20240901110000 +0100">
     <title lang="pt">Supercars</title>
@@ -16380,36 +16145,6 @@
     <desc lang="pt">Four hours of action with Sidecarcross, Quads, and Hellas Rally Raid.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="red-bull-tv-en" start="20240901084632 +0100" stop="20240901100234 +0100">
-    <title lang="pt">Red Bull Soapbox Race</title>
-    <sub-title lang="pt">S09 : E04 2017's fan-favourite teams</sub-title>
-    <desc lang="pt">As 2017's fan favourites teach us, two-wheeled designs never work, and everyone loves a pop culture referencing racer – especially if they self-destruct.</desc>
-    <category lang="pt">Sports</category>
-  </programme>
-  <programme channel="red-bull-tv-en" start="20240901090240 +0100" stop="20240901101751 +0100">
-    <title lang="pt">Red Bull Soapbox Race</title>
-    <sub-title lang="pt">S08 : E06 2019's best crashes and smashes</sub-title>
-    <desc lang="pt">To win in Red Bull Soapbox Race, first you've got to finish. This is not easy for these hard-crashing teams from 2019's championship.</desc>
-    <category lang="pt">Sports</category>
-  </programme>
-  <programme channel="red-bull-tv-en" start="20240901091757 +0100" stop="20240901102920 +0100">
-    <title lang="pt">Red Bull Soapbox Race</title>
-    <sub-title lang="pt">S08 : E05 2018's best crashes and smashes</sub-title>
-    <desc lang="pt">Skinny wheels, a narrow wheelbase and a tall chassis are a recipe for big soapbox racing crashes and 2018's biggest spills are the proof.</desc>
-    <category lang="pt">Sports</category>
-  </programme>
-  <programme channel="red-bull-tv-en" start="20240901092926 +0100" stop="20240901104438 +0100">
-    <title lang="pt">Red Bull Soapbox Race</title>
-    <sub-title lang="pt">S08 : E04 2017's best crashes and smashes</sub-title>
-    <desc lang="pt">Get the first aid kits ready because 2017's crash-reel includes some Hollywood action film-worthy smashes that undoubtedly stung a bit.</desc>
-    <category lang="pt">Sports</category>
-  </programme>
-  <programme channel="red-bull-tv-en" start="20240901094444 +0100" stop="20240901105843 +0100">
-    <title lang="pt">Red Bull Soapbox Race</title>
-    <sub-title lang="pt">S08 : E03 2016's best crashes and smashes</sub-title>
-    <desc lang="pt">The steepest competition hill ever in Ireland and the aptly named Death Roller made sure 2016 continued to deliver more epic soapbox crashes.</desc>
-    <category lang="pt">Sports</category>
-  </programme>
   <programme channel="red-bull-tv-en" start="20240901095849 +0100" stop="20240901111127 +0100">
     <title lang="pt">Red Bull Soapbox Race</title>
     <sub-title lang="pt">S08 : E02 2015's best crashes and smashes</sub-title>
@@ -16956,12 +16691,6 @@
     <desc lang="pt">The team behind the Red Bull Stratos mission battles mechanical failures, hostile weather, and internal demons to make Felix Baumgartner's historic jump possible.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="mavtv-motorsports-network-new" start="20240901080001 +0100" stop="20240901100000 +0100">
-    <title lang="pt">2023 Night of Speed: Late Models, Modifieds and Stock Car</title>
-    <sub-title lang="pt">S01 : E02 2023 Night of Speed</sub-title>
-    <desc lang="pt">Info not available</desc>
-    <category lang="pt">Sports</category>
-  </programme>
   <programme channel="mavtv-motorsports-network-new" start="20240901090001 +0100" stop="20240901110000 +0100">
     <title lang="pt">2023 Night of Speed: MLRA Late Models and Modifieds</title>
     <sub-title lang="pt">S01 : E03 2023 Night of Speed</sub-title>
@@ -17362,12 +17091,6 @@
   <programme channel="mavtv-motorsports-network-new" start="20240904003001 +0100" stop="20240904020000 +0100">
     <title lang="pt">On the Edge</title>
     <desc lang="pt">All the news surrounding the world of motorsports.</desc>
-    <category lang="pt">Sports</category>
-  </programme>
-  <programme channel="motorsport-tv-en" start="20240901083801 +0100" stop="20240901102923 +0100">
-    <title lang="pt">BTCC</title>
-    <sub-title lang="pt">S00 : E07 On The Limit S4 E7 | Timing is Key | BTCC 2023</sub-title>
-    <desc lang="pt">They say if its not raining at Knockhill, its about to be. How true that is as the BTCC heads to Scotland for the seventh round of the Championship.</desc>
     <category lang="pt">Sports</category>
   </programme>
   <programme channel="motorsport-tv-en" start="20240901092929 +0100" stop="20240901110322 +0100">
@@ -17784,18 +17507,6 @@
   <programme channel="motorsport-tv-en" start="20240904004415 +0100" stop="20240904020000 +0100">
     <title lang="pt">Lando Norris EXTENDS McLaren Deal</title>
     <desc lang="pt">Following the news of Charles Leclerc signing a new deal with Ferrari. McLaren announced that Lando Norris will also be staying with the team, putting the rest the rumours of his future amid interest from Red Bull.</desc>
-    <category lang="pt">Sports</category>
-  </programme>
-  <programme channel="world-of-free-sports-en" start="20240901084420 +0100" stop="20240901101435 +0100">
-    <title lang="pt">Episode 33</title>
-    <sub-title lang="pt">S01 : E33 WORLD OF FREESPORTS 2024</sub-title>
-    <desc lang="pt">WORLD OF FREESPORTS 2024 - Episode 33</desc>
-    <category lang="pt">Sports</category>
-  </programme>
-  <programme channel="world-of-free-sports-en" start="20240901091436 +0100" stop="20240901104530 +0100">
-    <title lang="pt">Freeride World Tour 2019 - Hakuba (JPN)</title>
-    <sub-title lang="pt">S01 : E08 WORLD OF FREESPORTS 2019</sub-title>
-    <desc lang="pt">The Freeride World Tour (FWT) expanded to Asia! The season kick-off of the world’s mostimportant freeride series for skiers and snowboarders will be held at Hakuba (JPN).</desc>
     <category lang="pt">Sports</category>
   </programme>
   <programme channel="world-of-free-sports-en" start="20240901094531 +0100" stop="20240901111626 +0100">
@@ -18418,12 +18129,6 @@
     <desc lang="pt">Two adventurous friends, Jeff Shapiro and Cody Tuttle, have a desire to experience one of the last, raw, and truly preserved wilderness areas on the North American continent, attempt to hike and fly paraglider's across the Arctic National Wildlife Refuge in Alaska.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="world-poker-tour" start="20240901080912 +0100" stop="20240901100638 +0100">
-    <title lang="pt">The Greatest Season 1</title>
-    <sub-title lang="pt">S01 : E05 The Greatest Season 1</sub-title>
-    <desc lang="pt">We revisit the conclusion of the final table of the World Poker Tour's Season Seven World Championship.</desc>
-    <category lang="pt">Sports</category>
-  </programme>
   <programme channel="world-poker-tour" start="20240901090639 +0100" stop="20240901110347 +0100">
     <title lang="pt">The Greatest Season 1</title>
     <sub-title lang="pt">S01 : E06 The Greatest Season 1</sub-title>
@@ -18826,12 +18531,6 @@
     <desc lang="pt">We head back for the thrilling conclusion of the Season Nine Doyle Brunson Five Diamond World Poker Classic at the Bellagio Hotel.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="glory-kickboxing" start="20240901044933 +0100" stop="20240901105416 +0100">
-    <title lang="pt">GLORY Kickboxing</title>
-    <sub-title lang="pt">S00 : E04 GLORY Light Heavyweight Grand Prix 2024</sub-title>
-    <desc lang="pt">The eight-man one-night GLORY Light Heavyweight Grand Prix will crown the baddest light heavyweight striker on the planet. The eight participants are: GLORY champion, #C Tarik Khbabez (58-10-1, 28 KO), Morocco. Former champion, #1 Donegi Abena (27-10, 7 KO), Suriname. Former champion, #2 Sergej Maslobojev (38-6, 23 KO), Lithuania. Undefeated in GLORY, #3 Stefan Latescu (17-2, 8 KO), Romania. ‘Mister Cool’ #4 Ibrahim El Bouni (41-9-1, 22 KO), Morocco. The wild &amp; unpredictable, #5 Bahram Rajabzadeh (67-2, 59 KO), Azerbaijan. Top French light heavyweight, #6 Pascal Toure (20-6, 7 KO), France. Veteran fighter, #7 Bogdan Stoica (58-14, 40 KO), Romania.</desc>
-    <category lang="pt">Sports</category>
-  </programme>
   <programme channel="glory-kickboxing" start="20240901095422 +0100" stop="20240901150309 +0100">
     <title lang="pt">K1</title>
     <sub-title lang="pt">S01 : E89 K1 WGP 2009 Yokohama - Qualifier</sub-title>
@@ -18962,11 +18661,6 @@
     <title lang="pt">GLORY Kickboxing</title>
     <sub-title lang="pt">S10 : E03 GLORY 79 Arnhem 2</sub-title>
     <desc lang="pt">Serkan Ozcaglayan makes his GLORY premiere, a battle of the best Featherweights in the division and Nabiev takes on Troy Jones in the Welterweight division.</desc>
-    <category lang="pt">Sports</category>
-  </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240901074855 +0100" stop="20240901104944 +0100">
-    <title lang="pt">Enfusion - Episode 52</title>
-    <desc lang="pt">Ibrahim El Boustati v. Mauricio Costa Cardoso Loren Javier Jorge v. Filip Verlinden Ulrik Bokeme v. Mehdi Bouanane Endy Semeleer v. Regilio Van Den Ent Orinta Van der Zee v. Niamh Kinehan</desc>
     <category lang="pt">Sports</category>
   </programme>
   <programme channel="hard-knocks-fighting-championship" start="20240901094945 +0100" stop="20240901111813 +0100">
@@ -19577,12 +19271,6 @@
     <desc lang="pt">Movsar Evloev v. Sergey Morozov</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="billiards-tv" start="20240901074627 +0100" stop="20240901104850 +0100">
-    <title lang="pt">WC 3-Cushion National Teams 2022 in Viersen</title>
-    <sub-title lang="pt">S01 : E13 [WC 3C National Teams 2022] Chang Hoon SEO v Pedro GONZALEZ</sub-title>
-    <desc lang="pt">Watch Semi Final - Martin HORN (GER) vs Pedro GONZALEZ (COL) at the WC 3-Cushion National Teams 2022 in Viersen</desc>
-    <category lang="pt">Sports</category>
-  </programme>
   <programme channel="billiards-tv" start="20240901094856 +0100" stop="20240901122027 +0100">
     <title lang="pt">WC 3-Cushion National Teams 2022 in Viersen</title>
     <sub-title lang="pt">S01 : E14 [WC 3C National Teams 2022] Tayfun TASDEMIR v Daniel SANCHEZ</sub-title>
@@ -20036,18 +19724,6 @@
     <title lang="pt">Brasil x Sérvia | Grupo G | Copa do Mundo FIFA de 2022, no Qatar | Jogo completo</title>
     <desc lang="pt">Vídeo completo da partida entre Brasil e Sérvia no Lusail Stadium, Al Daayen, quinta-feira, 24 de novembro de 2022, às 22:00.</desc>
     <category lang="pt">Sports</category>
-  </programme>
-  <programme channel="filmrise-hot-ones" start="20240901083646 +0100" stop="20240901100740 +0100">
-    <title lang="pt">Hot Ones</title>
-    <sub-title lang="pt">S20 : E05 Hot Ones</sub-title>
-    <desc lang="pt">LL Cool J is a two-time Grammy Award-winning artist, rap trailblazer and recent inductee to the Rock &amp; Roll Hall of Fame.</desc>
-    <category lang="pt">Entretenimento</category>
-  </programme>
-  <programme channel="filmrise-hot-ones" start="20240901090741 +0100" stop="20240901103848 +0100">
-    <title lang="pt">Hot Ones</title>
-    <sub-title lang="pt">S18 : E03 Hot Ones</sub-title>
-    <desc lang="pt">Queen Latifah takes on the wings of death, shares Tupac memories and discusses her love for Rock N' Jock and "Set It Off."</desc>
-    <category lang="pt">Entretenimento</category>
   </programme>
   <programme channel="filmrise-hot-ones" start="20240901093849 +0100" stop="20240901111121 +0100">
     <title lang="pt">Hot Ones</title>
@@ -20773,18 +20449,6 @@
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S17 : E03 Hot Ones</sub-title>
     <desc lang="pt">How is Ed Helms with spicy food? Find out as the man behind Andy Bernard discusses banjos, boiled peanuts and the art of the ad read.</desc>
-    <category lang="pt">Entretenimento</category>
-  </programme>
-  <programme channel="jukin-fail-army-new" start="20240901083036 +0100" stop="20240901100231 +0100">
-    <title lang="pt">FailFactory</title>
-    <sub-title lang="pt">S05 : E10 FailFactory | FamilyFactory</sub-title>
-    <desc lang="pt">The family that fails together, stays together.</desc>
-    <category lang="pt">Entretenimento</category>
-  </programme>
-  <programme channel="jukin-fail-army-new" start="20240901090237 +0100" stop="20240901103331 +0100">
-    <title lang="pt">World's Messiest Fails</title>
-    <sub-title lang="pt">S01 : E09 World's Messiest Fails | Farm to Floor</sub-title>
-    <desc lang="pt">Get your mops, forklifts, vacuums, and cranes ready- you’ll need all that and more to clean up today’s messes!</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
   <programme channel="jukin-fail-army-new" start="20240901093337 +0100" stop="20240901110431 +0100">
@@ -21515,12 +21179,6 @@
     <desc lang="pt">The best of the worst for January '18.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="revry" start="20240901081506 +0100" stop="20240901104500 +0100">
-    <title lang="pt">Love Me Anyway</title>
-    <sub-title lang="pt">S01 : E01 Love Me Anyway</sub-title>
-    <desc lang="pt">Eddie and Esme's marriage is going through a rough patch.</desc>
-    <category lang="pt">LGBTQIA+</category>
-  </programme>
   <programme channel="revry" start="20240901094506 +0100" stop="20240901123000 +0100">
     <title lang="pt">Proud In A Pandemic</title>
     <sub-title lang="pt">S01 : E01 Proud In A Pandemic</sub-title>
@@ -21826,18 +21484,6 @@
     <sub-title lang="pt">S01 : E01 Haymaker</sub-title>
     <desc lang="pt">A retired fighter rescues an alluring performer, becoming her bodyguard and confidant.</desc>
     <category lang="pt">LGBTQIA+</category>
-  </programme>
-  <programme channel="afv-family" start="20240901084832 +0100" stop="20240901101828 +0100">
-    <title lang="pt">AFV Ultimate Top 1000 Countdown</title>
-    <sub-title lang="pt">S01 : E102 AFV Ultimate Top 1000 Countdown - 102</sub-title>
-    <desc lang="pt">Episode 102 - We're counting down the top 1000 videos of the year. Get ready to laugh your face off as Alfonso Ribeiro brings you the most hilarious and shocking fails of 2020.</desc>
-    <category lang="pt">Entretenimento</category>
-  </programme>
-  <programme channel="afv-family" start="20240901091834 +0100" stop="20240901104837 +0100">
-    <title lang="pt">AFV's Fail Center</title>
-    <sub-title lang="pt">S01 : E02 AFV's Fail Center - 02</sub-title>
-    <desc lang="pt">A good fail deserves the sportscaster treatment, and that's exactly what Fail Center does! Showcasing the funniest fail videos from the America's Funniest Home Videos library matched with comedic sports commentary - these fails really deserve some points on the scoreboard! Hosted by Hal Rudnick and..</desc>
-    <category lang="pt">Entretenimento</category>
   </programme>
   <programme channel="afv-family" start="20240901094844 +0100" stop="20240901111844 +0100">
     <title lang="pt">Quotable Kids</title>
@@ -22373,11 +22019,6 @@
     <desc lang="pt">AFV Family presents the funniest videos from its family of comedy brands AFV, What The Family, Peachy, and Kyoot. Episode 4</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="people-are-awesome-new" start="20240901080006 +0100" stop="20240901100000 +0100">
-    <title lang="pt">People Are Awesome</title>
-    <desc lang="pt">Discover, achieve, level up. We’re here to show you that anyone can do extraordinary things.</desc>
-    <category lang="pt">Entretenimento</category>
-  </programme>
   <programme channel="people-are-awesome-new" start="20240901090006 +0100" stop="20240901110000 +0100">
     <title lang="pt">People Are Awesome</title>
     <desc lang="pt">Discover, achieve, level up. We’re here to show you that anyone can do extraordinary things.</desc>
@@ -22696,18 +22337,6 @@
   <programme channel="people-are-awesome-new" start="20240904000006 +0100" stop="20240904020000 +0100">
     <title lang="pt">People Are Awesome</title>
     <desc lang="pt">Discover, achieve, level up. We’re here to show you that anyone can do extraordinary things.</desc>
-    <category lang="pt">Entretenimento</category>
-  </programme>
-  <programme channel="the-pet-collective-new" start="20240901085332 +0100" stop="20240901102526 +0100">
-    <title lang="pt">Best Pets of the Month</title>
-    <sub-title lang="pt">S05 : E02 Best Pets of the Month | Ep. 5.2</sub-title>
-    <desc lang="pt">These pets won January '22. But after watching these clips, the real winner is you.</desc>
-    <category lang="pt">Entretenimento</category>
-  </programme>
-  <programme channel="the-pet-collective-new" start="20240901092532 +0100" stop="20240901105626 +0100">
-    <title lang="pt">TPC That's My Pet</title>
-    <sub-title lang="pt">S05 : E01 TPC That's My Pet | Retrievers</sub-title>
-    <desc lang="pt">Did you know that Golden Retrievers can take 300-400 breaths per minute?</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
   <programme channel="the-pet-collective-new" start="20240901095632 +0100" stop="20240901112726 +0100">
@@ -23829,11 +23458,6 @@
     <sub-title lang="pt">S01 : E13 Forest</sub-title>
     <desc lang="pt">San Hyeok persuades the villagers of Miryeong to secure the resort site faster than Taesung Group.</desc>
     <category lang="pt">Séries</category>
-  </programme>
-  <programme channel="lone-star" start="20240901080501 +0100" stop="20240901101004 +0100">
-    <title lang="pt">Born to Battle</title>
-    <desc lang="pt">After discovering the nesters, pretty Betty Powell and her rickety old father, are incapable of rustling.</desc>
-    <category lang="pt">Filmes</category>
   </programme>
   <programme channel="lone-star" start="20240901091005 +0100" stop="20240901110010 +0100">
     <title lang="pt">Neath Canadian Skies</title>
