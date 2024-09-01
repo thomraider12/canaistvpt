@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-meo-pt.xml.xz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-fama-pt.xml.xz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-plex-tv.xml.xz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-rakuten-tv.xml.xz,https://bit.ly/EPGPlutoAll,https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml,https://i.mjh.nz/SamsungTVPlus/all.xml"
+#EXTM3U url-tvg="https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-meo-pt.xml.xz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-fama-pt.xml.xz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-radios-pt.xml.xz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-plex-tv.xml.xz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-rakuten-tv.xml.xz,https://bit.ly/EPGPlutoAll,https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml,https://i.mjh.nz/SamsungTVPlus/all.xml"
 
 #EXTINF:-1 group-title="Notícias" tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp1.png",RTP 1
 #EXTVLCOPT:http-user-agent=Firefox
