@@ -73,7 +73,7 @@ http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/55b285cd2665de274553d6
 #EXTINF:-1 group-title="Desporto" tvg-id="Motorsport.tv" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/motorsporttv.png",Motorsport.tv (US)
 https://7c8b579d.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/T05PX01vdG9yc3BvcnR0dl9ITFM/playlist.m3u8
 
-#EXTINF:-1 tvg-id="U2Ftc3VuZy1icl9GSUZBUGx1c19ITFM" tvg-name="" group-title="Desporto" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200008JG_20231229T002804SQUARE.png_20231229002805.png",Fifa+
+#EXTINF:-1 tvg-id="U2Ftc3VuZy1icl9GSUZBUGx1c19ITFM" tvg-name="" group-title="Desporto" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200008JG_20231229T002804SQUARE.png_20231229002805.png",FIFA+
 https://f7ccf7fc.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXB0X0ZJRkFQbHVzUG9ydHVndWVzZV9ITFM/playlist.m3u8
 
 #EXTINF:-1 group-title="Desporto" tvg-id="red-bull-tv-en" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/redbulltv.png",RedBull TV (US)
@@ -132,50 +132,50 @@ https://clubbingtv-rakuten.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="Rádios" tvg-id="CABC52000180Z" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/vevo.png",VEVO
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00056-vevotv-vevopopau-samsungau/playlist.m3u8
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tomasafonso.ico",DJ Tomás Afonso
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-id="" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tomasafonso.ico",DJ Tomás Afonso
 http://2.81.172.226:8000/listen.mp3
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/radiocomercial.png",Rádio Comercial
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-id="RadioComercial.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/radiocomercial.png",Rádio Comercial
 https://stream-icy.bauermedia.pt/comercial.aac
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rfm.png",RFM
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-id="RFM.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rfm.png",RFM
 https://playerservices.streamtheworld.com/api/livestream-redirect/RFMAAC_SC
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/famaradio.png",Fama Rádio
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-id="FamaRadio.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/famaradio.png",Fama Rádio
 http://famaradio.mywire.org:8000/digitalfm64
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/observador.png",Observador
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-id="Observador.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/observador.png",Observador
 https://playerservices.streamtheworld.com/api/livestream-redirect/OBSERVADORAAC.aac?dist=web-popup&devicename=aac
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tsf.png",TSF
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-id="TSF.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tsf.png",TSF
 http://tsfdirecto.tsf.pt/tsfdirecto.mp3#
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/m80.png",M80
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-id="M80.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/m80.png",M80
 https://stream-icy.bauermedia.pt/m80.aac
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/radiovozsantotirso.png",Rádio Voz Santo Tirso
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-id="VozSantoTirso.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/radiovozsantotirso.png",Rádio Voz Santo Tirso
 https://radios.justweb.pt/8024/stream
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/megahits.png",MegaHits
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-id="MegaHits.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/megahits.png",MegaHits
 http://25703.live.streamtheworld.com/MEGA_HITS_SC
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/novaera.png",Nova Era
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-id="NovaEra.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/novaera.png",Nova Era
 http://centova.radios.pt:9478/stream/1/
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/meosudoeste.png",MEO Sudoeste
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-id="MEOSudoeste.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/meosudoeste.png",MEO Sudoeste
 http://centova.radio.com.pt:8495/stream/1/
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/orbital.png",Orbital
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-id="Orbital.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/orbital.png",Orbital
 https://centova.radios.pt/proxy/401?mp=/stream/
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/nove3cinco.png",Nove3Cinco
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-id="Nove3Cinco.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/nove3cinco.png",Nove3Cinco
 https://centova.radios.pt/proxy/522?mp=/stream/1/
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/cidadefm.png",Cidade FM
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-id="CidadeFM.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/cidadefm.png",Cidade FM
 https://stream-icy.bauermedia.pt/cidade.aac
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/cidadehoje.png",Cidade Hoje
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-id="CidadeHoje.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/cidadehoje.png",Cidade Hoje
 http://centova.radio.com.pt:8119/;
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tugafm.png",Tuga FM
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-id="TugaFM.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tugafm.png",Tuga FM
 https://tugafm.stream.laut.fm/tugafm
