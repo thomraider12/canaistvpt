@@ -44,6 +44,12 @@ jobs:
           rm -f epg-fama-pt.xml.xz
           xz -z epg-fama-pt.xml
 
+      - name: Atualizar listas Rádios
+        run: |
+          cd EPG
+          python radios.py
+          xz -z epg-radios-pt.xml
+
       - name: setup git config
         run: |
           git config user.name "EPG's bot"
