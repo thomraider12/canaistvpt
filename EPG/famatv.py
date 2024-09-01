@@ -17,63 +17,23 @@ for i in range(168):
     start_time = current_time + timedelta(hours=i)
     end_time = start_time + timedelta(hours=1)
 
-    try:
-        start_str = start_time.strftime('%Y%m%d%H%M%S +0000')
-        end_str = end_time.strftime('%Y%m%d%H%M%S +0000')
-        sucessodata = True
-    except Exception as e:
-        print(f"Erro ao formatar as datas: {e}")
-        sucessodata = False
-    if sucessodata:
-        print("Datas formatadas.")
-    else:
-        print("Erro desconhecido.")
+    # Formata as datas no formato XMLTV (YYYYMMDDHHMMSS + timezone)
+    start_str = start_time.strftime('%Y%m%d%H%M%S +0000')
+    end_str = end_time.strftime('%Y%m%d%H%M%S +0000')
 
-    try:
-        programme = ET.SubElement(root, 'programme', start=start_str, stop=end_str, channel="FamaTV.pt")
-        sucessoprograma = True
-    except Exception as e:
-        print(f"Erro ao escrever os programas: {e}")
-        sucessoprograma = False
-    if sucessoprograma:
-        print("Programas escritos.")
-    else:
-        print("Erro desconhecido.")
+    # Cria o elemento <programme>
+    programme = ET.SubElement(root, 'programme', start=start_str, stop=end_str, channel="FamaTV.pt")
+    
+    # Adiciona o título do programa
+    title = ET.SubElement(programme, 'title', lang="pt")
+    title.text = "FamaTV"
 
-    try:
-        title = ET.SubElement(programme, 'title', lang="pt")
-        title.text = "FamaTV"
-        sucessotitulo = True
-    except Exception as e:
-        print(f"Erro ao escrever os títulos: {e}")
-        sucessotitulo = False
-    if sucessotitulo:
-        print("Títulos escritos.")
-    else:
-        print("Erro desconhecido.")
+    # Adiciona a descrição do programa
+    description = ET.SubElement(programme, 'desc', lang="pt")
+    description.text = "As notícias mais recentes de Famalicão e de Portugal no canal Fama TV."
 
-    try:
-        description = ET.SubElement(programme, 'desc', lang="pt")
-        description.text = "As notícias mais recentes de Famalicão e de Portugal no canal Fama TV."
-        sucessodesc = True
-    except Exception as e:
-        print(f"Erro ao escrever a descrição: {e}")
-        sucessodesc = False
-    if sucessodesc:
-        print("Descrição escrita.")
-    else:
-        print("Erro desconhecido.")
-
-    try:
-        icon = ET.SubElement(programme, 'icon', src="https://ae-minho.pt/assets/img/noticias/115.jpg")
-        sucessoicon = True
-    except Exception as e:
-        print(f"Erro ao escrever os ícones: {e}")
-        sucessoicon = False
-    if sucessoicon:
-        print("Ícones escritos.")
-    else:
-        print("Erro desconhecido.")
+    # Adiciona o ícone do programa
+    icon = ET.SubElement(programme, 'icon', src="https://ae-minho.pt/assets/img/noticias/115.jpg")
 
 # Salva o arquivo XML no diretório raiz do projeto
 try:
