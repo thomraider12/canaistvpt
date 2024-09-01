@@ -21,13 +21,6 @@ jobs:
       - name: Atualizar EPGs principais
         run: sh EPG/epg-pt.sh
 
-      - name: Atualizar lista Rytec
-        run: |
-          cd EPG
-          wget -O epg-rytec-pt.xml.xz "http://www.xmltvepg.nl/rytecPT.xz"
-          echo "EPG da Rytec atualizada!"
-          sleep 3
-
       - name: Set up Python
         uses: actions/setup-python@v3
         with:
@@ -38,31 +31,25 @@ jobs:
           cd EPG
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-
       - name: Atualizar listas Rakuten
         run: | 
           cd EPG
           python rakuten.py
-
       - name: Atualizar listas FamaTV
         run: | 
           cd EPG
           python famatv.py
           rm -f epg-fama-pt.xml.xz
           xz -z epg-fama-pt.xml
-
       - name: Atualizar listas Rádios
         run: |
           cd EPG
           python radios.py
-          rm -f epg-radios-pt.xml.xz
           xz -z epg-radios-pt.xml
-
       - name: setup git config
         run: |
           git config user.name "EPG's bot"
           git config user.email "<>"
-
       - name: commit
         run: |
           git pull
