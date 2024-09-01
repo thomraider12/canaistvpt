@@ -37,14 +37,6 @@ npm run grab -- --channels=../EPG/plex.tv.channels.xml --output=../EPG/epg-plex-
 echo "EPG do Plex atualizada!"
 sleep 3
 
-# Rytec EPG
-
-cd ../EPG
-wget -O epg-rytec-pt.xml.xz "http://www.xmltvepg.nl/rytecPT.xz"
-
-echo "EPG da Rytec atualizada!"
-sleep 3
-
 # Comprimir ficheiros XML da EPG
 
 xz -k -f -9 epg*.xml && gzip -k -f -9 epg*.xml
