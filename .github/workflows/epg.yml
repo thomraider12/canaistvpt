@@ -21,6 +21,13 @@ jobs:
       - name: Atualizar EPGs principais
         run: sh EPG/epg-pt.sh
 
+      - name: Atualizar lista Rytec
+        run: |
+          cd ../EPG
+          wget -O epg-rytec-pt.xml.xz "http://www.xmltvepg.nl/rytecPT.xz"
+          echo "EPG da Rytec atualizada!"
+          sleep 3
+
       - name: Set up Python
         uses: actions/setup-python@v3
         with:
