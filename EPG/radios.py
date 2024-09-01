@@ -33,79 +33,39 @@ for radio in radios:
     channel = ET.SubElement(root, 'channel', id=radio["id"])
     display_name = ET.SubElement(channel, 'display-name')
     display_name.text = radio["nome"]
-    
+
     icon = ET.SubElement(channel, 'icon', src=radio["logo"])
 
     for i in range(168):  # 168 horas em 7 dias
         start_time = current_time + timedelta(hours=i)
         end_time = start_time + timedelta(hours=1)
 
-        try:
-            start_str = start_time.strftime('%Y%m%d%H%M%S +0000')
-            end_str = end_time.strftime('%Y%m%d%H%M%S +0000')
-            sucessodata = True
-        except Exception as e:
-            print(f"Erro ao formatar as datas: {e}")
-            sucessodata = False
-        if sucessodata:
-            print("Datas formatadas.")
-        else:
-            print("Erro desconhecido.")
-        
-        try:
-            programme = ET.SubElement(root, 'programme', start=start_str, stop=end_str, channel=radio["id"])
-            sucessoprograma = True
-        except Exception as e:
-            print(f"Erro ao escrever os programas: {e}")
-            sucessoprograma = False
-        if sucessoprograma:
-            print("Programas escritos.")
-        else:
-            print("Erro desconhecido.")
-        
-        try:
-            title = ET.SubElement(programme, 'title', lang="pt")
-            title.text = radio["nome"]
-            sucessotitulo = True
-        except Exception as e:
-            print(f"Erro ao escrever os títulos: {e}")
-            sucessotitulo = False
-        if sucessotitulo:
-            print("Títulos escritos.")
-        else:
-            print("Erro desconhecido.")
-        
-        try:
-            description = ET.SubElement(programme, 'desc', lang="pt")
-            description.text = f"Programação contínua da rádio {radio['nome']}."
-            sucessodesc = True
-        except Exception as e:
-            print(f"Erro ao escrever a descrição: {e}")
-            sucessodesc = False
-        if sucessodesc:
-            print("Descrição escrita.")
-        else:
-            print("Erro desconhecido.")
+        # Formata as datas no formato XMLTV (YYYYMMDDHHMMSS + timezone)
+        start_str = start_time.strftime('%Y%m%d%H%M%S +0000')
+        end_str = end_time.strftime('%Y%m%d%H%M%S +0000')
 
-        try:
-            icon = ET.SubElement(programme, 'icon', src=radio["logo"])
-            sucessoicon = True
-        except Exception as e:
-            print(f"Erro ao escrever os ícones: {e}")
-            sucessoicon = False
-        if sucessoicon:
-            print("Ícones escritos.")
-        else:
-            print("Erro desconhecido.")
+        # Cria o elemento <programme>
+        programme = ET.SubElement(root, 'programme', start=start_str, stop=end_str, channel=radio["id"])
 
+        # Adiciona o título do programa
+        title = ET.SubElement(programme, 'title', lang="pt")
+        title.text = radio["nome"]
+
+        # Adiciona a descrição do programa
+        description = ET.SubElement(programme, 'desc', lang="pt")
+        description.text = f"Programação contínua da rádio {radio['nome']}."
+
+        # Adiciona o ícone do programa
+        icon = ET.SubElement(programme, 'icon', src=radio["logo"])
+
+# Salva o arquivo XML no diretório raiz do projeto
 try:
     tree = ET.ElementTree(root)
     tree.write('epg-radios-pt.xml', encoding='utf-8', xml_declaration=True)
-    succeso = True
-except Exception as e: 
-    print(f"Erro ao escrever o ficheiro: {e}")
-    sucesso = False
+    sucesso = True
+except Exception as e:
+    print("Erro: " + e)
 if sucesso:
-    print("Ficheiro escrito com sucesso.")
+    print("Ficheiro escrito com sucesso!")
 else:
- print("Erro desconhecido!?")
+    print("Erro desconhecido.")
