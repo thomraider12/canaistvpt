@@ -45,6 +45,7 @@ jobs:
         run: |
           cd EPG
           python radios.py
+          rm -f epg-radios-pt.xml.xz
           xz -z epg-radios-pt.xml
       - name: setup git config
         run: |
