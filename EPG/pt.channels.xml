@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
-  <channel site="nostv.pt" lang="pt" xmltv_id="RTP1.pt" site_id="139">RTP 1</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="RTP2.pt" site_id="554">RTP 2</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="SIC.pt" site_id="418">SIC</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="TVI.pt" site_id="555">TVI</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="RTP3.pt" site_id="556">RTP 3</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="SICNoticias.pt" site_id="419">SIC Notícias</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="CNNPortugal.pt" site_id="557">CNN Portugal</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="EuronewsPortuguese.fr" site_id="25">Euronews PT</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="ARTV.pt" site_id="49">ARTV</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="VmaisTVI.pt" site_id="574">V+ TVI</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="TVIReality.pt" site_id="567">TVI Reality</channel>  
-  <channel site="nostv.pt" lang="pt" xmltv_id="RTPMemoria.pt" site_id="80">RTP Memória</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="PortoCanal.pt" site_id="423">Porto Canal</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="FUELTV.at" site_id="72">Fuel TV</channel>
-  <channel site="nostv.pt" lang="en" xmltv_id="SkyNewsInternational.uk" site_id="39">Sky News</channel>
-  <channel site="nostv.pt" lang="en" xmltv_id="CNNInternationalEurope.us" site_id="26">CNN</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="TraceUrban.fr" site_id="65">Trace Urban</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="RTP1.pt" site_id="RTP1">RTP 1</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="RTP2.pt" site_id="RTP2">RTP 2</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="SIC.pt" site_id="SIC">SIC</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="TVI.pt" site_id="TVI">TVI</channel>
+  <channel site="meo.pt" lang="pt" site_id="SICN" xmltv_id="SICNoticias.pt">SIC Notícias</channel>
+  <channel site="meo.pt" lang="pt" site_id="RTP3" xmltv_id="RTP3.pt">RTP 3</channel>
+  <channel site="meo.pt" lang="pt" site_id="CNNPT" xmltv_id="CNNPortugal.pt">CNN Portugal</channel>
+  <channel site="meo.pt" lang="pt" site_id="VMAISTVI" xmltv_id="VmaisTVI.pt">V+ TVI</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="EuronewsPortuguese.fr" site_id="EURN">Euronews PT</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="ARTV.pt" site_id="ARTV">ARTV</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="TVIReality.pt" site_id="TVIR">TVI Reality</channel>  
+  <channel site="meo.pt" lang="pt" xmltv_id="RTPMemoria.pt" site_id="RTPM">RTP Memória</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="PortoCanal.pt" site_id="PORTO">Porto Canal</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="FUELTV.at" site_id="FUELTV">Fuel TV</channel>
+  <channel site="meo.pt" lang="en" xmltv_id="SkyNewsInternational.uk" site_id="SKYN">Sky News</channel>
+  <channel site="meo.pt" lang="en" xmltv_id="CNNInternationalEurope.us" site_id="CNN">CNN</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="TraceUrban.fr" site_id="TRAHD">Trace Urban</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="TraceBrasil.fr" site_id="TRACEBR">Trace Brasil</channel>
   <channel site="meo.pt" lang="pt" xmltv_id="ClubbingTV.fr" site_id="CLUBHD">Clubbing TV</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="GaliciaTVEuropa.es" site_id="54">TV Galicia</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="GaliciaTVEuropa.es" site_id="TVGAL">TV Galicia</channel>
   <channel site="meo.pt" lang="pt" xmltv_id="Gametoon.nl" site_id="GAMET">Gametoon</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="Motorvision.de" site_id="354">Motorvision</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="TraceToca.fr" site_id="543">Trace Toca</channel>
-</channels>
+    </channels>
