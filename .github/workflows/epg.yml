@@ -30,7 +30,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Atualizar EPGs principais
-        run: sh EPG/epg-pt.sh
+        run: sh EPG/scripts/epg-pt.sh
         
       - name: Atualizar listas Rakuten
         run: | 
