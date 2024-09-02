@@ -26,7 +26,7 @@ for i in range(168):
     
     # Adiciona o título do programa
     title = ET.SubElement(programme, 'title', lang="pt")
-    title.text = "FamaTV"
+    title.text = "FamaTV - Direto"
 
     # Adiciona a descrição do programa
     description = ET.SubElement(programme, 'desc', lang="pt")
