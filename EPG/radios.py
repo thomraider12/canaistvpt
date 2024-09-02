@@ -4,21 +4,21 @@ from datetime import datetime, timedelta
 # Lista de rádios
 radios = [
     {"id": "DJTomasA", "nome": "DJ Tomás Afonso", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/tomasafonso.ico"},
-    {"id": "RadioComercial.pt", "nome": "Rádio Comercial", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/radiocomercial.png"},
-    {"id": "RFM.pt", "nome": "RFM", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/rfm.png"},
-    {"id": "FamaRadio.pt", "nome": "Fama Rádio", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/famaradio.png"},
-    {"id": "Observador.pt", "nome": "Observador", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/observador.png"},
-    {"id": "TSF.pt", "nome": "TSF", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/tsf.png"},
-    {"id": "M80.pt", "nome": "M80", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/m80.png"},
-    {"id": "VozSantoTirso.pt", "nome": "Rádio Voz Santo Tirso", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/radiovozsantotirso.png"},
-    {"id": "MegaHits.pt", "nome": "MegaHits", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/megahits.png"},
-    {"id": "NovaEra.pt", "nome": "Nova Era", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/novaera.png"},
-    {"id": "MEOSudoeste.pt", "nome": "MEO Sudoeste", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/meosudoeste.png"},
-    {"id": "Orbital.pt", "nome": "Orbital", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/orbital.png"},
-    {"id": "Nove3Cinco.pt", "nome": "Nove3Cinco", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/nove3cinco.png"},
-    {"id": "CidadeFM.pt", "nome": "Cidade FM", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/cidadefm.png"},
-    {"id": "CidadeHoje.pt", "nome": "Cidade Hoje", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/cidadehoje.png"},
-    {"id": "TugaFM.pt", "nome": "Tuga FM", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/tugafm.png"}
+    {"id": "RadioComercial.pt", "nome": "Rádio Comercial - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/radiocomercial.png"},
+    {"id": "RFM.pt", "nome": "RFM - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/rfm.png"},
+    {"id": "FamaRadio.pt", "nome": "Fama Rádio - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/famaradio.png"},
+    {"id": "Observador.pt", "nome": "Observador - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/observador.png"},
+    {"id": "TSF.pt", "nome": "TSF - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/tsf.png"},
+    {"id": "M80.pt", "nome": "M80 - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/m80.png"},
+    {"id": "VozSantoTirso.pt", "nome": "Rádio Voz Santo Tirso - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/radiovozsantotirso.png"},
+    {"id": "MegaHits.pt", "nome": "MegaHits - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/megahits.png"},
+    {"id": "NovaEra.pt", "nome": "Nova Era - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/novaera.png"},
+    {"id": "MEOSudoeste.pt", "nome": "MEO Sudoeste - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/meosudoeste.png"},
+    {"id": "Orbital.pt", "nome": "Orbital - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/orbital.png"},
+    {"id": "Nove3Cinco.pt", "nome": "Nove3Cinco - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/nove3cinco.png"},
+    {"id": "CidadeFM.pt", "nome": "Cidade FM - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/cidadefm.png"},
+    {"id": "CidadeHoje.pt", "nome": "Cidade Hoje - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/cidadehoje.png"},
+    {"id": "TugaFM.pt", "nome": "Tuga FM - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/tugafm.png"}
 ]
 
 # Criação do elemento raiz <tv>
