@@ -18,7 +18,8 @@ radios = [
     {"id": "Nove3Cinco.pt", "nome": "Nove3Cinco - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/nove3cinco.png"},
     {"id": "CidadeFM.pt", "nome": "Cidade FM - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/cidadefm.png"},
     {"id": "CidadeHoje.pt", "nome": "Cidade Hoje - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/cidadehoje.png"},
-    {"id": "TugaFM.pt", "nome": "Tuga FM - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/tugafm.png"}
+    {"id": "TugaFM.pt", "nome": "Tuga FM - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/tugafm.png"},
+    {"id": "TruckersFM.uk", "nome": "TruckersFM - LIVE", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/truckersfm.png"}
 ]
 
 # Criação do elemento raiz <tv>
