@@ -179,3 +179,6 @@ http://centova.radio.com.pt:8119/;
 
 #EXTINF:-1 group-title="Rádios" radio="true" tvg-id="TugaFM.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tugafm.png",Tuga FM
 https://tugafm.stream.laut.fm/tugafm
+
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-id="TruckersFM.uk" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/truckersfm.png",Truckers FM
+https://live.truckers.fm/
