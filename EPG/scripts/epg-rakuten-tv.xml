@@ -211,21 +211,6 @@
     <display-name lang="en">Lone Star</display-name>
     <icon src="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork_negative/c5e98fcd-d269-41d5-886e-0af79ca5d43b-lone-star-1643370871.png"></icon>
   </channel>
-  <programme channel="the-guardian" start="20240902124210 +0100" stop="20240902140145 +0100">
-    <title lang="pt">Leonora Carrington: Britain's lost surrealist | Rembrandt's portraits at the National Gallery</title>
-    <desc lang="pt">Leonora Carrington escaped a stultifying Lancashire childhood to run off with Max Ernst and hang out with Picasso and André Breton in 1930s Paris. She fled the Nazis, escaped from a psychiatric hospital in Spain and became a national treasure in Mexico. What happened to one of Britain's finest - and neglected - surrealists? | A revealing look at Rembrandt's most intimate portraits, on display in the locked-down National Gallery in London.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
-  <programme channel="the-guardian" start="20240902130152 +0100" stop="20240902142400 +0100">
-    <title lang="pt">Super Dogs | The remarkable urban photographs of David Levene</title>
-    <desc lang="pt">Super dogs: the race to win America’s most famous dog show | City: the remarkable urban photographs of David Levene</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
-  <programme channel="the-guardian" start="20240902132407 +0100" stop="20240902144938 +0100">
-    <title lang="pt">Trapped in a city of a thousand mountains</title>
-    <desc lang="pt">A new phenomenon has taken the internet by storm: Chinese rap. But behind its skyrocketing popularity, there is a struggle for freedom of speech. Rappers try to figure out what they can and cannot say after more censorship is announced. In Chongqing, one of China’s biggest cities, surveillance is unavoidable. Announcements echo across the vast squares warning that “morally suspect individuals” are banned from speaking in public.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
   <programme channel="the-guardian" start="20240902134945 +0100" stop="20240902150645 +0100">
     <title lang="pt">Life in the Arctic | The poets taking on climate change</title>
     <desc lang="pt">Life in the Arctic: how climate change is killing a culture | High ice and hard truth: the poets taking on climate change</desc>
@@ -980,26 +965,6 @@
   <programme channel="the-guardian" start="20240905005228 +0100" stop="20240905020934 +0100">
     <title lang="pt">World Cup Slaves</title>
     <desc lang="pt">Nepalese men employed in Qatar's construction industry tell Robert Booth how they work for little or no pay as they build the infrastructure ahead of the 2022 football World Cup. Appalling living conditions and unsafe employment are not the only difficulties they face: there is pressure and disbelief from families in Nepal when no money is sent back home</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
-  <programme channel="france-24-en" start="20240902124501 +0100" stop="20240902140000 +0100">
-    <title lang="pt">Down To Earth</title>
-    <desc lang="pt">We meet the people behind fascinating environmental, health and technological innovations in a bid for sustainable solutions to our changing world.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
-  <programme channel="france-24-en" start="20240902130001 +0100" stop="20240902141500 +0100">
-    <title lang="pt">News</title>
-    <desc lang="pt">An international news bulletin, presented live from the newsroom.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
-  <programme channel="france-24-en" start="20240902131501 +0100" stop="20240902143000 +0100">
-    <title lang="pt">France In Focus</title>
-    <desc lang="pt">An in-depth look at the political and social events shaping France.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
-  <programme channel="france-24-en" start="20240902133001 +0100" stop="20240902144500 +0100">
-    <title lang="pt">News</title>
-    <desc lang="pt">An international news bulletin, presented live from the newsroom.</desc>
     <category lang="pt">Novidades</category>
   </programme>
   <programme channel="france-24-en" start="20240902134501 +0100" stop="20240902150000 +0100">
@@ -2187,24 +2152,6 @@
     <desc lang="pt">Politicians, activists and researchers debate the issues facing the EU and a 'guest of the week' offers their insight in a long-format interview that gets to the heart of the matter.</desc>
     <category lang="pt">Novidades</category>
   </programme>
-  <programme channel="breaking-news-pt" start="20240902124001 +0100" stop="20240902140000 +0100">
-    <title lang="pt">140PM NEWS</title>
-    <sub-title lang="pt">S01 : E01 140PM NEWS</sub-title>
-    <desc lang="pt">Stay informed with the latest breaking news from around the world, every 20 minutes. Keep up-to-date on what’s happening near you, with stories from the world’s most trusted news outlets including ABC, Al Jazeera, Bloomberg, CNBC and Reuters.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
-  <programme channel="breaking-news-pt" start="20240902130001 +0100" stop="20240902142000 +0100">
-    <title lang="pt">2PM NEWS</title>
-    <sub-title lang="pt">S01 : E01 2PM NEWS</sub-title>
-    <desc lang="pt">Stay informed with the latest breaking news from around the world, every 20 minutes. Keep up-to-date on what’s happening near you, with stories from the world’s most trusted news outlets including ABC, Al Jazeera, Bloomberg, CNBC and Reuters.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
-  <programme channel="breaking-news-pt" start="20240902132001 +0100" stop="20240902144000 +0100">
-    <title lang="pt">220PM NEWS</title>
-    <sub-title lang="pt">S01 : E01 220PM NEWS</sub-title>
-    <desc lang="pt">Stay informed with the latest breaking news from around the world, every 20 minutes. Keep up-to-date on what’s happening near you, with stories from the world’s most trusted news outlets including ABC, Al Jazeera, Bloomberg, CNBC and Reuters.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
   <programme channel="breaking-news-pt" start="20240902134001 +0100" stop="20240902150000 +0100">
     <title lang="pt">240PM NEWS</title>
     <sub-title lang="pt">S01 : E01 240PM NEWS</sub-title>
@@ -3273,16 +3220,6 @@
     <desc lang="pt">Stay informed with the latest breaking news from around the world, every 20 minutes. Keep up-to-date on what’s happening near you, with stories from the world’s most trusted news outlets including ABC, Al Jazeera, Bloomberg, CNBC and Reuters.</desc>
     <category lang="pt">Novidades</category>
   </programme>
-  <programme channel="newsworld" start="20240902123001 +0100" stop="20240902140000 +0100">
-    <title lang="pt">The World</title>
-    <desc lang="pt">Current news summaries and breaking stories about politics, business, health, sports, technology, and entertainment.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
-  <programme channel="newsworld" start="20240902130001 +0100" stop="20240902143000 +0100">
-    <title lang="pt">News</title>
-    <desc lang="pt">Current news summaries and breaking stories about politics, business, health, sports, technology, and entertainment.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
   <programme channel="newsworld" start="20240902133001 +0100" stop="20240902150000 +0100">
     <title lang="pt">News</title>
     <desc lang="pt">Current news summaries and breaking stories about politics, business, health, sports, technology, and entertainment.</desc>
@@ -3878,16 +3815,6 @@
     <desc lang="pt">Current news summaries and breaking stories about politics, business, health, sports, technology, and entertainment.</desc>
     <category lang="pt">Novidades</category>
   </programme>
-  <programme channel="cgtn" start="20240902121501 +0100" stop="20240902140000 +0100">
-    <title lang="pt">China 24</title>
-    <desc lang="pt">China 24 is a prime time news program featuring in-depth reports and analysis of the stories in the headlines in China.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
-  <programme channel="cgtn" start="20240902130001 +0100" stop="20240902143000 +0100">
-    <title lang="pt">The World Today</title>
-    <desc lang="pt">The World Today is the core rolling service of CGTN. keep viewers up-to-date with all the world's top stories as they happen.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
   <programme channel="cgtn" start="20240902133001 +0100" stop="20240902150000 +0100">
     <title lang="pt">The Agenda</title>
     <desc lang="pt">A weekly talk-show looking beyond the headlines and “accepted wisdom” to find the real story. Hosted by award-winning journalist and presenter Stephen Cole, The Agenda  quite simply sets The Agenda . You won’t find the same-old talking heads recycling platitudes; instead thought-provoking guests to debate and explore key issues of today’s world. Using virtual reality graphics to bring subjects to life, Stephen will navigate through subjects ranging from “Prove That Climate Change Exists”  to “Who Will Win the Race to Space”. Opposing views will be given opportunity to flourish and develop into a meaningful conversation. The Agenda: No nonsense talk; Challenging perceptions.</desc>
@@ -4428,11 +4355,6 @@
     <desc lang="pt">Rediscovering China is a half-hour documentary program on CGTN. Each edition offers unique insight into various aspects of life in China today. With unrivalled access to the country's people and places, the program aims to show the global audience an inclusive and vigorous China.</desc>
     <category lang="pt">Novidades</category>
   </programme>
-  <programme channel="africanews-en" start="20240902125957 +0100" stop="20240902145950 +0100">
-    <title lang="pt">Africanews</title>
-    <desc lang="pt">Africanews is the only independent national and international news channel from an African perspective. It reports breaking news from the continent and delivers unbiased reporting. It is available on TV and digital platforms in French and English. Africanews, your voice.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
   <programme channel="africanews-en" start="20240902135957 +0100" stop="20240902155950 +0100">
     <title lang="pt">Africanews</title>
     <desc lang="pt">Africanews is the only independent national and international news channel from an African perspective. It reports breaking news from the continent and delivers unbiased reporting. It is available on TV and digital platforms in French and English. Africanews, your voice.</desc>
@@ -4743,11 +4665,6 @@
     <desc lang="pt">Africanews is the only independent national and international news channel from an African perspective. It reports breaking news from the continent and delivers unbiased reporting. It is available on TV and digital platforms in French and English. Africanews, your voice.</desc>
     <category lang="pt">Novidades</category>
   </programme>
-  <programme channel="bloomberg-tv-new" start="20240902130005 +0100" stop="20240902145958 +0100">
-    <title lang="pt">Bloomberg TV+</title>
-    <desc lang="pt">Bloomberg TV+ UHD delivers Live 24x7 global business and markets news, data, analysis, and stories from Bloomberg News and Businessweek – available in a 4K ultra high definition (UHD) viewing experience.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
   <programme channel="bloomberg-tv-new" start="20240902140005 +0100" stop="20240902155958 +0100">
     <title lang="pt">Bloomberg TV+</title>
     <desc lang="pt">Bloomberg TV+ UHD delivers Live 24x7 global business and markets news, data, analysis, and stories from Bloomberg News and Businessweek – available in a 4K ultra high definition (UHD) viewing experience.</desc>
@@ -5043,11 +4960,6 @@
     <desc lang="pt">Bloomberg TV+ UHD delivers Live 24x7 global business and markets news, data, analysis, and stories from Bloomberg News and Businessweek – available in a 4K ultra high definition (UHD) viewing experience.</desc>
     <category lang="pt">Novidades</category>
   </programme>
-  <programme channel="bloomberg-originals" start="20240902110005 +0100" stop="20240902145958 +0100">
-    <title lang="pt">Bloomberg Originals</title>
-    <desc lang="pt">Make sense of today’s biggest stories from the world’s largest newsroom. Watch live news and docu-series.</desc>
-    <category lang="pt">documentário</category>
-  </programme>
   <programme channel="bloomberg-originals" start="20240902140005 +0100" stop="20240902155958 +0100">
     <title lang="pt">Bloomberg Originals</title>
     <desc lang="pt">Make sense of today’s biggest stories from the world’s largest newsroom. Watch live news and docu-series.</desc>
@@ -5172,16 +5084,6 @@
     <title lang="pt">Take the Lead</title>
     <desc lang="pt">The people and companies impacting your money.</desc>
     <category lang="pt">documentário</category>
-  </programme>
-  <programme channel="ticker-news" start="20240902123001 +0100" stop="20240902140000 +0100">
-    <title lang="pt">Ticker Masterclass</title>
-    <desc lang="pt">Exploring the secrets of building a powerful personal brand and an impactful business identity.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
-  <programme channel="ticker-news" start="20240902130001 +0100" stop="20240902143000 +0100">
-    <title lang="pt">In the Driver's Seat</title>
-    <desc lang="pt">Info not available</desc>
-    <category lang="pt">Novidades</category>
   </programme>
   <programme channel="ticker-news" start="20240902133001 +0100" stop="20240902150000 +0100">
     <title lang="pt">Ticker Business Learnings</title>
@@ -5778,12 +5680,6 @@
     <desc lang="pt">Info not available</desc>
     <category lang="pt">Novidades</category>
   </programme>
-  <programme channel="revry-news" start="20240902120006 +0100" stop="20240902140000 +0100">
-    <title lang="pt">Gayety</title>
-    <sub-title lang="pt">S01 : E01 Gayety</sub-title>
-    <desc lang="pt">Gayety produces LGBTQ+ content that entertains, educates and inspires joy.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
   <programme channel="revry-news" start="20240902130006 +0100" stop="20240902150000 +0100">
     <title lang="pt">Good News</title>
     <sub-title lang="pt">S01 : E01 Good News</sub-title>
@@ -6339,11 +6235,6 @@
     <sub-title lang="pt">S01 : E01 Reuters Evening News</sub-title>
     <desc lang="pt">Reuters delivers fast, accurate, unbiased and trusted news around the globe.</desc>
   </programme>
-  <programme channel="euronews-live-pt" start="20240902125957 +0100" stop="20240902145950 +0100">
-    <title lang="pt">Euronews Live</title>
-    <desc lang="pt">Canal de notícias internacional líder da Europa. Uma perspetiva europeia que cobre assuntos atuais, negócios, cultura, desporto, ciência e tecnologia e estilo de vida, patrocinado pela Rakuten TV. Notícias do momento, transmissão 24/7.</desc>
-    <category lang="pt">Novidades</category>
-  </programme>
   <programme channel="euronews-live-pt" start="20240902135957 +0100" stop="20240902155950 +0100">
     <title lang="pt">Euronews Live</title>
     <desc lang="pt">Canal de notícias internacional líder da Europa. Uma perspetiva europeia que cobre assuntos atuais, negócios, cultura, desporto, ciência e tecnologia e estilo de vida, patrocinado pela Rakuten TV. Notícias do momento, transmissão 24/7.</desc>
@@ -6638,11 +6529,6 @@
     <title lang="pt">Euronews Live</title>
     <desc lang="pt">Canal de notícias internacional líder da Europa. Uma perspetiva europeia que cobre assuntos atuais, negócios, cultura, desporto, ciência e tecnologia e estilo de vida, patrocinado pela Rakuten TV. Notícias do momento, transmissão 24/7.</desc>
     <category lang="pt">Novidades</category>
-  </programme>
-  <programme channel="cgtn-documentary" start="20240902123001 +0100" stop="20240902140000 +0100">
-    <title lang="pt">Today’s Top Pick</title>
-    <desc lang="pt">Documentaries in this slot are rebroadcasts of our most-viewed and most popular stories of the season. They feature important social, economic, environmental or other policy-driven issues, affecting lives nationwide or simply in one small village. A broad selection of top productions by Chinese top documentary producers.</desc>
-    <category lang="pt">documentário</category>
   </programme>
   <programme channel="cgtn-documentary" start="20240902130001 +0100" stop="20240902150000 +0100">
     <title lang="pt">Today’s Top Pick</title>
@@ -7053,11 +6939,6 @@
     <title lang="pt">History in the Frame</title>
     <desc lang="pt">A documentary series featuring historical and archaeological exploration.</desc>
     <category lang="pt">documentário</category>
-  </programme>
-  <programme channel="weather-spy-new" start="20240902120006 +0100" stop="20240902140000 +0100">
-    <title lang="pt">WeatherSpy</title>
-    <desc lang="pt">WeatherSpy</desc>
-    <category lang="pt">Slow TV</category>
   </programme>
   <programme channel="weather-spy-new" start="20240902130006 +0100" stop="20240902150000 +0100">
     <title lang="pt">WeatherSpy</title>
@@ -7561,12 +7442,6 @@
     <title lang="pt">Forgetting Dad</title>
     <desc lang="pt">Um homem sofre um pequeno acidente de carro e, uma semana depois, constrói uma nova identidade, alegando que não consegue "lembrar-se" de que é pai. Quase vinte anos depois, a sua amnésia persiste, mas não foram encontrados dano cerebral ou qualquer causa física.</desc>
     <category lang="pt">documentário</category>
-  </programme>
-  <programme channel="baby-shark-tv" start="20240902123724 +0100" stop="20240902144540 +0100">
-    <title lang="pt">Learn Colors with Shape Block and more</title>
-    <sub-title lang="pt">S01 : E01 Episode 1</sub-title>
-    <desc lang="pt">Let's learn colors with Shape Blocks and Wonderville Friends!</desc>
-    <category lang="pt">Kids</category>
   </programme>
   <programme channel="baby-shark-tv" start="20240902134547 +0100" stop="20240902150519 +0100">
     <title lang="pt">Baby Shark Toy Song</title>
@@ -8218,12 +8093,6 @@
     <desc lang="pt">One, two, three.Four, five, six.Seven, eight, nine, ten. Numbers, numbers.La la la la la la la. Have fun counting numbers!</desc>
     <category lang="pt">Kids</category>
   </programme>
-  <programme channel="now-90s" start="20240902120001 +0100" stop="20240902140000 +0100">
-    <title lang="pt">RHCP: Fan Favourites </title>
-    <sub-title lang="pt">S00 : E00 RHCP: Fan Favourites </sub-title>
-    <desc lang="pt">From 1994 to 2022 - 1 hour of the biggest rock songs from the Red Hot Chili Peppers!</desc>
-    <category lang="pt">Música</category>
-  </programme>
   <programme channel="now-90s" start="20240902130001 +0100" stop="20240902150000 +0100">
     <title lang="pt">21st Century Rock Anthems</title>
     <sub-title lang="pt">S00 : E00 21st Century Rock Anthems</sub-title>
@@ -8704,12 +8573,6 @@
     <desc lang="pt">Legends like Diana, Lionel &amp; Prince mix with smooth sounds from Sade, Anita Baker &amp; Imagination in our 2 hour 80s funk &amp; soul session!</desc>
     <category lang="pt">Música</category>
   </programme>
-  <programme channel="now-70s" start="20240902110001 +0100" stop="20240902140000 +0100">
-    <title lang="pt">The Summer of 76!</title>
-    <sub-title lang="pt">S00 : E00 The Summer of 76!</sub-title>
-    <desc lang="pt">The most famous heatwave of the century was in 1976 &amp; these are the red hot hits that soundtracked that summer! Including Dancing Queen, Jeans On, Devil Woman &amp; Combine Harvester.</desc>
-    <category lang="pt">Música</category>
-  </programme>
   <programme channel="now-70s" start="20240902130001 +0100" stop="20240902160000 +0100">
     <title lang="pt">That's Not My Name! 1970-1979</title>
     <sub-title lang="pt">S00 : E00 That's Not My Name! 1970-1979</sub-title>
@@ -8948,11 +8811,6 @@
     <title lang="pt">On The Stage &amp; Silver Screen!</title>
     <sub-title lang="pt">S00 : E00 On The Stage &amp; Silver Screen!</sub-title>
     <desc lang="pt">25 singalongs made famous in the theatre, on TV &amp; at the movies. Expect The Partridge Family, Evita &amp; Watership Down, plus a good dollop of Bond, Grease &amp; Saturday Night Fever!</desc>
-    <category lang="pt">Música</category>
-  </programme>
-  <programme channel="qello-concerts-by-stingray" start="20240902120212 +0100" stop="20240902140211 +0100">
-    <title lang="pt">Qello Concerts by Stingray - DE</title>
-    <desc lang="pt">Qello Concerts by Stingray - DE</desc>
     <category lang="pt">Música</category>
   </programme>
   <programme channel="qello-concerts-by-stingray" start="20240902130212 +0100" stop="20240902150211 +0100">
@@ -9675,31 +9533,6 @@
     <desc lang="pt">Enjoy our chillin' playlist cooked with love and get your day off to a good start with Qwest TV!</desc>
     <category lang="pt">Música</category>
   </programme>
-  <programme channel="clubbing-tv" start="20240902120001 +0100" stop="20240902140000 +0100">
-    <title lang="pt">Clubbing Experience with Martin Solveig @ Main Stage - AirBeat One Festival 2017</title>
-    <desc lang="pt">Recorded Live from festivals all around the globe, get a total immersion in the biggest Main Stages and relive the very best of your favorite artists’ sets. </desc>
-    <category lang="pt">Música</category>
-  </programme>
-  <programme channel="clubbing-tv" start="20240902130001 +0100" stop="20240902140800 +0100">
-    <title lang="pt">Put Your Hands Up </title>
-    <desc lang="pt">Our reports and aftermovies from electronic music festivals all over the world. Our Clubbing TV teams are travelling all over the world to guide you through those amazing party spots ! Interviews with DJs, clubbers and event organizers, there is no escape from our cameras !</desc>
-    <category lang="pt">Música</category>
-  </programme>
-  <programme channel="clubbing-tv" start="20240902130801 +0100" stop="20240902141300 +0100">
-    <title lang="pt">Rendez-vous</title>
-    <desc lang="pt">Interviews with the world's famous DJs and producers. Clubbing TV meets with talents of all genres: Big Room stars or underground heroes, legendary or upcoming artist, we got them all on Clubbing TV !</desc>
-    <category lang="pt">Música</category>
-  </programme>
-  <programme channel="clubbing-tv" start="20240902131301 +0100" stop="20240902141600 +0100">
-    <title lang="pt">Put Your Hands Up </title>
-    <desc lang="pt">Our reports and aftermovies from electronic music festivals all over the world. Our Clubbing TV teams are travelling all over the world to guide you through those amazing party spots ! Interviews with DJs, clubbers and event organizers, there is no escape from our cameras !</desc>
-    <category lang="pt">Música</category>
-  </programme>
-  <programme channel="clubbing-tv" start="20240902131601 +0100" stop="20240902142000 +0100">
-    <title lang="pt">Weekly Clip Selection</title>
-    <desc lang="pt">Clubbing TV specially curated weekly clip selection!</desc>
-    <category lang="pt">Música</category>
-  </programme>
   <programme channel="clubbing-tv" start="20240902132001 +0100" stop="20240902150000 +0100">
     <title lang="pt">Music Video Hits</title>
     <desc lang="pt">Where mainstream and underground meet. Let's cross over the genres and let yourself be surprised. Because some electronic music tracks cannot be labeled.</desc>
@@ -10385,11 +10218,6 @@
     <desc lang="pt">Recorded from amazing places all around the world, forests, roof tops, boat parties, clubs or just wonderful places, enjoy DJ Set and live performances from your favorite artists! </desc>
     <category lang="pt">Música</category>
   </programme>
-  <programme channel="gusto-tv-new" start="20240902130005 +0100" stop="20240902145958 +0100">
-    <title lang="pt">Gusto TV</title>
-    <desc lang="pt">Gusto TV is the world's best food channel. We celebrate culture and diversity in fun and innovative ways. We make your mouth water and your tummy rumble. Food is the one true global language and Gusto TV speaks all dialects.</desc>
-    <category lang="pt">cozinha</category>
-  </programme>
   <programme channel="gusto-tv-new" start="20240902140005 +0100" stop="20240902155958 +0100">
     <title lang="pt">Gusto TV</title>
     <desc lang="pt">Gusto TV is the world's best food channel. We celebrate culture and diversity in fun and innovative ways. We make your mouth water and your tummy rumble. Food is the one true global language and Gusto TV speaks all dialects.</desc>
@@ -10683,12 +10511,6 @@
   <programme channel="gusto-tv-new" start="20240905000005 +0100" stop="20240905015958 +0100">
     <title lang="pt">Gusto TV</title>
     <desc lang="pt">Gusto TV is the world's best food channel. We celebrate culture and diversity in fun and innovative ways. We make your mouth water and your tummy rumble. Food is the one true global language and Gusto TV speaks all dialects.</desc>
-    <category lang="pt">cozinha</category>
-  </programme>
-  <programme channel="bon-appetit" start="20240902120001 +0100" stop="20240902140000 +0100">
-    <title lang="pt">Eating Everything on the Menu at a Legendary NYC Steakhouse</title>
-    <sub-title lang="pt">S01 : E01 One of Everything</sub-title>
-    <desc lang="pt">We send our very own chefs to try one of everything on the menu of some of the best NYC eateries.</desc>
     <category lang="pt">cozinha</category>
   </programme>
   <programme channel="bon-appetit" start="20240902130001 +0100" stop="20240902150000 +0100">
@@ -11051,11 +10873,6 @@
     <desc lang="pt">Bon Appétit supertaster, Chris Morocco, recreates famous dishes by taste and touch only and in a limited time.</desc>
     <category lang="pt">cozinha</category>
   </programme>
-  <programme channel="vogue" start="20240902122734 +0100" stop="20240902143952 +0100">
-    <title lang="pt">73 Questions</title>
-    <desc lang="pt">Filmed in a single shot, some of our favorite personalities are challenged to answer 73 rapid-fire questions.</desc>
-    <category lang="pt">Lifestyle</category>
-  </programme>
   <programme channel="vogue" start="20240902133953 +0100" stop="20240902155813 +0100">
     <title lang="pt">Getting Ready With Vogue</title>
     <desc lang="pt">Celebrities invite Vogue into their “getting ready” space to see their process of prepping for an event.</desc>
@@ -11305,18 +11122,6 @@
     <title lang="pt">Beauty Secrets</title>
     <desc lang="pt">Beauty Secrets takes us in the bathroom with well-known beauty, fashion, and pop culture faces to show the routine and products beloved by big stars.</desc>
     <category lang="pt">Lifestyle</category>
-  </programme>
-  <programme channel="5-minutes-craft-en" start="20240902125326 +0100" stop="20240902142014 +0100">
-    <title lang="pt">Clever School Hacks And Crafts Every Student Will Love</title>
-    <sub-title lang="pt">S01 : E140 5-Minute Crafts</sub-title>
-    <desc lang="pt">Make your life easier with these amazing school crafts and hilarious pranks ideas! We've collected back-to-...</desc>
-    <category lang="pt">Entretenimento</category>
-  </programme>
-  <programme channel="5-minutes-craft-en" start="20240902132015 +0100" stop="20240902144926 +0100">
-    <title lang="pt">Creative Hairstyle Ideas And Life-Changing Hair Transformations</title>
-    <sub-title lang="pt">S01 : E125 5-Minute Crafts</sub-title>
-    <desc lang="pt">What do hairdressers hide from you? Today we will show you hair transformations and useful hacks for brave ...</desc>
-    <category lang="pt">Entretenimento</category>
   </programme>
   <programme channel="5-minutes-craft-en" start="20240902134927 +0100" stop="20240902151848 +0100">
     <title lang="pt">Amazing Dessert Decorating Techniques || Impressive Chocolate Treats For Real Sweet Tooth</title>
@@ -12049,11 +11854,6 @@
     <desc lang="pt">Program information is not yet available</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="stingray-naturescape" start="20240902125901 +0100" stop="20240902145900 +0100">
-    <title lang="pt">Playa Fronton: Dominican Republic</title>
-    <desc lang="pt">The sand lies just beneath the soft lapping of waves on a Dominican tropical beach.</desc>
-    <category lang="pt">Slow TV</category>
-  </programme>
   <programme channel="stingray-naturescape" start="20240902135901 +0100" stop="20240902155900 +0100">
     <title lang="pt">Shark Paradise</title>
     <desc lang="pt">Captured by filmmaker collaborator Peter Schneider, Shark Paradise features hundreds of unique real-time scenes captured from around the world, paired with gentle underwater sounds and calming music for deep relaxation by Relax Moods.</desc>
@@ -12355,18 +12155,6 @@
     <title lang="pt">Falls Colors: Colorado</title>
     <desc lang="pt">Falls Colors: Colorado</desc>
     <category lang="pt">Slow TV</category>
-  </programme>
-  <programme channel="powernation" start="20240902125351 +0100" stop="20240902142348 +0100">
-    <title lang="pt">Engine Power</title>
-    <sub-title lang="pt">S09 : E07 Engine Power</sub-title>
-    <desc lang="pt">We seek more power from our twin-engine dyno setup, by reconfiguring the exhaust and phasing the 496 Big Block Chevy engines. Plus we head to Texas to check out SAM Tech's engine program!</desc>
-    <category lang="pt">Lifestyle</category>
-  </programme>
-  <programme channel="powernation" start="20240902132349 +0100" stop="20240902144932 +0100">
-    <title lang="pt">Carcass</title>
-    <sub-title lang="pt">S03 : E06 Carcass</sub-title>
-    <desc lang="pt">We start working on a new project with the novice racer in mind. We take a 2008 Ford Crown Vic Police Cruiser and turn it into a budget-friendly Spec Panther racing machine! Today we'll upgrade our transmission for better shifting and give the old power plant a tune-up.</desc>
-    <category lang="pt">Lifestyle</category>
   </programme>
   <programme channel="powernation" start="20240902134933 +0100" stop="20240902151930 +0100">
     <title lang="pt">Music City Trucks</title>
@@ -13136,18 +12924,6 @@
     <desc lang="pt">We upgrade the brakes, repair underside problems, and put some great new off-road and recovery mods on our 2007 Jeep Wrangler JK. Then we'll take it out for a wheeling adventure.</desc>
     <category lang="pt">Lifestyle</category>
   </programme>
-  <programme channel="travelxp-pt" start="20240902125758 +0100" stop="20240902142752 +0100">
-    <title lang="pt">Food Fact Fun</title>
-    <sub-title lang="pt">S01 : E02 Food Fact Fun Quebec, Canada</sub-title>
-    <desc lang="pt">Aux Anciens Canadiens in Quebec is known for its Deer meat pie so Alex starts with trying it and then tastes of chocolates. He later introduces Rue Du Tresor street and later he is seen on Quartier Petit Champlain street. Wrapping up, he visits Parc de la chute-Montmorency waterfalls where tourists enjoy photography, cable-car ride and walk on a suspended bridge between cliffs.</desc>
-    <category lang="pt">Lifestyle</category>
-  </programme>
-  <programme channel="travelxp-pt" start="20240902132758 +0100" stop="20240902145752 +0100">
-    <title lang="pt">Backpack</title>
-    <sub-title lang="pt">S01 : E03 Backpack Aswan, Egypt</sub-title>
-    <desc lang="pt">In her final leg of the journey Sabrina uncover the mysteries of the ancient temples of Luxor, Aswan and Abu Simbel paired with the Monastery of Catherine atop Mt. Sinai.</desc>
-    <category lang="pt">Lifestyle</category>
-  </programme>
   <programme channel="travelxp-pt" start="20240902135759 +0100" stop="20240902152753 +0100">
     <title lang="pt">10 Days Cyprus</title>
     <sub-title lang="pt">S01 : E03 10 Days Cyprus Khirokitia</sub-title>
@@ -13860,18 +13636,6 @@
     <title lang="pt">Boarding Pass</title>
     <sub-title lang="pt">S01 : E01 Boarding Pass Helsinki, Finland</sub-title>
     <desc lang="pt">Renowned journalist and traveler, Emeline Nsingi Nkosi visits the colourful, clean and minimalist seaside city of Helsinki, the capital of Finland. Here, she explores the iconic attractions, right from magnificent historical fortresses and monuments to churches and libraries with groundbreaking design. She finds out that Helsinki offers a fascinating journey through centuries of evolving architecture and style. She also pampers herself at a Finnish sauna.</desc>
-    <category lang="pt">Lifestyle</category>
-  </programme>
-  <programme channel="the-design-network-new" start="20240902123059 +0100" stop="20240902140055 +0100">
-    <title lang="pt">Fresh. Simple. Healthy.</title>
-    <sub-title lang="pt">S01 : E01 Fresh. Simple. Healthy.</sub-title>
-    <desc lang="pt">Heather’s turning up the heat with her roasted peri peri chicken with broccolini and crispy potatoes.</desc>
-    <category lang="pt">Lifestyle</category>
-  </programme>
-  <programme channel="the-design-network-new" start="20240902130101 +0100" stop="20240902143055 +0100">
-    <title lang="pt">Fresh. Simple. Healthy.</title>
-    <sub-title lang="pt">S01 : E02 Fresh. Simple. Healthy.</sub-title>
-    <desc lang="pt"> Heather whips up a grilled shrimp chop salad and simple berry dessert.</desc>
     <category lang="pt">Lifestyle</category>
   </programme>
   <programme channel="the-design-network-new" start="20240902133101 +0100" stop="20240902150056 +0100">
@@ -14663,16 +14427,6 @@
     <desc lang="pt">FashionTV L'Original</desc>
     <category lang="pt">Lifestyle</category>
   </programme>
-  <programme channel="gq" start="20240902122931 +0100" stop="20240902140629 +0100">
-    <title lang="pt">The Breakdown</title>
-    <desc lang="pt">Athletes and celebrities break down iconic scenes from films and TV shows to analyze how accurately—or inaccurately—Hollywood nails reality.</desc>
-    <category lang="pt">Lifestyle</category>
-  </programme>
-  <programme channel="gq" start="20240902130630 +0100" stop="20240902143902 +0100">
-    <title lang="pt">Actually Me</title>
-    <desc lang="pt">Cardi B, Nick Jonas, Jimmy Kimmel and more celebrities go undercover on social media.</desc>
-    <category lang="pt">Lifestyle</category>
-  </programme>
   <programme channel="gq" start="20240902133903 +0100" stop="20240902151444 +0100">
     <title lang="pt">All Access</title>
     <desc lang="pt">One-of-a-kind access to the most incredible stadiums in the country!</desc>
@@ -15062,18 +14816,6 @@
     <title lang="pt">Actually Me</title>
     <desc lang="pt">Cardi B, Nick Jonas, Jimmy Kimmel and more celebrities go undercover on social media.</desc>
     <category lang="pt">Lifestyle</category>
-  </programme>
-  <programme channel="motorvision-tv" start="20240902123001 +0100" stop="20240902140000 +0100">
-    <title lang="pt">Track Masters</title>
-    <sub-title lang="pt">S01 : E02 Track Masters</sub-title>
-    <desc lang="pt">A tuned-up Golf 2, a family sedan from Hannover, Germany and a very special Porsche GT2.</desc>
-    <category lang="pt">Sports</category>
-  </programme>
-  <programme channel="motorvision-tv" start="20240902130001 +0100" stop="20240902143000 +0100">
-    <title lang="pt">Track Masters</title>
-    <sub-title lang="pt">S01 : E03 Track Masters</sub-title>
-    <desc lang="pt">The Nuerburgring has transformed into a winter wonderland. Although it looks pretty, it is not pretty to use as a race track.</desc>
-    <category lang="pt">Sports</category>
   </programme>
   <programme channel="motorvision-tv" start="20240902133001 +0100" stop="20240902150000 +0100">
     <title lang="pt">Track Masters</title>
@@ -15545,12 +15287,6 @@
     <desc lang="pt">The 340 hp Porsche Cayman GTS is taken for a ride around the island of Mallorca; also, a look at the Corvette C7 and Nissan 370 Z Nismo.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="red-bull-tv-en" start="20240902114718 +0100" stop="20240902144531 +0100">
-    <title lang="pt">Red Bull Soapbox Race</title>
-    <sub-title lang="pt">S00 : E01 Red Bull Soapbox Race: Live stream – London</sub-title>
-    <desc lang="pt">Red Bull Soapbox Race is back! Watch teams mix hilarious pageantry with homemade soapbox racecars and send themselves hurtling down obstacle-filled courses.</desc>
-    <category lang="pt">Sports</category>
-  </programme>
   <programme channel="red-bull-tv-en" start="20240902134537 +0100" stop="20240902151616 +0100">
     <title lang="pt">Tunnel Pass</title>
     <sub-title lang="pt">S01 : E01 Tunnel Pass</sub-title>
@@ -15995,11 +15731,6 @@
     <desc lang="pt">Red Bull Hardline UK returns for the 10th time, bigger and harder than ever. The world’s toughest and most progressive downhill mountain bike race isn’t for the faint-hearted.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="mavtv-motorsports-network-new" start="20240902123001 +0100" stop="20240902140000 +0100">
-    <title lang="pt">Sam's Garage</title>
-    <desc lang="pt">Car enthusiasts learn the do's and don'ts of automobile repair and upgrades.</desc>
-    <category lang="pt">Sports</category>
-  </programme>
   <programme channel="mavtv-motorsports-network-new" start="20240902130001 +0100" stop="20240902150000 +0100">
     <title lang="pt">Search for the Ultimate Street Car</title>
     <desc lang="pt">Optima batteries brings together the best street cars in the country for a shootout.</desc>
@@ -16340,18 +16071,6 @@
     <title lang="pt">2023 Madera Racing: Race 1 - Pro Late Model Series</title>
     <sub-title lang="pt">S08 : E01 Madera Racing</sub-title>
     <desc lang="pt">A variety of racing including Winged Sprint Cars, Super Late Models and Madera Late Models.</desc>
-    <category lang="pt">Sports</category>
-  </programme>
-  <programme channel="motorsport-tv-en" start="20240902122509 +0100" stop="20240902140032 +0100">
-    <title lang="pt">Rally Raid</title>
-    <sub-title lang="pt">S00 : E01 East African Safari Classic Rally - Episode 1</sub-title>
-    <desc lang="pt">Take a look at all of the highlights from the 2023 East African Safari Classic Rally in Episode 1.</desc>
-    <category lang="pt">Sports</category>
-  </programme>
-  <programme channel="motorsport-tv-en" start="20240902130038 +0100" stop="20240902143432 +0100">
-    <title lang="pt">Gearing Up</title>
-    <sub-title lang="pt">S00 : E06 Gearing Up: Episode 6: Stock Car Pro Series and Monster Jam</sub-title>
-    <desc lang="pt">Once again, we are starting our episode with Monster Jam. In every season Monster Jam drivers give it their all in both Arena and Stadium events with the ultimate goal always earning a spot in the World Finals.</desc>
     <category lang="pt">Sports</category>
   </programme>
   <programme channel="motorsport-tv-en" start="20240902133438 +0100" stop="20240902153538 +0100">
@@ -16744,18 +16463,6 @@
   <programme channel="motorsport-tv-en" start="20240905000511 +0100" stop="20240905020000 +0100">
     <title lang="pt">Tech Time</title>
     <desc lang="pt">Tech Time: Technology from the wonderful world of Motorsport.</desc>
-    <category lang="pt">Sports</category>
-  </programme>
-  <programme channel="world-of-free-sports-en" start="20240902124030 +0100" stop="20240902141057 +0100">
-    <title lang="pt">Adidas Outdoor Sports Team - Boulder + Climbing</title>
-    <sub-title lang="pt">S01 : E07 WOF Evergreens</sub-title>
-    <desc lang="pt">In their documentary “The Fascination of Bouldering &amp; Climbing“, Austrian climbing stars Bernd Zangerl and Alex Luger answer these and lots of more questions on bouldering and climbing.</desc>
-    <category lang="pt">Sports</category>
-  </programme>
-  <programme channel="world-of-free-sports-en" start="20240902131058 +0100" stop="20240902144122 +0100">
-    <title lang="pt">Xtreme Verbier - 20-jähriges Jubiläum - Teil 2</title>
-    <sub-title lang="pt">S01 : E63 WOF Evergreens</sub-title>
-    <desc lang="pt">Verbier – for many years one of the premiere off-piste locations in the world and home of the legendary final ofthe Freeride World Tour, the “Xtreme Verbier” has celebrated its 20th anniversary.</desc>
     <category lang="pt">Sports</category>
   </programme>
   <programme channel="world-of-free-sports-en" start="20240902134123 +0100" stop="20240902151146 +0100">
@@ -17355,12 +17062,6 @@
     <desc lang="pt">In der heutigen Folge werden wir die GKA Kitesurfing World Tour 2023 besuchen. Die Hälfte der Kitesurfing-Freestyle-Saison ist bereits vorbei und das ist ein guter Grund, die vergangenen Events und den aktuellen Stand der Athleten zu analysieren.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="world-poker-tour" start="20240902125237 +0100" stop="20240902144752 +0100">
-    <title lang="pt">The Greatest Season 2</title>
-    <sub-title lang="pt">S02 : E11 The Greatest Season 2</sub-title>
-    <desc lang="pt">We revisit the final table at season three and the LA Poker Classic from the Commerce Casino in Los Angeles.</desc>
-    <category lang="pt">Sports</category>
-  </programme>
   <programme channel="world-poker-tour" start="20240902134753 +0100" stop="20240902154512 +0100">
     <title lang="pt">The Greatest Season 2</title>
     <sub-title lang="pt">S02 : E12 The Greatest Season 2</sub-title>
@@ -17871,11 +17572,6 @@
     <desc lang="pt">2 hours of nothing but great knockouts and exciting fights.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240902121838 +0100" stop="20240902142126 +0100">
-    <title lang="pt">Fight Vault - HK43 - Episode 1</title>
-    <desc lang="pt">Hard Knocks 43 kicks off with amateur fights between 6'8'' Will Woo vs. Murray Hunter followed by powerhouses Riley Pequin vs. Levi Armstrong. And finally, pro fighter Jason Zentrgraf takes on UFC Veteran Nick ""The Promise"" Ring.</desc>
-    <category lang="pt">Sports</category>
-  </programme>
   <programme channel="hard-knocks-fighting-championship" start="20240902132127 +0100" stop="20240902152209 +0100">
     <title lang="pt">Fight Vault - HK44 - Episode 3</title>
     <desc lang="pt">Start getting ready for HK51 by watching Arjan Bhullar''s last HK fight against Jon-Taine Hall! Bhullar is preparing to face Brazil's Chris Catala on October 14.</desc>
@@ -18124,324 +17820,317 @@
     <desc lang="pt">Abubakar Mestoev vs Anatoly Lyagu</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240903152115 +0100" stop="20240903163911 +0100">
-    <title lang="pt">M-1 Challenge 88 - Movsar Evloev v. Sergey Morozov</title>
-    <desc lang="pt">Movsar Evloev v. Sergey Morozov</desc>
-    <category lang="pt">Sports</category>
-  </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240903153912 +0100" stop="20240903165629 +0100">
-    <title lang="pt">UCMMA 44 - Barry Ryan v. Oliver Sines</title>
-    <desc lang="pt">Barry Ryan v. Oliver Sines</desc>
-    <category lang="pt">Sports</category>
-  </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240903155630 +0100" stop="20240903171800 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240903152115 +0100" stop="20240903164245 +0100">
     <title lang="pt">UCMMA 48 - Martyn Harris v. Barry Ryan</title>
     <desc lang="pt">Martyn Harris v. Barry Ryan</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240903161801 +0100" stop="20240903183344 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240903154246 +0100" stop="20240903170042 +0100">
+    <title lang="pt">M-1 Challenge 88 - Movsar Evloev v. Sergey Morozov</title>
+    <desc lang="pt">Movsar Evloev v. Sergey Morozov</desc>
+    <category lang="pt">Sports</category>
+  </programme>
+  <programme channel="hard-knocks-fighting-championship" start="20240903160043 +0100" stop="20240903181626 +0100">
     <title lang="pt">FIGHT VAULT</title>
     <sub-title lang="pt">S01 : E12 FIGHT VAULT</sub-title>
     <desc lang="pt">Antonio "Junior" Silva has dominated every one of his fights. Eric Pele may be the underdog, but he's riding his own winning streak. It's an earthquake when a 32-pound unstoppable force meets a 300-pound unmovable object. Roger Gracie is already at the top of the heap in Brazilian Jiu-Jitsu and submission wrestling, now he's fighting MMA for the first time. He puts his reputation on the line as he faces Ron Waterman.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240903173345 +0100" stop="20240903194758 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240903171627 +0100" stop="20240903184846 +0100">
+    <title lang="pt">FIGHT VAULT</title>
+    <sub-title lang="pt">S01 : E02 FIGHT VAULT</sub-title>
+    <desc lang="pt">Spartan Events is into its third year of running its hugely successful promotion, Shock N Awe. With top match making throughout the fight cards, they have been touted as some of the biggest and toughest fights in the UK. Shock N Awe consistently delivers hard hitting action, also going one step further by adding in the personalities from MC Ricky Wright, Ring Girls Poppy and Alex and as well as the huge UK fight teams!</desc>
+    <category lang="pt">Sports</category>
+  </programme>
+  <programme channel="hard-knocks-fighting-championship" start="20240903174847 +0100" stop="20240903200300 +0100">
     <title lang="pt">FIGHT VAULT</title>
     <sub-title lang="pt">S01 : E09 FIGHT VAULT</sub-title>
     <desc lang="pt">A well-known name on the Russian MMA circuit, this fight is Martin Malhosyan's first chance at North American exposure. Stopping this dangerous fighter won't be easy, but Mike Patt's devastating submission win from series 1 proves he's ready. Wisniewski's development as a fighter was a family affair, as he and his brother watched tapes of MMA battles then trained in the front yard. Oganov honed his skills in Serbia, while enrolled in the Red Army.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240903184759 +0100" stop="20240903201627 +0100">
-    <title lang="pt">DAY IN THE LIFE OF A COACH</title>
-    <sub-title lang="pt">S01 : E06 DAY IN THE LIFE OF A COACH</sub-title>
-    <desc lang="pt">Coaches in fight sport are at times an underrated but yet intergral part of an athlete's success. What makes them give up their day, weeks and years to help their fighters be the best in the world? This episode features Mike Scarcello as we delve into the life of a coach.</desc>
-    <category lang="pt">Sports</category>
-  </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240903191628 +0100" stop="20240903204458 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240903190301 +0100" stop="20240903203132 +0100">
     <title lang="pt">DAY IN THE LIFE OF A COACH</title>
     <sub-title lang="pt">S01 : E09 DAY IN THE LIFE OF A COACH</sub-title>
     <desc lang="pt">Coaches in fight sport are at times an underrated but yet intergral part of an athlete's success. What makes them give up their day, weeks and years to help their fighters be the best in the world? This episode features Ken Sumner as we delve into the life of a coach.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240903194459 +0100" stop="20240903211321 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240903193133 +0100" stop="20240903205954 +0100">
     <title lang="pt">INDIVIDUAL FIGHTS</title>
     <sub-title lang="pt">S01 : E01 INDIVIDUAL FIGHTS</sub-title>
     <desc lang="pt">All fights all the time - nothing but action from the Hard Knocks Fighting Championship. In this episode we feature Justin Basra vs Dustin Joynson, Chis Catala vs Jacob Smith, Melissa Croden vs Brittany Paterson, Jesse Arnett vs Mike Hernandez, Abbas Faleh vs Cam Macdonald.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240903201322 +0100" stop="20240903213312 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240903195955 +0100" stop="20240903211946 +0100">
     <title lang="pt">Enfusion 66 - Jonay Risco v. Davit Kiria</title>
     <desc lang="pt">Jonay Risco v. Davit Kiria</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240903203313 +0100" stop="20240903215132 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240903201947 +0100" stop="20240903213806 +0100">
     <title lang="pt">M-1 Challenge 90 - Alexey Kunchenko v. Alexander Butenko</title>
     <desc lang="pt">Alexey Kunchenko v. Alexander Butenko</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240903205133 +0100" stop="20240903225139 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240903203807 +0100" stop="20240903215700 +0100">
+    <title lang="pt">M-1 Challenge 82 - Mikhail Zayats v. Marcus Vanttinen</title>
+    <desc lang="pt">Mikhail Zayats v. Marcus Vanttinen</desc>
+    <category lang="pt">Sports</category>
+  </programme>
+  <programme channel="hard-knocks-fighting-championship" start="20240903205701 +0100" stop="20240903225707 +0100">
     <title lang="pt">Fight Vault - HK33 - Episode 2</title>
     <desc lang="pt">The School of Hard Knocks 33 filmed at the Spectra Place in Estevan. Professional and Amateur fighters from across North America battle it out in the cage. Harold Brun vs. Bob Macumber; Tyrone Halkett vs. Nic Dupasquier.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240903215140 +0100" stop="20240903235222 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240903215708 +0100" stop="20240903235749 +0100">
     <title lang="pt">Fight Vault - HK40 - Episode 5</title>
     <desc lang="pt">The School of Hard Knocks 40 filmed at the Century Casino in Calgary. Professional and Amateur fighters from across North America battle it out in the cage. Kara Kirsh vs. Katie Howard, Zac Chalmers vs. Trenton Rowell</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240903225223 +0100" stop="20240904002043 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240903225750 +0100" stop="20240904002611 +0100">
     <title lang="pt">OUT OF THE CAGE</title>
     <sub-title lang="pt">S01 : E13 OUT OF THE CAGE</sub-title>
     <desc lang="pt">Out of the Cage reveals the private thoughts and emotions of a fight sport athlete, the ambition that drives them and how they are affected when encountering defeat or facing triumph. Featuring Jen Barton.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240903232044 +0100" stop="20240904004905 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240903232612 +0100" stop="20240904005432 +0100">
     <title lang="pt">OUT OF THE CAGE</title>
     <sub-title lang="pt">S01 : E10 OUT OF THE CAGE</sub-title>
     <desc lang="pt">Out of the Cage reveals the private thoughts and emotions of a fight sport athlete, the ambition that drives them and how they are affected when encountering defeat or facing triumph. Featuring Mac Laursen.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240903234906 +0100" stop="20240904010756 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240903235433 +0100" stop="20240904011323 +0100">
     <title lang="pt">M-1 Challenge 84 - Bair Shtepin v. Janne Elonen-Kulmala</title>
     <desc lang="pt">Bair Shtepin v. Janne Elonen-Kulmala</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904000757 +0100" stop="20240904012715 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240904001324 +0100" stop="20240904013308 +0100">
+    <title lang="pt">Enfusion 62 - Redouan Laarkoubi v. Nordin van Roosmalen</title>
+    <desc lang="pt">Redouan Laarkoubi v. Nordin van Roosmalen</desc>
+    <category lang="pt">Sports</category>
+  </programme>
+  <programme channel="hard-knocks-fighting-championship" start="20240904003309 +0100" stop="20240904015227 +0100">
     <title lang="pt">INDIVIDUAL FIGHTS</title>
     <sub-title lang="pt">S01 : E09 INDIVIDUAL FIGHTS</sub-title>
     <desc lang="pt">A well-known name on the Russian MMA circuit, this fight is Martin Malhosyan's first chance at North American exposure. Stopping this dangerous fighter won't be easy, but Mike Patt's devastating submission win from series 1 proves he's ready.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904002716 +0100" stop="20240904014659 +0100">
-    <title lang="pt">Enfusion 62 - Redouan Laarkoubi v. Nordin van Roosmalen</title>
-    <desc lang="pt">Redouan Laarkoubi v. Nordin van Roosmalen</desc>
-    <category lang="pt">Sports</category>
-  </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904004700 +0100" stop="20240904020457 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240904005228 +0100" stop="20240904021024 +0100">
     <title lang="pt">M-1 Challenge 88 - Movsar Evloev v. Sergey Morozov</title>
     <desc lang="pt">Movsar Evloev v. Sergey Morozov</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904010458 +0100" stop="20240904023717 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240904011025 +0100" stop="20240904024244 +0100">
     <title lang="pt">FIGHT VAULT</title>
     <sub-title lang="pt">S01 : E02 FIGHT VAULT</sub-title>
     <desc lang="pt">Spartan Events is into its third year of running its hugely successful promotion, Shock N Awe. With top match making throughout the fight cards, they have been touted as some of the biggest and toughest fights in the UK. Shock N Awe consistently delivers hard hitting action, also going one step further by adding in the personalities from MC Ricky Wright, Ring Girls Poppy and Alex and as well as the huge UK fight teams!</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904013718 +0100" stop="20240904044925 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240904014245 +0100" stop="20240904045453 +0100">
     <title lang="pt">Enfusion - Episode 57</title>
     <desc lang="pt">Essilia Wurms v. Miranda Zondervan Tony Jas v. Melvin Wassing Reda Zaidi v. Thomas Bridgewater Ismael Benali v. Juan Javier Barragan Hicham Achalhi v. Jurgen Dolch Zakaria Tijarti v. Faycal Ait Ouccime Luis Tavares v. Mrad Akram</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904034926 +0100" stop="20240904051754 +0100">
-    <title lang="pt">DAY IN THE LIFE OF A COACH</title>
-    <sub-title lang="pt">S01 : E06 DAY IN THE LIFE OF A COACH</sub-title>
-    <desc lang="pt">Coaches in fight sport are at times an underrated but yet intergral part of an athlete's success. What makes them give up their day, weeks and years to help their fighters be the best in the world? This episode features Mike Scarcello as we delve into the life of a coach.</desc>
-    <category lang="pt">Sports</category>
-  </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904041755 +0100" stop="20240904054625 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240904035454 +0100" stop="20240904052324 +0100">
     <title lang="pt">DAY IN THE LIFE OF A COACH</title>
     <sub-title lang="pt">S01 : E14 DAY IN THE LIFE OF A COACH</sub-title>
     <desc lang="pt">Coaches in fight sport are at times an underrated but yet intergral part of an athlete's success. What makes them give up their day, weeks and years to help their fighters be the best in the world? This episode features JP Marotte as we delve into the life of a coach.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904044626 +0100" stop="20240904061456 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240904042325 +0100" stop="20240904055150 +0100">
+    <title lang="pt">DAY IN THE LIFE OF A COACH</title>
+    <sub-title lang="pt">S01 : E10 DAY IN THE LIFE OF A COACH</sub-title>
+    <desc lang="pt">Coaches in fight sport are at times an underrated but yet intergral part of an athlete's success. What makes them give up their day, weeks and years to help their fighters be the best in the world? This episode features Dan McGee as we delve into the life of a coach.</desc>
+    <category lang="pt">Sports</category>
+  </programme>
+  <programme channel="hard-knocks-fighting-championship" start="20240904045151 +0100" stop="20240904062021 +0100">
     <title lang="pt">DAY IN THE LIFE OF A COACH</title>
     <sub-title lang="pt">S01 : E09 DAY IN THE LIFE OF A COACH</sub-title>
     <desc lang="pt">Coaches in fight sport are at times an underrated but yet intergral part of an athlete's success. What makes them give up their day, weeks and years to help their fighters be the best in the world? This episode features Ken Sumner as we delve into the life of a coach.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904051457 +0100" stop="20240904070520 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240904052022 +0100" stop="20240904071045 +0100">
     <title lang="pt">OUT OF THE CAGE</title>
     <sub-title lang="pt">S01 : E03 OUT OF THE CAGE</sub-title>
     <desc lang="pt">Out of the Cage reveals the private thoughts and emotions of an MMA fighter, the ambition that drives them and how they are affected when encountering defeat or facing triumph. Featuring Rob Nelson and Keegan Oliver at Hk41.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904060521 +0100" stop="20240904072430 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240904061046 +0100" stop="20240904072955 +0100">
     <title lang="pt">Journey Fight Series VII - Jessica Gladstone v. Lindsay Ball</title>
     <desc lang="pt">Jessica Gladstone v. Lindsay Ball</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904062431 +0100" stop="20240904074110 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240904062956 +0100" stop="20240904075114 +0100">
+    <title lang="pt">M-1 Challenge 85 - Damir Ismagulov v. Rogerio Matias da Conceicao</title>
+    <desc lang="pt">Damir Ismagulov v. Rogerio Matias da Conceicao</desc>
+    <category lang="pt">Sports</category>
+  </programme>
+  <programme channel="hard-knocks-fighting-championship" start="20240904065115 +0100" stop="20240904080754 +0100">
     <title lang="pt">INDIVIDUAL FIGHTS</title>
     <sub-title lang="pt">S01 : E14 INDIVIDUAL FIGHTS</sub-title>
     <desc lang="pt">Tara LaRosa v. Amanda Buckner</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904064111 +0100" stop="20240904080229 +0100">
-    <title lang="pt">M-1 Challenge 85 - Damir Ismagulov v. Rogerio Matias da Conceicao</title>
-    <desc lang="pt">Damir Ismagulov v. Rogerio Matias da Conceicao</desc>
-    <category lang="pt">Sports</category>
-  </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904070230 +0100" stop="20240904084121 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240904070755 +0100" stop="20240904084646 +0100">
     <title lang="pt">FIGHT VAULT</title>
     <sub-title lang="pt">S01 : E08 FIGHT VAULT</sub-title>
     <desc lang="pt">In the series finale, middleweight Kyacey Uscola tries to best his fastest KO (an amazing 5 seconds) when he goes in the ring against the highly skilled South African wrestler, Trevor Prangley.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904074122 +0100" stop="20240904103251 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240904074647 +0100" stop="20240904104023 +0100">
     <title lang="pt">M-1 Challenge - Episode 80</title>
     <desc lang="pt">Adam Tsurov v. Kangkang Fu Kurbanjiang Tuluosibake v. Maksim Melnik Ibragim Navruzov v. Huoyixibai Chuhayifu Artem Kazbanov v. Nosherwan Khanzada Carlos Eduardo v. Rene Hoppe Mikhail Korobkov v. Asikerbai Jinensibieke Alexander Butenko v. Corey Nelson Sascha Sharma v. Musu Nuertiebieke Ivan Buchinger v. Timur Nagibin Sergei Kharitonov v. Rameau Thierry Sokoudjou</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904093252 +0100" stop="20240904110116 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240904094024 +0100" stop="20240904110848 +0100">
     <title lang="pt">DAY IN THE LIFE OF A COACH</title>
     <sub-title lang="pt">S01 : E04 DAY IN THE LIFE OF A COACH</sub-title>
     <desc lang="pt">An athlete is only as good as their coaches can make them. Hard Knocks star Jesse Arnett believes that Anderson Gonclaves is the reason he developped into a top contender for the UFC. This episode explores what makes Goncalves such an inspiration to his fighters.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904100117 +0100" stop="20240904112947 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240904100849 +0100" stop="20240904113719 +0100">
     <title lang="pt">DAY IN THE LIFE OF A COACH</title>
     <sub-title lang="pt">S01 : E15 DAY IN THE LIFE OF A COACH</sub-title>
     <desc lang="pt">Coaches in fight sport are at times an underrated but yet intergral part of an athlete's success. What makes them give up their day, weeks and years to help their fighters be the best in the world? This episode features Fransisco Azevendo as we delve into the life of a coach.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904102948 +0100" stop="20240904114910 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240904103720 +0100" stop="20240904115642 +0100">
     <title lang="pt">INDIVIDUAL FIGHTS</title>
     <sub-title lang="pt">S01 : E16 INDIVIDUAL FIGHTS</sub-title>
     <desc lang="pt">Trevor Prangley v. Andrei Semenov</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904104911 +0100" stop="20240904121036 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240904105643 +0100" stop="20240904121807 +0100">
+    <title lang="pt">M-1 Challenge 76 - Timur Nagibin v. Diego Davella</title>
+    <desc lang="pt">Timur Nagibin v. Diego Davella</desc>
+    <category lang="pt">Sports</category>
+  </programme>
+  <programme channel="hard-knocks-fighting-championship" start="20240904111808 +0100" stop="20240904123809 +0100">
+    <title lang="pt">HKFC 49 - Keegan Oliver v. Michael Davis</title>
+    <desc lang="pt">Professional and Amateur fighters from across North America battle it out in Hard Knocks' cage. Keegan Oliver v. Michael Davis.</desc>
+    <category lang="pt">Sports</category>
+  </programme>
+  <programme channel="hard-knocks-fighting-championship" start="20240904113810 +0100" stop="20240904125728 +0100">
     <title lang="pt">INDIVIDUAL FIGHTS</title>
     <sub-title lang="pt">S01 : E09 INDIVIDUAL FIGHTS</sub-title>
     <desc lang="pt">A well-known name on the Russian MMA circuit, this fight is Martin Malhosyan's first chance at North American exposure. Stopping this dangerous fighter won't be easy, but Mike Patt's devastating submission win from series 1 proves he's ready.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904111037 +0100" stop="20240904122954 +0100">
-    <title lang="pt">M-1 Challenge 76 - Timur Nagibin v. Diego Davella</title>
-    <desc lang="pt">Timur Nagibin v. Diego Davella</desc>
-    <category lang="pt">Sports</category>
-  </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904112955 +0100" stop="20240904124939 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240904115729 +0100" stop="20240904131713 +0100">
     <title lang="pt">Enfusion 62 - Redouan Laarkoubi v. Nordin van Roosmalen</title>
     <desc lang="pt">Redouan Laarkoubi v. Nordin van Roosmalen</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904114940 +0100" stop="20240904131148 +0100">
-    <title lang="pt">HKFC 49 - Keegan Oliver v. Michael Davis</title>
-    <desc lang="pt">Professional and Amateur fighters from across North America battle it out in Hard Knocks' cage. Keegan Oliver v. Michael Davis.</desc>
-    <category lang="pt">Sports</category>
-  </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904121149 +0100" stop="20240904141200 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240904121714 +0100" stop="20240904141932 +0100">
     <title lang="pt">Fight Vault - HK31 - Episode 1</title>
     <desc lang="pt">The School of Hard Knocks 31 filmed at the Spectra Place in Estevan. Professional and Amateur fighters from across North America battle it out in the cage. Ethan Cornect vs. Andy Jack; David "Red Beard" Swanson vs. Chris Chapman [title fight].</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904131201 +0100" stop="20240904151242 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240904131933 +0100" stop="20240904152014 +0100">
     <title lang="pt">Archive Episodes</title>
     <sub-title lang="pt">S01 : E115 Archive Episodes</sub-title>
     <desc lang="pt">Two exciting matches take place at HK48. First, Jess Elverum steps in to the cage against Jenn Wolstenholme in a female Bantamweight bout. Then see if Cody Wilson can strip the title belt from HK champ Sergej ""Leglock"" Juskevic.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904141243 +0100" stop="20240904154111 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240904142015 +0100" stop="20240904154843 +0100">
     <title lang="pt">OUT OF THE CAGE</title>
     <sub-title lang="pt">S01 : E02 OUT OF THE CAGE</sub-title>
     <desc lang="pt">Peter Arbeau brings strong Muay Thai influences to his MMA matches. After travelling the world over constantly seeing out new training and competition experiences, Peter is more than re//ady for his next fight at HK37. This is an intense bout against an equally skilled Matt Krayco, with fists and legs flying.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904144112 +0100" stop="20240904160954 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240904144844 +0100" stop="20240904161726 +0100">
     <title lang="pt">OUT OF THE CAGE</title>
     <sub-title lang="pt">S01 : E01 OUT OF THE CAGE</sub-title>
     <desc lang="pt">Brandt Dewsberry came to MMA in an effort to learn to cope with his anger and selfishness. At HK34, in a match against Sergej Juskevic, he has to channel all of his new found skills to come out on top.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904150955 +0100" stop="20240904162728 +0100">
-    <title lang="pt">INDIVIDUAL FIGHTS</title>
-    <sub-title lang="pt">S01 : E04 INDIVIDUAL FIGHTS</sub-title>
-    <desc lang="pt">Abubakar Mestoev vs Anatoly Lyagu</desc>
-    <category lang="pt">Sports</category>
-  </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904152729 +0100" stop="20240904164525 +0100">
-    <title lang="pt">M-1 Challenge 88 - Movsar Evloev v. Sergey Morozov</title>
-    <desc lang="pt">Movsar Evloev v. Sergey Morozov</desc>
-    <category lang="pt">Sports</category>
-  </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904154526 +0100" stop="20240904170656 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240904151727 +0100" stop="20240904163856 +0100">
     <title lang="pt">UCMMA 48 - Martyn Harris v. Barry Ryan</title>
     <desc lang="pt">Martyn Harris v. Barry Ryan</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904160657 +0100" stop="20240904191905 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240904153857 +0100" stop="20240904165614 +0100">
+    <title lang="pt">UCMMA 44 - Barry Ryan v. Oliver Sines</title>
+    <desc lang="pt">Barry Ryan v. Oliver Sines</desc>
+    <category lang="pt">Sports</category>
+  </programme>
+  <programme channel="hard-knocks-fighting-championship" start="20240904155615 +0100" stop="20240904171411 +0100">
+    <title lang="pt">M-1 Challenge 88 - Movsar Evloev v. Sergey Morozov</title>
+    <desc lang="pt">Movsar Evloev v. Sergey Morozov</desc>
+    <category lang="pt">Sports</category>
+  </programme>
+  <programme channel="hard-knocks-fighting-championship" start="20240904161412 +0100" stop="20240904192620 +0100">
     <title lang="pt">Enfusion - Episode 57</title>
     <desc lang="pt">Essilia Wurms v. Miranda Zondervan Tony Jas v. Melvin Wassing Reda Zaidi v. Thomas Bridgewater Ismael Benali v. Juan Javier Barragan Hicham Achalhi v. Jurgen Dolch Zakaria Tijarti v. Faycal Ait Ouccime Luis Tavares v. Mrad Akram</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904181906 +0100" stop="20240904195125 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240904182621 +0100" stop="20240904195840 +0100">
     <title lang="pt">FIGHT VAULT</title>
     <sub-title lang="pt">S01 : E02 FIGHT VAULT</sub-title>
     <desc lang="pt">Spartan Events is into its third year of running its hugely successful promotion, Shock N Awe. With top match making throughout the fight cards, they have been touted as some of the biggest and toughest fights in the UK. Shock N Awe consistently delivers hard hitting action, also going one step further by adding in the personalities from MC Ricky Wright, Ring Girls Poppy and Alex and as well as the huge UK fight teams!</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904185126 +0100" stop="20240904201954 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240904185841 +0100" stop="20240904202709 +0100">
     <title lang="pt">DAY IN THE LIFE OF A COACH</title>
     <sub-title lang="pt">S01 : E06 DAY IN THE LIFE OF A COACH</sub-title>
     <desc lang="pt">Coaches in fight sport are at times an underrated but yet intergral part of an athlete's success. What makes them give up their day, weeks and years to help their fighters be the best in the world? This episode features Mike Scarcello as we delve into the life of a coach.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904191955 +0100" stop="20240904204825 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240904192710 +0100" stop="20240904205541 +0100">
     <title lang="pt">DAY IN THE LIFE OF A COACH</title>
     <sub-title lang="pt">S01 : E09 DAY IN THE LIFE OF A COACH</sub-title>
     <desc lang="pt">Coaches in fight sport are at times an underrated but yet intergral part of an athlete's success. What makes them give up their day, weeks and years to help their fighters be the best in the world? This episode features Ken Sumner as we delve into the life of a coach.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904194826 +0100" stop="20240904210719 +0100">
-    <title lang="pt">M-1 Challenge 82 - Mikhail Zayats v. Marcus Vanttinen</title>
-    <desc lang="pt">Mikhail Zayats v. Marcus Vanttinen</desc>
-    <category lang="pt">Sports</category>
-  </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904200720 +0100" stop="20240904212741 +0100">
-    <title lang="pt">HKFC 40 - Katie Howard v. Kara Kirsh</title>
-    <desc lang="pt">Professional and Amateur fighters from across North America battle it out in Hard Knocks' cage. Katie Howard v. Kara Kirsh.</desc>
-    <category lang="pt">Sports</category>
-  </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904202742 +0100" stop="20240904220454 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240904195542 +0100" stop="20240904213047 +0100">
     <title lang="pt">M-1 Challenge 84 - Artem Frolov v. Caio Magalhaes</title>
     <desc lang="pt">Artem Frolov v. Caio Magalhaes</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904210455 +0100" stop="20240904230536 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240904203048 +0100" stop="20240904214941 +0100">
+    <title lang="pt">M-1 Challenge 82 - Mikhail Zayats v. Marcus Vanttinen</title>
+    <desc lang="pt">Mikhail Zayats v. Marcus Vanttinen</desc>
+    <category lang="pt">Sports</category>
+  </programme>
+  <programme channel="hard-knocks-fighting-championship" start="20240904204942 +0100" stop="20240904225230 +0100">
     <title lang="pt">Fight Vault - HK51 - Episode 2</title>
     <desc lang="pt">HK51 continues with two more exciting matches. Sean Michaels steps into the cage against Cam Macdonald and ""Sexy"" Alexi Argyriou takes on American Adam Smith.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904220537 +0100" stop="20240905000910 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240904215231 +0100" stop="20240904235604 +0100">
     <title lang="pt">Fight Vault - HK21 - Episode 3</title>
     <desc lang="pt">The School of Hard Knocks 21 filmed at the Spectra Place in Estevan. Professional and Amateur fighters from across North America battle it out in the cage. Dillon Adam vs. Andy Jack; Dave Sternberg vs. Jordan McDonald; Matt Zemlak vs. David Swanson.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904230911 +0100" stop="20240905003748 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240904225605 +0100" stop="20240905002442 +0100">
     <title lang="pt">OUT OF THE CAGE</title>
     <sub-title lang="pt">S01 : E03 OUT OF THE CAGE</sub-title>
     <desc lang="pt">Out of the Cage reveals the private thoughts and emotions of an MMA fighter, the ambition that drives them and how they are affected when encountering defeat or facing triumph. Featuring both Ryan Machan and Marcus Hicks at HK39</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240904233749 +0100" stop="20240905010609 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240904232443 +0100" stop="20240905005303 +0100">
     <title lang="pt">OUT OF THE CAGE</title>
     <sub-title lang="pt">S01 : E13 OUT OF THE CAGE</sub-title>
     <desc lang="pt">Out of the Cage reveals the private thoughts and emotions of a fight sport athlete, the ambition that drives them and how they are affected when encountering defeat or facing triumph. Featuring Jen Barton.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240905000610 +0100" stop="20240905012532 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240904235304 +0100" stop="20240905011226 +0100">
     <title lang="pt">INDIVIDUAL FIGHTS</title>
     <sub-title lang="pt">S01 : E16 INDIVIDUAL FIGHTS</sub-title>
     <desc lang="pt">Trevor Prangley v. Andrei Semenov</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240905002533 +0100" stop="20240905014534 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240905001227 +0100" stop="20240905013023 +0100">
+    <title lang="pt">M-1 Challenge 88 - Movsar Evloev v. Sergey Morozov</title>
+    <desc lang="pt">Movsar Evloev v. Sergey Morozov</desc>
+    <category lang="pt">Sports</category>
+  </programme>
+  <programme channel="hard-knocks-fighting-championship" start="20240905003024 +0100" stop="20240905015025 +0100">
     <title lang="pt">HKFC 49 - Keegan Oliver v. Michael Davis</title>
     <desc lang="pt">Professional and Amateur fighters from across North America battle it out in Hard Knocks' cage. Keegan Oliver v. Michael Davis.</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="hard-knocks-fighting-championship" start="20240905004535 +0100" stop="20240905020659 +0100">
+  <programme channel="hard-knocks-fighting-championship" start="20240905005026 +0100" stop="20240905021150 +0100">
     <title lang="pt">M-1 Challenge 76 - Timur Nagibin v. Diego Davella</title>
     <desc lang="pt">Timur Nagibin v. Diego Davella</desc>
-    <category lang="pt">Sports</category>
-  </programme>
-  <programme channel="billiards-tv" start="20240902114627 +0100" stop="20240902141235 +0100">
-    <title lang="pt">WC 3-Cushion National Teams 2022 in Viersen</title>
-    <sub-title lang="pt">S01 : E06 [WC 3C National Teams 2022] Eddy MERCKX v Daniel SANCHEZ</sub-title>
-    <desc lang="pt">Watch L32 - Eddy MERCKX (BEL) vs Daniel SANCHEZ (ESP) at the WC 3-Cushion National Teams 2022 in Viersen</desc>
     <category lang="pt">Sports</category>
   </programme>
   <programme channel="billiards-tv" start="20240902131242 +0100" stop="20240902154324 +0100">
@@ -18672,21 +18361,6 @@
     <desc lang="pt">Watch L32 - Quyet Chien TRAN (VIE) vs Sameh SIDHOM (EGY) at the 2022 Ankara World Cup 3-Cushion</desc>
     <category lang="pt">Sports</category>
   </programme>
-  <programme channel="fifa-plus-pt-new" start="20240902110817 +0100" stop="20240902140304 +0100">
-    <title lang="pt">Brasil x Escócia| Fase de grupos | Copa do Mundo FIFA de 1990, na Itália | Jogo Completo</title>
-    <desc lang="pt">Vídeo completo da partida entre Brasil e Escócia, jogada no Stadio delle Alpi, em Turim, na quarta-feira, 20 de junho.</desc>
-    <category lang="pt">Sports</category>
-  </programme>
-  <programme channel="fifa-plus-pt-new" start="20240902130311 +0100" stop="20240902142255 +0100">
-    <title lang="pt">Hugo Sánchez | Descobrindo</title>
-    <desc lang="pt">Saiba mais sobre um dos maiores jogadores mexicanos da história.</desc>
-    <category lang="pt">Sports</category>
-  </programme>
-  <programme channel="fifa-plus-pt-new" start="20240902132302 +0100" stop="20240902145301 +0100">
-    <title lang="pt">Alemanha vs. Argentina: As Finais</title>
-    <desc lang="pt">Desfrute das finais entre Alemanha e Argentina na Copa do Mundo da Fifa de 1990 e 2014.</desc>
-    <category lang="pt">Sports</category>
-  </programme>
   <programme channel="fifa-plus-pt-new" start="20240902135308 +0100" stop="20240902171056 +0100">
     <title lang="pt">Panamá x França | Grupo F | Copa do Mundo FIFA Feminina de 2023, em Austrália e Nova Zelândia | Jogo completo</title>
     <desc lang="pt">Vídeo completo da partida entre Panamá e França no Estádio de Futebol de Sydney, Sydney, quarta-feira, 2 de agosto de 2023 às 20h00 (horário local).</desc>
@@ -18851,18 +18525,6 @@
     <title lang="pt">Brasil x Noruega | Grupo A | Copa do Mundo FIFA de 1998, na França | Jogo Completo</title>
     <desc lang="pt">Assista na íntegra à partida entre Brasil e Noruega, jogada no Stade Vélodrome, em Marselha, no dia 23 de junho de 1998, terça-feira.</desc>
     <category lang="pt">Sports</category>
-  </programme>
-  <programme channel="filmrise-hot-ones" start="20240902123806 +0100" stop="20240902140915 +0100">
-    <title lang="pt">Hot Ones</title>
-    <sub-title lang="pt">S17 : E03 Hot Ones</sub-title>
-    <desc lang="pt">How is Ed Helms with spicy food? Find out as the man behind Andy Bernard discusses banjos, boiled peanuts and the art of the ad read.</desc>
-    <category lang="pt">Entretenimento</category>
-  </programme>
-  <programme channel="filmrise-hot-ones" start="20240902130916 +0100" stop="20240902144044 +0100">
-    <title lang="pt">Hot Ones</title>
-    <sub-title lang="pt">S17 : E01 Hot Ones</sub-title>
-    <desc lang="pt">Actor and filmmaker Seth Rogen discusses his comedy presence in Hollywood while taking on the wings of death.</desc>
-    <category lang="pt">Entretenimento</category>
   </programme>
   <programme channel="filmrise-hot-ones" start="20240902134045 +0100" stop="20240902150823 +0100">
     <title lang="pt">Hot Ones</title>
@@ -19134,43 +18796,43 @@
     <desc lang="pt">Aubrey Plaza is known for her cult roles in "Scott Pilgrim vs. the World," "Parks and Recreation" and more.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240903132431 +0100" stop="20240903150245 +0100">
+  <programme channel="filmrise-hot-ones" start="20240903132431 +0100" stop="20240903150246 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S10 : E05 Hot Ones</sub-title>
     <desc lang="pt">One of the nicest dudes in Hollywood takes on some of the least nice hot sauces on the planet. Paul Rudd breaks down the alternate "Anchorman" script, shares his love for David Letterman and improvises a tearful scene inspired by the wings of death.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240903140246 +0100" stop="20240903153352 +0100">
+  <programme channel="filmrise-hot-ones" start="20240903140247 +0100" stop="20240903153352 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S20 : E09 Hot Ones</sub-title>
     <desc lang="pt">Bob Odenkirk is an actor and writer whose resume includes everything from the pioneering sketch comedy series "Mr. Show" to "Breaking Bad" and an acclaimed performance as Jimmy McGill in "Better Call Saul."</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240903143353 +0100" stop="20240903160520 +0100">
+  <programme channel="filmrise-hot-ones" start="20240903143353 +0100" stop="20240903160521 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S17 : E01 Hot Ones</sub-title>
     <desc lang="pt">Actor and filmmaker Seth Rogen discusses his comedy presence in Hollywood while taking on the wings of death.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240903150521 +0100" stop="20240903163259 +0100">
+  <programme channel="filmrise-hot-ones" start="20240903150522 +0100" stop="20240903163259 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S11 : E03 Hot Ones</sub-title>
     <desc lang="pt">Will Ferrell shares behind-the-scenes stories from his beloved movies and discusses the origins of his famous Harry Caray impersonation on "Saturday Night Live."</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240903153300 +0100" stop="20240903170425 +0100">
+  <programme channel="filmrise-hot-ones" start="20240903153300 +0100" stop="20240903170426 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S07 : E10 Hot Ones</sub-title>
     <desc lang="pt">Pete Holmes is the star &amp; creator of "Crashing" and host of the "You Made It Weird with Pete Holmes" podcast.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240903160426 +0100" stop="20240903173731 +0100">
+  <programme channel="filmrise-hot-ones" start="20240903160427 +0100" stop="20240903173732 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S07 : E09 Hot Ones</sub-title>
     <desc lang="pt">Bill Burr is one of the most requested "Hot Ones" guests of all time and a true standup legend.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240903163732 +0100" stop="20240903181017 +0100">
+  <programme channel="filmrise-hot-ones" start="20240903163733 +0100" stop="20240903181017 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S14 : E11 Hot Ones</sub-title>
     <desc lang="pt">Brand is back to brace the heat and discusses his YouTube channel that now has more than 3 million subscribers.</desc>
@@ -19188,19 +18850,19 @@
     <desc lang="pt">Actress Millie Bobby Brown is known best for her role in Stranger Things, but how is she with spicy food?</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240903180942 +0100" stop="20240903194048 +0100">
+  <programme channel="filmrise-hot-ones" start="20240903180942 +0100" stop="20240903194049 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S10 : E06 Hot Ones</sub-title>
     <desc lang="pt">Winterfell legend Maisie Williams battles the (vegan) wings of death and discusses everything from appearing on Binging with Babish to "Game of Thrones" myths and that time Drake shouted her out at the Billboard Music Awards.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240903184049 +0100" stop="20240903201454 +0100">
+  <programme channel="filmrise-hot-ones" start="20240903184050 +0100" stop="20240903201455 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S16 : E03 Hot Ones</sub-title>
     <desc lang="pt">Jon Bernthal is an actor starring in TV shows like "The Walking Dead," but how is he with spicy food?</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240903191455 +0100" stop="20240903204531 +0100">
+  <programme channel="filmrise-hot-ones" start="20240903191456 +0100" stop="20240903204531 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S04 : E03 Hot Ones</sub-title>
     <desc lang="pt">"Jackass" star Steve-O battles the likes of Dirty Dick's and Blair's Mega Death Sauce with Sean Evans on this highly anticipated episode.</desc>
@@ -19212,37 +18874,37 @@
     <desc lang="pt">How will Steve-O fare in his second round with the wings of death? Find out as he discusses his memoir 'Professional Idiot,' his skateboard decks and his own Steve-O Hot Sauce!</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240903201628 +0100" stop="20240903215014 +0100">
+  <programme channel="filmrise-hot-ones" start="20240903201628 +0100" stop="20240903215015 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S12 : E07 Hot Ones</sub-title>
     <desc lang="pt">A dear friend of "Hot Ones," Adam Richman, takes on the sauces and wings while discussing his top five iconic Brooklyn eating establishments, the influence of WWII on how Americans eat today, urban gardening tips and his favorite food rap lyrics.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240903205015 +0100" stop="20240903222041 +0100">
+  <programme channel="filmrise-hot-ones" start="20240903205016 +0100" stop="20240903222041 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S05 : E15 Hot Ones</sub-title>
     <desc lang="pt">Alton sits down for his date with Sean and the wings of death. As he meticulously reorders the hot sauces to his own ranking, Alton tackles everything from the history of food TV to Eminem lyrics to the art of a bottle of champagne.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240903212042 +0100" stop="20240903225614 +0100">
+  <programme channel="filmrise-hot-ones" start="20240903212042 +0100" stop="20240903225615 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S05 : E14 Hot Ones</sub-title>
     <desc lang="pt">In between "America's Next Top Model" anecdotes and expert breakdowns of the modeling industry, Ty Ty drops a fire rap verse, critiques Sean Evans' head shots, stress-eats ice cream, strikes hot sauce-inspired poses and so much more.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240903215615 +0100" stop="20240903232451 +0100">
+  <programme channel="filmrise-hot-ones" start="20240903215616 +0100" stop="20240903232452 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S09 : E03 Hot Ones</sub-title>
     <desc lang="pt">Trevor Noah discusses the advice he got from Jon Stewart, breaks down the joys of biltong and explains the one thing that connects us all as humans.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240903222452 +0100" stop="20240903235529 +0100">
+  <programme channel="filmrise-hot-ones" start="20240903222453 +0100" stop="20240903235530 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S14 : E05 Hot Ones</sub-title>
     <desc lang="pt">Kenan is a bonafide TV legend who has been making us laugh for over 25 years. But can he last in our hot seat?</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240903225530 +0100" stop="20240904002429 +0100">
+  <programme channel="filmrise-hot-ones" start="20240903225531 +0100" stop="20240904002429 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S03 : E22 Hot Ones</sub-title>
     <desc lang="pt">Comedian Nick Kroll's cast of sketch comedy characters includes Bobby Bottleservice, Liz G. and Aspen Bruckheimer. Can any of them stand the heat of Zombie Apocalypse and Da Bomb Beyond Insanity?</desc>
@@ -19254,13 +18916,13 @@
     <desc lang="pt">The beloved actor and style icon faces down the vegan wings of death. As he clambers up spice mountain, Jeff Goldblum breaks down "Jurassic Park" lore and discusses his spiritual encounter with Quavo.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904000504 +0100" stop="20240904013628 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904000504 +0100" stop="20240904013629 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S12 : E10 Hot Ones</sub-title>
     <desc lang="pt">Joseph Gordon-Levitt is answering questions about the power of YouTube while facing the wings of death.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904003629 +0100" stop="20240904020738 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904003630 +0100" stop="20240904020738 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S17 : E03 Hot Ones</sub-title>
     <desc lang="pt">How is Ed Helms with spicy food? Find out as the man behind Andy Bernard discusses banjos, boiled peanuts and the art of the ad read.</desc>
@@ -19272,55 +18934,55 @@
     <desc lang="pt">Actor and filmmaker Seth Rogen discusses his comedy presence in Hollywood while taking on the wings of death.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904013908 +0100" stop="20240904030855 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904013908 +0100" stop="20240904030856 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S20 : E02 Hot Ones</sub-title>
     <desc lang="pt">Bryan Cranston is a six-time Emmy Award-winning actor you know from acclaimed Broadway performances, films and iconic TV shows like "Malcolm in the Middle" and "Breaking Bad."</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904020856 +0100" stop="20240904034154 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904020857 +0100" stop="20240904034155 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S08 : E04 Hot Ones</sub-title>
     <desc lang="pt">The multitalented actor and former physician Ken Jeong faces off against the wings of death. Jeong dispels common medical myths, discusses encounters with NBA legends like Shaq and Kevin Durant and even gives Sean a free check-up.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904024155 +0100" stop="20240904040952 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904024156 +0100" stop="20240904040953 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S03 : E10 Hot Ones</sub-title>
     <desc lang="pt">Sean Evans goes wing for scorching wing with Dax Shepard, grilling him on everything from his Jay-Z man crush to his deep love for Costco.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904030953 +0100" stop="20240904044153 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904030954 +0100" stop="20240904044154 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S09 : E11 Hot Ones</sub-title>
     <desc lang="pt">Kristen Bell has a career in TV and film that includes everything from box office smashes to cult classics.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904034154 +0100" stop="20240904052030 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904034155 +0100" stop="20240904052031 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S10 : E02 Hot Ones</sub-title>
     <desc lang="pt">The man behind "Punk'd" takes on the wings of death and covers a wide gamut of topics from Diddy stories and court side shenanigans to biochemistry and Elon Musk.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904042031 +0100" stop="20240904055421 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904042032 +0100" stop="20240904055421 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S11 : E08 Hot Ones</sub-title>
     <desc lang="pt">Zac Efron takes on the wings of death with Sean Evans, channeling Shia LaBeouf as he pops bottles of hot sauce along the way. From throwback basketball tricks to paparazzi advice from Leonardo DiCaprio, this episode has it all!</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904045422 +0100" stop="20240904062209 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904045422 +0100" stop="20240904062210 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S20 : E06 Hot Ones</sub-title>
     <desc lang="pt">Jenna Ortega is a Golden Globe-nominated actor you know from the massive global Netflix hit "Wednesday."</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904052210 +0100" stop="20240904065338 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904052211 +0100" stop="20240904065339 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S11 : E05 Hot Ones</sub-title>
     <desc lang="pt">Davidson offers behind-the-scenes "SNL" stories, talks about walking in an Alexander Wang fashion show and gives a ringing endorsement for "Uncut Gems" and Adam Sandler's basketball skills.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904055339 +0100" stop="20240904072238 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904055340 +0100" stop="20240904072238 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S03 : E22 Hot Ones</sub-title>
     <desc lang="pt">Comedian Nick Kroll's cast of sketch comedy characters includes Bobby Bottleservice, Liz G. and Aspen Bruckheimer. Can any of them stand the heat of Zombie Apocalypse and Da Bomb Beyond Insanity?</desc>
@@ -19338,49 +19000,49 @@
     <desc lang="pt">Nick Offerman is an actor and comedian best known for his role as Ron Swanson on "Parks and Recreation."</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904072722 +0100" stop="20240904085530 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904072722 +0100" stop="20240904085531 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S16 : E10 Hot Ones</sub-title>
     <desc lang="pt">Hollywood vet Rob Lowe takes on the wings of death and discusses "West Wing" lore, comedy legends and the most overrated Thanksgiving sides.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904075531 +0100" stop="20240904092232 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904075532 +0100" stop="20240904092232 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S05 : E07 Hot Ones</sub-title>
     <desc lang="pt">Ty Burrell plays iconic Phil Dunphy on Modern Family. That in no way prepares him for the wings of death.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904082233 +0100" stop="20240904095030 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904082233 +0100" stop="20240904095031 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S12 : E04 Hot Ones</sub-title>
     <desc lang="pt">Despite some words of encouragement from Kristen Stewart, Dan Levy is not too confident going into his date with the wings of death. As he tackles the sauce gauntlet, Dan discusses Drake, sweaters, Jason Biggs and much more.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904085031 +0100" stop="20240904101831 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904085032 +0100" stop="20240904101832 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S04 : E12 Hot Ones</sub-title>
     <desc lang="pt">Terry Crews enters the "Hot Ones" terror dome and goes beast mode on the wings of death. As he tackles sauce after sauce with Sean, Crews opens up about everything from his relationship with his father to his difficult experience in the NFL.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904091832 +0100" stop="20240904104929 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904091833 +0100" stop="20240904104929 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S17 : E02 Hot Ones</sub-title>
     <desc lang="pt">Sitcom queen Tracee Ellis Ross takes on the wings of death and discusses nights out with Naomi Campbell, the joys of mini bagels and much more.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904094930 +0100" stop="20240904111750 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904094930 +0100" stop="20240904111751 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S04 : E18 Hot Ones</sub-title>
     <desc lang="pt">Bob Saget became a household name on the classic sitcom Full House as well as a legend on the standup stage.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904101751 +0100" stop="20240904114913 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904101752 +0100" stop="20240904114914 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S14 : E03 Hot Ones</sub-title>
     <desc lang="pt">The King of Queens tries to become the King of Hot Sauce while talking about everything from UFC fandom to Hitch lore to the preeminence of Long Island pizza.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904104914 +0100" stop="20240904122040 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904104915 +0100" stop="20240904122040 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S07 : E10 Hot Ones</sub-title>
     <desc lang="pt">Pete Holmes is the star &amp; creator of "Crashing" and host of the "You Made It Weird with Pete Holmes" podcast.</desc>
@@ -19398,31 +19060,31 @@
     <desc lang="pt">Florence Pugh is an Academy Award-nominated actor with an ever-growing list of acclaimed performances, from "Lady MacBeth" to "Little Women" and many more. But can she take on the spice?</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904122743 +0100" stop="20240904135853 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904122743 +0100" stop="20240904135854 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S17 : E09 Hot Ones</sub-title>
     <desc lang="pt">Australian superstar Jacob Elordi takes on the wings of death and discusses the influence of Marlon Brando, sitting courtside at MSG with Simu Liu and rock-bottom auditions.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904125854 +0100" stop="20240904143202 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904125855 +0100" stop="20240904143203 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S16 : E12 Hot Ones</sub-title>
     <desc lang="pt">Tom Holland began his career at 12 years old and he's now one of Hollywood's biggest box office draws.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904133203 +0100" stop="20240904150043 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904133204 +0100" stop="20240904150044 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S05 : E06 Hot Ones</sub-title>
     <desc lang="pt">Michael B. Jordan has the Midas touch with roles like Erik Killmonger, but can he handle the wings of death?</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904140044 +0100" stop="20240904153127 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904140045 +0100" stop="20240904153128 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S11 : E02 Hot Ones</sub-title>
     <desc lang="pt">Zoë Kravitz is an actress, model and musician appearing in "Mad Max: Fury Road" and "Big Little Lies."</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904143128 +0100" stop="20240904160334 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904143129 +0100" stop="20240904160334 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S09 : E07 Hot Ones</sub-title>
     <desc lang="pt">The comedian discusses tech bros, breaks down his favorite video games and explains his obsession with "The X-Files." Kumail becomes the first guest in "Hot Ones" history to dine with a knife and fork.</desc>
@@ -19458,55 +19120,55 @@
     <desc lang="pt">The Greatest Band in the World goes wing for wing with Sean Evans. Along they way, the comedic duo discusses everything from Jack's infamous Dorito Burrito to Kanye West to their animated YouTube series.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904174629 +0100" stop="20240904191525 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904174629 +0100" stop="20240904191526 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S07 : E12 Hot Ones</sub-title>
     <desc lang="pt">The "White &amp; Nerdy" icon takes on the vegan wings of death. As the Scovilles mount, Weird Al shares anecdotes about meeting Sir Paul McCartney &amp; Michael Jackson and getting co-signed by Kurt Cobain.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904181526 +0100" stop="20240904195236 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904181527 +0100" stop="20240904195237 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S08 : E05 Hot Ones</sub-title>
     <desc lang="pt">After reminiscing about the good old days, Desus and Mero go off about everything from Tekashi 69 to avocado-only restaurants to one of the funniest Kanye story you'll ever hear. BX in the building!</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904185237 +0100" stop="20240904202700 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904185238 +0100" stop="20240904202700 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S06 : E11 Hot Ones</sub-title>
     <desc lang="pt">Comedy duo Rhett and Link are among the most requested "Hot Ones" guests of all time!</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904192701 +0100" stop="20240904205711 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904192701 +0100" stop="20240904205712 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S08 : E09 Hot Ones</sub-title>
     <desc lang="pt">The Rat King takes on the wings of death and chats with Sean Evans as if they were lifelong buddies. Theo talks about climbing Mount Kilimanjaro, capturing chimps in Louisiana and adapting to the L.A. lifestyle.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904195712 +0100" stop="20240904212339 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904195713 +0100" stop="20240904212340 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S03 : E09 Hot Ones</sub-title>
     <desc lang="pt">Comedian Kyle Kinane, affectionately known to fans as "Uncle Barbecue," takes on the sauces of death.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904202340 +0100" stop="20240904215225 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904202341 +0100" stop="20240904215226 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S04 : E14 Hot Ones</sub-title>
     <desc lang="pt">Comedy legend Artie Lange battles through Zombie Apocalypse and Da' Bomb, cracking jokes about everything from Kanye West to overzealous touchdown dances along the way.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904205226 +0100" stop="20240904222611 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904205227 +0100" stop="20240904222611 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S07 : E04 Hot Ones</sub-title>
     <desc lang="pt">Ace Man looks back on his storied career and battles his way through the wings of death. Along the way, the rant king gets going on everything from Kanye West to iced tea to the brilliance of crows.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904212612 +0100" stop="20240904225603 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904212612 +0100" stop="20240904225604 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S12 : E01 Hot Ones</sub-title>
     <desc lang="pt">Watch Tom Segura reunite with Sean Evans over a brand new hot sauce lineup, discussing everything from Dave Chappelle's surprise special to his beef with pro wrestling and love for Missy Elliott.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904215604 +0100" stop="20240904232106 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904215605 +0100" stop="20240904232106 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S05 : E10 Hot Ones</sub-title>
     <desc lang="pt">Fluffy battles the wings of death and discusses his outlandish food adventures, iconic wrestling catchphrases and the keys to getting out of a speeding ticket. Don't be surprised when the scorching sauces bring some other characters out to play.</desc>
@@ -19518,40 +19180,34 @@
     <desc lang="pt">Bob Saget became a household name on the classic sitcom Full House as well as a legend on the standup stage.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904224929 +0100" stop="20240905002050 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904224929 +0100" stop="20240905002051 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S14 : E03 Hot Ones</sub-title>
     <desc lang="pt">The King of Queens tries to become the King of Hot Sauce while talking about everything from UFC fandom to Hitch lore to the preeminence of Long Island pizza.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904232051 +0100" stop="20240905004952 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904232052 +0100" stop="20240905004952 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S15 : E05 Hot Ones</sub-title>
     <desc lang="pt">The pop star of the moment, Olivia Rodrigo, takes on the wings of death and discusses everything from lyricism to ghost stories to the appeal of Trader Joe's.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240904234953 +0100" stop="20240905012116 +0100">
+  <programme channel="filmrise-hot-ones" start="20240904234953 +0100" stop="20240905012117 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S14 : E09 Hot Ones</sub-title>
     <desc lang="pt">Global icon J Balvin eats the spiciest meal of his life with Sean Evans and discusses everything from late nights in Paris with Michael Jordan to how he almost ended up with the stage name Scotch Bonnet.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240905002117 +0100" stop="20240905014513 +0100">
+  <programme channel="filmrise-hot-ones" start="20240905002118 +0100" stop="20240905014513 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S03 : E03 Hot Ones</sub-title>
     <desc lang="pt">In between painful fits of laughter, Danny Brown manages to share some top-shelf anecdotes about the Gathering of the Juggalos, 50 Cent's fashion tips and his beloved cats.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="filmrise-hot-ones" start="20240905004514 +0100" stop="20240905021128 +0100">
+  <programme channel="filmrise-hot-ones" start="20240905004514 +0100" stop="20240905021129 +0100">
     <title lang="pt">Hot Ones</title>
     <sub-title lang="pt">S04 : E04 Hot Ones</sub-title>
     <desc lang="pt">Not only did Vince bring his own ranch dressing, but the young rap phenom has dropped his sophomore album!</desc>
-    <category lang="pt">Entretenimento</category>
-  </programme>
-  <programme channel="jukin-fail-army-new" start="20240902125837 +0100" stop="20240902142931 +0100">
-    <title lang="pt">Working 9 To Fail</title>
-    <sub-title lang="pt">S01 : E01 Working 9 To Fail | Frying Up Fails</sub-title>
-    <desc lang="pt">Fast food to the construction site, we’re checking out all workplaces today- and none of them are fail proof!</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
   <programme channel="jukin-fail-army-new" start="20240902132937 +0100" stop="20240902150031 +0100">
@@ -20244,18 +19900,6 @@
     <desc lang="pt">The best of the worst for June '18.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="revry" start="20240902123006 +0100" stop="20240902140000 +0100">
-    <title lang="pt">Queens of Kings</title>
-    <sub-title lang="pt">S05 : E05 Queens of Kings</sub-title>
-    <desc lang="pt">A pioneer of drag, music and entertainment, Honey Davenport is more than a reality TV star!</desc>
-    <category lang="pt">LGBTQIA+</category>
-  </programme>
-  <programme channel="revry" start="20240902130006 +0100" stop="20240902143000 +0100">
-    <title lang="pt">Flunk</title>
-    <sub-title lang="pt">S02 : E03 Flunk</sub-title>
-    <desc lang="pt">Freya surprises Dani with a romantic weekend away at a tiny house.</desc>
-    <category lang="pt">LGBTQIA+</category>
-  </programme>
   <programme channel="revry" start="20240902133006 +0100" stop="20240902150000 +0100">
     <title lang="pt">Flunk</title>
     <sub-title lang="pt">S02 : E04 Flunk</sub-title>
@@ -20543,18 +20187,6 @@
     <sub-title lang="pt">S05 : E05 Queens of Kings</sub-title>
     <desc lang="pt">A pioneer of drag, music and entertainment, Honey Davenport is more than a reality TV star!</desc>
     <category lang="pt">LGBTQIA+</category>
-  </programme>
-  <programme channel="afv-family" start="20240902125105 +0100" stop="20240902142307 +0100">
-    <title lang="pt">AFV Funny Bites!</title>
-    <sub-title lang="pt">S01 : E03 AFV Funny Bites- 03</sub-title>
-    <desc lang="pt">AFV Funny Bites! feature fast-paced funny videos from the America's Funniest Home Videos library. Watch AFV Funny Bites! for a quick dose of laughter, whenever you need it!</desc>
-    <category lang="pt">Entretenimento</category>
-  </programme>
-  <programme channel="afv-family" start="20240902132313 +0100" stop="20240902145317 +0100">
-    <title lang="pt">Family LOL Remix</title>
-    <sub-title lang="pt">S01 : E03 Family LOL Remix - 03</sub-title>
-    <desc lang="pt">Family LOL Remix features your favorite home videos and mini-shows featuring social influencers, comedians, funny moms, and more! Each episode has some of AFV's most successful shows - including the Life Unfiltered Countdown, BatDad's Clip Show, La Guardia Talks To Toddlers, Mom Unfiltered, AFV..</desc>
-    <category lang="pt">Entretenimento</category>
   </programme>
   <programme channel="afv-family" start="20240902135324 +0100" stop="20240902152320 +0100">
     <title lang="pt">Funny Runs In The Family</title>
@@ -21030,11 +20662,6 @@
     <desc lang="pt">Episode 105 - Welcome to Comedy Rush Hour, the show where we bring you 2 hours of the best of your AFV favorites from Top 10 Countdown, The Dub Club, Asked Answered, and Prank Academy. So, sit back and get ready for a block of non-stop laughs.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="people-are-awesome-new" start="20240902120006 +0100" stop="20240902140000 +0100">
-    <title lang="pt">People Are Awesome</title>
-    <desc lang="pt">Discover, achieve, level up. We’re here to show you that anyone can do extraordinary things.</desc>
-    <category lang="pt">Entretenimento</category>
-  </programme>
   <programme channel="people-are-awesome-new" start="20240902130006 +0100" stop="20240902150000 +0100">
     <title lang="pt">People Are Awesome</title>
     <desc lang="pt">Discover, achieve, level up. We’re here to show you that anyone can do extraordinary things.</desc>
@@ -21333,18 +20960,6 @@
   <programme channel="people-are-awesome-new" start="20240905000006 +0100" stop="20240905020000 +0100">
     <title lang="pt">People Are Awesome</title>
     <desc lang="pt">Discover, achieve, level up. We’re here to show you that anyone can do extraordinary things.</desc>
-    <category lang="pt">Entretenimento</category>
-  </programme>
-  <programme channel="the-pet-collective-new" start="20240902125332 +0100" stop="20240902142526 +0100">
-    <title lang="pt">Animals Unscripted</title>
-    <sub-title lang="pt">S03 : E03 Animals Unscripted | Grass Clowns</sub-title>
-    <desc lang="pt">These animals finished at the top of their class at clownin'.</desc>
-    <category lang="pt">Entretenimento</category>
-  </programme>
-  <programme channel="the-pet-collective-new" start="20240902132532 +0100" stop="20240902145726 +0100">
-    <title lang="pt">Animals Unscripted</title>
-    <sub-title lang="pt">S03 : E04 Animals Unscripted | Cats vs. Dogs, Part 2</sub-title>
-    <desc lang="pt">It's always a love-hate relationship between these two.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
   <programme channel="the-pet-collective-new" start="20240902135732 +0100" stop="20240902152926 +0100">
@@ -22019,12 +21634,6 @@
     <desc lang="pt">These pets won April '22. But after watching these clips, the real winner is you.</desc>
     <category lang="pt">Entretenimento</category>
   </programme>
-  <programme channel="rakuten-viki-new" start="20240902124948 +0100" stop="20240902142410 +0100">
-    <title lang="pt">Forest</title>
-    <sub-title lang="pt">S01 : E08 Forest</sub-title>
-    <desc lang="pt">Squabbling over trifles, San Hyeok and Yeong Jae unexpectedly feel drawn to each other.</desc>
-    <category lang="pt">Séries</category>
-  </programme>
   <programme channel="rakuten-viki-new" start="20240902132416 +0100" stop="20240902150120 +0100">
     <title lang="pt">Forest</title>
     <sub-title lang="pt">S01 : E09 Forest</sub-title>
@@ -22378,18 +21987,6 @@
     <sub-title lang="pt">S01 : E03 My Secret Romance</sub-title>
     <desc lang="pt">Yoo Mi struggles to meet the unreasonable demands of her boss.</desc>
     <category lang="pt">Séries</category>
-  </programme>
-  <programme channel="lone-star" start="20240902123009 +0100" stop="20240902140009 +0100">
-    <title lang="pt">Convict Story</title>
-    <sub-title lang="pt">S01 : E05 Cisco Kid</sub-title>
-    <desc lang="pt">Cisco heps a woman whose brother is in toruble.</desc>
-    <category lang="pt">Filmes</category>
-  </programme>
-  <programme channel="lone-star" start="20240902130010 +0100" stop="20240902143001 +0100">
-    <title lang="pt">Belle Starr</title>
-    <sub-title lang="pt">S01 : E01 Stories of the Century</sub-title>
-    <desc lang="pt">The detectives pursue Belle Starr.</desc>
-    <category lang="pt">Filmes</category>
   </programme>
   <programme channel="lone-star" start="20240902133002 +0100" stop="20240902150000 +0100">
     <title lang="pt">Billy the Kid</title>
