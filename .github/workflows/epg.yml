@@ -18,9 +18,6 @@ jobs:
          repository: iptv-org/epg
          path: iptv-org-epg
 
-      - name: Atualizar EPGs principais
-        run: sh EPG/epg-pt.sh
-
       - name: Set up Python
         uses: actions/setup-python@v3
         with:
@@ -28,29 +25,37 @@ jobs:
 
       - name: Instalar dependências
         run: |
-          cd EPG
+          cd EPG/scripts
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+
+      - name: Atualizar EPGs principais
+        run: sh EPG/epg-pt.sh
+        
       - name: Atualizar listas Rakuten
         run: | 
-          cd EPG
+          cd EPG/scripts
           python rakuten.py
+          
       - name: Atualizar listas FamaTV
         run: | 
-          cd EPG
+          cd EPG/scripts
           python famatv.py
           rm -f epg-fama-pt.xml.xz
           xz -z epg-fama-pt.xml
+          
       - name: Atualizar listas Rádios
         run: |
-          cd EPG
+          cd EPG/scripts
           python radios.py
           rm -f epg-radios-pt.xml.xz
           xz -z epg-radios-pt.xml
+          
       - name: setup git config
         run: |
           git config user.name "EPG's bot"
           git config user.email "<>"
+          
       - name: commit
         run: |
           git pull
