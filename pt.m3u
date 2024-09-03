@@ -135,6 +135,9 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00056-vevotv-vevopopau-samsungau/pl
 #EXTINF:-1 group-title="Rádios" radio="true" tvg-id="DJTomasA" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tomasafonso.ico",DJ Tomás Afonso
 http://2.81.172.226:8000/listen.mp3
 
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-id="DJTomasA" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tomasafonso.ico",DJ Tomás Afonso2
+http://87.196.60.65:8000/listen.mp3
+
 #EXTINF:-1 group-title="Rádios" radio="true" tvg-id="RadioComercial.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/radiocomercial.png",Rádio Comercial
 https://stream-icy.bauermedia.pt/comercial.aac
 
