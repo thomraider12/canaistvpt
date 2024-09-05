@@ -42,6 +42,7 @@ jobs:
           cd EPG/scripts
           python famatv.py
           cd -
+          cd EPG
           rm -f epg-fama-pt.xml.xz
           xz -z epg-fama-pt.xml
           
@@ -49,6 +50,8 @@ jobs:
         run: |
           cd EPG/scripts
           python radios.py
+          cd -
+          cd EPG
           rm -f epg-radios-pt.xml.xz
           xz -z epg-radios-pt.xml
           
