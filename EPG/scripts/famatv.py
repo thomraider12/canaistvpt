@@ -38,7 +38,7 @@ for i in range(168):
 # Salva o arquivo XML no diretório raiz do projeto
 try:
     tree = ET.ElementTree(root)
-    tree.write('epg-fama-pt.xml', encoding='utf-8', xml_declaration=True)
+    tree.write('../epg-fama-pt.xml', encoding='utf-8', xml_declaration=True)
     sucesso = True
 except Exception as e:
     print(f"Erro ao escrever o ficheiro: {e}")
