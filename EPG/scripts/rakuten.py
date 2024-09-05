@@ -158,6 +158,6 @@ for channel in json:
 channel_xml = build_xmltv(channels_data, programme_data)
 
 # Write some XML
-with open('epg-rakuten-tv.xml', 'wb') as f:
+with open('../epg-rakuten-tv.xml', 'wb') as f:
     f.write(channel_xml)
     f.close()
