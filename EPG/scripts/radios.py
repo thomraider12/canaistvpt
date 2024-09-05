@@ -62,7 +62,7 @@ for radio in radios:
 # Salva o arquivo XML no diretório raiz do projeto
 try:
     tree = ET.ElementTree(root)
-    tree.write('epg-radios-pt.xml', encoding='utf-8', xml_declaration=True)
+    tree.write('../epg-radios-pt.xml', encoding='utf-8', xml_declaration=True)
     sucesso = True
 except Exception as e:
     print("Erro: " + e)
