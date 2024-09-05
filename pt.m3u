@@ -106,7 +106,7 @@ https://bit.ly/3qY2y4m?profile=608181d420fc8500075f612a.m3u8
 #EXTINF:-1 group-title="BD" tvg-id="GBBA3300024F7" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rakuten.png",Rakuten Family
 https://rakuten-family-14-pt.samsung.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 group-title="Aleatórios" tvg-id="" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/travelxp.png",TravelXP
+#EXTINF:-1 group-title="Aleatórios" tvg-id="travelxp-pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/travelxp.png",TravelXP
 https://b3cc72d0160f4e168712e880c78c4dcc.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pt_TravelXP/playlist.m3u8
 
 #EXTINF:-1 group-title="Aleatórios" tvg-id="5-minutes-craft-en" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/5mincrafts.png",5-Minute-Crafts (US)
