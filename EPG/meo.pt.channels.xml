@@ -21,6 +21,6 @@
   <channel site="meo.pt" lang="pt" site_id="EURN" xmltv_id="EuronewsPortuguese.fr">Euronews</channel>
   <channel site="meo.pt" lang="pt" site_id="CNN" xmltv_id="CNNInternationalEurope.us">CNN</channel>
   <channel site="meo.pt" lang="pt" site_id="SKYN" xmltv_id="SkyNewsInternational.uk">Sky News</channel>
-  <channel site="meo.pt" lang="pt" site_id="BBC E" xmltv_id="BBCEntertainment.uk">BBC Entertainment</channel>
   <channel site="meo.pt" lang="pt" site_id="TVGAL" xmltv_id="GaliciaTVEuropa.es">TV Galicia</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="NatGeoWild.pt" site_id="WILDHD">National Geographic Wild</channel>
 </channels>
