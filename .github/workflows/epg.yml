@@ -41,6 +41,7 @@ jobs:
         run: | 
           cd EPG/scripts
           python famatv.py
+          cd -
           rm -f epg-fama-pt.xml.xz
           xz -z epg-fama-pt.xml
           
