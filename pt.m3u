@@ -97,9 +97,6 @@ https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="FilDoc" tvg-id="documentaries-pt-rakuten-tv" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rakuten.png",Rakuten Documentaries
 https://rakuten-documentaries-14-pt.samsung.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 group-title="FilDoc" tvg-id="NatGeoWild.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/natgeowild.png",NatGeo Wild (USA)
-https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1725580699/ei/O_HZZt7lD9X5vdIPtuuB8Q8/ip/2001%3A8a0%3Addf4%3A7a00%3Ac9cb%3A81cd%3Ae6f8%3Aa67b/id/BJ3Yv572V1A.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51257030/txs/51257028%2C51257029%2C51257030%2C51257031%2C51257032/hfr/1/playlist_duration/30/manifest_duration/30/maxh/4320/maudio/1/gcr/pt/siu/1/spc/Mv1m9koasss6BfnoxD08I_iviLSS5NzsVHUijFP-sM4L7gVTWVJ2ZyL-VxdQ7-S0-fHBAYcz3i3g/vprv/1/go/1/rqh/5/pacing/0/nvgoi/1/keepalive/yes/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaxh%2Cmaudio%2Cgcr%2Csiu%2Cspc%2Cvprv%2Cgo%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRgIhANmpTmp0bHwqW6aXIC82CHh4G1erBqwp6gnVQcnLGGeyAiEAgl0DLiJOaJacQpp7YzkZCkfe4m_GrS87X-UmJQdJj2c%3D/file/index.m3u8
-
 #EXTINF:-1 group-title="FilDoc" tvg-id="MovieSphere" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/moviesphere.png",MovieSphere
 https://moviesphere-plex.amagi.tv/playlist.m3u8
 
