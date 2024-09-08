@@ -16,30 +16,4 @@ else
   echo "Link da CNN Portugal não atualizado."
 fi
 
-# Extração do link m3u8 da live do YouTube
-YOUTUBE_URL="https://www.youtube.com/watch?v=BJ3Yv572V1A"
-
-# Baixar o código-fonte da página da live
-curl -s "$YOUTUBE_URL" -o pagina.html
-
-# Procurar o link m3u8
-M3U8_URL=$(grep -oP 'https://manifest\.googlevideo\.com/api/manifest/hls_variant/[^"]+' pagina.html)
-
-# Verificar se o link foi encontrado
-if [ -z "$M3U8_URL" ]; then
-    echo "Nenhum link m3u8 do YouTube encontrado!"
-    exit 1
-else
-    echo "Link m3u8 do YouTube encontrado: $M3U8_URL"
-fi
-
-# Atualizar o link do YouTube no arquivo pt.m3u
-sed -i "/https:\/\/manifest\.googlevideo\.com\/api\/manifest\/hls_variant\// c $M3U8_URL" pt.m3u
-
-if grep -q "/https:\/\/manifest\.googlevideo\.com\/api\/manifest\/hls_variant\//" pt.m3u; then
-  echo "Link da live do NATGEOWILD atualizado com sucesso."
-else
-  echo "Link da live do NATGEOWILD não atualizado."
-fi
-
 exit 0
