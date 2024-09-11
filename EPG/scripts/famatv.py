@@ -30,7 +30,7 @@ for i in range(168):
 
     # Adiciona a descrição do programa
     description = ET.SubElement(programme, 'desc', lang="pt")
-    description.text = "A FamaTV é uma televisão/publicação local generalista, com raízes em Vila Nova de Famalicão, mas atenta aos acontecimentos e valores dos municípios limítrofes.\nA FamaTV esforça-se por apresentar uma programação interessante e atual promovendo as características da cultura local e regional."
+    description.text = "A FamaTV é uma televisão/publicação local generalista, com raízes em Vila Nova de Famalicão, mas atenta aos acontecimentos e valores dos municípios limítrofes.\n\nA FamaTV esforça-se por apresentar uma programação interessante e atual promovendo as características da cultura local e regional."
 
     # Adiciona o ícone do programa
     icon = ET.SubElement(programme, 'icon', src="https://ae-minho.pt/assets/img/noticias/115.jpg")
