@@ -80,7 +80,7 @@ days = get_days()
 
 url_string = (f"classification_id=64&device_identifier=web"
               f"&device_stream_audio_quality=2.0&device_stream_hdr_type=NONE&device_stream_video_quality=FHD"
-              f"&epg_duration_minutes=360"
+              f"&epg_duration_minutes=10080"
               f"&epg_ends_at={days[-1].strftime('%Y-%m-%dT%H:%M:%S.000Z')}"
               f"&epg_ends_at_timestamp={days[-1].timestamp()}"
               f"&epg_starts_at={days[0].strftime('%Y-%m-%dT%H:%M:%S.000Z')}"
