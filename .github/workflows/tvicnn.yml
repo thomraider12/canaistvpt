@@ -1,0 +1,38 @@
+name: Atualizar links
+on:
+  schedule:
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-stream:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+
+      - name: atualizar links
+        run: |
+          #!/bin/bash
+
+          file1="m3u8s/cnnpt.m3u8"
+          file2="m3u8s/tvi.m3u8"
+
+          for file in "$file1" "$file2"; do
+            sed -i "s#wmsAuthSign=[^&]*#wmsAuthSign=$(wget -qO- https://services.iol.pt/matrix?userId -o /dev/null)#g" "$file"
+          done
+          echo "Ficheiros atualizados."
+          exit 0
+
+      - name: setup git config
+        run: |
+          git config user.name "tvi-pt ch bot"
+          git config user.email "<>"
+
+      - name: commit e push
+        run: |
+          git pull
+          git add m3u8s/cnnpt.m3u8
+          git add m3u8s/tvi.m3u8
+          git commit -m "Atualização automática dos m3u8"
+          git push origin main
