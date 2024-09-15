@@ -17,7 +17,7 @@
   <channel site="meo.pt" lang="en" xmltv_id="SkyNewsInternational.uk" site_id="SKYN">Sky News</channel>
   <channel site="meo.pt" lang="en" xmltv_id="CNNInternationalEurope.us" site_id="CNN">CNN</channel>
   <channel site="meo.pt" lang="pt" xmltv_id="TraceUrban.fr" site_id="TRAHD">Trace Urban</channel>
-  <channel site="meo.pt" lang="pt" xmltv_id="TraceBrasil.fr" site_id="TRACEBR">Trace Brasil</channel>
+  <channel site="meo.pt" lang="pt" site_id="TRACEBR" xmltv_id="TraceBrasil.br">Trace Brasil</channel>
   <channel site="meo.pt" lang="pt" xmltv_id="ClubbingTV.fr" site_id="CLUBHD">Clubbing TV</channel>
   <channel site="meo.pt" lang="pt" xmltv_id="GaliciaTVEuropa.es" site_id="TVGAL">TV Galicia</channel>
   <channel site="meo.pt" lang="pt" xmltv_id="Gametoon.nl" site_id="GAMET">Gametoon</channel>
