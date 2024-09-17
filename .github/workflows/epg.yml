@@ -74,19 +74,9 @@ jobs:
           echo "EPG da Rytec atualizada!"
           sleep 3
 
-      - name: Comprimir ficheiros XML da EPG
+      - name: Comprimir e apagar
         run: |
-          cd ../EPG
-          xz -k -f -9 epg*.xml && gzip -k -f -9 epg*.xml
-          echo "Ficheiros comprimidos."
-          sleep 3
-
-      - name: Apagar ficheiros XML
-        run: |
-          cd ../EPG
-          rm epg*.xml
-          echo "Ficheiros XML apagados!"
-          sleep 3
+          sh EPG/scripts/compressdelete.sh
 
       - name: Atualizar listas Rakuten
         run: | 
