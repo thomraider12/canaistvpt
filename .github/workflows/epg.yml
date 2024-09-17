@@ -22,6 +22,11 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '16'
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.10"
           
       - name: Instalar dependências npm
         run: |
@@ -65,8 +70,7 @@ jobs:
 
       - name: Atualizar EPG Rytec
         run: |
-          cd ${{ github.workspace }}/EPG
-          wget -O epg-rytec-pt.xml.xz "http://www.xmltvepg.nl/rytecPT.xz"
+          sh EPG/scripts/rytec.sh
           echo "EPG da Rytec atualizada!"
           sleep 3
 
