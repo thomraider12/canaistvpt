@@ -8,7 +8,7 @@ jobs:
   Update-EPG:
     runs-on: ubuntu-latest
     steps:
-    
+
       - name: checkout
         uses: actions/checkout@v4
         
@@ -18,20 +18,72 @@ jobs:
          repository: iptv-org/epg
          path: iptv-org-epg
 
-      - name: Set up Python
-        uses: actions/setup-python@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
-          python-version: "3.10"
-
-      - name: Instalar dependências
+          node-version: '16'
+          
+      - name: Instalar dependências npm
         run: |
-          cd EPG/scripts
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          cd /home/runner/work/canaistvpt/canaistvpt/iptv-org-epg
+          npm install
 
-      - name: Atualizar EPGs principais
-        run: sh EPG/scripts/epg-pt.sh
-        
+      - name: Atualizar EPG PT
+        run: |
+          cd /home/runner/work/canaistvpt/canaistvpt/iptv-org-epg
+          npm run grab -- --channels=../EPG/pt.channels.xml --output=../EPG/epg-pt.xml --days=7 --maxConnections=50
+          echo "EPG PT atualizada!"
+          sleep 3
+
+      - name: Atualizar EPG MEO
+        run: |
+          cd /home/runner/work/canaistvpt/canaistvpt/iptv-org-epg
+          npm run grab -- --channels=../EPG/meo.pt.channels.xml --output=../EPG/epg-meo-pt.xml --days=7 --maxConnections=50
+          echo "EPG da MEO atualizada!"
+          sleep 3
+
+      - name: Atualizar EPG NOS
+        run: |
+          cd /home/runner/work/canaistvpt/canaistvpt/iptv-org-epg
+          npm run grab -- --channels=../EPG/nos.pt.channels.xml --output=../EPG/epg-nos-pt.xml --days=7 --maxConnections=50
+          echo "EPG da NOS atualizada!"
+          sleep 3
+
+      - name: Atualizar EPG RTP
+        run: |
+          cd /home/runner/work/canaistvpt/canaistvpt/iptv-org-epg
+          npm run grab -- --site=rtp.pt --output=../EPG/epg-rtp-pt.xml --days=7 --maxConnections=500
+          echo "EPG da RTP atualizada!"
+          sleep 3
+
+      - name: Atualizar EPG Plex
+        run: |
+          cd /home/runner/work/canaistvpt/canaistvpt/iptv-org-epg
+          npm run grab -- --channels=../EPG/plex.tv.channels.xml --output=../EPG/epg-plex-tv.xml --days=7 --maxConnections=50
+          echo "EPG do Plex atualizada!"
+          sleep 3
+
+      - name: Atualizar EPG Rytec
+        run: |
+          cd ../EPG
+          wget -O epg-rytec-pt.xml.xz "http://www.xmltvepg.nl/rytecPT.xz"
+          echo "EPG da Rytec atualizada!"
+          sleep 3
+
+      - name: Comprimir ficheiros XML da EPG
+        run: |
+          cd ../EPG
+          xz -k -f -9 epg*.xml && gzip -k -f -9 epg*.xml
+          echo "Ficheiros comprimidos."
+          sleep 3
+
+      - name: Apagar ficheiros XML
+        run: |
+          cd ../EPG
+          rm epg*.xml
+          echo "Ficheiros XML apagados!"
+          sleep 3
+
       - name: Atualizar listas Rakuten
         run: | 
           cd EPG/scripts
