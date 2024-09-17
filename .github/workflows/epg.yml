@@ -65,7 +65,7 @@ jobs:
 
       - name: Atualizar EPG Rytec
         run: |
-          cd ../EPG
+          cd ${{ github.workspace }}/EPG
           wget -O epg-rytec-pt.xml.xz "http://www.xmltvepg.nl/rytecPT.xz"
           echo "EPG da Rytec atualizada!"
           sleep 3
