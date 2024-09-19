@@ -21,14 +21,17 @@ jobs:
       - name: Parse M3U file
         id: parse
         run: |
-          # Extrai os URLs do ficheiro pt.m3u e guarda num array
-          streams=$(grep -oP 'http[^\s]+' pt.m3u)
-          echo "streams=$streams" >> $GITHUB_ENV
+          # Extrai apenas os URLs válidos do ficheiro pt.m3u
+          grep -oP 'http[^\s]+' pt.m3u > streams.txt
 
       - name: Test Streams
         run: |
-          # Testa cada URL usando o ffmpeg para verificar se a stream está ativa
-          for stream in ${{ env.streams }}; do
+          # Itera por cada URL e testa com ffmpeg
+          while read stream; do
             echo "Testing stream: $stream"
-            ffmpeg -i "$stream" -t 5 -v error -stats -y -f null - || echo "Stream $stream failed"
-          done
+            if ffmpeg -i "$stream" -t 5 -v error -stats -y -f null -; then
+              echo "Stream $stream is working"
+            else
+              echo "Stream $stream failed"
+            fi
+          done < streams.txt
