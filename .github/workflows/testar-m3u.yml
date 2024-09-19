@@ -1,9 +1,7 @@
 name: Test M3U Streams
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
   schedule:
     - cron: "0 6 * * *"  # Executa todos os dias às 6:00 UTC
 
