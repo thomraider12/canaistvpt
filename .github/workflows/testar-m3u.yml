@@ -18,15 +18,15 @@ jobs:
       - name: Install dependencies
         run: sudo apt-get install -y ffmpeg
 
-      - name: Parse M3U file
-        id: parse
-        run: |
-          # Extrai apenas os URLs válidos do ficheiro pt.m3u
-          grep -oP 'http[^\s]+' pt.m3u > streams.txt
-
       - name: Test Streams
         run: |
-          # Itera por cada URL e testa com ffmpeg
+          # Verifica se o ficheiro channels-link.txt existe
+          if [ ! -f channels-link.txt ]; then
+            echo "Error: channels-link.txt not found"
+            exit 1
+          fi
+
+          # Itera por cada URL no ficheiro channels-link.txt e testa com ffmpeg
           while read stream; do
             echo "Testing stream: $stream"
             if ffmpeg -i "$stream" -t 5 -v error -stats -y -f null -; then
@@ -34,4 +34,4 @@ jobs:
             else
               echo "Stream $stream failed"
             fi
-          done < streams.txt
+          done < channels-link.txt
