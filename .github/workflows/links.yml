@@ -1,4 +1,4 @@
-name: Atualizar links
+name: Atualizar links e verificá-los
 on:
   schedule:
     - cron: '30 */4 * * *'
