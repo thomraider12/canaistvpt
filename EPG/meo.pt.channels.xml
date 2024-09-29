@@ -8,6 +8,7 @@
   <channel site="meo.pt" lang="pt" site_id="RTP3" xmltv_id="RTP3.pt">RTP 3</channel>
   <channel site="meo.pt" lang="pt" site_id="CNNPT" xmltv_id="CNNPortugal.pt">CNN Portugal</channel>
   <channel site="meo.pt" lang="pt" site_id="VMAISTVI" xmltv_id="VmaisTVI.pt">V+ TVI</channel>
+  <channel site="meo.pt" lang="pt" site_id="SICM" xmltv_id="SICMulher.pt"></channel>
   <channel site="meo.pt" lang="pt" site_id="PORTO" xmltv_id="PortoCanal.pt">Porto Canal</channel>
   <channel site="meo.pt" lang="pt" site_id="VOD" xmltv_id="MEOVideoClube">MEO VideoClube</channel>
   <channel site="meo.pt" lang="pt" site_id="TVIR" xmltv_id="TVIReality.pt">TVI Reality</channel>
@@ -22,5 +23,6 @@
   <channel site="meo.pt" lang="pt" site_id="CNN" xmltv_id="CNNInternationalEurope.us">CNN</channel>
   <channel site="meo.pt" lang="pt" site_id="SKYN" xmltv_id="SkyNewsInternational.uk">Sky News</channel>
   <channel site="meo.pt" lang="pt" site_id="TVGAL" xmltv_id="GaliciaTVEuropa.es">TV Galicia</channel>
-  <channel site="meo.pt" lang="pt" xmltv_id="NatGeoWild.pt" site_id="WILDHD">National Geographic Wild</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="NatGeoWild.pt" site_id="WILDHD">National Geographic
+    Wild</channel>
 </channels>
