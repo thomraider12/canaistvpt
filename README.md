@@ -35,8 +35,10 @@ Pode ser usado o meu m3u (<https://bit.ly/4dUs2qb>), com os canais e rádios aqu
 - SpeedVision (US) ᴴᴰ
 
 ##	Filmes e Documentários:
-- MyTimeMovieNetwork (BR) ᴴᴰ
+- SIC Novelas ᴴᴰ
+- SIC Alta Definição ᴴᴰ
 - Rakuten Documentários ᴴᴰ
+- MyTimeMovieNetwork (BR) ᴴᴰ
 - MovieSphere (BR) ᴴᴰ
 
 ##	Desenhos Animados:
@@ -48,6 +50,7 @@ Pode ser usado o meu m3u (<https://bit.ly/4dUs2qb>), com os canais e rádios aqu
 - 5-Minute-Crafts (US) ᴴᴰ
 - Gametoon (US) ᴴᴰ
 - Love Nature ⁴ᴷ
+- Fireplace ⁴ᴷ
 
 ##	Música:
 - Trace Urban ᴴᴰ
