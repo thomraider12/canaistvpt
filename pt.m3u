@@ -79,10 +79,10 @@ https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01329-otterainc-motorvisionnz-sam
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/speedvision.png" tvg-id="SPEEDVISION.us" group-title="Desporto",SpeedVision (US)
 https://eb9a3a62.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/T05PX1NwZWVkdmlzaW9uX0hMUw/playlist.m3u8
 
-#EXTINF:-1 group-title="TV" tvg-id="SICNovelas.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/SICNovelas.png",SIC Novelas
+#EXTINF:-1 group-title="FilDoc" tvg-id="SICNovelas.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/SICNovelas.png",SIC Novelas
 https://production-fast-sic.content.okast.tv/fa2e8c4385712f9ae705b449477523ec/channels/d9070446-8448-455e-8075-773b1ba12562/f083c6ea-33af-458e-82c5-f27f6b42f9ec/media_.m3u8
 
-#EXTINF:-1 group-title="TV" tvg-id="SICAltaDefinição.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/SICAltaDefinição.png",SIC Alta Definição
+#EXTINF:-1 group-title="FilDoc" tvg-id="SICAltaDefinição.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/SICAltaDefinição.png",SIC Alta Definição
 https://production-fast-sic.content.okast.tv/fa2e8c4385712f9aa54bbe52b1bd9b6b/channels/d9070446-8448-455e-8075-773b1ba12562/fc831b20-f252-4e7d-8cc5-2d05f4d43c1c/media_.m3u8
 
 #EXTINF:-1 group-title="FilDoc" tvg-id="documentaries-pt-rakuten-tv" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rakuten.png",Rakuten Documentaries
