@@ -36,3 +36,31 @@ jobs:
           git add m3u8s/tvi.m3u8
           git commit -m "Atualização automática dos m3u8"
           git push origin main
+
+  test-streams:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: sudo apt-get install -y ffmpeg
+
+      - name: Test Streams
+        run: |
+          # Verifica se o ficheiro channels-link.txt existe
+          if [ ! -f channels-link.txt ]; then
+            echo "Error: channels-link.txt not found"
+            exit 1
+          fi
+
+          # Itera por cada URL no ficheiro channels-link.txt e testa com ffmpeg
+          while read stream; do
+            echo "Testing stream: $stream"
+            if ffmpeg -i "$stream" -t 5 -v error -stats -y -f null -; then
+              echo "Stream $stream is working"
+            else
+              echo "Stream $stream failed"
+            fi
+          done < channels-link.txt
