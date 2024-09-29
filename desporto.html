@@ -45,114 +45,48 @@
         <a id="escolha_canal" href='https://tvdesporto.live/play.php?canal=canal11&height=500&width=900' target='vid'>Canal 11</a>
     </nav>
     <iframe id="escolha_player" src='escolha_d/escolha.html' name='vid' width='900' height='500' allowFullScreen></iframe>
-    <br><br><h1 class="nomecanal">Motorsport.tv</h1>
-  <h2 class="nomecanal2">(apenas em inglês, com legendas em inglês)</h2>
-    <video
-  id="my-video"
-  class="video-js"
-  controls
-  preload="auto"
-  width="900"
-  height="500"
-  poster="https://raw.githubusercontent.com/thomraider12/icones_tv/main/motorsporttv.png"
-  controls
-  data-setup="{}"
->
-  <source
-    src="https://7c8b579d.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/T05PX01vdG9yc3BvcnR0dl9ITFM/playlist.m3u8"
-    type="application/x-mpegURL"
-  />
-  </video>
-  <br><br><h1 class="nomecanal">FIFA+<sup>HD</sup></h1>
-  <h2 class="nomecanal2">(inglês/português, com legendas em inglês)</h2>
+    <br><br>
+    <nav id="nav_escolha">
+      <a id="escolha_canal" href="#home" onclick="changeChannel('escolha_not/escolha.mp4', 'escolha_not/escolha.png'); return false;">Home</a>
+      <a id="escolha_canal" href="#motorsporttv" onclick="changeChannel('https://7c8b579d.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/T05PX01vdG9yc3BvcnR0dl9ITFM/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/motorsporttv.png'); return false;">Motorsport.tv<sup>HD</sup></a>
+      <a id="escolha_canal" href="#fifaplus" onclick="changeChannel('https://f7ccf7fc.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXB0X0ZJRkFQbHVzUG9ydHVndWVzZV9ITFM/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/fifaplus.png'); return false;">FIFA+<sup>HD</sup></a>
+      <a id="escolha_canal" href="#redbulltv" onclick="changeChannel('https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX1JlZEJ1bGxUVl9ITFM/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/redbulltv.png'); return false;">RedBull TV<sup>HD</sup></a>
+      <a id="escolha_canal" href="#fueltv" onclick="changeChannel('https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01074-fueltv-fueltvbrpt-lgbr/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/fueltv.png'); return false;">Fuel TV<sup>HD</sup></a>
+      <a id="escolha_canal" href="#motorvision" onclick="changeChannel('https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01329-otterainc-motorvisionnz-samsungnz/playlist.m3u8?checkedby:iptvcat.com', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/motorvision.png'); return false;">Motorvision<sup>HD</sup></a>
+      <a id="escolha_canal" href="#speedvision" onclick="changeChannel('https://eb9a3a62.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/T05PX1NwZWVkdmlzaW9uX0hMUw/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/speedvision.png'); return false;">SpeedVision<sup>HD</sup></a>
+  </nav>
+  
   <video
-id="my-video"
-class="video-js"
-controls
-preload="auto"
-width="900"
-height="500"
-poster="https://raw.githubusercontent.com/thomraider12/icones_tv/main/fifaplus.png"
-controls
-data-setup="{}"
->
-<source
-  src="https://f7ccf7fc.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXB0X0ZJRkFQbHVzUG9ydHVndWVzZV9ITFM/playlist.m3u8"
-  type="application/x-mpegURL"
-/>
-</video><br><br><h1 class="nomecanal">RedBull TV<sup>HD</sup></h1>
-<h2 class="nomecanal2">(apenas em inglês, com legendas em inglês)</h2>
-<video
-id="my-video"
-class="video-js"
-controls
-preload="auto"
-width="900"
-height="500"
-poster="https://raw.githubusercontent.com/thomraider12/icones_tv/main/redbulltv.png"
-controls
-data-setup="{}"
->
-<source
-src="https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8"
-type="application/x-mpegURL"
-/>
-</video>
-  <br><br><h1 class="nomecanal">Fuel TV<sup>HD</sup></h1>
-  <h2 class="nomecanal2">(pode estar em inglês ou espanhol)</h2>
-    <video
-  id="my-video"
-  class="video-js"
-  controls
-  preload="auto"
-  width="900"
-  height="500"
-  poster="https://raw.githubusercontent.com/thomraider12/icones_tv/main/fueltv.png"
-  controls
-  data-setup="{}"
->
-  <source
-    src="https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01074-fueltv-fueltvemeaes-lges/playlist.m3u8"
-    type="application/x-mpegURL"
-  />
-  </video>
-  <br><br><h1 class="nomecanal">Motorvision<sup>HD</sup></h1>
-  <h2 class="nomecanal2">(apenas em inglês)</h2>
-  <video
-  id="my-video"
-  class="video-js"
-  controls
-  preload="auto"
-  width="900"
-  height="500"
-  poster="https://raw.githubusercontent.com/thomraider12/icones_tv/main/motorvision.png"
-  controls
-  data-setup="{}"
->
-  <source
-    src="https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01329-otterainc-motorvisionnz-samsungnz/playlist.m3u8?checkedby:iptvcat.com"
-    type="application/x-mpegURL"
-  />
-  </video>
-
-  <br><br><h1 class="nomecanal">SpeedVision<sup>HD</sup></h1>
-  <h2 class="nomecanal2">(apenas em inglês, com legendas em inglês)</h2>
-  <video
-  id="my-video"
-  class="video-js"
-  controls
-  preload="auto"
-  width="900"
-  height="500"
-  poster="https://raw.githubusercontent.com/thomraider12/icones_tv/main/speedvision.png"
-  controls
-  data-setup="{}"
->
-  <source
-    src="https://eb9a3a62.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/T05PX1NwZWVkdmlzaW9uX0hMUw/playlist.m3u8?ads.wurl_channel=1325&ads.wurl_name=Speedvision&ads.coppa=0&ads.device_id=%7BDEVICE_ID%7D&ads.dnt=%7BDNT%7D&ads.us_privacy=%7BUS_PRIVACY%7D&ads.gdpr=%7BGDPR%7D&ads.consent=%7BCONSENT%7D&ads.app_name=%7BAPP_NAME%7D&ads.app_bundle=%7BAPP_BUNDLE%7D&ads.app_store_url=%7BAPP_STORE_URL%7D&ads.ifa_type=%7BIFA_TYPE%7D&ads.custom=%7BCUSTOM%7D&ads.device_make=%7BDEVICE_MAKE%7D&ads.device_model=%7BDEVICE_MODEL%7D"
-    type="application/x-mpegURL"
-  />
-  </video>
+      id="escolha_player2"
+      class="video-js"
+      controls
+      preload="auto"
+      width="900"
+      height="500"
+      poster="escolha_not/escolha.png"
+      data-setup="{}"
+  >
+      <source
+          id="video_source"
+          src="escolha_not/escolha.mp4"
+          type="video/mp4"
+      />
+  </video><script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
+  <script>
+      document.addEventListener('DOMContentLoaded', function () {
+          var player = videojs('escolha_player2');
+  
+          window.changeChannel = function(url, poster) {
+              player.poster(poster);
+              player.src({ src: url, type: url.endsWith('.m3u8') ? 'application/x-mpegURL' : 'video/mp4' });
+  
+              // Adiciona um atraso de 500ms antes de reproduzir o vídeo
+              setTimeout(function() {
+                  player.play();
+              }, 500);
+          };
+      });
+  </script>
   <br>
   <br>
   </body>
