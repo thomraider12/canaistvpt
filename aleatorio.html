@@ -31,95 +31,48 @@
   </nav>
 </header></main>
 <body>
-    <h1 class="nomecanal">TravelXP</h1>
-    <video
-  id="my-video"
-  class="video-js"
-  controls
-  preload="auto"
-  width="900"
-  height="500"
-  poster="https://raw.githubusercontent.com/thomraider12/icones_tv/main/travelxp.png"
-  controls
-  data-setup="{}"
->
-  <source
-    src="https://c.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pt_TravelXP/playlist.m3u8"
-    type="application/x-mpegURL"
-  />
-    </video>
-    <br><br><h1 class="nomecanal">5-Minute Crafts</h1>
-    <h2 class="nomecanal2">(apenas em inglês)</h2>
-    <video
-  id="my-video"
-  class="video-js"
-  controls
-  preload="auto"
-  width="900"
-  height="500"
-  poster="https://raw.githubusercontent.com/thomraider12/icones_tv/main/5mincrafts.png"
-  controls
-  data-setup="{}"
->
-  <source
-    src="https://rakutenaa-soul-5mincraftenglish-rakuten-du9p7.amagi.tv/playlist/rakutenAA-soul-5mincraftenglish-rakuten/playlist.m3u8"
-    type="application/x-mpegURL"
-  />
-  </video>
-  <br><br><h1 class="nomecanal">GameToon<sup>HD</sup></h1>
-  <h2 class="nomecanal2">(pode não dar durante algum tempo, de vez em quando)</h2>
-  <video
-id="my-video"
-class="video-js"
-controls
-preload="auto"
-width="900"
-height="500"
-poster="https://raw.githubusercontent.com/thomraider12/icones_tv/main/gametoon.png"
-controls
-data-setup="{}"
->
-<source
-  src="http://iptv.prosto.tv:7000/ch256/video.m3u8"
-  type="application/x-mpegURL"
-/>
-</video>
-  <br><br><h1 class="nomecanal">FailArmy<sup>HD</sup></h1>
-  <h2 class="nomecanal2">(fails em inglês)</h2>
-  <video
-id="my-video"
-class="video-js"
-controls
-preload="auto"
-width="900"
-height="500"
-poster="https://raw.githubusercontent.com/thomraider12/icones_tv/main/failarmy.png"
-controls
-data-setup="{}"
->
-<source
-  src="https://jukin-failarmy-international-1-eu.vidaa.wurl.tv/playlist.m3u8"
-  type="application/x-mpegURL"
-/>
-</video>
-<br><br><h1 class="nomecanal">LoveNature<sup>4K</sup></h1>
-<h2 class="nomecanal2">(tem legendas, em inglês)</h2>
+  <nav id="nav_escolha">
+    <a id="escolha_canal" href="#home" onclick="changeChannel('escolha_not/escolha.mp4', 'escolha_not/escolha.png'); return false;">Home</a>
+    <a id="escolha_canal" href="#travelxp" onclick="changeChannel('https://b3cc72d0160f4e168712e880c78c4dcc.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pt_TravelXP/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/travelxp.png'); return false;">TravelXP<sup>HD</sup></a>
+    <a id="escolha_canal" href="#5mincrafts" onclick="changeChannel('https://rakutenaa-soul-5mincraftenglish-rakuten-du9p7.amagi.tv/playlist/rakutenAA-soul-5mincraftenglish-rakuten/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/5mincrafts.png'); return false;">5 Minutes Crafts<sup>HD (ENG)</sup></a>
+    <a id="escolha_canal" href="#gametoon" onclick="changeChannel('http://iptv.prosto.tv:7000/ch256/video.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/gametoon.png'); return false;">Gametoon<sup>HD (ENG)</sup></a>
+    <a id="escolha_canal" href="#failarmy" onclick="changeChannel('https://jukin-failarmy-international-1-eu.vidaa.wurl.tv/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/failarmy.png'); return false;">FailArmy<sup>HD (ENG)</sup></a>
+    <a id="escolha_canal" href="#lovenature4k" onclick="changeChannel('https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/lovenature4k.png'); return false;">Love Nature<sup>4K (ENG)</sup></a>
+    <a id="escolha_canal" href="#fireplace4k" onclick="changeChannel('https://d22w22d3eu3t35.cloudfront.net/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/fireplace4k.png'); return false;">Fireplace <sup>4K</sup></a>
+</nav>
+
 <video
-id="my-video"
-class="video-js"
-controls
-preload="auto"
-width="900"
-height="500"
-poster="https://github.com/thomraider12/icones_tv/blob/main/lovenature4k.png?raw=true"
-controls
-data-setup="{}"
+    id="escolha_player"
+    class="video-js"
+    controls
+    preload="auto"
+    width="900"
+    height="500"
+    poster="escolha_not/escolha.png"
+    data-setup="{}"
 >
-<source
-src="https://lnc-love-nature.tubi.video/playlist.m3u8"
-type="application/x-mpegURL"
-/>
+    <source
+        id="video_source"
+        src="escolha_not/escolha.mp4"
+        type="video/mp4"
+    />
 </video>
+<script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var player = videojs('escolha_player');
+
+        window.changeChannel = function(url, poster) {
+            player.poster(poster);
+            player.src({ src: url, type: url.endsWith('.m3u8') ? 'application/x-mpegURL' : 'video/mp4' });
+
+            // Adiciona um atraso de 500ms antes de reproduzir o vídeo
+            setTimeout(function() {
+                player.play();
+            }, 500);
+        };
+    });
+</script>
     <br>
     <br>
     <footer>Feito por Tomás Afonso. 2024</footer>

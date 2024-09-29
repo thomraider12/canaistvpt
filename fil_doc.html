@@ -21,8 +21,7 @@
         <li><a href="desporto.html">Desporto</a></li>
         <li><a href="noticias.html">Notícias</a></li>
         <li><a href="secundarios.html">Secundários</a></li>
-        <li><a href="fil_doc.html">Filmes/
-        <br>Doc. (Atual)</a></li>
+        <li><a href="fil_doc.html">Filmes/<br>Doc. (Atual)</a></li>
         <li><a href="banda_d.html">Desenhos<br>Anim.</a></li>
         <li><a href="radios.html">Rádios</a></li>
         <li><a href="aleatorio.html">Aleatório</a></li>
@@ -31,60 +30,49 @@
   </nav>
 </header></main>
 <body>
-  <h1 class="nomecanal">NatGeo Wild</h1>
-  <iframe width="900" height="500" src="https://www.youtube.com/embed/BJ3Yv572V1A" title="NatGeo WILD" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  <br><br><h1 class="nomecanal">MyTimeMovieNetwork</h1>
-  <video
-  id="my-video"
-  class="video-js"
-  controls
-  preload="auto"
-  width="900"
-  height="500"
-  poster="https://raw.githubusercontent.com/thomraider12/icones_tv/main/mtmn.png"
-  controls
-  data-setup="{}"
+  <nav id="nav_escolha">
+    <a id="escolha_canal" href="#home" onclick="changeChannel('escolha_not/escolha.mp4', 'escolha_not/escolha.png'); return false;">Home</a>
+    <a id="escolha_canal" href="#sicnovelas" onclick="changeChannel('https://production-fast-sic.content.okast.tv/fa2e8c4385712f9ae705b449477523ec/channels/d9070446-8448-455e-8075-773b1ba12562/f083c6ea-33af-458e-82c5-f27f6b42f9ec/media_.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/SICNovelas.png'); return false;">SIC Novelas<sup>HD</sup></a>
+    <a id="escolha_canal" href="#sicaltad" onclick="changeChannel('https://production-fast-sic.content.okast.tv/fa2e8c4385712f9aa54bbe52b1bd9b6b/channels/d9070446-8448-455e-8075-773b1ba12562/fc831b20-f252-4e7d-8cc5-2d05f4d43c1c/media_.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/SICAltaDefinição.png'); return false;">SIC Alta Definição<sup>HD</sup></a>
+    <a id="escolha_canal" href="#rakutend" onclick="changeChannel('https://rakuten-documentaries-14-pt.samsung.wurl.tv/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/rakuten.png'); return false;">Rakuten Documentaries<sup>HD</sup></a>
+    <a id="escolha_canal" href="#mtmn" onclick="changeChannel('https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/mtmn.png'); return false;">MyTimeMovieNetwork<sup>HD</sup></a>
+    <a id="escolha_canal" href="#moviesphere" onclick="changeChannel('https://moviesphere-plex.amagi.tv/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/moviesphere.png'); return false;">MovieSphere<sup>HD</sup></a>
+</nav>
+
+<video
+    id="escolha_player"
+    class="video-js"
+    controls
+    preload="auto"
+    width="900"
+    height="500"
+    poster="escolha_not/escolha.png"
+    data-setup="{}"
 >
-  <source
-    src="https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8"
-    type="application/x-mpegURL"
-  />
-  </video>
-  <br><br><h1 class="nomecanal">Rakuten Documentaries</h1>
-  <video
-  id="my-video"
-  class="video-js"
-  controls
-  preload="auto"
-  width="900"
-  height="500"
-  poster="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rakuten.png"
-  controls
-  data-setup="{}"
->
-  <source
-    src="https://rakuten-documentaries-14-pt.samsung.wurl.tv/playlist.m3u8"
-    type="application/x-mpegURL"
-  />
-  </video>
-  <br><br><h1 class="nomecanal">MovieSphere</h1>
-  <h2 class="nomecanal2">(apenas em inglês, com legendas em inglês)</h2>
-  <video
-  id="my-video"
-  class="video-js"
-  controls
-  preload="auto"
-  width="900"
-  height="500"
-  poster="https://raw.githubusercontent.com/thomraider12/icones_tv/main/moviesphere.png"
-  controls
-  data-setup="{}"
->
-  <source
-    src="https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,MovieSphere.m3u8"
-    type="application/x-mpegURL"
-  />
-  </video>
+    <source
+        id="video_source"
+        src="escolha_not/escolha.mp4"
+        type="video/mp4"
+    />
+</video><br><br>
+<h1 class="nomecanal">NatGeo Wild</h1>
+<iframe width="900" height="500" src="https://www.youtube.com/embed/BJ3Yv572V1A" title="NatGeo WILD" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var player = videojs('escolha_player');
+
+        window.changeChannel = function(url, poster) {
+            player.poster(poster);
+            player.src({ src: url, type: url.endsWith('.m3u8') ? 'application/x-mpegURL' : 'video/mp4' });
+
+            // Adiciona um atraso de 500ms antes de reproduzir o vídeo
+            setTimeout(function() {
+                player.play();
+            }, 500);
+        };
+    });
+</script>
     <br>
     <br>
     <footer>Feito por Tomás Afonso. 2024</footer>
