@@ -3,6 +3,7 @@ import requests
 from datetime import datetime, timedelta, time, timezone
 import pytz
 import unicodedata
+import time as times
 
 tz = pytz.timezone('Europe/London')
 
@@ -22,7 +23,7 @@ def get_days() -> list:
 
 def build_xmltv(channels: list, programmes: list) -> bytes:
     """
-Make the channels and programmes into something readable by XMLTV
+    Make the channels and programmes into something readable by XMLTV
     :param channels: The list of channels to be generated
     :param programmes: The list of programmes to be generated
     :return: A sequence of bytes for XML
@@ -33,16 +34,19 @@ Make the channels and programmes into something readable by XMLTV
     data = etree.Element("tv")
     data.set("generator-info-name", "rakuten-epg")
     data.set("generator-info-url", "https://github.com/dp247/")
+    
     for ch in channels:
         channel = etree.SubElement(data, "channel")
         channel.set("id", str(ch.get("id")))
         name = etree.SubElement(channel, "display-name")
         name.set("lang", ch.get("language")[:-1].lower())
-        name.text = ch.get("name")
+        name.text = remove_control_characters(ch.get("name"))  # Remover caracteres inválidos aqui
+        
         if ch.get("icon") is not None:
             icon_src = etree.SubElement(channel, "icon")
             icon_src.set("src", ch.get("icon"))
             icon_src.text = ''
+    
     for pr in programmes:
         programme = etree.SubElement(data, 'programme')
         start_time = datetime.fromtimestamp(pr.get('starts_at'), tz).strftime(dt_format)
@@ -54,24 +58,23 @@ Make the channels and programmes into something readable by XMLTV
 
         title = etree.SubElement(programme, "title")
         title.set('lang', 'pt')
-        title.text = pr.get("title")
+        title.text = remove_control_characters(pr.get("title"))  # Remover caracteres inválidos aqui
 
         if pr.get("subtitle") is not None:
             subtitle = etree.SubElement(programme, "sub-title")
             subtitle.set('lang', 'pt')
-            subtitle.text = pr.get("subtitle")
+            subtitle.text = remove_control_characters(pr.get("subtitle"))  # Remover caracteres inválidos aqui
 
         if pr.get('description') is not None:
             description = etree.SubElement(programme, "desc")
             description.set('lang', 'pt')
-            description.text = remove_control_characters(pr.get("description"))
+            description.text = remove_control_characters(pr.get("description"))  # Remover caracteres inválidos aqui
 
         if pr.get('tags') is not None:
             if len(pr.get('tags')) > 0:
                 category = etree.SubElement(programme, "category")
                 category.set('lang', 'pt')
-                for tag in pr.get('tags'):
-                    category.text = tag.get("name")
+                category.text = remove_control_characters(pr.get('tags')[0].get("name"))  # Garantir texto válido aqui
 
     return etree.tostring(data, pretty_print=True, encoding='utf-8')
 
@@ -89,6 +92,8 @@ url_string = (f"classification_id=64&device_identifier=web"
               f"&per_page=250")
 
 url = "https://gizmo.rakuten.tv/v3/live_channels?" + url_string.replace(":", "%3A")
+print(url)
+times.sleep(4)
 print("Grabbing data")
 res = requests.get(url)
 if res.status_code != 200:
@@ -106,28 +111,28 @@ for channel in json:
     print(ch_name)
     ch_number = channel['channel_number']
     ch_id = channel['id']
+    
+    ch_icon = None
     if channel['images'] is not None:
         images = channel['images']
         if images.get('artwork_negative') is not None:
             ch_icon = images.get('artwork_negative')
         elif images.get('artwork') is not None:
             ch_icon = images.get('artwork')
-        else:
-            ch_icon = None
+
+    ch_language = None
+    ch_tags = None
     if channel['labels'] is not None:
         labels = channel['labels']
         if labels.get('languages') is not None:
             ch_language = labels.get('languages')[0].get('id')
-        else:
-            ch_language = None
         if labels.get('tags') is not None:
             ch_tags = labels.get('tags')
-        else:
-            ch_tags = None
+    
+    ch_age_rating = None
     if channel['classification'] is not None:
         ch_age_rating = channel['classification'].get('age')
-    else:
-        ch_age_rating = None
+    
     channels_data.append({
         "name":       ch_name,
         "epg_number": ch_number,
@@ -136,6 +141,7 @@ for channel in json:
         "language":   ch_language,
         "tags":       ch_tags
     })
+    
     programmes_list = channel['live_programs']
     for item in programmes_list:
         title = item['title']
@@ -157,7 +163,7 @@ for channel in json:
 
 channel_xml = build_xmltv(channels_data, programme_data)
 
-# Write some XML
+# Write the XML to a file
 with open('../epg-rakuten-tv.xml', 'wb') as f:
     f.write(channel_xml)
     f.close()
