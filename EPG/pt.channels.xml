@@ -8,7 +8,7 @@
   <channel site="meo.pt" lang="pt" site_id="RTP3" xmltv_id="RTP3.pt">RTP 3</channel>
   <channel site="meo.pt" lang="pt" site_id="CNNPT" xmltv_id="CNNPortugal.pt">CNN Portugal</channel>
   <channel site="meo.pt" lang="pt" site_id="VMAISTVI" xmltv_id="VmaisTVI.pt">V+ TVI</channel>
-  <channel site="meo.pt" lang="pt" site_id="SICNOV" xmltv_id="SICNovelas.pt"></channel>
+  <channel site="meo.pt" lang="pt" site_id="SICM" xmltv_id="SICNovelas.pt"></channel>
   <channel site="meo.pt" lang="pt" xmltv_id="EuronewsPortuguese.fr" site_id="EURN">Euronews PT</channel>
   <channel site="meo.pt" lang="pt" xmltv_id="ARTV.pt" site_id="ARTV">ARTV</channel>
   <channel site="meo.pt" lang="pt" xmltv_id="TVIReality.pt" site_id="TVIR">TVI Reality</channel>
