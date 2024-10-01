@@ -23,13 +23,6 @@ npm run grab -- --channels=../EPG/nos.pt.channels.xml --output=../EPG/epg-nos-pt
 echo "EPG da NOS atualizada!"
 sleep 3
 
-# RTP EPG
-
-npm run grab -- --site=rtp.pt --output=../EPG/epg-rtp-pt.xml --days=7 --maxConnections=500
-
-echo "EPG da RTP atualizada!"
-sleep 3
-
 # Plex EPG 
 
 npm run grab -- --channels=../EPG/plex.tv.channels.xml --output=../EPG/epg-plex-tv.xml --days=7 --maxConnections=50
