@@ -23,13 +23,6 @@ npm run grab -- --channels=../EPG/nos.pt.channels.xml --output=../EPG/epg-nos-pt
 echo "EPG da NOS atualizada!"
 sleep 3
 
-# Plex EPG 
-
-npm run grab -- --channels=../EPG/plex.tv.channels.xml --output=../EPG/epg-plex-tv.xml --days=7 --maxConnections=50
-
-echo "EPG do Plex atualizada!"
-sleep 3
-
 # Rytec EPG
 
 cd ../EPG
