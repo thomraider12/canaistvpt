@@ -8,7 +8,6 @@ import time as times
 tz = pytz.timezone('Europe/London')
 
 
-# From https://stackoverflow.com/questions/4324790/removing-control-characters-from-a-string-in-python
 def remove_control_characters(s):
     return "".join(ch for ch in s if unicodedata.category(ch)[0] != "C")
 

@@ -8,15 +8,14 @@ jobs:
   Update-EPG:
     runs-on: ubuntu-latest
     steps:
-    
       - name: checkout
         uses: actions/checkout@v4
-        
+
       - name: checkout iptv-org/epg repo
         uses: actions/checkout@v4
         with:
-         repository: iptv-org/epg
-         path: iptv-org-epg
+          repository: iptv-org/epg
+          path: iptv-org-epg
 
       - name: Set up Python
         uses: actions/setup-python@v3
@@ -31,21 +30,26 @@ jobs:
 
       - name: Atualizar EPGs principais
         run: sh EPG/scripts/epg-pt.sh
-        
+
       - name: Atualizar listas Rakuten
-        run: | 
+        run: |
+          cd EPG/scripts
+          python opto.py
+
+      - name: Atualizar listas Rakuten
+        run: |
           cd EPG/scripts
           python rakuten.py
-          
+
       - name: Atualizar listas FamaTV
-        run: | 
+        run: |
           cd EPG/scripts
           python famatv.py
           cd -
           cd EPG
           rm -f epg-fama-pt.xml.xz
           xz -z epg-fama-pt.xml
-          
+
       - name: Atualizar listas Rádios
         run: |
           cd EPG/scripts
@@ -54,12 +58,12 @@ jobs:
           cd EPG
           rm -f epg-radios-pt.xml.xz
           xz -z epg-radios-pt.xml
-          
+
       - name: setup git config
         run: |
           git config user.name "EPG's bot"
           git config user.email "<>"
-          
+
       - name: commit
         run: |
           git pull
