@@ -33,7 +33,6 @@ jobs:
 
       - name: Atualizar listas Opto SIC
         run: |
-          cd EPG/scripts
           python opto.py
 
       - name: Atualizar listas Rakuten
