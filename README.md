@@ -3,10 +3,11 @@
 Este projeto foi criado por Tomás Afonso, e tem vários canais de Portugal e do Mundo para entreter as pessoas.
 Pode ser usado o meu m3u (<https://bit.ly/4dUs2qb>), com os canais e rádios aqui em baixo.
 
-  ---
+---
 
 # Canais:
-- RTP 1 ᴴᴰ 
+
+- RTP 1 ᴴᴰ
 - RTP 2 ᴴᴰ
 - SIC ᴴᴰ
 - TVI ᴴᴰ
@@ -21,7 +22,8 @@ Pode ser usado o meu m3u (<https://bit.ly/4dUs2qb>), com os canais e rádios aqu
 - TVI Reality ᴴᴰ
 - Fama TV ᴴᴰ
 
-##	Secundários e Desporto:
+## Secundários e Desporto:
+
 - CNN (US) ᴴᴰ
 - TVGalicia (ESP) ᴴᴰ
 - Fox Now (US) ᴴᴰ
@@ -34,30 +36,34 @@ Pode ser usado o meu m3u (<https://bit.ly/4dUs2qb>), com os canais e rádios aqu
 - Motorvision (NZ) ᴴᴰ
 - SpeedVision (US) ᴴᴰ
 
-##	Filmes e Documentários:
-- SIC Novelas ᴴᴰ
+## Filmes e Documentários:
+
 - SIC Alta Definição ᴴᴰ
 - Rakuten Documentários ᴴᴰ
 - MyTimeMovieNetwork (BR) ᴴᴰ
 - MovieSphere (BR) ᴴᴰ
 
-##	Desenhos Animados:
+## Desenhos Animados:
+
 - Anime (BR) ᴴᴰ
 - Rakuten Família ᴴᴰ
 
-##	Aleatórios:
+## Aleatórios:
+
 - TravelXP ᴴᴰ
 - 5-Minute-Crafts (US) ᴴᴰ
 - Gametoon (US) ᴴᴰ
 - Love Nature ⁴ᴷ
 - Fireplace ⁴ᴷ
 
-##	Música:
+## Música:
+
 - Trace Urban ᴴᴰ
 - Trace Brasil ᴴᴰ
 - ClubbingTV ᴴᴰ
 
 # Rádios:
+
 - DJ Tomás Afonso
 - Rádio Comercial
 - RFM
