@@ -34,6 +34,7 @@ jobs:
       - name: Atualizar listas Opto SIC
         run: |
           python opto.py
+          python opto2.py
 
       - name: Atualizar listas Rakuten
         run: |
