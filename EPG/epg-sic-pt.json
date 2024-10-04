@@ -1,40 +1,5 @@
 [
     {
-        "id": "91a209e0-dd75-4c6a-9e7d-fc822569069d",
-        "title": "Jorge Gabriel - Alta Defini\u00e7\u00e3o",
-        "type": "epg",
-        "dynamic_label": false,
-        "classification": 0,
-        "premium": false,
-        "exclusive": false,
-        "fast": false,
-        "item_id": "91a209e0-dd75-4c6a-9e7d-fc822569069d",
-        "channel": {
-            "id": "549519c3-31fa-42de-a621-15e981082fd9",
-            "name": "SIC Alta Defini\u00e7\u00e3o",
-            "image": [
-                {
-                    "name": "logo",
-                    "url": "https://cfvod.kaltura.com/p/4526593/sp/452659300/thumbnail/entry_id/1_h7yt338j/width/0/height/0/quality/85/format/png32"
-                },
-                {
-                    "name": "landscape",
-                    "url": "https://cfvod.kaltura.com/p/4526593/sp/452659300/thumbnail/entry_id/1_bvr39xkr/width/0/height/0/quality/85"
-                }
-            ],
-            "media_id": "549519c3-31fa-42de-a621-15e981082fd9",
-            "dvr": false,
-            "fast": true,
-            "use_catch_up": false
-        },
-        "start_date": "2024-10-04T20:11:00Z",
-        "end_date": "2024-10-04T20:42:00Z",
-        "start_time": 1728072660,
-        "end_time": 1728074520,
-        "episode_number": 59,
-        "season_number": 1
-    },
-    {
         "id": "fcac6c89-c025-47cf-b7e0-d6ea45750249",
         "title": "Alta Defini\u00e7\u00e3o - Manos Guedes",
         "type": "epg",
