@@ -20,7 +20,7 @@ if response.status_code == 200:
     epg_data = response.json()
     
     # Caminho do arquivo JSON
-    json_file_path = os.path.join("..", "EPG", "epg-sic-pt.json")
+    json_file_path = os.path.join("EPG", "epg-sic-pt.json")
     
     # Salva o JSON em um arquivo
     with open(json_file_path, 'w') as json_file:
