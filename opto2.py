@@ -57,7 +57,7 @@ def save_xml_as_lzma(xml_data, output_filename):
 # Exemplo de uso
 def main():
     # Carregar o JSON de um ficheiro
-    input_json_file = 'epg-sic-pt.json'
+    input_json_file = 'EPG/epg-sic-pt.json'
     output_xml_file = 'EPG/epg-sic-pt.xml.xz'
 
     with open(input_json_file, 'r', encoding='utf-8') as f:
