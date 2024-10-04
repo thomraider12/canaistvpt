@@ -29,8 +29,11 @@ if response.status_code == 200:
     # Caminho do arquivo XML
     xml_file_path = os.path.join(epg_directory, "epg-sic-pt.xml")
     
-    # Converte o JSON para XML
-    xml_data = xmltodict.unparse({"epg": epg_data}, pretty=True)  # Converte para XML
+    # Encapsula o conteúdo JSON em uma raiz chamada "programs" (ou qualquer outro nome)
+    epg_root = {"programs": epg_data}
+    
+    # Converte o JSON encapsulado para XML
+    xml_data = xmltodict.unparse(epg_root, pretty=True)  # Converte para XML
     
     # Salva o XML em um arquivo
     with open(xml_file_path, 'w') as xml_file:
