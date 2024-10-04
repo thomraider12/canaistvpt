@@ -2,7 +2,8 @@ import requests
 import json
 import os
 import time
-import lzma  # Importando a biblioteca para compressão
+import lzma
+import xmltodict
 
 # Obter a data atual e a data de 2 dias depois em formato Unix
 start_date = int(time.time())
@@ -19,26 +20,33 @@ if response.status_code == 200:
     # Obtém o conteúdo em JSON
     epg_data = response.json()
     
+    # Caminho absoluto para a pasta EPG
+    epg_directory = os.path.join(os.path.dirname(__file__), '..', 'EPG')
+
     # Cria a pasta EPG caso não exista
-    os.makedirs("EPG", exist_ok=True)
+    os.makedirs(epg_directory, exist_ok=True)
     
-    # Caminho do arquivo JSON
-    json_file_path = os.path.join("EPG", "epg-sic-pt.json")
+    # Caminho do arquivo XML
+    xml_file_path = os.path.join(epg_directory, "epg-sic-pt.xml")
     
-    # Salva o JSON em um arquivo
-    with open(json_file_path, 'w') as json_file:
-        json.dump(epg_data, json_file, indent=4)
+    # Converte o JSON para XML
+    xml_data = xmltodict.unparse({"epg": epg_data}, pretty=True)  # Converte para XML
     
-    print(f"EPG salva em: {json_file_path}")
+    # Salva o XML em um arquivo
+    with open(xml_file_path, 'w') as xml_file:
+        xml_file.write(xml_data)
+
+    print(f"EPG salva em: {xml_file_path}")
 
     # Caminho do arquivo .xz
-    xz_file_path = os.path.join("EPG", "epg-sic-pt.json.xz")
+    xz_file_path = os.path.join(epg_directory, "epg-sic-pt.xml.xz")
 
-    # Compacta o arquivo JSON em .xz
-    with open(json_file_path, 'rb') as json_file:
+    # Compacta o arquivo XML em .xz
+    with open(xml_file_path, 'rb') as xml_file:
         with lzma.open(xz_file_path, 'wb') as xz_file:
-            xz_file.write(json_file.read())
+            xz_file.write(xml_file.read())
 
     print(f"EPG comprimida em: {xz_file_path}")
+
 else:
     print(f"Erro ao obter EPG: {response.status_code} - {response.text}")
