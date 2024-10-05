@@ -31,10 +31,12 @@ jobs:
       - name: Atualizar EPGs principais
         run: sh EPG/scripts/epg-pt.sh
 
-      - name: Atualizar listas Opto SIC
+        - name: Atualizar listas Opto SIC
         run: |
-          python opto.py
-          python opto2.py
+          python EPG/scripts/opto.py
+          python EPG/scripts/opto2.py
+          rm EPG/epg-sic-pt.json
+      
 
       - name: Atualizar listas Rakuten
         run: |

@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET
 import json
 import lzma
+import os
 
 from datetime import datetime
 
@@ -56,10 +57,11 @@ def save_xml_as_lzma(xml_data, output_filename):
 
 # Exemplo de uso
 def main():
-    # Carregar o JSON de um ficheiro
-    input_json_file = 'EPG/epg-sic-pt.json'
-    output_xml_file = 'EPG/epg-sic-pt.xml.xz'
+    # Caminho do JSON de entrada (na pasta EPG) e XML de saída
+    input_json_file = os.path.join(os.path.dirname(__file__), "..", "epg-sic-pt.json")
+    output_xml_file = os.path.join(os.path.dirname(__file__), "..", "epg-sic-pt.xml.xz")
 
+    # Carregar o JSON de um ficheiro
     with open(input_json_file, 'r', encoding='utf-8') as f:
         json_data = json.load(f)
     
