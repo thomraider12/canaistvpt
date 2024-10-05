@@ -2,7 +2,7 @@
 
 Este projeto foi criado por Tomás Afonso, e tem vários canais de Portugal e do Mundo para entreter as pessoas.
 Pode ser usado com a lista M3U (<https://thomraider12.github.io/canaistvpt/pt.m3u>), com a lista de canais e rádios aqui em baixo.
-Também existe uma lista M3U das MEO Beachcam's (<https://thomraider12.github.io/canaistvpt/m3u8s/beachcams.m3u>)
+Também existe uma lista M3U das MEO Beachcam's (<https://thomraider12.github.io/canaistvpt/m3u8s/beachcams.m3u>), e de alguns programas (PCNELID, Eixo do Mal e Outro Lado (em <https://github.com/thomraider12/canaistvpt/tree/main/m3u8s>))
 
 ---
 
@@ -86,6 +86,7 @@ Também existe uma lista M3U das MEO Beachcam's (<https://thomraider12.github.io
 # Beachcam's:
 
 ## Praias do Norte
+
 - Vila Praia de Âncora
 - Esposende
 - Ofir
@@ -98,6 +99,7 @@ Também existe uma lista M3U das MEO Beachcam's (<https://thomraider12.github.io
 - Esmoriz
 
 ## Praias do Centro
+
 - Furadouro
 - Praia da Torreira
 - Praia da Barra
@@ -113,6 +115,7 @@ Também existe uma lista M3U das MEO Beachcam's (<https://thomraider12.github.io
 - Praia da Vieira
 
 ## Praias Costa Oeste
+
 - São Pedro de Moel
 - Nazaré - Forte S. Miguel Arcanjo
 - Nazaré - Forte S. Miguel Arcanjo Panorâmica
@@ -130,6 +133,7 @@ Também existe uma lista M3U das MEO Beachcam's (<https://thomraider12.github.io
 - Santa Cruz - Praia Azul
 
 ## Praias de Mafra
+
 - Praia da Calada
 - São Lourenço
 - Ribeira D'Ilhas
@@ -140,12 +144,14 @@ Também existe uma lista M3U das MEO Beachcam's (<https://thomraider12.github.io
 - Foz do Lizandro
 
 ## Praias de Sintra
+
 - Praia das Maçãs
 - Praia Pequena
 - Praia Grande - Norte
 - Praia Grande - Sul
 
 ## Praias de Cascais
+
 - Praia do Guincho - Norte
 - Praia do Guincho - Sul
 - Praia da Cresmina
@@ -162,12 +168,14 @@ Também existe uma lista M3U das MEO Beachcam's (<https://thomraider12.github.io
 - Carcavelos - Calhau
 
 ## Praias de Oeiras
+
 - Praia da Torre
 - Santo Amaro
 - Paço de Arcos
 - Caxias
 
 ## Praias de Almada
+
 - Costa de Caparica - S. João
 - Costa de Caparica - CDS Norte
 - Costa de Caparica - CDS Sul
@@ -177,16 +185,19 @@ Também existe uma lista M3U das MEO Beachcam's (<https://thomraider12.github.io
 - Fonte da Telha
 
 ## Praias de Sesimbra
+
 - Lagoa de Albufeira
 - Praia do Meco
 - Praia das Bicas
 - Praia Sesimbra
 
 ## Praias de Setúbal
+
 - Portinho da Arrábida
 - Albarquel
 
 ## Praias do Alentejo
+
 - Troia
 - Comporta
 - Praia do Carvalhal
@@ -199,6 +210,7 @@ Também existe uma lista M3U das MEO Beachcam's (<https://thomraider12.github.io
 - Zambujeira do Mar
 
 ## Praias do Algarve
+
 - Odeceixe
 - Monte Clérigo
 - Arrifana
@@ -220,14 +232,17 @@ Também existe uma lista M3U das MEO Beachcam's (<https://thomraider12.github.io
 - Praia Verde - Castro Marim
 
 ## Praias das Ilhas
+
 - Madeira - Ponta Pequena - Paul
 - Madeira - Jardim do Mar
 - Madeira - Porto Santo
 
 ## Praias fluviais/piscinas
+
 - Praia das Rocas
 
 ## Lagos e rios
+
 - Ria de Aveiro - Murtosa
 - Ferreira do Zêzere - Cable Park
 - Ferreira do Zêzere - Lago Azul
