@@ -27,11 +27,11 @@ jobs:
           cd EPG/scripts
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-
+          
       - name: Atualizar EPGs principais
         run: sh EPG/scripts/epg-pt.sh
 
-        - name: Atualizar listas Opto SIC
+      - name: Atualizar listas Opto SIC
         run: |
           python EPG/scripts/opto.py
           python EPG/scripts/opto2.py
