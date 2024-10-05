@@ -79,21 +79,27 @@ https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01329-otterainc-motorvisionnz-sam
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/speedvision.png" tvg-id="SPEEDVISION.us" group-title="Desporto",SpeedVision (US)
 https://eb9a3a62.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/T05PX1NwZWVkdmlzaW9uX0hMUw/playlist.m3u8
 
-#EXTINF:-1 group-title="FilDoc" tvg-id="549519c3-31fa-42de-a621-15e981082fd9" tvg-logo="https://github.com/thomraider12/icones_tv/raw/refs/heads/main/SICAltaDefini%C3%A7%C3%A3o.png",SIC Alta Definição
+#EXTINF:-1 group-title="Filmes, Documentários, Novelas" tvg-id="549519c3-31fa-42de-a621-15e981082fd9" tvg-logo="https://github.com/thomraider12/icones_tv/raw/refs/heads/main/SICAltaDefini%C3%A7%C3%A3o.png",SIC Alta Definição
 #EXTVLCOPT:http-user-agent=Firefox
 #EXTVLCOPT:http-referrer=https://opto.sic.pt/
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://production-fast-sic.content.okast.tv/fa2e8c4385712f9aa54bbe52b1bd9b6b/channels/d9070446-8448-455e-8075-773b1ba12562/fc831b20-f252-4e7d-8cc5-2d05f4d43c1c/media_.m3u8
 
+#EXTINF:-1 group-title="Filmes, Documentários, Novelas" tvg-id="d47400e0-19d9-4f71-94f4-2b4cfdc1a2ca" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/SICReplay.png",SIC Replay
+#EXTVLCOPT:http-user-agent=Firefox
+#EXTVLCOPT:http-referrer=https://opto.sic.pt/
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://production-fast-sic.content.okast.tv/fa2e8c4385712f9a7dce4ff2dcebac2e/channels/d9070446-8448-455e-8075-773b1ba12562/d47eae0f-ad77-414a-9a1d-2a6628ba18c3/media_.m3u8
 
-#EXTINF:-1 group-title="FilDoc" tvg-id="documentaries-pt-rakuten-tv" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rakuten.png",Rakuten Documentaries
+#EXTINF:-1 group-title="Filmes, Documentários, Novelas" tvg-id="documentaries-pt-rakuten-tv" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rakuten.png",Rakuten Documentaries
 https://rakuten-documentaries-14-pt.samsung.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 group-title="FilDoc" tvg-id="USBC3900018K6" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/mtmn.png",MyTime Movie Network (BR)
+#EXTINF:-1 group-title="Filmes, Documentários, Novelas" tvg-id="USBC3900018K6" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/mtmn.png",MyTime Movie Network (BR)
 https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 group-title="FilDoc" tvg-id="MovieSphere" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/moviesphere.png",MovieSphere
+#EXTINF:-1 group-title="Filmes, Documentários, Novelas" tvg-id="MovieSphere" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/moviesphere.png",MovieSphere
 https://moviesphere-plex.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 group-title="BD" tvg-id="608181d420fc8500075f612a" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/anime.png",Anime
