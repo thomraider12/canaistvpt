@@ -39,6 +39,7 @@ Pode ser usado o meu m3u (<https://bit.ly/4dUs2qb>), com os canais e rádios aqu
 ## Filmes e Documentários:
 
 - SIC Alta Definição ᴴᴰ
+- SIC Replay ᴴᴰ
 - Rakuten Documentários ᴴᴰ
 - MyTimeMovieNetwork (BR) ᴴᴰ
 - MovieSphere (BR) ᴴᴰ
