@@ -4,6 +4,7 @@ from datetime import datetime, timedelta, time, timezone
 import pytz
 import unicodedata
 import time as times
+import lzma
 
 tz = pytz.timezone('Europe/London')
 
@@ -31,8 +32,6 @@ def build_xmltv(channels: list, programmes: list) -> bytes:
     dt_format = '%Y%m%d%H%M%S %z'
 
     data = etree.Element("tv")
-    data.set("generator-info-name", "rakuten-epg")
-    data.set("generator-info-url", "https://github.com/dp247/")
     
     for ch in channels:
         channel = etree.SubElement(data, "channel")
@@ -162,7 +161,6 @@ for channel in json:
 
 channel_xml = build_xmltv(channels_data, programme_data)
 
-# Write the XML to a file
-with open('../epg-rakuten-tv.xml', 'wb') as f:
+with lzma.open('../epg-rakuten-tv.xml.xz', 'wb') as f:
     f.write(channel_xml)
     f.close()
