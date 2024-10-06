@@ -111,13 +111,13 @@ https://rakuten-family-14-pt.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="Aleatórios" tvg-id="travelxp-pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/travelxp.png",TravelXP
 https://b3cc72d0160f4e168712e880c78c4dcc.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pt_TravelXP/playlist.m3u8
 
-#EXTINF:-1 group-title="Aleatórios" tvg-id="5-minutes-craft-en" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/5mincrafts.png",5-Minute-Crafts (US)
+#EXTINF:-1 group-title="Aleatórios" tvg-id="5MinuteCrafts.us" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/5mincrafts.png",5-Minute-Crafts (US)
 https://rakutenaa-soul-5mincraftenglish-rakuten-du9p7.amagi.tv/playlist/rakutenAA-soul-5mincraftenglish-rakuten/playlist.m3u8
 
 #EXTINF:-1 group-title="Aleatórios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/gametoon.png",Gametoon
 http://iptv.prosto.tv:7000/ch256/video.m3u8
 
-#EXTINF:-1 group-title="Aleatórios" tvg-id="jukin-fail-army-new" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/failarmy.png",FailArmy (US)
+#EXTINF:-1 group-title="Aleatórios" tvg-id="FailArmy.us" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/failarmy.png",FailArmy (US)
 https://jukin-failarmy-international-1-eu.vidaa.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 group-title="Aleatórios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/lovenature4k.png" tvg-id="5f1213ba0ecebc00070e170f",Love Nature 4K (CAN)
