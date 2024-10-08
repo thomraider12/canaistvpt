@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-pt.xml.xz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-fama-pt.xml.xz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-sic-pt.xml.xz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-radios-pt.xml.xz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-rakuten-tv.xml.xz,https://bit.ly/EPGPlutoAll,https://i.mjh.nz/SamsungTVPlus/all.xml.gz"
+#EXTM3U url-tvg="https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-pt.xml.xz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-fama-pt.xml.xz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-sic-pt.xml.xz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-extra-pt.xml.xz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-rakuten-tv.xml.xz,https://bit.ly/EPGPlutoAll,https://i.mjh.nz/SamsungTVPlus/all.xml.gz"
 
 #EXTINF:-1 group-title="Notícias" tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp1.png",RTP 1
 https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
@@ -125,6 +125,9 @@ https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8
 
 #EXTINF:-1 group-title="Aleatórios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/fireplace4k.png" tvg-id="",Fireplace 4K
 https://d22w22d3eu3t35.cloudfront.net/playlist.m3u8
+
+#EXTINF:-1 group-title="Aleatórios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/aviaçãotv.png" tvg-id="AviaçãoTV.pt",Aviação TV
+https://ythls-v3.onrender.com/channel/UC0R-K3crhMX9jzswbmfIORw.m3u8
 
 #EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/traceurban.png" tvg-id="TraceUrban.fr",Trace Urban (FR)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00398-zeasneuropebv-traceurban-zeasn/playlist.m3u8

@@ -27,7 +27,7 @@ jobs:
           cd EPG/scripts
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          
+
       - name: Atualizar EPGs principais
         run: sh EPG/scripts/epg-pt.sh
 
@@ -36,7 +36,6 @@ jobs:
           python EPG/scripts/opto.py
           python EPG/scripts/opto2.py
           rm EPG/epg-sic-pt.json
-      
 
       - name: Atualizar listas Rakuten
         run: |
@@ -55,11 +54,11 @@ jobs:
       - name: Atualizar listas Rádios
         run: |
           cd EPG/scripts
-          python radios.py
+          python extra.py
           cd -
           cd EPG
-          rm -f epg-radios-pt.xml.xz
-          xz -z epg-radios-pt.xml
+          rm -f epg-extra-pt.xml.xz
+          xz -z epg-extra-pt.xml
 
       - name: setup git config
         run: |

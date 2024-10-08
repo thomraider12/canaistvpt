@@ -3,7 +3,8 @@ from datetime import datetime, timedelta
 
 # Lista de rádios
 radios = [
-    {"id": "OnFM.pt", "nome": "OnFM", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/onfm.png"},
+    {"id": "AviaçãoTV.pt", "nome": "AviaçãoTV - Direto (Lisboa)", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/aviaçãotv.png"},
+    {"id": "OnFM.pt", "nome": "OnFM - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/onfm.png"},
     {"id": "DJTomasA", "nome": "DJ Tomás Afonso", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/tomasafonso.ico"},
     {"id": "RadioComercial.pt", "nome": "Rádio Comercial - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/radiocomercial.png"},
     {"id": "RFM.pt", "nome": "RFM - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/rfm.png"},
@@ -63,7 +64,7 @@ for radio in radios:
 # Salva o arquivo XML no diretório raiz do projeto
 try:
     tree = ET.ElementTree(root)
-    tree.write('../epg-radios-pt.xml', encoding='utf-8', xml_declaration=True)
+    tree.write('../epg-extra-pt.xml', encoding='utf-8', xml_declaration=True)
     sucesso = True
 except Exception as e:
     print("Erro: " + e)
