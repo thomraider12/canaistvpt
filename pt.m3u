@@ -138,6 +138,9 @@ https://clubbingtv-rakuten.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="Rádios" tvg-id="CABC52000180Z" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/vevo.png",VEVO
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00056-vevotv-vevopopau-samsungau/playlist.m3u8
 
+#EXTINF:-1 group-title="Rádios" tvg-id="OnFM.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/onfm.png",ONFM
+https://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8
+
 #EXTINF:-1 group-title="Rádios" radio="true" tvg-id="DJTomasA" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tomasafonso.ico",DJ Tomás Afonso
 http://2.81.172.226:8000/listen.mp3
 
