@@ -3,6 +3,7 @@ from datetime import datetime, timedelta
 
 # Lista de rádios
 radios = [
+    {"id": "OnFM.pt", "nome": "OnFM", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/onfm.png"},
     {"id": "DJTomasA", "nome": "DJ Tomás Afonso", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/tomasafonso.ico"},
     {"id": "RadioComercial.pt", "nome": "Rádio Comercial - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/radiocomercial.png"},
     {"id": "RFM.pt", "nome": "RFM - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/rfm.png"},
