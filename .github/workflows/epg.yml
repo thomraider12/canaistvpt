@@ -51,7 +51,7 @@ jobs:
           rm -f epg-fama-pt.xml.xz
           xz -z epg-fama-pt.xml
 
-      - name: Atualizar listas Rádios
+      - name: Atualizar listas extra
         run: |
           cd EPG/scripts
           python extra.py
