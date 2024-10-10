@@ -61,6 +61,9 @@ https://d1kvlt93j1bc49.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTINF:-1 group-title="Secundários" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/skynews.png" tvg-id="SkyNewsInternational.uk",SkyNews (UK)
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/55b285cd2665de274553d66f/master.m3u8
 
+#EXTINF:-1 group-title="Desporto" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/golofm.png" tvg-id="GoloFM.pt",Golo FM (apenas em jogos)
+https://ythls-v3.onrender.com/channel/UCX_YubBBVVzTyy9dHKHxhuQ.m3u8
+
 #EXTINF:-1 tvg-id="formula-1-channel" tvg-logo="https://images.pluto.tv/channels/65c69ee3d77d450008c80438/colorLogoPNG.png"  group-title="Desporto", Formula 1 Channel
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65c69ee3d77d450008c80438/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=43d64440-8644-11ef-a525-f2288c9ddd01&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=2074579a-a34b-4c46-90b9-8112b30a3a88&userId=&serverSideAds=true
 
