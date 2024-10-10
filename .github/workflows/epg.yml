@@ -76,77 +76,83 @@ jobs:
     runs-on: ubuntu-latest
     needs: Update-EPG  # Espera o job anterior terminar
     steps:
-      - name: checkout
-        uses: actions/checkout@v4
+    - name: checkout
+      uses: actions/checkout@v4
 
-      - name: Baixar e fazer merge das EPGs
-        run: |
-          # URLs das EPGs
-          urls=(
-              "https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-pt.xml.xz"
-              "https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-fama-pt.xml.xz"
-              "https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-sic-pt.xml.xz"
-              "https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-extra-pt.xml.xz"
-              "https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-rakuten-tv.xml.xz"
-              "https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/all/epg.xml.gz"
-          )
+    - name: Instalar xmlstarlet
+      run: |
+        sudo apt update
+        sudo apt install curl xz-utils gzip xmlstarlet
 
-          # Diretório temporário para armazenar os arquivos baixados
-          temp_dir="./epg_temp"
-          mkdir -p "$temp_dir"
+    - name: Baixar e fazer merge das EPGs
+      run: |
+        # URLs das EPGs
+        urls=(
+            "https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-pt.xml.xz"
+            "https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-fama-pt.xml.xz"
+            "https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-sic-pt.xml.xz"
+            "https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-extra-pt.xml.xz"
+            "https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-rakuten-tv.xml.xz"
+            "https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/all/epg.xml.gz"
+        )
 
-          # Arquivo final onde o merge será armazenado
-          final_output="all.xml"
+        # Diretório temporário para armazenar os arquivos baixados
+        temp_dir="./epg_temp"
+        mkdir -p "$temp_dir"
 
-          # Baixar e descompactar os arquivos
-          for url in "${urls[@]}"; do
-              filename=$(basename "$url")
-              temp_file="$temp_dir/$filename"
+        # Arquivo final onde o merge será armazenado
+        final_output="all.xml"
 
-              # Baixa o arquivo
-              echo "Baixando $url..."
-              curl -L -o "$temp_file" "$url"
+        # Baixar e descompactar os arquivos
+        for url in "${urls[@]}"; do
+            filename=$(basename "$url")
+            temp_file="$temp_dir/$filename"
 
-              # Descompacta dependendo da extensão
-              if [[ "$filename" == *.xz ]]; then
-                  echo "Descompactando $filename (XZ)..."
-                  xz -d -k "$temp_file" # -k para manter o arquivo original
-              elif [[ "$filename" == *.gz ]]; then
-                  echo "Descompactando $filename (GZ)..."
-                  gunzip -k "$temp_file"
-              fi
-          done
+            # Baixa o arquivo
+            echo "Baixando $url..."
+            curl -L -o "$temp_file" "$url"
 
-          # Combinar todos os arquivos XML descompactados
-          echo "Fazendo merge dos arquivos XML..."
+            # Descompacta dependendo da extensão
+            if [[ "$filename" == *.xz ]]; then
+                echo "Descompactando $filename (XZ)..."
+                xz -d -k "$temp_file" # -k para manter o arquivo original
+            elif [[ "$filename" == *.gz ]]; then
+                echo "Descompactando $filename (GZ)..."
+                gunzip -k "$temp_file"
+            fi
+        done
 
-          # Arquivo temporário para o merge
-          merged_file="$temp_dir/merged.xml"
+        # Combinar todos os arquivos XML descompactados
+        echo "Fazendo merge dos arquivos XML..."
 
-          # Inicializa o arquivo final com o cabeçalho do XML
-          echo '<?xml version="1.0" encoding="UTF-8"?>' > "$merged_file"
-          echo '<tv>' >> "$merged_file"
+        # Arquivo temporário para o merge
+        merged_file="$temp_dir/merged.xml"
 
-          # Concatena o conteúdo dos arquivos XML
-          for xml_file in "$temp_dir"/*.xml; do
-              # Adiciona todo o conteúdo do XML (ignorando o cabeçalho e a tag de fechamento <tv>)
-              echo "Processando $xml_file..."
-              xmlstarlet sel -t -c "//tv/*" "$xml_file" >> "$merged_file"
-          done
+        # Inicializa o arquivo final com o cabeçalho do XML
+        echo '<?xml version="1.0" encoding="UTF-8"?>' > "$merged_file"
+        echo '<tv>' >> "$merged_file"
 
-          # Fecha a tag <tv>
-          echo '</tv>' >> "$merged_file"
+        # Concatena o conteúdo dos arquivos XML
+        for xml_file in "$temp_dir"/*.xml; do
+            # Adiciona todo o conteúdo do XML (ignorando o cabeçalho e a tag de fechamento <tv>)
+            echo "Processando $xml_file..."
+            xmlstarlet sel -t -c "//tv/*" "$xml_file" >> "$merged_file"
+        done
 
-          # Compacta o arquivo final
-          echo "Compactando para $final_output.xz..."
-          xz -z "$merged_file" -c > "$final_output.xz"
+        # Fecha a tag <tv>
+        echo '</tv>' >> "$merged_file"
 
-          # Limpa arquivos temporários
-          rm -rf "$temp_dir"
+        # Compacta o arquivo final
+        echo "Compactando para $final_output.xz..."
+        xz -z "$merged_file" -c > "$final_output.xz"
 
-      - name: commit merged EPG
-        run: |
-          git pull
-          git add all.xml.xz
-          git commit -m "Merge das EPG's"
-          git push origin main
+        # Limpa arquivos temporários
+        rm -rf "$temp_dir"
+
+    - name: commit merged EPG
+      run: |
+        git pull
+        git add all.xml.xz
+        git commit -m "Merge das EPG's"
+        git push origin main
+
