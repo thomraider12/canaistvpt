@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-pt.xml.xz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-fama-pt.xml.xz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-sic-pt.xml.xz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-extra-pt.xml.xz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-rakuten-tv.xml.xz,https://bit.ly/EPGPlutoAll,https://i.mjh.nz/SamsungTVPlus/all.xml.gz"
+#EXTM3U url-tvg="https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-pt.xml.xz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-fama-pt.xml.xz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-sic-pt.xml.xz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-extra-pt.xml.xz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-rakuten-tv.xml.xz,https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/all/epg.xml.gz"
 
 #EXTINF:-1 group-title="Notícias" tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp1.png",RTP 1
 https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
@@ -61,7 +61,7 @@ https://d1kvlt93j1bc49.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTINF:-1 group-title="Secundários" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/skynews.png" tvg-id="SkyNewsInternational.uk",SkyNews (UK)
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/55b285cd2665de274553d66f/master.m3u8
 
-#EXTINF:-1 tvg-id="formula-1-channel" tvg-logo="https://images.pluto.tv/channels/65c69ee3d77d450008c80438/colorLogoPNG.png" tvc-guide-art="https://images.pluto.tv/channels/65c69ee3d77d450008c80438/featuredImage.jpg?fill=blur&fit=fill&fm=jpg&h=562&q=75&w=1000" tvc-guide-title="Formula 1 Channel" tvc-guide-description="Formula 1 is a sport like no other and the Formula 1 Channel is the ultimate destination to catch up on all the action from F1, F2, F3 and F1 Academy races throughout the season, including analysis, replays and documentaries." group-title="Desporto", Formula 1 Channel
+#EXTINF:-1 tvg-id="formula-1-channel" tvg-logo="https://images.pluto.tv/channels/65c69ee3d77d450008c80438/colorLogoPNG.png"  group-title="Desporto", Formula 1 Channel
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65c69ee3d77d450008c80438/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=43d64440-8644-11ef-a525-f2288c9ddd01&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=2074579a-a34b-4c46-90b9-8112b30a3a88&userId=&serverSideAds=true
 
 
