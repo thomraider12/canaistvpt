@@ -81,11 +81,11 @@ jobs:
 
     - name: Instalar xmlstarlet
       run: |
-        sudo apt update
-        sudo apt install curl xz-utils gzip xmlstarlet
+          sudo apt-get update
+          sudo apt-get install -y xmlstarlet
 
-          - name: Baixar e fazer merge das EPGs
-        run: |
+    - name: Baixar e fazer merge das EPGs
+      run: |
           # URLs das EPGs
           urls=(
               "https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-pt.xml.xz"
