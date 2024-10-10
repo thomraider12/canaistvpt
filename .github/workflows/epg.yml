@@ -155,6 +155,10 @@ jobs:
           # Limpa arquivos temporários
           rm -rf "$temp_dir"
 
+    - name: setup git config
+      run: |
+          git config user.name "EPG's bot"
+          git config user.email "<>"
 
     - name: commit merged EPG
       run: |
