@@ -8,10 +8,10 @@ jobs:
   Update-EPG:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: checkout iptv-org/epg repo
+      - name: Checkout iptv-org/epg repo
         uses: actions/checkout@v4
         with:
           repository: iptv-org/epg
@@ -46,7 +46,7 @@ jobs:
         run: |
           cd EPG/scripts
           python famatv.py
-          cd -
+          cd - 
           cd EPG
           rm -f epg-fama-pt.xml.xz
           xz -z epg-fama-pt.xml
@@ -55,105 +55,110 @@ jobs:
         run: |
           cd EPG/scripts
           python extra.py
-          cd -
+          cd - 
           cd EPG
           rm -f epg-extra-pt.xml.xz
           xz -z epg-extra-pt.xml
 
-      - name: setup git config
+      - name: Baixar e mesclar EPGs
+        run: |
+          #!/bin/bash
+
+          # Este script baixa arquivos EPG e os mescla em um único arquivo.
+
+          ## VARIÁVEIS
+          BASEPATH="./epg_temp"  # Diretório temporário
+
+          LISTS=(
+            "https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-pt.xml.xz"
+            "https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-fama-pt.xml.xz"
+            "https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-sic-pt.xml.xz"
+            "https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-extra-pt.xml.xz"
+            "https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-rakuten-tv.xml.xz"
+            "https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/all/epg.xml.gz"
+          )
+
+          # Criar diretório para os arquivos EPG
+          mkdir -p "$BASEPATH"
+
+          downloadepgs() {
+              INDEX=1
+              for list in "${LISTS[@]}"; do
+                  sleep 1
+                  dir="$(TMPDIR=$PWD mktemp -d)"  ## cria um diretório temporário
+                  wget -q --show-progress -P "$dir" --content-disposition --trust-server-names "$list"
+                  for file in "$dir"/*; do
+                      ext="${file##*.}"
+                      echo "Extensão = $ext. Renomeando para $BASEPATH/$INDEX.$ext"
+                      mv "$file" "$BASEPATH/$INDEX.$ext"
+                  done
+                  rmdir "$dir"
+                  let INDEX=${INDEX}+1
+              done
+          }
+
+          extractgz() {
+              echo "Extraindo arquivos compactados..."
+              gunzip -f "$BASEPATH"/*.gz
+              sleep 2
+              ## Corrige a extensão para arquivos que não têm a extensão .xml
+              for file in "$BASEPATH"/*.gz; do
+                  if [[ -f $file ]]; then
+                      mv "$file" "${file%.gz}.xml"
+                  fi
+              done
+          }
+
+          extractxz() {
+              echo "Extraindo arquivos .xz..."
+              for file in "$BASEPATH"/*.xz; do
+                  if [[ -f $file ]]; then
+                      xz -d "$file"  # Extrai arquivos .xz
+                  fi
+              done
+          }
+
+          mergeall() {
+              fileslist=( $(ls $BASEPATH/*.xml) )
+              
+              # MERGE O Primeiro 2
+              echo "Mesclando ${fileslist[0]} com ${fileslist[1]}"
+              xmlstarlet ed -d '//tv' "${fileslist[0]}" | xmlstarlet ed -d '//tv' "${fileslist[1]}" > "$BASEPATH/merged.xmltv"
+
+              # Mescla os restantes
+              for i in $(seq 2 ${#fileslist[@]}); do
+                  if [ ! -z "${fileslist[$i]}" ]; then
+                      echo "Mesclando ${fileslist[$i]}... "
+                      xmlstarlet ed -d '//tv' "$BASEPATH/merged.xmltv" | xmlstarlet ed -d '//tv' "${fileslist[$i]}" >> "$BASEPATH/merged.xmltv
+                  fi
+              done
+          }
+
+          # Função principal
+          getall() {
+              downloadepgs
+              extractgz
+              extractxz
+          }
+
+          getall
+          mergeall
+
+          ## Limpeza
+          echo "Limpando..."
+          rm "$BASEPATH"/*.xml
+
+          echo "Concluído!"
+          sleep 3
+
+      - name: Setup Git Config
         run: |
           git config user.name "EPG's bot"
           git config user.email "<>"
 
-      - name: commit
+      - name: Commit
         run: |
           git pull
           cd EPG && git add .
           git commit -m "Atualizar EPG's"
           git push origin main
-
-  Merge-EPG:
-    runs-on: ubuntu-latest
-    needs: Update-EPG  # Espera o job anterior terminar
-    steps:
-    - name: checkout
-      uses: actions/checkout@v4
-
-    - name: Instalar xmlstarlet
-      run: |
-        sudo apt update
-        sudo apt install curl xz-utils gzip xmlstarlet
-
-    - name: Baixar e fazer merge das EPGs
-      run: |
-          # URLs das EPGs
-          urls=(
-              "https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-pt.xml.xz"
-              "https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-fama-pt.xml.xz"
-              "https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-sic-pt.xml.xz"
-              "https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-extra-pt.xml.xz"
-              "https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-rakuten-tv.xml.xz"
-              "https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/all/epg.xml.gz"
-          )
-
-          # Diretório temporário para armazenar os arquivos baixados
-          temp_dir="./epg_temp"
-          mkdir -p "$temp_dir"
-
-          # Arquivo final onde o merge será armazenado
-          final_output="all.xml"
-
-          # Baixar e descompactar os arquivos
-          for url in "${urls[@]}"; do
-              filename=$(basename "$url")
-              temp_file="$temp_dir/$filename"
-
-              # Baixa o arquivo
-              echo "Baixando $url..."
-              curl -L -o "$temp_file" "$url"
-
-              # Descompacta dependendo da extensão
-              if [[ "$filename" == *.xz ]]; then
-                  echo "Descompactando $filename (XZ)..."
-                  xz -d -k "$temp_file" # -k para manter o arquivo original
-              elif [[ "$filename" == *.gz ]]; then
-                  echo "Descompactando $filename (GZ)..."
-                  gunzip -k "$temp_file"
-              fi
-          done
-
-          # Combinar todos os arquivos XML descompactados
-          echo "Fazendo merge dos arquivos XML..."
-
-          # Arquivo temporário para o merge
-          merged_file="$temp_dir/merged.xml"
-
-          # Inicializa o arquivo final com o cabeçalho do XML
-          echo '<?xml version="1.0" encoding="UTF-8"?>' > "$merged_file"
-          echo '<tv>' >> "$merged_file"
-
-          # Concatena o conteúdo dos arquivos XML
-          for xml_file in "$temp_dir"/*.xml; do
-              # Remove a linha DOCTYPE se existir e adiciona o conteúdo
-              echo "Processando $xml_file..."
-              sed '1,/^<\?xml/!d; /^<\!DOCTYPE/d' "$xml_file" | xmlstarlet sel -t -c "//tv/*" >> "$merged_file"
-          done
-
-          # Fecha a tag <tv>
-          echo '</tv>' >> "$merged_file"
-
-          # Compacta o arquivo final
-          echo "Compactando para $final_output.xz..."
-          xz -z "$merged_file" -c > "$final_output.xz"
-
-          # Limpa arquivos temporários
-          rm -rf "$temp_dir"
-
-
-    - name: commit merged EPG
-      run: |
-        git pull
-        git add all.xml.xz
-        git commit -m "Merge das EPG's"
-        git push origin main
-
