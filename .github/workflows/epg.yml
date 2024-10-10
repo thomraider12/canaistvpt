@@ -166,6 +166,7 @@ jobs:
     - name: commit merged EPG
       run: |
         git pull
+        cd EPG
         git add all.xml.xz
         git commit -m "Merge das EPG's"
         git push origin main
