@@ -33,11 +33,11 @@ current_time = datetime.utcnow().replace(minute=0, second=0, microsecond=0)
 # Define a programação de hora em hora para os próximos 7 dias
 for canais_extra in canais_extras:
     # Adiciona o canal da rádio
-    channel = ET.SubElement(root, 'channel', id=canal_extra["id"])
+    channel = ET.SubElement(root, 'channel', id=canais_extra["id"])
     display_name = ET.SubElement(channel, 'display-name')
     display_name.text = canais_extra["nome"]
 
-    icon = ET.SubElement(channel, 'icon', src=canal_extra["logo"])
+    icon = ET.SubElement(channel, 'icon', src=canais_extra["logo"])
 
     for i in range(168):  # 168 horas em 7 dias
         start_time = current_time + timedelta(hours=i)
@@ -48,18 +48,18 @@ for canais_extra in canais_extras:
         end_str = end_time.strftime('%Y%m%d%H%M%S +0000')
 
         # Cria o elemento <programme>
-        programme = ET.SubElement(root, 'programme', start=start_str, stop=end_str, channel=canal_extra["id"])
+        programme = ET.SubElement(root, 'programme', start=start_str, stop=end_str, channel=canais_extra["id"])
 
         # Adiciona o título do programa
         title = ET.SubElement(programme, 'title', lang="pt")
-        title.text = canal_extra["nome"]
+        title.text = canais_extra["nome"]
 
         # Adiciona a descrição do programa
         description = ET.SubElement(programme, 'desc', lang="pt")
-        description.text = f"Programação contínua de {canal_extra['nome']}."
+        description.text = f"Programação contínua de {canais_extra['nome']}."
 
         # Adiciona o ícone do programa
-        icon = ET.SubElement(programme, 'icon', src=canal_extra["logo"])
+        icon = ET.SubElement(programme, 'icon', src=canais_extra["logo"])
 
 # Salva o arquivo XML no diretório raiz do projeto
 try:
