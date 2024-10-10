@@ -134,9 +134,15 @@ jobs:
 
           # Concatena o conteúdo dos arquivos XML
           for xml_file in "$temp_dir"/*.xml; do
-              # Remove a linha DOCTYPE se existir e adiciona o conteúdo
-              echo "Processando $xml_file..."
-              sed '1,/^<\?xml/!d; /^<\!DOCTYPE/d' "$xml_file" | xmlstarlet sel -t -c "//tv/*" >> "$merged_file"
+              # Verifica se o arquivo XML é válido antes de processar
+              if xmllint --noout "$xml_file"; then
+                  # Remove a linha DOCTYPE se existir e adiciona o conteúdo
+                  echo "Processando $xml_file..."
+                  # Remover DOCTYPE, adicionar conteúdo e manter apenas elementos filhos de <tv>
+                  xmlstarlet ed -d "//tv" "$xml_file" | xmlstarlet sel -t -c "//tv/*" >> "$merged_file"
+              else
+                  echo "Arquivo XML inválido: $xml_file. Ignorando."
+              fi
           done
 
           # Fecha a tag <tv>
