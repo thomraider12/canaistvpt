@@ -82,7 +82,7 @@ jobs:
       - name: Instalar xmlstarlet
         run: |
           sudo apt update
-          sudo apt install -y xmlstarlet
+          sudo apt install -y xmlstarlet libxml2-utils
 
       - name: Baixar e fazer merge das EPGs
         run: |
