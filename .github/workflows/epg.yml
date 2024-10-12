@@ -95,11 +95,21 @@ jobs:
               "https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-rakuten-tv.xml.xz"
               "https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/all/epg.xml.gz"
           )
+
           # Diretório temporário para armazenar os arquivos baixados
           temp_dir="./epg_temp"
           mkdir -p "$temp_dir"
+
           # Caminho para o arquivo final dentro da pasta EPG
           final_output="./EPG/all.xml"
+
+          # Função para verificar caracteres indesejados no início dos arquivos XML
+          function sanitize_xml {
+              local file="$1"
+              # Remove linhas em branco ou caracteres ocultos no início
+              sed -i '1s/^[ \t\r\n]*//' "$file"
+          }
+
           # Baixar e descompactar os arquivos
           for url in "${urls[@]}"; do
               filename=$(basename "$url")
@@ -107,43 +117,58 @@ jobs:
               # Baixa o arquivo
               echo "Baixando $url..."
               curl -L -o "$temp_file" "$url"
+
               # Descompacta dependendo da extensão
               if [[ "$filename" == *.xz ]]; then
                   echo "Descompactando $filename (XZ)..."
                   xz -d -k "$temp_file" # -k para manter o arquivo original
+                  temp_file="${temp_file%.xz}"  # Remover extensão .xz
               elif [[ "$filename" == *.gz ]]; then
                   echo "Descompactando $filename (GZ)..."
                   gunzip -k "$temp_file"
+                  temp_file="${temp_file%.gz}"  # Remover extensão .gz
               fi
+
+              # Sanitiza o arquivo XML
+              sanitize_xml "$temp_file"
           done
+
           # Combinar todos os arquivos XML descompactados
           echo "Fazendo merge dos arquivos XML..."
+
           # Arquivo temporário para o merge
           merged_file="$temp_dir/merged.xml"
+
           # Inicializa o arquivo final com o cabeçalho do XML
           echo '<?xml version="1.0" encoding="UTF-8"?>' > "$merged_file"
           echo '<tv>' >> "$merged_file"
+
           # Concatena o conteúdo dos arquivos XML
           for xml_file in "$temp_dir"/*.xml; do
               # Verifica se o arquivo XML é válido antes de processar
               if xmllint --noout "$xml_file"; then
-                 echo "Processando $xml_file..."
-                 # Remover DOCTYPE, adicionar conteúdo e manter apenas elementos filhos de <tv>
-                 xmlstarlet ed -d "//tv" "$xml_file" | xmlstarlet sel -t -c "//tv/*" >> "$merged_file"
+                  echo "Processando $xml_file..."
+                  # Remover DOCTYPE, adicionar conteúdo e manter apenas elementos filhos de <tv>
+                  xmlstarlet ed -d "//tv" "$xml_file" | xmlstarlet sel -t -c "//tv/*" >> "$merged_file"
               else
-                 echo "Arquivo XML inválido: $xml_file. Ignorando."
-                 continue  # Ignora arquivos inválidos
+                  echo "Arquivo XML inválido: $xml_file. Ignorando."
               fi
           done
+
           # Fecha a tag <tv>
           echo '</tv>' >> "$merged_file"
+
           # Certifique-se de que o diretório EPG existe
           mkdir -p ./EPG
+
           # Compacta o arquivo final e salva na pasta EPG
           echo "Compactando para $final_output.xz..."
           xz -z "$merged_file" -c > "$final_output.xz"
+
           # Limpa arquivos temporários
           rm -rf "$temp_dir"
+
+          echo "Processo concluído!"
 
       - name: setup git config
         run: |
@@ -161,4 +186,3 @@ jobs:
             git push origin main
           else
             echo "No changes to commit."
-          fi
