@@ -34,6 +34,11 @@ jobs:
           cd EPG
           python noticias.py
 
+      - name: setup git config
+        run: |
+          git config user.name "html bot"
+          git config user.email "<>"
+
       # Passo 5: Fazer commit e push do arquivo atualizado
       - name: commit
         run: |
