@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 media="true" group-title="PCNELID" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/PCNELID.png",PCNELID - 11/10/2024
+https://videos.impresa.pt/videos/hls/sicnot/2024/10/10/d9f07c24-4f72-440b-b0f3-6408943f4a1e/video.m3u8
 
 #EXTINF:-1 media="true" group-title="PCNELID" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/PCNELID.png",PCNELID - 4/10/2024
 https://videos.impresa.pt/videos/hls/sicnot/2024/10/04/549b91e4-540b-48a4-8c3d-567a521791da/video.m3u8
@@ -139,7 +141,7 @@ https://videos.impresa.pt/videos/hls/sicnot/2023/10/13/ae5887b3-4b54-48e5-8330-f
 https://videos.impresa.pt/videos/hls/sicnot/2023/10/06/8a3844d0-81da-45b5-930b-0895c5850708/video.m3u8
 
 #EXTINF:-1 media="true" group-title="PCNELID" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/PCNELID.png",PCNELID - 30/9/2023
-https://videos.impresa.pt/videos/hls/sicnot/2023/09/29/401c0a0f-263c-4881-b69a-e494a6a8c6e3/video-540p.m3u8
+https://videos.impresa.pt/videos/hls/sicnot/2023/09/29/401c0a0f-263c-4881-b69a-e494a6a8c6e3/video.m3u8
 
 #EXTINF:-1 media="true" group-title="PCNELID" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/PCNELID.png",PCNELID - 23/9/2023
 https://videos.impresa.pt/videos/hls/sicnot/2023/09/23/acd76701-7ef8-4607-b5cf-da6704eb1243/video.m3u8
