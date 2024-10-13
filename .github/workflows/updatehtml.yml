@@ -1,0 +1,43 @@
+name: Atualizar Noticias
+
+# Define o disparo do workflow
+on:
+  schedule:
+    # Configura para rodar o script a 30min
+    - cron: "*/30 * * * *"
+  workflow_dispatch: # Permite disparar manualmente a execução do workflow
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Passo 1: Checar o repositório
+      - name: Checar repositório
+        uses: actions/checkout@v2
+
+      # Passo 2: Configurar o Python
+      - name: Configurar Python 3.12
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.12"
+
+      # Passo 3: Instalar dependências necessárias
+      - name: Instalar dependências
+        run: |
+          python -m pip install --upgrade pip
+          pip install lxml beautifulsoup4 pytz
+
+      # Passo 4: Executar o script de atualização de programas
+      - name: Executar script de atualização
+        run: |
+          cd EPG
+          python noticias.py
+
+      # Passo 5: Fazer commit e push do arquivo atualizado
+      - name: commit
+        run: |
+          git pull
+          git add .
+          git commit -m "Atualizar html's"
+          git push origin main
