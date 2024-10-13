@@ -14,11 +14,11 @@ jobs:
     steps:
       # Passo 1: Checar o repositório
       - name: Checar repositório
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       # Passo 2: Configurar o Python
       - name: Configurar Python 3.12
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
