@@ -1,5 +1,8 @@
 #EXTM3U
 
+#EXTINF:-1 media="true" group-title="Eixo do Mal" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/EixoDoMal.png",Eixo do Mal - 11/10/2024
+https://videos.impresa.pt/videos/hls/sicnot/2024/10/10/d9f07c24-4f72-440b-b0f3-6408943f4a1e/video.m3u8
+
 #EXTINF:-1 media="true" group-title="Eixo do Mal" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/EixoDoMal.png",Eixo do Mal - 4/10/2024
 https://videos.impresa.pt/videos/hls/sicnot/2024/10/03/0e3932dc-3e13-41c2-a631-0923b394b67b/video.m3u8
 
