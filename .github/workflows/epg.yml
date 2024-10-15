@@ -47,6 +47,7 @@ jobs:
           cd EPG
           wget -O epg-samsung-tvplus.xml.gz "https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/SamsungTVPlus/all.xml.gz"
           gunzip epg-samsung-tvplus.xml.gz  # Descompacta o .gz
+          rm -f epg-samsung-tvplus.xml.xz
           xz -z epg-samsung-tvplus.xml      # Compacta para .xz
           rm -f epg-samsung-tvplus.xml.gz
 
