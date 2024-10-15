@@ -101,14 +101,28 @@ jobs:
           # Descompacta todos os arquivos .xml.xz
           find "$EPG_DIR" -name "*.xml.xz" -exec xz -d {} \;
 
-          # Combina todos os arquivos .xml em um único arquivo
-          cat "$EPG_DIR"/*.xml > "$EPG_DIR/all.xml"
+          # Cria o arquivo final de EPG
+          OUTPUT_FILE="$EPG_DIR/all.xml"
+
+          # Adiciona a declaração XML e a tag de abertura <tv>
+          echo "<?xml version='1.0' encoding='utf-8'?>" > "$OUTPUT_FILE"
+          echo "<tv>" >> "$OUTPUT_FILE"
+
+          # Para cada arquivo XML, remove a declaração XML e a tag de abertura <tv>
+          # e adiciona o conteúdo ao arquivo final
+          for file in "$EPG_DIR"/*.xml; do
+            sed '1d;/<tv>/d' "$file" >> "$OUTPUT_FILE"
+          done
+
+          # Adiciona a tag de fechamento </tv> no final
+          echo "</tv>" >> "$OUTPUT_FILE"
 
           # Comprime o arquivo resultante
-          xz -z "$EPG_DIR/all.xml"
+          xz -z "$OUTPUT_FILE"
 
           # Remove os arquivos .xml individuais (opcional)
           # find "$EPG_DIR" -name "*.xml" -delete
+
 
       - name: setup git config
         run: |
