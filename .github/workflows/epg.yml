@@ -1,4 +1,5 @@
 name: Atualizar EPG
+
 on:
   schedule:
     - cron: "0 */12 * * *"
@@ -33,13 +34,13 @@ jobs:
 
       - name: Atualizar lista PlutoTV
         run: |
-           cd EPG
-           wget -O epg-pluto-tv.xml.xz "https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/PlutoTV/all.xml.gz"
+          cd EPG
+          wget -O epg-pluto-tv.xml.xz "https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/PlutoTV/all.xml.gz"
 
       - name: Atualizar lista SamsungTVPlus
         run: |
-           cd EPG
-           wget -O epg-samsung-tvplus.xml.xz "https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/SamsungTVPlus/all.xml.gz"
+          cd EPG
+          wget -O epg-samsung-tvplus.xml.xz "https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/SamsungTVPlus/all.xml.gz"
 
       - name: Atualizar lista Opto SIC
         run: |
@@ -56,7 +57,7 @@ jobs:
         run: |
           cd EPG/scripts
           python famatv.py
-          cd - 
+          cd -
           cd EPG
           rm -f epg-fama-pt.xml.xz
           xz -z epg-fama-pt.xml
@@ -65,7 +66,7 @@ jobs:
         run: |
           cd EPG/scripts
           python extra.py
-          cd - 
+          cd -
           cd EPG
           rm -f epg-extra-pt.xml.xz
           xz -z epg-extra-pt.xml
@@ -80,4 +81,42 @@ jobs:
           git pull
           cd EPG && git add .
           git commit -m "Atualizar EPG's"
+          git push origin main
+
+  # Novo job para merge das EPGs
+  Merge-EPGs:
+    runs-on: ubuntu-latest
+    needs: Update-EPG  # Esse job depende da conclusão do Update-EPG
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: Merge EPGs
+        run: |
+          #!/bin/bash
+
+          # Diretório onde estão as EPGs
+          EPG_DIR="EPG"
+
+          # Descompacta todos os arquivos .xml.xz
+          find "$EPG_DIR" -name "*.xml.xz" -exec xz -d {} \;
+
+          # Combina todos os arquivos .xml em um único arquivo
+          cat "$EPG_DIR"/*.xml > "$EPG_DIR/all.xml"
+
+          # Comprime o arquivo resultante
+          xz -z "$EPG_DIR/all.xml"
+
+          # Remove os arquivos .xml individuais (opcional)
+          # find "$EPG_DIR" -name "*.xml" -delete
+
+      - name: setup git config
+        run: |
+          git config user.name "EPG's bot"
+          git config user.email "<>"
+
+      - name: Commit changes
+        run: |
+          git add EPG/all.xml.xz
+          git commit -m "Merged all EPGs into all.xml.xz"
           git push origin main
