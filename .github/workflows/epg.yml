@@ -2,23 +2,23 @@ name: Atualizar EPG
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 */12 * * *"  # A cada 12 horas
   workflow_dispatch:
 
 jobs:
   Update-EPG:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
+      - name: Checkout do repositório
         uses: actions/checkout@v4
 
-      - name: checkout iptv-org/epg repo
+      - name: Checkout do repositório iptv-org/epg
         uses: actions/checkout@v4
         with:
           repository: iptv-org/epg
           path: iptv-org-epg
 
-      - name: Set up Python
+      - name: Configurar Python
         uses: actions/setup-python@v3
         with:
           python-version: "3.10"
@@ -35,12 +35,19 @@ jobs:
       - name: Atualizar lista PlutoTV
         run: |
           cd EPG
-          wget -O epg-pluto-tv.xml.xz "https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/PlutoTV/all.xml.gz"
+          wget -O epg-pluto-tv.xml.gz "https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/PlutoTV/all.xml.gz"
+          gunzip epg-pluto-tv.xml.gz  # Descompacta o .gz
+          xz -z epg-pluto-tv.xml      # Compacta para .xz
+          rm -f epg-pluto-tv.xml.gz
+
 
       - name: Atualizar lista SamsungTVPlus
         run: |
           cd EPG
-          wget -O epg-samsung-tvplus.xml.xz "https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/SamsungTVPlus/all.xml.gz"
+          wget -O epg-samsung-tvplus.xml.gz "https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/SamsungTVPlus/all.xml.gz"
+          gunzip epg-samsung-tvplus.xml.gz  # Descompacta o .gz
+          xz -z epg-samsung-tvplus.xml      # Compacta para .xz
+          rm -f epg-samsung-tvplus.xml.gz
 
       - name: Atualizar lista Opto SIC
         run: |
@@ -71,12 +78,12 @@ jobs:
           rm -f epg-extra-pt.xml.xz
           xz -z epg-extra-pt.xml
 
-      - name: setup git config
+      - name: Configurar Git
         run: |
           git config user.name "EPG's bot"
           git config user.email "<>"
 
-      - name: commit
+      - name: Commit das atualizações
         run: |
           git pull
           cd EPG && git add .
@@ -88,53 +95,42 @@ jobs:
     runs-on: ubuntu-latest
     needs: Update-EPG  # Esse job depende da conclusão do Update-EPG
     steps:
-      - name: checkout
+      - name: Checkout do repositório
         uses: actions/checkout@v4
 
       - name: Merge EPGs
         run: |
-          #!/bin/bash
-
           # Diretório onde estão as EPGs
           EPG_DIR="EPG"
-
-          # Descompacta todos os arquivos .xml.xz
+          # Descompacta todos os arquivos .xml.xz e .xml.gz
           find "$EPG_DIR" -name "*.xml.xz" -exec xz -d {} \;
-
+          find "$EPG_DIR" -name "*.xml.gz" -exec gunzip {} \;
           # Cria o arquivo final de EPG
           OUTPUT_FILE="$EPG_DIR/all.xml"
-
           # Adiciona a declaração XML e a tag de abertura <tv>
           echo "<?xml version='1.0' encoding='utf-8'?>" > "$OUTPUT_FILE"
           echo "<tv>" >> "$OUTPUT_FILE"
-
-          # Para cada arquivo XML, remove a declaração XML e a tag de abertura <tv>
-          # e adiciona o conteúdo ao arquivo final
+          # Para cada arquivo XML, remove a declaração XML, tags desnecessárias e adiciona o conteúdo ao arquivo final
           for file in "$EPG_DIR"/*.xml; do
-            sed '1d;/<tv>/d' "$file" >> "$OUTPUT_FILE"
+            sed '1d;/<tv>/d;/<?xml/d' "$file" >> "$OUTPUT_FILE"
           done
-
           # Adiciona a tag de fechamento </tv> no final
           echo "</tv>" >> "$OUTPUT_FILE"
-
-          # Comprime o arquivo resultante
+          # Valida o arquivo XML final
+          xmllint --noout "$OUTPUT_FILE"
+          # Comprime o arquivo final para .xz
           xz -z "$OUTPUT_FILE"
-
           # Remove os arquivos .xml individuais (opcional)
           find "$EPG_DIR" -name "*.xml" -delete
 
-
-      - name: setup git config
+      - name: Configurar Git
         run: |
           git config user.name "EPG's bot"
           git config user.email "<>"
 
-      - name: Pull latest changes
+      - name: Commit das alterações
         run: |
           git pull
-
-      - name: Commit changes
-        run: |
           git add EPG/all.xml.xz
           git commit -m "Merged all EPGs into all.xml.xz"
           git push origin main
