@@ -2,7 +2,7 @@ name: Atualizar EPG
 
 on:
   schedule:
-    - cron: "0 */12 * * *"  # A cada 12 horas
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 jobs:
@@ -37,19 +37,14 @@ jobs:
           cd EPG
           wget -O epg-pluto-tv.xml.gz "https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/PlutoTV/all.xml.gz"
           gunzip epg-pluto-tv.xml.gz  # Descompacta o .gz
-          rm -f epg-pluto-tv.xml.xz
           xz -z epg-pluto-tv.xml      # Compacta para .xz
-          rm -f epg-pluto-tv.xml.gz
-
 
       - name: Atualizar lista SamsungTVPlus
         run: |
           cd EPG
           wget -O epg-samsung-tvplus.xml.gz "https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/SamsungTVPlus/all.xml.gz"
           gunzip epg-samsung-tvplus.xml.gz  # Descompacta o .gz
-          rm -f epg-samsung-tvplus.xml.xz
           xz -z epg-samsung-tvplus.xml      # Compacta para .xz
-          rm -f epg-samsung-tvplus.xml.gz
 
       - name: Atualizar lista Opto SIC
         run: |
@@ -100,12 +95,16 @@ jobs:
       - name: Checkout do repositório
         uses: actions/checkout@v4
 
+      - name: Instalar xmllint
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libxml2-utils
+
       - name: Merge EPGs
         run: |
           # Diretório onde estão as EPGs
           EPG_DIR="EPG"
-          # Descompacta todos os arquivos .xml.xz e .xml.gz
-          find "$EPG_DIR" -name "*.xml.xz" -exec xz -d {} \;
+          # Descompacta todos os arquivos .xml.gz
           find "$EPG_DIR" -name "*.xml.gz" -exec gunzip {} \;
           # Cria o arquivo final de EPG
           OUTPUT_FILE="$EPG_DIR/all.xml"
