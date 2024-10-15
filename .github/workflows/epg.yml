@@ -115,6 +115,10 @@ jobs:
           git config user.name "EPG's bot"
           git config user.email "<>"
 
+      - name: Pull latest changes
+        run: |
+          git pull
+
       - name: Commit changes
         run: |
           git add EPG/all.xml.xz
