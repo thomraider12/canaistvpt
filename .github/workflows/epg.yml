@@ -105,6 +105,9 @@ jobs:
 
       - name: Merge EPGs
         run: |
+          cd EPG
+          rm -f all.xml.xz
+          cd -
           # Diretório onde estão as EPGs
           EPG_DIR="EPG"
           # Descompacta todos os arquivos .xml.gz
