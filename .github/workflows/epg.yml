@@ -121,7 +121,7 @@ jobs:
           xz -z "$OUTPUT_FILE"
 
           # Remove os arquivos .xml individuais (opcional)
-          # find "$EPG_DIR" -name "*.xml" -delete
+          find "$EPG_DIR" -name "*.xml" -delete
 
 
       - name: setup git config
