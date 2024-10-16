@@ -37,17 +37,16 @@ jobs:
           cd EPG
           wget -O epg-pluto-tv.xml.gz "https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/PlutoTV/all.xml.gz"
           gunzip epg-pluto-tv.xml.gz
-          # Descompacta o .gz
           rm -f epg-pluto-tv.xml.xz
-          xz -z epg-pluto-tv.xml      # Compacta para .xz
+          xz -z epg-pluto-tv.xml
 
       - name: Atualizar lista SamsungTVPlus
         run: |
           cd EPG
           wget -O epg-samsung-tvplus.xml.gz "https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/SamsungTVPlus/all.xml.gz"
-          gunzip epg-samsung-tvplus.xml.gz  # Descompacta o .gz
+          gunzip epg-samsung-tvplus.xml.gz
           rm -f epg-samsung-tvplus.xml.xz
-          xz -z epg-samsung-tvplus.xml      # Compacta para .xz
+          xz -z epg-samsung-tvplus.xml
 
       - name: Atualizar lista Opto SIC
         run: |
@@ -90,10 +89,9 @@ jobs:
           git commit -m "Atualizar EPG's"
           git push origin main
 
-  # Novo job para merge das EPGs
   Merge-EPGs:
     runs-on: ubuntu-latest
-    needs: Update-EPG  # Esse job depende da conclusão do Update-EPG
+    needs: Update-EPG  # Depende da conclusão do job Update-EPG
     steps:
       - name: Checkout do repositório
         uses: actions/checkout@v4
@@ -110,25 +108,39 @@ jobs:
           cd -
           # Diretório onde estão as EPGs
           EPG_DIR="EPG"
+          
           # Descompacta todos os arquivos .xml.gz
           find "$EPG_DIR" -name "*.xml.gz" -exec gunzip {} \;
+
           # Cria o arquivo final de EPG
           OUTPUT_FILE="$EPG_DIR/all.xml"
-          # Adiciona a declaração XML e a tag de abertura <tv>
+
+          # Adiciona a declaração XML e a tag de abertura <tv> e <channels>
           echo "<?xml version='1.0' encoding='utf-8'?>" > "$OUTPUT_FILE"
           echo "<tv>" >> "$OUTPUT_FILE"
+          echo "<channels>" >> "$OUTPUT_FILE"
+
           # Para cada arquivo XML, remove a declaração XML, tags desnecessárias e adiciona o conteúdo ao arquivo final
           for file in "$EPG_DIR"/*.xml; do
-            sed '1d;/<tv>/d;/<?xml/d' "$file" >> "$OUTPUT_FILE"
+            # Verifica se o arquivo existe e não está vazio
+            if [[ -s "$file" ]]; then
+              # Extrai apenas as linhas que estão dentro da tag <channels>
+              sed -n '/<channels>/,/<\/channels>/p' "$file" | sed '1d;$d' >> "$OUTPUT_FILE"
+            else
+              echo "O arquivo $file está vazio ou não existe!"
+            fi
           done
-          # Adiciona a tag de fechamento </tv> no final
+
+          # Adiciona a tag de fechamento </channels> e </tv>
+          echo "</channels>" >> "$OUTPUT_FILE"
           echo "</tv>" >> "$OUTPUT_FILE"
+
           # Valida o arquivo XML final
           xmllint --noout "$OUTPUT_FILE"
+
           # Comprime o arquivo final para .xz
           xz -z "$OUTPUT_FILE"
-          # Remove os arquivos .xml individuais (opcional)
-          find "$EPG_DIR" -name "*.xml" -delete
+
 
       - name: Configurar Git
         run: |
