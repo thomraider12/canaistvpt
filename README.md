@@ -18,18 +18,23 @@ Também existe uma lista M3U das [MEO Beachcam's](https://thomraider12.github.io
 - V+TVI ᴴᴰ
 - Porto Canal ᴴᴰ
 - Euronews PT ᴴᴰ
+
+## Secundários:
+
 - ARTV ᴴᴰ
 - RTP Memória ѕᴅ
 - TVI Reality ᴴᴰ
 - Fama TV ᴴᴰ
-
-## Secundários e Desporto:
-
-- CNN (US) ᴴᴰ
 - TVGalicia (ESP) ᴴᴰ
+- CNN (US) ᴴᴰ
 - Fox Now (US) ᴴᴰ
 - BBC News (UK) ᴴᴰ
 - SkyNews (UK) ᴴᴰ
+
+## Desporto:
+
+- Golo FM (apenas em jogos) ᴴᴰ
+- Formula 1 Channel (US) ᴴᴰ
 - Motorsport.tv (US) ᴴᴰ
 - FIFA+ ᴴᴰ
 - RedBull TV (US) ᴴᴰ
@@ -37,7 +42,7 @@ Também existe uma lista M3U das [MEO Beachcam's](https://thomraider12.github.io
 - Motorvision (NZ) ᴴᴰ
 - SpeedVision (US) ᴴᴰ
 
-## Filmes e Documentários:
+## Filmes, Documentários e Novelas:
 
 - SIC Alta Definição ᴴᴰ
 - SIC Replay ᴴᴰ
@@ -55,18 +60,21 @@ Também existe uma lista M3U das [MEO Beachcam's](https://thomraider12.github.io
 - TravelXP ᴴᴰ
 - 5-Minute-Crafts (US) ᴴᴰ
 - Gametoon (US) ᴴᴰ
+- FailArmy (US) ᴴᴰ
 - Love Nature ⁴ᴷ
 - Fireplace ⁴ᴷ
+- Aviação TV (aeroporto de Lisboa) ᴴᴰ
 
 ## Música:
 
 - Trace Urban ᴴᴰ
 - Trace Brasil ᴴᴰ
 - ClubbingTV ᴴᴰ
+- VEVO (US) ᴴᴰ
+- OnFM ᴴᴰ
 
 # Rádios:
 
-- DJ Tomás Afonso
 - Rádio Comercial
 - RFM
 - Fama Rádio
@@ -82,6 +90,7 @@ Também existe uma lista M3U das [MEO Beachcam's](https://thomraider12.github.io
 - Cidade FM
 - Cidade Hoje
 - Tuga FM
+- Truckers.FM
 
 # Beachcam's:
 
