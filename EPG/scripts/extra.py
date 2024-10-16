@@ -2,6 +2,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 
 canais_extras = [
+    {"id": "FamaTV.pt", "nome": "FamaTV - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/famatv.png", "desc": "A FamaTV é uma televisão/publicação local generalista, com raízes em Vila Nova de Famalicão, mas atenta aos acontecimentos e valores dos municípios limítrofes.\n\nA FamaTV esforça-se por apresentar uma programação interessante e atual promovendo as características da cultura local e regional."},
     {"id": "GoloFM.pt", "nome": "Golo FM - Desporto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/golofm.png", "desc": "A Primeira Rádio Desporto. A maior fábrica de notícias de Portugal que pode ouvir em FM e online."},
     {"id": "AviaçãoTV.pt", "nome": "AviaçãoTV - Direto (Lisboa)", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/aviaçãotv.png", "desc": "Assiste ao aeroporto de Lisboa em direto todos os dias."},
     {"id": "OnFM.pt", "nome": "OnFM - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/onfm.png", "desc": "Liga-te. A OnFM é a primeira visual rádio em Portugal."},
