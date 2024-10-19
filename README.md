@@ -2,7 +2,7 @@
 
 Este projeto foi criado por Tomás Afonso, e tem vários canais de Portugal e do Mundo para entreter as pessoas.
 Pode ser usado com a lista M3U (<https://thomraider12.github.io/canaistvpt/pt.m3u>), com a lista de canais e rádios aqui em baixo.
-Também existe uma lista M3U das [MEO Beachcam's](https://thomraider12.github.io/canaistvpt/m3u8s/beachcams.m3u), e de alguns programas ([PCNELID](https://thomraider12.github.io/canaistvpt/m3u8s/pcnelid.m3u), [Eixo do Mal](https://thomraider12.github.io/canaistvpt/m3u8s/eixodomal.m3u) e [Outro Lado](https://thomraider12.github.io/canaistvpt/m3u8s/ooutrolado.m3u))
+Também existe uma lista M3U das [MEO Beachcam's](https://thomraider12.github.io/canaistvpt/m3u8s/beachcams.m3u), de alguns programas (PCNELID, Eixo do Mal e Outro Lado) disponíveis [aqui](https://thomraider12.github.io/canaistvpt/m3u8s/series.m3u), de [documentários](https://thomraider12.github.io/canaistvpt/m3u8s/documentarios.m3u)  e de [filmes](https://thomraider12.github.io/canaistvpt/m3u8s/filmes.m3u).
 
 ---
 
@@ -41,6 +41,7 @@ Também existe uma lista M3U das [MEO Beachcam's](https://thomraider12.github.io
 - Fuel TV (ESP) ᴴᴰ
 - Motorvision (NZ) ᴴᴰ
 - SpeedVision (US) ᴴᴰ
+- Top Gear (US) ѕᴅ/ᴴᴰ
 
 ## Filmes, Documentários e Novelas:
 
@@ -80,6 +81,7 @@ Também existe uma lista M3U das [MEO Beachcam's](https://thomraider12.github.io
 - Fama Rádio
 - Observador
 - TSF
+- Rádio Renascença
 - M80
 - Rádio Voz Santo Tirso
 - MegaHits
