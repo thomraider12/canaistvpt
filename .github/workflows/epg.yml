@@ -65,8 +65,8 @@ jobs:
           python extra.py
           cd -
           cd EPG
-          rm -f epg-extra-pt.xml.xz
-          xz -z epg-extra-pt.xml
+          rm -f epg-extra.xml.xz
+          xz -z epg-extra.xml
 
       - name: Configurar Git
         run: |
