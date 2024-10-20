@@ -4,7 +4,7 @@ from datetime import datetime, timedelta, time, timezone
 import pytz
 import unicodedata
 import time as times
-import lzma
+import gzip  # Alterado de lzma para gzip
 
 tz = pytz.timezone('Europe/London')
 
@@ -22,13 +22,6 @@ def get_days() -> list:
 
 
 def build_xmltv(channels: list, programmes: list) -> bytes:
-    """
-    Make the channels and programmes into something readable by XMLTV
-    :param channels: The list of channels to be generated
-    :param programmes: The list of programmes to be generated
-    :return: A sequence of bytes for XML
-    """
-    # Timezones since UK has daylight savings
     dt_format = '%Y%m%d%H%M%S %z'
 
     data = etree.Element("tv")
@@ -38,7 +31,7 @@ def build_xmltv(channels: list, programmes: list) -> bytes:
         channel.set("id", str(ch.get("id")))
         name = etree.SubElement(channel, "display-name")
         name.set("lang", ch.get("language")[:-1].lower())
-        name.text = remove_control_characters(ch.get("name"))  # Remover caracteres inválidos aqui
+        name.text = remove_control_characters(ch.get("name"))
         
         if ch.get("icon") is not None:
             icon_src = etree.SubElement(channel, "icon")
@@ -56,23 +49,22 @@ def build_xmltv(channels: list, programmes: list) -> bytes:
 
         title = etree.SubElement(programme, "title")
         title.set('lang', 'pt')
-        title.text = remove_control_characters(pr.get("title"))  # Remover caracteres inválidos aqui
+        title.text = remove_control_characters(pr.get("title"))
 
         if pr.get("subtitle") is not None:
             subtitle = etree.SubElement(programme, "sub-title")
             subtitle.set('lang', 'pt')
-            subtitle.text = remove_control_characters(pr.get("subtitle"))  # Remover caracteres inválidos aqui
+            subtitle.text = remove_control_characters(pr.get("subtitle"))
 
         if pr.get('description') is not None:
             description = etree.SubElement(programme, "desc")
             description.set('lang', 'pt')
-            description.text = remove_control_characters(pr.get("description"))  # Remover caracteres inválidos aqui
+            description.text = remove_control_characters(pr.get("description"))
 
-        if pr.get('tags') is not None:
-            if len(pr.get('tags')) > 0:
-                category = etree.SubElement(programme, "category")
-                category.set('lang', 'pt')
-                category.text = remove_control_characters(pr.get('tags')[0].get("name"))  # Garantir texto válido aqui
+        if pr.get('tags') is not None and len(pr.get('tags')) > 0:
+            category = etree.SubElement(programme, "category")
+            category.set('lang', 'pt')
+            category.text = remove_control_characters(pr.get('tags')[0].get("name"))
 
     return etree.tostring(data, pretty_print=True, encoding='utf-8')
 
@@ -161,6 +153,5 @@ for channel in json:
 
 channel_xml = build_xmltv(channels_data, programme_data)
 
-with lzma.open('../epg-rakuten-tv.xml.xz', 'wb') as f:
+with gzip.open('../epg-rakuten-tv.xml.gz', 'wb') as f:  # Alterado de lzma para gzip e o nome do arquivo para .gz
     f.write(channel_xml)
-    f.close()
