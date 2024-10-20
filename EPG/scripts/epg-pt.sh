@@ -33,7 +33,7 @@ sleep 3
 
 # Comprimir ficheiros XML da EPG
 
-xz -k -f -9 epg*.xml
+gzip -k -f -9 epg*.xml
 
 echo -e "Ficheiros comprimidos."
 sleep 3
