@@ -41,7 +41,7 @@ jobs:
       - name: Atualizar lista SamsungTVPlus
         run: |
           cd EPG
-          rm -f epg-samsung-tvplus.xml.xz
+          rm -f epg-samsung-tvplus.xml.gz
           wget -O epg-samsung-tvplus.xml.gz "https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/SamsungTVPlus/all.xml.gz"
 
       - name: Atualizar lista Opto SIC
@@ -61,8 +61,8 @@ jobs:
           python extra.py
           cd -
           cd EPG
-          rm -f epg-extra.xml.xz
-          xz -z epg-extra.xml
+          rm -f epg-extra.xml.gz
+          gz epg-extra.xml
 
       - name: Configurar Git
         run: |
