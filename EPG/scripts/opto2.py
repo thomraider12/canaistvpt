@@ -1,6 +1,6 @@
 import xml.etree.ElementTree as ET
 import json
-import lzma
+import gzip  # Alterado de lzma para gzip
 import os
 
 from datetime import datetime
@@ -50,16 +50,16 @@ def json_to_xmltv(json_data):
     xml_data = ET.tostring(tv, encoding='utf-8', method='xml').decode('utf-8')
     return xml_data
 
-def save_xml_as_lzma(xml_data, output_filename):
-    # Salvar o XML comprimido no formato .xml.xz
-    with lzma.open(output_filename, 'wt', encoding='utf-8') as f:
+def save_xml_as_gzip(xml_data, output_filename):
+    # Salvar o XML comprimido no formato .xml.gz
+    with gzip.open(output_filename, 'wt', encoding='utf-8') as f:
         f.write(xml_data)
 
 # Exemplo de uso
 def main():
     # Caminho do JSON de entrada (na pasta EPG) e XML de saída
     input_json_file = os.path.join(os.path.dirname(__file__), "..", "epg-sic-pt.json")
-    output_xml_file = os.path.join(os.path.dirname(__file__), "..", "epg-sic-pt.xml.xz")
+    output_xml_file = os.path.join(os.path.dirname(__file__), "..", "epg-sic-pt.xml.gz")  # Alterado para .xml.gz
 
     # Carregar o JSON de um ficheiro
     with open(input_json_file, 'r', encoding='utf-8') as f:
@@ -68,8 +68,8 @@ def main():
     # Converter o JSON para XMLTV
     xml_output = json_to_xmltv(json_data)
     
-    # Salvar o XML comprimido no formato .xml.xz
-    save_xml_as_lzma(xml_output, output_xml_file)
+    # Salvar o XML comprimido no formato .xml.gz
+    save_xml_as_gzip(xml_output, output_xml_file)
     print(f"Arquivo XMLTV salvo como {output_xml_file}")
 
 if __name__ == "__main__":
