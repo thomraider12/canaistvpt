@@ -62,7 +62,7 @@ jobs:
           cd -
           cd EPG
           rm -f epg-extra.xml.gz
-          gz epg-extra.xml
+          gzip epg-extra.xml
 
       - name: Configurar Git
         run: |
