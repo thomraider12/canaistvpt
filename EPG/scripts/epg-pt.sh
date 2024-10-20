@@ -23,14 +23,6 @@ npm run grab -- --channels=../EPG/nos.pt.channels.xml --output=../EPG/epg-nos-pt
 echo "EPG da NOS atualizada!"
 sleep 3
 
-# Rytec EPG
-
-cd ../EPG
-wget -O epg-rytec-pt.xml.xz "http://www.xmltvepg.nl/rytecPT.xz"
-
-echo "EPG da Rytec atualizada!"
-sleep 3
-
 # Comprimir ficheiros XML da EPG
 
 gzip -k -f -9 epg*.xml
