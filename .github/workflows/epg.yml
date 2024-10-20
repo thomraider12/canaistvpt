@@ -35,18 +35,14 @@ jobs:
       - name: Atualizar lista PlutoTV
         run: |
           cd EPG
+          rm -f epg-pluto-tv.xml.gz
           wget -O epg-pluto-tv.xml.gz "https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/PlutoTV/all.xml.gz"
-          gunzip epg-pluto-tv.xml.gz
-          rm -f epg-pluto-tv.xml.xz
-          xz -z epg-pluto-tv.xml
 
       - name: Atualizar lista SamsungTVPlus
         run: |
           cd EPG
-          wget -O epg-samsung-tvplus.xml.gz "https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/SamsungTVPlus/all.xml.gz"
-          gunzip epg-samsung-tvplus.xml.gz
           rm -f epg-samsung-tvplus.xml.xz
-          xz -z epg-samsung-tvplus.xml
+          wget -O epg-samsung-tvplus.xml.gz "https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/SamsungTVPlus/all.xml.gz"
 
       - name: Atualizar lista Opto SIC
         run: |
