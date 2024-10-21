@@ -1,4 +1,4 @@
-import lzma
+import gzip
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
 from datetime import datetime
@@ -18,8 +18,8 @@ epg_path = 'epg-pt.xml.gz'
 html_path = '../noticias.html'
 
 
-# Descompactar e analisar o arquivo EPG
-with lzma.open(epg_path, 'rt', encoding='utf-8') as file:
+# Descompactar e analisar o arquivo EPG usando gzip
+with gzip.open(epg_path, 'rt', encoding='utf-8') as file:
     epg_tree = ET.parse(file)
 
 epg_root = epg_tree.getroot()
