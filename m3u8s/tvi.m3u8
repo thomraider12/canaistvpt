@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=1972967,RESOLUTION=1280x720,CODECS="avc1.640029,mp4a.40.2"
-https://video-auth6.iol.pt/edge_servers/tvi-720_passthrough/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjIvMjAyNCA0OjQ2OjIyIFBNJmhhc2hfdmFsdWU9SS9NckozV0ozSmw1c1pEOGtSQ0tRUT09JnZhbGlkbWludXRlcz0xNDQwJmlkPWExZTllNGYzLTdmOTAtNDA3MS1iNzc0LTczNWI5YjJlNDJiNw==
+https://video-auth6.iol.pt/edge_servers/tvi-720_passthrough/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjIvMjAyNCA4OjQwOjUzIFBNJmhhc2hfdmFsdWU9WlN6N013cEFRdVJiVS8xV0dXc2JpZz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWEwNzU1ZTA4LTYxZDAtNDZlZi04NmY1LWRkNGZlMzM2ZTEzZQ==
 #EXT-X-STREAM-INF:BANDWIDTH=845169,RESOLUTION=854x480,CODECS="avc1.66.30,mp4a.40.2"
-https://video-auth6.iol.pt/edge_servers/tvi-480p/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjIvMjAyNCA0OjQ2OjIyIFBNJmhhc2hfdmFsdWU9SS9NckozV0ozSmw1c1pEOGtSQ0tRUT09JnZhbGlkbWludXRlcz0xNDQwJmlkPWExZTllNGYzLTdmOTAtNDA3MS1iNzc0LTczNWI5YjJlNDJiNw==
+https://video-auth6.iol.pt/edge_servers/tvi-480p/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjIvMjAyNCA4OjQwOjUzIFBNJmhhc2hfdmFsdWU9WlN6N013cEFRdVJiVS8xV0dXc2JpZz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWEwNzU1ZTA4LTYxZDAtNDZlZi04NmY1LWRkNGZlMzM2ZTEzZQ==
