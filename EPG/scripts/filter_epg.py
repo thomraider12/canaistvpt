@@ -1,5 +1,6 @@
 import gzip
 import xml.etree.ElementTree as ET
+import os
 
 def extract_epg(input_file, output_file, channels_to_keep):
     # Abre o arquivo EPG compactado e lê o XML
@@ -22,10 +23,17 @@ def extract_epg(input_file, output_file, channels_to_keep):
         for pr in filtered_programmes:
             new_root.append(pr)
 
-        # Escreve o XML filtrado no arquivo de saída
+        # Salva o XML filtrado temporariamente como um arquivo de texto
+        temp_output_file = 'filtered_epg.xml'
         tree = ET.ElementTree(new_root)
-        with gzip.open(output_file, 'wt', encoding='utf-8') as f_out:
-            tree.write(f_out, encoding='utf-8', xml_declaration=True)
+        tree.write(temp_output_file, encoding='utf-8', xml_declaration=True)
+
+        # Compacta o arquivo temporário com gzip
+        with open(temp_output_file, 'rb') as f_in, gzip.open(output_file, 'wb') as f_out:
+            f_out.writelines(f_in)
+
+        # Remove o arquivo temporário
+        os.remove(temp_output_file)
 
 # Lista de IDs de canais que você quer manter (modifique conforme necessário)
 pluto_channels_to_keep = ['formula-1-channel', 'top-gear-ptv1']
