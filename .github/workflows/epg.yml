@@ -44,6 +44,21 @@ jobs:
           rm -f epg-samsung-tvplus.xml.gz
           wget -O epg-samsung-tvplus.xml.gz "https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/SamsungTVPlus/all.xml.gz"
 
+      # Adicionar o script de filtragem após baixar as EPGs
+      - name: Filtrar EPG do PlutoTV e SamsungTVPlus
+        run: |
+          cd EPG/scripts
+          python filter_epg.py
+
+      - name: Substituir EPG original do PlutoTV pelo filtrado
+        run: |
+          mv filtered-epg-pluto-tv.xml.gz EPG/epg-pluto-tv.xml.gz
+
+      - name: Substituir EPG original do SamsungTVPlus pelo filtrado
+        run: |
+          mv filtered-epg-samsung-tvplus.xml.gz EPG/epg-samsung-tvplus.xml.gz
+
+
       - name: Atualizar lista Opto SIC
         run: |
           python EPG/scripts/opto.py
