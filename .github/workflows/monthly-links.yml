@@ -1,9 +1,10 @@
-name: Update channels-link
+name: Atualizar channels-link
 
 # Executa de mês em mês
 on:
   schedule:
     - cron: "0 0 1 * *" # Cron que roda no primeiro dia de cada mês, à meia-noite UTC
+  workflow_dispatch:
 
 jobs:
   run-script:
