@@ -1,0 +1,31 @@
+name: Update channels-link
+
+# Executa de mês em mês
+on:
+  schedule:
+    - cron: "0 0 1 * *" # Cron que roda no primeiro dia de cada mês, à meia-noite UTC
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout do código no repositório
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Configura o Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.12" # Pode ser 3.12 ou a versão que você usa
+
+      # Instala dependências (se necessário)
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+
+      # Executa o script Python
+      - name: Run the Python script
+        run: |
+          python EPG/scripts/updatelink.py
