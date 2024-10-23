@@ -109,7 +109,7 @@ https://rakuten-documentaries-14-pt.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="Filmes, Documentários, Novelas" tvg-id="USBC3900018K6" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/mtmn.png",MyTime Movie Network (BR)
 https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 group-title="Filmes, Documentários, Novelas" tvg-id="MovieSphere" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/moviesphere.png",MovieSphere
+#EXTINF:-1 group-title="Filmes, Documentários, Novelas" tvg-id="GBBA33000557H" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/moviesphere.png",MovieSphere
 https://moviesphere-plex.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 group-title="BD" tvg-id="608181d420fc8500075f612a" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/anime.png",Anime
