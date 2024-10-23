@@ -36,8 +36,8 @@ def extract_epg(input_file, output_file, channels_to_keep):
         os.remove(temp_output_file)
 
 # Lista de IDs de canais que você quer manter (modifique conforme necessário)
-pluto_channels_to_keep = ['65c69ee3d77d450008c80', '636adc255bcf470007d6e0e2', '608181d420fc8500075f612a']
-samsung_channels_to_keep = ['USBC3900018K6', 'GBBA3300024F7', 'CABC52000180Z', 'CABB260002016', 'GBBA33000557H', 'USBA3800004EL']
+pluto_channels_to_keep = ['65c69ee3d77d450008c80438', '636adc255bcf470007d6e0e2', '608181d420fc8500075f612a']
+samsung_channels_to_keep = ['USBC3900018K6', 'ESBA3300017FA', 'CABB260002016', 'GBBA33000557H']
 
 # Processa a EPG do PlutoTV
 extract_epg('epg-pluto-tv.xml.gz', 'filtered-epg-pluto-tv.xml.gz', pluto_channels_to_keep)
