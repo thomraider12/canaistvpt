@@ -30,3 +30,15 @@ jobs:
       - name: Run the Python script
         run: |
           python EPG/scripts/updatelink.py
+
+      - name: setup git config
+        run: |
+          git config user.name "monthly bot"
+          git config user.email "<>"
+
+      - name: commit e push
+        run: |
+          git pull
+          git add channels-link.txt
+          git commit -m "Atualização automática dos links dos canais"
+          git push origin main
