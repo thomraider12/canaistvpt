@@ -31,8 +31,7 @@ jobs:
       # Passo 4: Executar o script de atualização de programas
       - name: Executar script de atualização
         run: |
-          cd EPG
-          python noticias.py
+          python EPG/scripts/noticias.py
 
       - name: setup git config
         run: |
