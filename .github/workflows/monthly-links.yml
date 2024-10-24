@@ -1,9 +1,9 @@
 name: Atualizar channels-link
 
-# Executa de mês em mês
 on:
-  schedule:
-    - cron: "0 0 1 * *" # Cron que roda no primeiro dia de cada mês, à meia-noite UTC
+  push:
+    paths:
+      - "pt.m3u" # Somente executa quando pt.m3u for modificado
   workflow_dispatch:
 
 jobs:
