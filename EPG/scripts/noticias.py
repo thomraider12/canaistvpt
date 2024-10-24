@@ -14,8 +14,8 @@ def is_currently_airing(start_time, end_time, current_time):
     return start_time <= current_time < end_time
 
 # Atualize o caminho para o arquivo EPG
-epg_path = 'epg-pt.xml.gz'
-html_path = '../noticias.html'
+epg_path = 'EPG/epg-pt.xml.gz'
+html_path = 'noticias.html'
 
 
 # Descompactar e analisar o arquivo EPG usando gzip
