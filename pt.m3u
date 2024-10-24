@@ -132,7 +132,10 @@ https://ythls-v3.onrender.com/channel/UC0R-K3crhMX9jzswbmfIORw.m3u8
 #EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/traceurban.png" tvg-id="TraceUrban.fr",Trace Urban (FR)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00398-zeasneuropebv-traceurban-zeasn/playlist.m3u8
 
-#EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tracebrasil.png" tvg-id="TraceBrasil.br",Trace Brazil
+#EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tracetoca.png" tvg-id="643054b1fc3be59477853717-63226c03e67cf9cd9011fcdf",Trace Toca (ESP)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/tracetvAA-trace-latina-lg-es/playlist.m3u8
+
+#EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tracebrasil.png" tvg-id="TraceBrasil.br",Trace Brazil (BR)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracebrazuca-xiaomi/playlist.m3u8
 
 #EXTINF:-1 group-title="Rádios" tvg-id="clubbing-tv" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/clubbingtv.png",Clubbing TV
