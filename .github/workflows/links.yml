@@ -46,9 +46,18 @@ jobs:
       - name: Install dependencies
         run: sudo apt-get install -y ffmpeg
 
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
       - name: Test Streams
         run: |
           cd logs
+          echo "Isto pode demorar ≈ 3 a 5 min"
           python teststreams.py
           echo "Testes finalizados. Resultados disponíveis em logs/stream-test-results.txt"
 
