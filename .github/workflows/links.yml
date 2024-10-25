@@ -8,13 +8,12 @@ jobs:
   update-stream:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: atualizar links
+      - name: Atualizar links
         run: |
           #!/bin/bash
-
           file1="m3u8s/cnnpt.m3u8"
           file2="m3u8s/tvi.m3u8"
 
@@ -24,12 +23,12 @@ jobs:
           echo "Ficheiros atualizados."
           exit 0
 
-      - name: setup git config
+      - name: Setup Git config
         run: |
           git config user.name "tvi-pt ch bot"
           git config user.email "<>"
 
-      - name: commit e push
+      - name: Commit e Push
         run: |
           git pull
           git add m3u8s/cnnpt.m3u8
@@ -49,18 +48,42 @@ jobs:
 
       - name: Test Streams
         run: |
-          # Verifica se o ficheiro channels-link.txt existe
-          if [ ! -f channels-link.txt ]; then
-            echo "Error: channels-link.txt not found"
+          cd logs
+          # Verifica se o arquivo channels-link.txt existe e não está vazio
+          if [ ! -s channels-link.txt ]; then
+            echo "Error: channels-link.txt not found or empty" | tee stream-test-results.txt
             exit 1
           fi
 
-          # Itera por cada URL no ficheiro channels-link.txt e testa com ffmpeg
+          # Limpa o arquivo de resultados anterior, se existir
+          : > stream-test-results.txt
+
           while read stream; do
             echo "Testing stream: $stream"
-            if ffmpeg -i "$stream" -t 5 -v error -stats -y -f null -; then
-              echo "Stream $stream is working"
+            
+            # Verifica se o link está acessível
+            if curl --max-time 10 -s -o /dev/null "$stream"; then
+              # Testa o stream com timeout e detecção de erro
+              if ffmpeg -timeout 5 -err_detect explode -i "$stream" -t 5 -v error -stats -y -f null -; then
+                echo "Stream $stream is working" | tee -a stream-test-results.txt
+              else
+                echo "Stream $stream failed" | tee -a stream-test-results.txt
+              fi
             else
-              echo "Stream $stream failed"
+              echo "Stream $stream não está acessível" | tee -a stream-test-results.txt
             fi
           done < channels-link.txt
+
+          echo "Testes finalizados. Resultados disponíveis em stream-test-results.txt"
+
+      - name: Setup Git config
+        run: |
+          git config user.name "channel bot"
+          git config user.email "<>"
+
+      - name: Commit e Push
+        run: |
+          git pull
+          git add logs/stream-test-results.txt
+          git commit -m "log - verificação de canais"
+          git push origin main
