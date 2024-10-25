@@ -63,11 +63,11 @@ jobs:
             
             # Verifica se o link está acessível
             if curl --max-time 10 -s -o /dev/null "$stream"; then
-              # Testa o stream com timeout e detecção de erro
-              if ffmpeg -timeout 5 -err_detect explode -i "$stream" -t 5 -v error -stats -y -f null -; then
-                echo "Stream $stream is working" | tee -a stream-test-results.txt
+              # Testa o stream com timeout e detecção de erro, suprimindo saídas detalhadas
+              if ffmpeg -timeout 5 -err_detect explode -i "$stream" -t 5 -v error -stats -y -f null - &>/dev/null; then
+                echo "Stream $stream correu bem" | tee -a stream-test-results.txt
               else
-                echo "Stream $stream failed" | tee -a stream-test-results.txt
+                echo "Stream $stream falhou" | tee -a stream-test-results.txt
               fi
             else
               echo "Stream $stream não está acessível" | tee -a stream-test-results.txt
@@ -75,7 +75,6 @@ jobs:
           done < channels-link.txt
 
           echo "Testes finalizados. Resultados disponíveis em stream-test-results.txt"
-
       - name: Setup Git config
         run: |
           git config user.name "channel bot"
