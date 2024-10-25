@@ -1,59 +1,60 @@
-Stream https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8 failed
-Stream https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8 failed
-Stream https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index_5.m3u8 is working
-Stream ://github.com/thomraider12/canaistvpt/raw/main/m3u8s/tvi.m3u8 não está acessível
-Stream https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/index_4.m3u8 is working
-Stream ://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8 não está acessível
-Stream https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/cnnpt.m3u8 failed
-Stream https://video-auth2.iol.pt/live_vmais/live_vmais/edge_servers/vmais-720p/playlist.m3u8 failed
-Stream https://bcovlive-a.akamaihd.net/34ec8f209dcc48dda853aca054c97ab2/eu-west-1/6415811594001/playlist.m3u8 is working
-Stream ps://0ff3c09c7580460e8e018cdcaacbadee.mediatailor.us-east-1.amazonaws.com/v1/manifest/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pt_EuroNewsLive/de58ab88-b103-4df8-b87a-71190e6f9482/5.m3u8 não está acessível
-Stream https://playout175.livextend.cloud/livenlin4/_definst_/2liveartvpub2/playlist.m3u8 failed
-Stream https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8 failed
-Stream https://video-auth4.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/playlist.m3u8 failed
-Stream https://204280.global.ssl.fastly.net/64cd4f589272294ee667108d/live_2f24d2e05bfd11eeb524673aae68b8ac/playlist.m3u8 is working
-Stream s://crtvg-europa.flumotion.cloud/crtvg/europa_high/chunks.m3u8 não está acessível
-Stream https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8 is working
-Stream s://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8 não está acessível
-Stream https://8c916ce141544c85a361e55898216cf0.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_Bloomberg-2/playlist.m3u8 is working
-Stream d1kvlt93j1bc49.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6vpx7bvwjm7ao/v1/amcnetworks_bbcnews_1/samsungheadend_us/latest/main/hls/playlist.m3u8 failed
-Stream https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/55b285cd2665de274553d66f/master.m3u8 failed
-Stream https://ythls-v3.onrender.com/channel/UCX_YubBBVVzTyy9dHKHxhuQ.m3u8 failed
-Stream https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65c69ee3d77d450008c80438/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=43d64440-8644-11ef-a525-f2288c9ddd01&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=2074579a-a34b-4c46-90b9-8112b30a3a88&userId=&serverSideAds=true is working
-Stream //7c8b579d.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/T05PX01vdG9yc3BvcnR0dl9ITFM/playlist.m3u8 não está acessível
-Stream https://f7ccf7fc.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXB0X0ZJRkFQbHVzUG9ydHVndWVzZV9ITFM/playlist.m3u8 failed
-Stream https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX1JlZEJ1bGxUVl9ITFM/playlist.m3u8 failed
-Stream https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01074-fueltv-fueltvbrpt-lgbr/playlist.m3u8 is working
-Stream ://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01329-otterainc-motorvisionnz-samsungnz/playlist.m3u8?checkedby:iptvcat.com não está acessível
-Stream https://eb9a3a62.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/T05PX1NwZWVkdmlzaW9uX0hMUw/playlist.m3u8 failed
-Stream https://production-fast-sic.content.okast.tv/fa2e8c4385712f9aa54bbe52b1bd9b6b/channels/d9070446-8448-455e-8075-773b1ba12562/fc831b20-f252-4e7d-8cc5-2d05f4d43c1c/media_.m3u8 is working
-Stream //production-fast-sic.content.okast.tv/fa2e8c4385712f9a7dce4ff2dcebac2e/channels/d9070446-8448-455e-8075-773b1ba12562/d47eae0f-ad77-414a-9a1d-2a6628ba18c3/media_.m3u8 não está acessível
-Stream https://rakuten-documentaries-14-pt.samsung.wurl.tv/playlist.m3u8 is working
-Stream s://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8 não está acessível
-Stream https://moviesphere-plex.amagi.tv/playlist.m3u8 failed
-Stream http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f12136385bccc00070142ed/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7bTARGETOPT%7d&deviceId=%7bPSID%7d&advertisingId=%7bPSID%7d&us_privacy=1YNY&samsung_app_domain=%7bAPP_DOMAIN%7d&samsung_app_name=%7bAPP_NAME%7d&profileLimit=&profileFloor=&embedPartner=samsung-tvplus failed
-Stream https://rakuten-family-14-pt.samsung.wurl.tv/playlist.m3u8 is working
-Stream ps://b3cc72d0160f4e168712e880c78c4dcc.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pt_TravelXP/playlist.m3u8 não está acessível
-Stream https://rakutenaa-soul-5mincraftenglish-rakuten-du9p7.amagi.tv/playlist/rakutenAA-soul-5mincraftenglish-rakuten/playlist.m3u8 is working
-Stream //iptv.prosto.tv:7000/ch256/video.m3u8 não está acessível
-Stream https://jukin-failarmy-international-1-eu.vidaa.wurl.tv/playlist.m3u8 is working
-Stream ://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8 não está acessível
-Stream https://d22w22d3eu3t35.cloudfront.net/playlist.m3u8 is working
-Stream s://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00398-zeasneuropebv-traceurban-zeasn/playlist.m3u8 não está acessível
-Stream https://cdn-uw2-prod.tsv2.amagi.tv/linear/tracetvAA-trace-latina-lg-es/playlist.m3u8 is working
-Stream ://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracebrazuca-xiaomi/playlist.m3u8 não está acessível
-Stream https://clubbingtv-rakuten.amagi.tv/playlist.m3u8 is working
-Stream s://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00056-vevotv-vevopopau-samsungau/playlist.m3u8 não está acessível
-Stream https://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8 failed
+Stream https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8 falhou
+Stream https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8 falhou
+Stream https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index_5.m3u8 correu bem
+Stream s://github.com/thomraider12/canaistvpt/raw/main/m3u8s/tvi.m3u8 não está acessível
+Stream https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/index_4.m3u8 correu bem
+Stream s://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8 não está acessível
+Stream https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/cnnpt.m3u8 correu bem
+Stream ps://video-auth2.iol.pt/live_vmais/live_vmais/edge_servers/vmais-720p/playlist.m3u8 não está acessível
+Stream https://bcovlive-a.akamaihd.net/34ec8f209dcc48dda853aca054c97ab2/eu-west-1/6415811594001/playlist.m3u8 correu bem
+Stream tps://0ff3c09c7580460e8e018cdcaacbadee.mediatailor.us-east-1.amazonaws.com/v1/manifest/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pt_EuroNewsLive/de58ab88-b103-4df8-b87a-71190e6f9482/5.m3u8 não está acessível
+Stream https://playout175.livextend.cloud/livenlin4/_definst_/2liveartvpub2/playlist.m3u8 falhou
+Stream https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8 falhou
+Stream https://video-auth4.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/playlist.m3u8 falhou
+Stream https://204280.global.ssl.fastly.net/64cd4f589272294ee667108d/live_2f24d2e05bfd11eeb524673aae68b8ac/playlist.m3u8 falhou
+Stream https://crtvg-europa.flumotion.cloud/crtvg/europa_high/chunks.m3u8 correu bem
+Stream ttps://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8 não está acessível
+Stream https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8 correu bem
+Stream ps://8c916ce141544c85a361e55898216cf0.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_Bloomberg-2/playlist.m3u8 não está acessível
+Stream https://d1kvlt93j1bc49.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6vpx7bvwjm7ao/v1/amcnetworks_bbcnews_1/samsungheadend_us/latest/main/hls/playlist.m3u8 correu bem
+Stream ://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/55b285cd2665de274553d66f/master.m3u8 não está acessível
+Stream https://ythls-v3.onrender.com/channel/UCX_YubBBVVzTyy9dHKHxhuQ.m3u8 falhou
+Stream https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65c69ee3d77d450008c80438/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=43d64440-8644-11ef-a525-f2288c9ddd01&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=2074579a-a34b-4c46-90b9-8112b30a3a88&userId=&serverSideAds=true falhou
+Stream https://7c8b579d.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/T05PX01vdG9yc3BvcnR0dl9ITFM/playlist.m3u8 correu bem
+Stream s://f7ccf7fc.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXB0X0ZJRkFQbHVzUG9ydHVndWVzZV9ITFM/playlist.m3u8 não está acessível
+Stream https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX1JlZEJ1bGxUVl9ITFM/playlist.m3u8 correu bem
+Stream ://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01074-fueltv-fueltvbrpt-lgbr/playlist.m3u8 não está acessível
+Stream https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01329-otterainc-motorvisionnz-samsungnz/playlist.m3u8?checkedby:iptvcat.com falhou
+Stream https://eb9a3a62.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/T05PX1NwZWVkdmlzaW9uX0hMUw/playlist.m3u8 correu bem
+Stream ://production-fast-sic.content.okast.tv/fa2e8c4385712f9aa54bbe52b1bd9b6b/channels/d9070446-8448-455e-8075-773b1ba12562/fc831b20-f252-4e7d-8cc5-2d05f4d43c1c/media_.m3u8 não está acessível
+Stream https://production-fast-sic.content.okast.tv/fa2e8c4385712f9a7dce4ff2dcebac2e/channels/d9070446-8448-455e-8075-773b1ba12562/d47eae0f-ad77-414a-9a1d-2a6628ba18c3/media_.m3u8 correu bem
+Stream ://rakuten-documentaries-14-pt.samsung.wurl.tv/playlist.m3u8 não está acessível
+Stream https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8 correu bem
+Stream tps://moviesphere-plex.amagi.tv/playlist.m3u8 não está acessível
+Stream http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f12136385bccc00070142ed/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7bTARGETOPT%7d&deviceId=%7bPSID%7d&advertisingId=%7bPSID%7d&us_privacy=1YNY&samsung_app_domain=%7bAPP_DOMAIN%7d&samsung_app_name=%7bAPP_NAME%7d&profileLimit=&profileFloor=&embedPartner=samsung-tvplus correu bem
+Stream s://rakuten-family-14-pt.samsung.wurl.tv/playlist.m3u8 não está acessível
+Stream https://b3cc72d0160f4e168712e880c78c4dcc.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pt_TravelXP/playlist.m3u8 correu bem
+Stream ps://rakutenaa-soul-5mincraftenglish-rakuten-du9p7.amagi.tv/playlist/rakutenAA-soul-5mincraftenglish-rakuten/playlist.m3u8 não está acessível
+Stream http://iptv.prosto.tv:7000/ch256/video.m3u8 correu bem
+Stream //jukin-failarmy-international-1-eu.vidaa.wurl.tv/playlist.m3u8 não está acessível
+Stream https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8 correu bem
+Stream //d22w22d3eu3t35.cloudfront.net/playlist.m3u8 não está acessível
+Stream https://ythls-v3.onrender.com/channel/UC0R-K3crhMX9jzswbmfIORw.m3u8 falhou
+Stream https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00398-zeasneuropebv-traceurban-zeasn/playlist.m3u8 correu bem
+Stream ps://cdn-uw2-prod.tsv2.amagi.tv/linear/tracetvAA-trace-latina-lg-es/playlist.m3u8 não está acessível
+Stream https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracebrazuca-xiaomi/playlist.m3u8 correu bem
+Stream ps://clubbingtv-rakuten.amagi.tv/playlist.m3u8 não está acessível
+Stream https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00056-vevotv-vevopopau-samsungau/playlist.m3u8 correu bem
+Stream s://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8 não está acessível
 Stream https://stream-icy.bauermedia.pt/comercial.aac não está acessível
-Stream https://playerservices.streamtheworld.com/api/livestream-redirect/RFMAAC_SC failed
+Stream https://playerservices.streamtheworld.com/api/livestream-redirect/RFMAAC_SC falhou
 Stream http://famaradio.mywire.org:8000/digitalfm64 não está acessível
-Stream https://playerservices.streamtheworld.com/api/livestream-redirect/OBSERVADORAAC.aac?dist=web-popup&devicename=aac failed
+Stream https://playerservices.streamtheworld.com/api/livestream-redirect/OBSERVADORAAC.aac?dist=web-popup&devicename=aac falhou
 Stream http://tsfdirecto.tsf.pt/tsfdirecto.mp3# não está acessível
-Stream https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_RENASCENCAAAC.aac failed
+Stream https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_RENASCENCAAAC.aac falhou
 Stream https://stream-icy.bauermedia.pt/m80.aac não está acessível
 Stream https://radios.justweb.pt/8024/stream não está acessível
-Stream http://25703.live.streamtheworld.com/MEGA_HITS_SC failed
+Stream http://25703.live.streamtheworld.com/MEGA_HITS_SC falhou
 Stream http://centova.radios.pt:9478/stream/1/ não está acessível
 Stream http://centova.radio.com.pt:8495/stream/1/ não está acessível
 Stream https://centova.radios.pt/proxy/401?mp=/stream/ não está acessível
