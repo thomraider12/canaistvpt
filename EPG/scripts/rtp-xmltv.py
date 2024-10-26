@@ -6,7 +6,6 @@ import gzip
 
 def convert_jsontv_to_xmltv(json_path, xml_output_path):
     # Carregar JSONTV e verificar a estrutura
-    
     with open(json_path, "r", encoding="utf-8") as file:
         jsontv_data = json.load(file)
     
@@ -37,10 +36,15 @@ def convert_jsontv_to_xmltv(json_path, xml_output_path):
                 # Calcular o horário de fim (se possível) ou definir uma duração padrão
                 if i + 1 < len(programmes):
                     end_time = datetime.strptime(programmes[i + 1]["date"], "%Y-%m-%d %H:%M:%S")
+                    stop_time = end_time  # Usa o início do próximo programa como horário de término
                 else:
-                    end_time = start_time + timedelta(hours=1)  # Duração padrão de 1 hora
+                    stop_time = start_time + timedelta(minutes=30)  # Duração padrão de 30 minutos
 
-                stop_formatted = end_time.strftime("%Y%m%d%H%M%S")
+                # Garantir que o stop não seja no dia seguinte, a menos que seja intencional
+                if stop_time < start_time:
+                    stop_time = start_time + timedelta(minutes=30)  # Recalcular se o stop é anterior ao start
+
+                stop_formatted = stop_time.strftime("%Y%m%d%H%M%S")
 
                 # Criar o elemento <programme>
                 programme_element = ET.SubElement(tv_element, "programme", 
