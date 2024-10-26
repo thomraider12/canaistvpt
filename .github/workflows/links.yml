@@ -1,4 +1,4 @@
-name: Atualizar links e verificá-los
+name: Atualizar links
 on:
   schedule:
     - cron: '30 */4 * * *'
@@ -34,44 +34,4 @@ jobs:
           git add m3u8s/cnnpt.m3u8
           git add m3u8s/tvi.m3u8
           git commit -m "Atualização automática dos m3u8"
-          git push origin main
-
-  test-streams:
-    runs-on: ubuntu-latest
-    needs: update-stream  # Espera o job anterior terminar
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Install dependencies
-        run: |
-          sudo apt-get install -y vlc
-          sudo apt-get install -y ffmpeg
-
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.12'
-
-      - name: Install dependencies
-        run: pip install requests
-
-      - name: Test Streams
-        run: |
-          cd logs
-          echo "Isto pode demorar ≈ 3 a 5 min"
-          python teststreams.py
-          echo "Testes finalizados. Resultados disponíveis em logs/stream-test-results.txt"
-
-
-      - name: Setup Git config
-        run: |
-          git config user.name "channel bot"
-          git config user.email "<>"
-
-      - name: Commit e Push
-        run: |
-          git pull
-          git add logs/stream-test-results.txt
-          git commit -m "log - verificação de canais"
           git push origin main
