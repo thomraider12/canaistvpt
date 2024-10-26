@@ -1,9 +1,9 @@
-#EXTM3U url-tvg="https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-pt.xml.gz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-sic-pt.xml.gz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-extra.xml.gz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-rakuten-tv.xml.gz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-pluto-tv.xml.gz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-samsung-tvplus.xml.gz"
+#EXTM3U url-tvg="https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-pt.xml.gz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-rtp-pt.xml.gz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-sic-pt.xml.gz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-extra.xml.gz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-rakuten-tv.xml.gz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-pluto-tv.xml.gz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-samsung-tvplus.xml.gz"
 
-#EXTINF:-1 group-title="Notícias" tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp1.png",RTP 1
+#EXTINF:-1 group-title="Notícias" tvg-id="rtp-1" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp1.png",RTP 1
 https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="Notícias" tvg-id="RTP2.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp2.png",RTP 2
+#EXTINF:-1 group-title="Notícias" tvg-id="rtp-2" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp2.png",RTP 2
 https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="Notícias" tvg-id="SIC.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/sic.png",SIC
@@ -15,7 +15,7 @@ https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/tvi.m3u8
 #EXTINF:-1 group-title="Notícias" tvg-id="SICNoticias.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/sicnot.png",SIC Notícias
 https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/index_4.m3u8
 
-#EXTINF:-1 group-title="Notícias" tvg-id="RTP3.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp3.png",RTP 3
+#EXTINF:-1 group-title="Notícias" tvg-id="rtp-3" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp3.png",RTP 3
 https://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="Notícias" tvg-id="CNNPortugal.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/cnnpt.png",CNN Portugal
@@ -33,7 +33,7 @@ https://0ff3c09c7580460e8e018cdcaacbadee.mediatailor.us-east-1.amazonaws.com/v1/
 #EXTINF:-1 group-title="Secundários" tvg-id="ARTV.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/artv.png",ARTV
 https://playout175.livextend.cloud/livenlin4/_definst_/2liveartvpub2/playlist.m3u8
 
-#EXTINF:-1 group-title="Secundários" tvg-id="RTPMemoria.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpmemoria.png",RTP Memória
+#EXTINF:-1 group-title="Secundários" tvg-id="rtp-memoria" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpmemoria.png",RTP Memória
 https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="Secundários" tvg-id="TVIReality.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tvireality.png",TVI Reality
