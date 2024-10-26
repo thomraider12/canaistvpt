@@ -23,15 +23,14 @@ def test_stream(stream):
     except requests.RequestException:
         return f"Stream {stream} não está acessível"
 
-    # Comando ffmpeg para testar o stream
+    # Comando VLC para testar o stream
     command = [
-        "ffmpeg", "-timeout", "5", "-err_detect", "explode", "-i", stream, 
-        "-t", "5", "-v", "error", "-stats", "-y", "-f", "null", "-"
+        "cvlc", stream, "--intf", "dummy", "--play-and-exit", "--run-time", "5"
     ]
 
     try:
-        # Suprimindo saídas detalhadas do ffmpeg
-        subprocess.run(command, check=True, stderr=subprocess.DEVNULL)
+        # Suprimindo saídas detalhadas do VLC
+        subprocess.run(command, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         return f"Stream {stream} correu bem"
     except subprocess.CalledProcessError:
         return f"Stream {stream} falhou"
