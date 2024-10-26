@@ -3,7 +3,10 @@
 #EXTINF:-1 media="true" group-title="Eixo do Mal" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/EixoDoMal.png",! EIXO DO MAL !
 https://github.com/thomraider12/canaistvpt/raw/refs/heads/main/CanaisTVPT.mp4
 
-#EXTINF:-1 media="true" group-title="Eixo do Mal" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/EixoDoMal.png",Eixo do Mal - 17/10/2024
+#EXTINF:-1 media="true" group-title="Eixo do Mal" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/EixoDoMal.png",Eixo do Mal - 25/10/2024
+https://videos.impresa.pt/videos/hls/sicnot/2024/10/24/ff5bbdbf-d917-45d7-bf09-5fde6f06e1fd/video.m3u8
+
+#EXTINF:-1 media="true" group-title="Eixo do Mal" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/EixoDoMal.png",Eixo do Mal - 18/10/2024
 https://videos.impresa.pt/videos/hls/sicnot/2024/10/17/57a4eb62-bf9d-45be-b1c9-652874df3d11/video.m3u8
 
 #EXTINF:-1 media="true" group-title="Eixo do Mal" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/EixoDoMal.png",Eixo do Mal - 11/10/2024
@@ -353,6 +356,14 @@ https://content.jwplatform.com/manifests/jL3dl5uq.m3u8
 
 #EXTINF:-1 media="true" group-title="O Outro Lado" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/OutroLado.png",! O OUTRO LADO !
 https://github.com/thomraider12/canaistvpt/raw/refs/heads/main/CanaisTVPT.mp4
+
+#EXTINF:-1 media="true" group-title="O Outro Lado" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/OutroLado.png",O Outro Lado - T9E36 21/10/2024
+#EXTVLCOPT:http-user-agent=Firefox
+https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p12784/p12784_1_20241021235744e036t7491.mp4,.urlset/master.m3u8
+
+#EXTINF:-1 media="true" group-title="O Outro Lado" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/OutroLado.png",O Outro Lado - T9E35 14/10/2024
+#EXTVLCOPT:http-user-agent=Firefox
+https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p12784/p12784_1_20241014000000e035t6052.mp4,.urlset/master.m3u8
 
 #EXTINF:-1 media="true" group-title="O Outro Lado" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/OutroLado.png",O Outro Lado - T9E34 7/10/2024
 #EXTVLCOPT:http-user-agent=Firefox
@@ -800,6 +811,12 @@ https://streaming-ondemand.rtp.pt/nas2.share/h264/512x384/p9780/p9780_1_20220411
 
 #EXTINF:-1 media="true" group-title="PCNELID" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/PCNELID.png",! PCNELID !
 https://github.com/thomraider12/canaistvpt/raw/refs/heads/main/CanaisTVPT.mp4
+
+#EXTINF:-1 media="true" group-title="PCNELID" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/PCNELID.png",PCNELID - 26/10/2024
+https://videos.impresa.pt/videos/hls/sicnot/2024/10/25/78ee38a0-87f6-4212-96a0-e185f9b78dfb/video.m3u8
+
+#EXTINF:-1 media="true" group-title="PCNELID" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/PCNELID.png",PCNELID - 19/10/2024
+https://videos.impresa.pt/videos/hls/sicnot/2024/10/18/4966b0fc-233a-4995-b188-d0dde9d61618/video.m3u8
 
 #EXTINF:-1 media="true" group-title="PCNELID" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/PCNELID.png",PCNELID - 12/10/2024
 https://videos.impresa.pt/videos/hls/sicnot/2024/10/11/e17da536-82e4-4d47-abc7-f873c8851c7f/video.m3u8
