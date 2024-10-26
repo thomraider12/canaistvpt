@@ -41,7 +41,8 @@ def convert_jsontv_to_xmltv(json_path, xml_output_path):
                     stop_time = start_time + timedelta(minutes=30)  # Duração padrão de 30 minutos
 
                 # Garantir que o stop não seja no dia seguinte, a menos que seja intencional
-                if stop_time < start_time:
+                # Se o stop_time é antes do start_time ou é muito longe, corrigir
+                if stop_time <= start_time or stop_time - start_time > timedelta(hours=24):
                     stop_time = start_time + timedelta(minutes=30)  # Recalcular se o stop é anterior ao start
 
                 stop_formatted = stop_time.strftime("%Y%m%d%H%M%S")
