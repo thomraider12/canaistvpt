@@ -1472,8 +1472,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtp1",
                 "date": "2024-10-26 14:37:00",
                 "name": "Estrelas ao Sábado",
                 "description": "O maior concurso de música popular portuguesa está de volta!",
@@ -1493,6 +1491,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtp1",
                 "date": "2024-10-26 19:07:00",
                 "name": "O Preço Certo",
                 "description": "No \"Preço Certo\", as emoções são garantidas!",
@@ -8337,8 +8337,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtp2",
                 "date": "2024-10-26 14:52:00",
                 "name": "Basquetebol: Campeonato Nacional de Basquetebol Liga Betclic",
                 "description": "AD Galomar x Benfica",
@@ -8362,6 +8360,7 @@
                 "name": "Biosfera",
                 "description": "Alimentação Saudável e Sustentável",
                 "url": "https://www.rtp.pt/programa/tv/p45093/e31",
+                "review": "https://www.rtp.pt/play/p12688/e804183/biosfera",
                 "image": [
                     {
                         "width": "384",
@@ -8380,6 +8379,7 @@
                 "name": "Pelos Céus",
                 "description": "A vida nos confins do mundo, regiões de difícil acesso que só o avião permite revelar",
                 "url": "https://www.rtp.pt/programa/tv/p45529/e18",
+                "review": "https://www.rtp.pt/play/p13213/e804192/pelos-ceus",
                 "image": [
                     {
                         "width": "384",
@@ -8398,6 +8398,7 @@
                 "name": "Faça Chuva Faça Sol",
                 "description": "8ª temporada do programa que nos abre horizontes para uma nova visão do mundo rural e da economia de futuro",
                 "url": "https://www.rtp.pt/programa/tv/p45095/e31",
+                "review": "https://www.rtp.pt/play/p12689/e804181/faca-chuva-faca-sol",
                 "image": [
                     {
                         "width": "384",
@@ -8412,10 +8413,13 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtp2",
                 "date": "2024-10-26 19:11:00",
                 "name": "A Costa Britânica de Kate Humble",
                 "description": "2ª temporada da série documental que nos leva por alguns dos mais belos percursos costeiros",
                 "url": "https://www.rtp.pt/programa/tv/p45346/e2",
+                "review": "https://www.rtp.pt/play/p13051/e804193/a-costa-britanica-de-kate-humble",
                 "image": [
                     {
                         "width": "384",
@@ -11466,6 +11470,7 @@
                 "name": "Biosfera",
                 "description": "Alimentação Saudável e Sustentável",
                 "url": "https://www.rtp.pt/programa/tv/p45093/e31",
+                "review": "https://www.rtp.pt/play/p12688/e804183/biosfera",
                 "image": [
                     {
                         "width": "384",
@@ -11484,6 +11489,7 @@
                 "name": "Faça Chuva Faça Sol",
                 "description": "8ª temporada do programa que nos abre horizontes para uma nova visão do mundo rural e da economia de futuro",
                 "url": "https://www.rtp.pt/programa/tv/p45095/e31",
+                "review": "https://www.rtp.pt/play/p12689/e804181/faca-chuva-faca-sol",
                 "image": [
                     {
                         "width": "384",
@@ -15010,6 +15016,7 @@
                 "name": "3 às 16",
                 "description": "A Informação durante a tarde.",
                 "url": "https://www.rtp.pt/programa/tv/p45002",
+                "review": "https://www.rtp.pt/play/p12705/e804375/3-as-16",
                 "image": [
                     {
                         "width": "384",
@@ -15062,12 +15069,11 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtp3",
                 "date": "2024-10-26 17:00:00",
                 "name": "3 às 17",
                 "description": "Notícias de Portugal e do mundo",
                 "url": "https://www.rtp.pt/programa/tv/p45003",
+                "review": "https://www.rtp.pt/play/p12706/e804384/3-as-17",
                 "image": [
                     {
                         "width": "384",
@@ -15104,6 +15110,7 @@
                 "name": "3 às 18",
                 "description": "Informação na tarde da RTP3",
                 "url": "https://www.rtp.pt/programa/tv/p45006",
+                "review": "https://www.rtp.pt/play/p12707/e804392/3-as-18",
                 "image": [
                     {
                         "width": "384",
@@ -15136,6 +15143,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtp3",
                 "date": "2024-10-26 19:00:00",
                 "name": "3 às 19",
                 "description": "Notícias ao fim da tarde.",
@@ -20333,8 +20342,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpmemoria",
                 "date": "2024-10-26 16:46:00",
                 "name": "Uma Casa na Pradaria",
                 "description": "Melissa Gilbert e Michael Landon protagonizam esta série icónica da televisão portuguesa ",
@@ -20389,6 +20396,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpmemoria",
                 "date": "2024-10-26 19:15:00",
                 "name": "Traz prá Festa - 20 Anos RTP Memória",
                 "description": "Os melhores momentos do Especial Traz prá Frente",
@@ -25623,8 +25632,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpafrica",
                 "date": "2024-10-26 14:52:00",
                 "name": "Basquetebol: Campeonato Nacional de Basquetebol Liga Betclic",
                 "description": "AD Galomar x Benfica",
@@ -25662,6 +25669,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpafrica",
                 "date": "2024-10-26 18:46:00",
                 "name": "Missão: 100% Português",
                 "description": "Lisboa",
@@ -28917,6 +28926,7 @@
                 "name": "Biosfera",
                 "description": "Como Aliar a Economia Azul à Conservação Marinha?",
                 "url": "https://www.rtp.pt/programa/tv/p45093/e29",
+                "review": "https://www.rtp.pt/play/p12688/e804183/biosfera",
                 "image": [
                     {
                         "width": "384",
@@ -29479,8 +29489,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpinternacional",
                 "date": "2024-10-26 14:37:00",
                 "name": "Estrelas ao Sábado",
                 "description": "O maior concurso de música popular portuguesa está de volta!",
@@ -29500,10 +29508,13 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpinternacional",
                 "date": "2024-10-26 19:06:00",
                 "name": "O Preço Certo",
                 "description": "No \"Preço Certo\", as emoções são garantidas!",
                 "url": "https://www.rtp.pt/programa/tv/p44155",
+                "review": "https://www.rtp.pt/play/p12337/e804225/o-preco-certo",
                 "image": [
                     {
                         "width": "384",
@@ -33653,8 +33664,6 @@
         ],
         "afternoon": [
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpacores",
                 "date": "2024-10-26 16:00:00",
                 "name": "Noticias do Atlântico - Açores",
                 "description": "",
@@ -33691,6 +33700,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpacores",
                 "date": "2024-10-26 18:02:00",
                 "name": "Entre o Mar e a Terra",
                 "description": "Uma odisseia pelos produtores e produtos portugueses",
@@ -37626,8 +37637,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpmadeira",
                 "date": "2024-10-26 17:00:00",
                 "name": "RTP 3 (Madeira)",
                 "description": "Emissão em simultâneo com RTP 3",
@@ -37646,6 +37655,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpmadeira",
                 "date": "2024-10-26 19:00:00",
                 "name": "Notícias do Atlântico",
                 "description": "A aproximação da diáspora com origem nas regiões autónomas dos Açores e da Madeira, com os assuntos que marcam a atualidade destas ilhas.",
@@ -40288,8 +40299,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "",
                 "date": "2024-10-26 14:37:00",
                 "name": "Estrelas ao Sábado",
                 "description": "O maior concurso de música popular portuguesa está de volta!",
@@ -40309,6 +40318,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "",
                 "date": "2024-10-26 19:07:00",
                 "name": "O Preço Certo",
                 "description": "No \"Preço Certo\", as emoções são garantidas!",
@@ -44554,8 +44565,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "",
                 "date": "2024-10-26 17:00:00",
                 "name": "Atlântida Madeira",
                 "description": "Talkshow quinzenal que leva a saudade à comunidade emigrante espalhada pelo mundo.",
@@ -44592,10 +44601,13 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "",
                 "date": "2024-10-26 19:06:00",
                 "name": "O Preço Certo",
                 "description": "No \"Preço Certo\", as emoções são garantidas!",
                 "url": "https://www.rtp.pt/programa/tv/p44155",
+                "review": "https://www.rtp.pt/play/p12337/e804225/o-preco-certo",
                 "image": [
                     {
                         "width": "384",
