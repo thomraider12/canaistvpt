@@ -8,11 +8,6 @@ npm run grab -- --channels=../EPG/pt.channels.xml --output=../EPG/epg-pt.xml --d
 echo "EPG PT atualizada!"
 sleep 3
 
-# MEO EPG
-npm run grab -- --channels=../EPG/meo.pt.channels.xml --output=../EPG/epg-meo-pt.xml --days=7 --maxConnections=50
-echo "EPG da MEO atualizada!"
-sleep 3
-
 # NOS EPG
 npm run grab -- --channels=../EPG/nos.pt.channels.xml --output=../EPG/epg-nos-pt.xml --days=7 --maxConnections=50
 echo "EPG da NOS atualizada!"

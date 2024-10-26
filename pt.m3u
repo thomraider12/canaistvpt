@@ -105,7 +105,7 @@ https://moviesphere-plex.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="BD" tvg-id="608181d420fc8500075f612a" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/anime.png",Anime
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f12136385bccc00070142ed/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7bTARGETOPT%7d&deviceId=%7bPSID%7d&advertisingId=%7bPSID%7d&us_privacy=1YNY&samsung_app_domain=%7bAPP_DOMAIN%7d&samsung_app_name=%7bAPP_NAME%7d&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
 
-#EXTINF:-1 group-title="BD" tvg-id="GBBA3300024F7" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rakuten.png",Rakuten Family
+#EXTINF:-1 group-title="BD" tvg-id="ESBA3300017FA" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rakuten.png",Rakuten Family
 https://rakuten-family-14-pt.samsung.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 group-title="Aleatórios" tvg-id="travelxp-pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/travelxp.png",TravelXP

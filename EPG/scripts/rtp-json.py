@@ -31,12 +31,17 @@ for i in range(7):
         # Combina os dados do dia atual no JSON principal
         for canal, programas in dados_dia.items():
             if canal not in epg_completa:
-                epg_completa[canal] = programas
-            else:
-                # Adiciona os programas do dia ao canal existente
-                for periodo, lista_programas in programas.items():
+                epg_completa[canal] = {}
+                
+            # Ignora '_info' e combina apenas os períodos de programas
+            for periodo, lista_programas in programas.items():
+                if periodo != '_info':  # Ignora o campo '_info'
                     if periodo in epg_completa[canal]:
-                        epg_completa[canal][periodo].extend(lista_programas)
+                        # Assegurar que epg_completa[canal][periodo] seja uma lista
+                        if isinstance(epg_completa[canal][periodo], list):
+                            epg_completa[canal][periodo].extend(lista_programas)
+                        else:
+                            print(f"Aviso: '{periodo}' não é uma lista para o canal '{canal}'. Tipo encontrado: {type(epg_completa[canal][periodo])}.")
                     else:
                         epg_completa[canal][periodo] = lista_programas
     else:

@@ -57,12 +57,18 @@ jobs:
         run: |
           mv EPG/filtered-epg-samsung-tvplus.xml.gz EPG/epg-samsung-tvplus.xml.gz
 
-
       - name: Atualizar lista Opto SIC
         run: |
           python EPG/scripts/opto.py
           python EPG/scripts/opto2.py
           rm EPG/epg-sic-pt.json
+
+      - name: Atualizar lista RTP
+        run: |
+          cd EPG
+          python scripts/rtp-json.py
+          python scripts/rtp-xmltv.py
+          rm epg-rtp-pt.json
 
       - name: Atualizar listas RakutenTV
         run: |
