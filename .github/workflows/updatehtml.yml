@@ -3,7 +3,7 @@ name: Atualizar Noticias
 # Define o disparo do workflow
 on:
   schedule:
-    # Configura para rodar o script a 30min
+    # Configura para rodar o script a cada 30min
     - cron: "*/30 * * * *"
   workflow_dispatch: # Permite disparar manualmente a execução do workflow
 
@@ -33,15 +33,20 @@ jobs:
         run: |
           python EPG/scripts/noticias.py
 
-      - name: setup git config
+      # Passo 5: Configurar o Git
+      - name: Configurar Git
         run: |
           git config user.name "html bot"
           git config user.email "<>"
 
-      # Passo 5: Fazer commit e push do arquivo atualizado
-      - name: commit
+      # Passo 6: Verificar mudanças e realizar commit/push, se necessário
+      - name: Commit e Push se houver mudanças
         run: |
           git pull
-          git add .
-          git commit -m "Atualizar html's"
-          git push origin main
+          if ! git diff --quiet; then
+            git add .
+            git commit -m "Atualizar html's"
+            git push origin main
+          else
+            echo "Nenhuma mudança detectada. Nada a fazer."
+          fi
