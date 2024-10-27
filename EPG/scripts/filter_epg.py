@@ -38,11 +38,14 @@ def extract_epg(input_file, output_file, channels_to_keep):
 # Lista de IDs de canais que você quer manter (modifique conforme necessário)
 pluto_channels_to_keep = ['65c69ee3d77d450008c80438', '636adc255bcf470007d6e0e2', '608181d420fc8500075f612a', '5f1213ba0ecebc00070e170f']
 samsung_channels_to_keep = ['USBC3900018K6', 'ESBA3300017FA', 'CABB260002016', 'GBBA33000557H', 'CABC52000180Z']
+rtp_channels_to_keep = ['rtp-1', 'rtp-2', 'rtp-3', 'rtp-memoria']
 
 # Processa a EPG do PlutoTV
 extract_epg('epg-pluto-tv.xml.gz', 'filtered-epg-pluto-tv.xml.gz', pluto_channels_to_keep)
 
 # Processa a EPG da SamsungTVPlus
 extract_epg('epg-samsung-tvplus.xml.gz', 'filtered-epg-samsung-tvplus.xml.gz', samsung_channels_to_keep)
+
+extract_epg('epg-rtp-pt.xml.gz', 'filtered-epg-rtp-pt.xml.gz', rtp_channels_to_keep)
 
 print("Filtragem concluída!")
