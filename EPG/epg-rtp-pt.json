@@ -748,8 +748,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtp1",
                 "date": "2024-10-27 11:39:00",
                 "name": "Aqui Portugal",
                 "description": "Vinhais",
@@ -773,6 +771,7 @@
                 "name": "Jornal da Tarde",
                 "description": "Assim que a tarde começa, nós já temos para si as notícias do dia",
                 "url": "https://www.rtp.pt/programa/tv/p44899",
+                "review": "https://www.rtp.pt/play/p12645/e804436/jornal-da-tarde",
                 "image": [
                     {
                         "width": "384",
@@ -1455,6 +1454,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtp1",
                 "date": "2024-10-27 14:46:00",
                 "name": "Aqui Portugal",
                 "description": "Vinhais",
@@ -4659,8 +4660,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtp2",
                 "date": "2024-10-27 12:26:00",
                 "name": "Robin dos Bosques - Travessuras em Sherwood",
                 "description": "O jovem Robin de Locksley e os seus amigos vivem imensas aventuras, sem perder a oportunidade de se divertir!",
@@ -8267,6 +8266,7 @@
                 "name": "Sim, Eu Consigo",
                 "description": "Crianças e jovens de diversos países narram a sua vida e dizem quais são os seus sonhos",
                 "url": "https://www.rtp.pt/programa/tv/p46283/e10",
+                "review": "https://www.rtp.pt/play/p13878/e804368/sim-eu-consigo",
                 "image": [
                     {
                         "width": "384",
@@ -8303,6 +8303,7 @@
                 "name": "Caminhos",
                 "description": "Igreja Apostólica Católica Ortodoxa",
                 "url": "https://www.rtp.pt/programa/tv/p1248",
+                "review": "https://www.rtp.pt/play/p58/e804477/caminhos",
                 "image": [
                     {
                         "width": "384",
@@ -8321,6 +8322,7 @@
                 "name": "70x7",
                 "description": "Reflexão semanal das atividades e assuntos relacionados com a igreja católica                 ",
                 "url": "https://www.rtp.pt/programa/tv/p1250",
+                "review": "https://www.rtp.pt/play/p59/e804373/70x7",
                 "image": [
                     {
                         "width": "384",
@@ -8335,10 +8337,13 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtp2",
                 "date": "2024-10-27 18:17:00",
                 "name": "Terra de Leões",
                 "description": "2ª temporada da série documental que acompanha o projeto do jovem conservacionista inglês David Youldon para salvar o icónico leão africano",
                 "url": "https://www.rtp.pt/programa/tv/p45720/e3",
+                "review": "https://www.rtp.pt/play/p13412/e804369/terra-de-leoes",
                 "image": [
                     {
                         "width": "384",
@@ -11313,6 +11318,7 @@
                 "name": "Caminhos",
                 "description": "Igreja Apostólica Católica Ortodoxa",
                 "url": "https://www.rtp.pt/programa/tv/p1248",
+                "review": "https://www.rtp.pt/play/p58/e804477/caminhos",
                 "image": [
                     {
                         "width": "384",
@@ -14089,8 +14095,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtp3",
                 "date": "2024-10-27 12:00:00",
                 "name": "Jornal das 12",
                 "description": "Ao meio-dia as notícias de Portugal e do mundo.",
@@ -14871,6 +14875,7 @@
                 "name": "TecNet",
                 "description": "Novidades de tecnologia e internet",
                 "url": "https://www.rtp.pt/programa/tv/p43269/e45",
+                "review": "https://www.rtp.pt/play/p11110/e804374/tecnet",
                 "image": [
                     {
                         "width": "384",
@@ -14889,6 +14894,7 @@
                 "name": "3 às 14",
                 "description": "Informação de Portugal e do mundo",
                 "url": "https://www.rtp.pt/programa/tv/p44998",
+                "review": "https://www.rtp.pt/play/p12703/e804435/3-as-14",
                 "image": [
                     {
                         "width": "384",
@@ -14925,6 +14931,7 @@
                 "name": "3 às 15",
                 "description": "Informação de Portugal e do mundo.",
                 "url": "https://www.rtp.pt/programa/tv/p44999",
+                "review": "https://www.rtp.pt/play/p12704/e804438/3-as-15",
                 "image": [
                     {
                         "width": "384",
@@ -14961,6 +14968,7 @@
                 "name": "3 às 16",
                 "description": "A Informação durante a tarde.",
                 "url": "https://www.rtp.pt/programa/tv/p45002",
+                "review": "https://www.rtp.pt/play/p12705/e804441/3-as-16",
                 "image": [
                     {
                         "width": "384",
@@ -14997,6 +15005,7 @@
                 "name": "3 às 17",
                 "description": "Notícias de Portugal e do mundo",
                 "url": "https://www.rtp.pt/programa/tv/p45003",
+                "review": "https://www.rtp.pt/play/p12706/e804471/3-as-17",
                 "image": [
                     {
                         "width": "384",
@@ -15015,6 +15024,7 @@
                 "name": "Eurodeputados",
                 "description": "Os grandes temas que preocupam os cidadãos europeus em debate, semanalmente.",
                 "url": "https://www.rtp.pt/programa/tv/p45026/e25",
+                "review": "https://www.rtp.pt/play/p12728/e804377/eurodeputados",
                 "image": [
                     {
                         "width": "384",
@@ -15029,6 +15039,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtp3",
                 "date": "2024-10-27 18:00:00",
                 "name": "3 às 18",
                 "description": "Informação na tarde da RTP3",
@@ -16241,6 +16253,7 @@
                 "name": "Eurodeputados",
                 "description": "Os grandes temas que preocupam os cidadãos europeus em debate, semanalmente.",
                 "url": "https://www.rtp.pt/programa/tv/p45026/e25",
+                "review": "https://www.rtp.pt/play/p12728/e804377/eurodeputados",
                 "image": [
                     {
                         "width": "384",
@@ -19195,8 +19208,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpmemoria",
                 "date": "2024-10-27 11:57:00",
                 "name": "Filhos do Vento",
                 "description": "A luta que se travou entre duas famílias: os Vieira e os Abrantes...",
@@ -20279,10 +20290,13 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpmemoria",
                 "date": "2024-10-27 16:55:00",
                 "name": "Inesquecível",
                 "description": "Júlio Isidro convida personalidades a viajar pelas memórias da sua história na RTP neste talk-show semanal ",
                 "url": "https://www.rtp.pt/programa/tv/p45028/e28",
+                "review": "https://www.rtp.pt/play/p12787/e804243/inesquecivel",
                 "image": [
                     {
                         "width": "384",
@@ -24376,12 +24390,11 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpafrica",
                 "date": "2024-10-27 12:13:00",
                 "name": "Destino Selvagem: As Maravilhas Escondidas de África",
                 "description": "",
                 "url": "https://www.rtp.pt/programa/tv/p44843/e1",
+                "review": "https://www.rtp.pt/play/p13074/e804433/destination-wild-africas-hidden-wonders",
                 "image": [
                     {
                         "width": "384",
@@ -24400,6 +24413,7 @@
                 "name": "Jornal da Tarde",
                 "description": "Assim que a tarde começa, nós já temos para si as notícias do dia",
                 "url": "https://www.rtp.pt/programa/tv/p44899",
+                "review": "https://www.rtp.pt/play/p12645/e804436/jornal-da-tarde",
                 "image": [
                     {
                         "width": "384",
@@ -25446,6 +25460,7 @@
                 "name": "África 7 Dias",
                 "description": "A semana africana em revista!",
                 "url": "https://www.rtp.pt/programa/tv/p44937/e43",
+                "review": "https://www.rtp.pt/play/p12741/e804437/africa-7-dias",
                 "image": [
                     {
                         "width": "384",
@@ -25534,6 +25549,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpafrica",
                 "date": "2024-10-27 17:42:00",
                 "name": "Taskmaster",
                 "description": "João Paulo Rodrigues",
@@ -28733,6 +28750,7 @@
                 "name": "Eurodeputados",
                 "description": "Os grandes temas que preocupam os cidadãos europeus em debate, semanalmente.",
                 "url": "https://www.rtp.pt/programa/tv/p45026/e25",
+                "review": "https://www.rtp.pt/play/p12728/e804377/eurodeputados",
                 "image": [
                     {
                         "width": "384",
@@ -28785,8 +28803,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpinternacional",
                 "date": "2024-10-27 11:39:00",
                 "name": "Aqui Portugal",
                 "description": "Vinhais",
@@ -28810,6 +28826,7 @@
                 "name": "Jornal da Tarde",
                 "description": "Assim que a tarde começa, nós já temos para si as notícias do dia",
                 "url": "https://www.rtp.pt/programa/tv/p44899",
+                "review": "https://www.rtp.pt/play/p12645/e804436/jornal-da-tarde",
                 "image": [
                     {
                         "width": "384",
@@ -29294,6 +29311,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpinternacional",
                 "date": "2024-10-27 14:45:00",
                 "name": "Aqui Portugal",
                 "description": "Vinhais",
@@ -30093,6 +30112,7 @@
                 "name": "Eurodeputados",
                 "description": "Os grandes temas que preocupam os cidadãos europeus em debate, semanalmente.",
                 "url": "https://www.rtp.pt/programa/tv/p45026/e25",
+                "review": "https://www.rtp.pt/play/p12728/e804377/eurodeputados",
                 "image": [
                     {
                         "width": "384",
@@ -32688,8 +32708,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpacores",
                 "date": "2024-10-27 11:15:00",
                 "name": "26º Congresso Regional do PSD -Açores",
                 "description": "",
@@ -33286,6 +33304,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpacores",
                 "date": "2024-10-27 17:11:00",
                 "name": "Primeira Pessoa",
                 "description": "Abordagens distintas e plurais de diferentes figuras da nossa sociedade com Fátima Campos  Ferreira ",
@@ -34480,6 +34500,7 @@
                 "name": "Inesquecível",
                 "description": "Júlio Isidro convida personalidades a viajar pelas memórias da sua história na RTP neste talk-show semanal ",
                 "url": "https://www.rtp.pt/programa/tv/p45028/e28",
+                "review": "https://www.rtp.pt/play/p12787/e804243/inesquecivel",
                 "image": [
                     {
                         "width": "384",
@@ -38690,8 +38711,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "",
                 "date": "2024-10-27 11:39:00",
                 "name": "Aqui Portugal",
                 "description": "Ligue-se ao melhor do nosso país na sua RTP!",
@@ -38715,6 +38734,7 @@
                 "name": "Jornal da Tarde",
                 "description": "Assim que a tarde começa, nós já temos para si as notícias do dia",
                 "url": "https://www.rtp.pt/programa/tv/p44899",
+                "review": "https://www.rtp.pt/play/p12645/e804436/jornal-da-tarde",
                 "image": [
                     {
                         "width": "384",
@@ -39487,6 +39507,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "",
                 "date": "2024-10-27 14:45:00",
                 "name": "Aqui Portugal",
                 "description": "Ligue-se ao melhor do nosso país na sua RTP!",
@@ -42594,8 +42616,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "",
                 "date": "2024-10-27 12:34:00",
                 "name": "Casa das Artes",
                 "description": "",
@@ -42618,6 +42638,7 @@
                 "name": "Jornal da Tarde",
                 "description": "Assim que a tarde começa, nós já temos para si as notícias do dia",
                 "url": "https://www.rtp.pt/programa/tv/p44899",
+                "review": "https://www.rtp.pt/play/p12645/e804436/jornal-da-tarde",
                 "image": [
                     {
                         "width": "384",
@@ -43736,6 +43757,7 @@
                 "name": "TecNet",
                 "description": "Novidades de tecnologia e internet",
                 "url": "https://www.rtp.pt/programa/tv/p43269",
+                "review": "https://www.rtp.pt/play/p11110/e804374/tecnet",
                 "image": [
                     {
                         "width": "384",
@@ -43768,6 +43790,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "",
                 "date": "2024-10-27 18:02:00",
                 "name": "Gastronomia Local",
                 "description": "A Gastronomia da Madeira",
