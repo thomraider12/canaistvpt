@@ -56,7 +56,7 @@ jobs:
           cd EPG
           python scripts/rtp-json.py
           python scripts/rtp-xmltv.py
-          rm EPG/epg-rtp-pt.json
+          rm epg-rtp-pt.json
 
       - name: Atualizar listas RakutenTV
         run: |
