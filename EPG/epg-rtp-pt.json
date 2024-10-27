@@ -568,6 +568,7 @@
                 "name": "No Mundo dos Animais",
                 "description": "Vais viver grandes aventuras e fazer novos amigos no mundo dos animais. Qual é o teu animal preferido?",
                 "url": "https://www.rtp.pt/programa/tv/p44862/e18",
+                "review": "https://www.rtp.pt/play/p12614/e804366/no-mundo-dos-animais",
                 "image": [
                     {
                         "width": "384",
@@ -586,6 +587,7 @@
                 "name": "No Mundo dos Animais",
                 "description": "Vais viver grandes aventuras e fazer novos amigos no mundo dos animais. Qual é o teu animal preferido?",
                 "url": "https://www.rtp.pt/programa/tv/p44862/e19",
+                "review": "https://www.rtp.pt/play/p12614/e804366/no-mundo-dos-animais",
                 "image": [
                     {
                         "width": "384",
@@ -708,8 +710,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtp1",
                 "date": "2024-10-27 08:00:00",
                 "name": "Bom Dia Portugal Fim de Semana",
                 "description": "E porque é de manhã que começa o dia, então inicie-o na nossa companhia!",
@@ -729,6 +729,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtp1",
                 "date": "2024-10-27 10:30:00",
                 "name": "Eucaristia Dominical",
                 "description": "Lisboa: XXX Domingo do Tempo Comum",
@@ -4453,12 +4455,11 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtp2",
                 "date": "2024-10-27 10:24:00",
                 "name": "No Mundo dos Animais",
                 "description": "Vais viver grandes aventuras e fazer novos amigos no mundo dos animais. Qual é o teu animal preferido?",
                 "url": "https://www.rtp.pt/programa/tv/p44862/e3",
+                "review": "https://www.rtp.pt/play/p12614/e804366/no-mundo-dos-animais",
                 "image": [
                     {
                         "width": "384",
@@ -4477,6 +4478,7 @@
                 "name": "À Boleia da Ciência",
                 "description": "As aventuras pelos mistérios da Ciência de uma família de cientistas na sua carrinha muito especial. Não podes perder esta boleia!",
                 "url": "https://www.rtp.pt/programa/tv/p46282/e2",
+                "review": "https://www.rtp.pt/play/p13858/e804426/a-boleia-da-ciencia",
                 "image": [
                     {
                         "width": "384",
@@ -4527,6 +4529,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtp2",
                 "date": "2024-10-27 11:00:00",
                 "name": "Academia de Super-Heróis",
                 "description": "",
@@ -13989,8 +13993,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtp3",
                 "date": "2024-10-27 08:00:00",
                 "name": "Bom Dia Portugal Fim de Semana",
                 "description": "E porque é de manhã que começa o dia, então inicie-o na nossa companhia!",
@@ -14028,6 +14030,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtp3",
                 "date": "2024-10-27 11:00:00",
                 "name": "3 às 11",
                 "description": "Notícias de Portugal e do mundo.",
@@ -19150,8 +19154,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpmemoria",
                 "date": "2024-10-27 10:23:00",
                 "name": "Portugueses Pelo Mundo",
                 "description": "Conhecer as cidades que sempre sonhou está ao seu alcance...     ",
@@ -19170,6 +19172,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpmemoria",
                 "date": "2024-10-27 11:07:00",
                 "name": "Donos Disto Tudo",
                 "description": "Rir com os Donos do Humor ",
@@ -24294,8 +24298,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpafrica",
                 "date": "2024-10-27 10:18:00",
                 "name": "No Mundo dos Animais",
                 "description": "Canguru",
@@ -24314,6 +24316,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpafrica",
                 "date": "2024-10-27 10:30:00",
                 "name": "Eucaristia Dominical",
                 "description": "Lisboa: XXX Domingo do Tempo Comum",
@@ -28737,8 +28741,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpinternacional",
                 "date": "2024-10-27 08:00:00",
                 "name": "Bom Dia Portugal Fim de Semana",
                 "description": "E porque é de manhã que começa o dia, então inicie-o na nossa companhia!",
@@ -28758,6 +28760,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpinternacional",
                 "date": "2024-10-27 10:30:00",
                 "name": "Eucaristia Dominical",
                 "description": "Lisboa: XXX Domingo do Tempo Comum",
@@ -32584,8 +32588,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpacores",
                 "date": "2024-10-27 09:08:00",
                 "name": "Todas as Palavras",
                 "description": "Os livros e os seus autores",
@@ -32604,6 +32606,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpacores",
                 "date": "2024-10-27 09:30:00",
                 "name": "Eucaristia Dominical",
                 "description": "A Eucaristia é fonte e centro de toda a vida cristã!",
@@ -38638,8 +38642,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "",
                 "date": "2024-10-27 08:00:00",
                 "name": "Bom Dia Portugal Fim de Semana",
                 "description": "E porque é de manhã que começa o dia, então inicie-o na nossa companhia!",
@@ -38659,6 +38661,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "",
                 "date": "2024-10-27 10:30:00",
                 "name": "Eucaristia Dominical",
                 "description": "A Eucaristia é fonte e centro de toda a vida cristã!",
@@ -42503,8 +42507,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "",
                 "date": "2024-10-27 10:00:00",
                 "name": "Bom Dia Portugal Fim de Semana",
                 "description": "E porque é de manhã que começa o dia, então inicie-o na nossa companhia!",
@@ -42524,6 +42526,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "",
                 "date": "2024-10-27 10:30:00",
                 "name": "Eucaristia Dominical",
                 "description": "Lisboa: XXX Domingo do Tempo Comum",
