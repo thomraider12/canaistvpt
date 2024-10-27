@@ -29,4 +29,5 @@
   <channel site="plex.tv" lang="en" xmltv_id="Motorsport.tv" site_id="5e20b730f2f8d5003d739db7-6408c82eebb23ab878e8ddbb">Motorsport.tv</channel>
   <channel site="plex.tv" lang="en" xmltv_id="5MinuteCrafts.us" site_id="5e20b730f2f8d5003d739db7-63894c1965b848bf2c8a7800">5-Minute Crafts</channel>
   <channel site="plex.tv" lang="en" xmltv_id="LiveNOWFOX.us" site_id="5e20b730f2f8d5003d739db7-6377ea0e13bb6b1757e14695">LiveNOW from FOX</channel>
+  <channel site="plex.tv" lang="en" xmltv_id="SKWAD.us" site_id="5e20b730f2f8d5003d739db7-5eea605574085f0040ddc794">SKWAD</channel>
 </channels>
