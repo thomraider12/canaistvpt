@@ -84,6 +84,10 @@ jobs:
         run: |
           mv EPG/filtered-epg-samsung-tvplus.xml.gz EPG/epg-samsung-tvplus.xml.gz
 
+      - name: Substituir EPG original da RTP pelo filtrado
+        run: |
+          mv EPG/filtered-epg-rtp-pt.xml.gz EPG/epg-rtp-pt.xml.gz
+
       - name: Configurar Git
         run: |
           git config user.name "EPG's bot"
