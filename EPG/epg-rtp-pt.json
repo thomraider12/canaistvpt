@@ -4415,8 +4415,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtp2",
                 "date": "2024-10-27 10:05:00",
                 "name": "Pfffiratas",
                 "description": "",
@@ -4440,6 +4438,7 @@
                 "name": "A Ovelha Choné",
                 "description": "A ovelha Choné está de volta com mais emocionantes e hilariantes aventuras!",
                 "url": "https://www.rtp.pt/programa/tv/p41914/e9",
+                "review": "https://www.rtp.pt/play/p11477/e804362/a-ovelha-chone",
                 "image": [
                     {
                         "width": "384",
@@ -4454,6 +4453,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtp2",
                 "date": "2024-10-27 10:24:00",
                 "name": "No Mundo dos Animais",
                 "description": "Vais viver grandes aventuras e fazer novos amigos no mundo dos animais. Qual é o teu animal preferido?",
@@ -19131,8 +19132,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpmemoria",
                 "date": "2024-10-27 09:42:00",
                 "name": "Animais Anónimos",
                 "description": "Animais Anónimos é uma celebração de todas as razões que nos fazem amar os animais ",
@@ -19151,6 +19150,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpmemoria",
                 "date": "2024-10-27 10:23:00",
                 "name": "Portugueses Pelo Mundo",
                 "description": "Conhecer as cidades que sempre sonhou está ao seu alcance...     ",
@@ -24275,8 +24276,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpafrica",
                 "date": "2024-10-27 09:57:00",
                 "name": "Descomplica",
                 "description": "Tempo",
@@ -24295,6 +24294,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpafrica",
                 "date": "2024-10-27 10:18:00",
                 "name": "No Mundo dos Animais",
                 "description": "Canguru",
