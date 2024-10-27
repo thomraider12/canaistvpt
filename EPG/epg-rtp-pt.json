@@ -512,6 +512,7 @@
                 "name": "O Diário de Alice",
                 "description": "Alice é uma menina de 5 anos muito alegre e criativa e conta-nos tudo no seu Diário de Alice!",
                 "url": "https://www.rtp.pt/programa/tv/p44865/e14",
+                "review": "https://www.rtp.pt/play/p13082/e804418/o-diario-de-alice",
                 "image": [
                     {
                         "width": "384",
@@ -526,12 +527,11 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtp1",
                 "date": "2024-10-27 06:28:00",
                 "name": "O Diário de Alice",
                 "description": "Alice é uma menina de 5 anos muito alegre e criativa e conta-nos tudo no seu Diário de Alice!",
                 "url": "https://www.rtp.pt/programa/tv/p44865/e13",
+                "review": "https://www.rtp.pt/play/p13082/e804418/o-diario-de-alice",
                 "image": [
                     {
                         "width": "384",
@@ -708,10 +708,13 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtp1",
                 "date": "2024-10-27 08:00:00",
                 "name": "Bom Dia Portugal Fim de Semana",
                 "description": "E porque é de manhã que começa o dia, então inicie-o na nossa companhia!",
                 "url": "https://www.rtp.pt/programa/tv/p44904",
+                "review": "https://www.rtp.pt/play/p12660/e804421/bom-dia-portugal-fim-de-semana",
                 "image": [
                     {
                         "width": "384",
@@ -3078,6 +3081,7 @@
                 "name": "Folha de Sala",
                 "description": "Propostas de cultura em formato de agenda, todos os dias na RTP2",
                 "url": "https://www.rtp.pt/programa/tv/p45066",
+                "review": "https://www.rtp.pt/play/p12673/e804360/folha-de-sala",
                 "image": [
                     {
                         "width": "384",
@@ -4070,6 +4074,7 @@
                 "name": "Folha de Sala",
                 "description": "Propostas de cultura em formato de agenda, todos os dias na RTP2",
                 "url": "https://www.rtp.pt/programa/tv/p45066",
+                "review": "https://www.rtp.pt/play/p12673/e804360/folha-de-sala",
                 "image": [
                     {
                         "width": "384",
@@ -4196,6 +4201,7 @@
                 "name": "Vegesaurs",
                 "description": "",
                 "url": "https://www.rtp.pt/programa/tv/p45940/e2",
+                "review": "https://www.rtp.pt/play/p13605/e804419/vegesaurs",
                 "image": [
                     {
                         "width": "384",
@@ -4214,6 +4220,7 @@
                 "name": "O Diário de Alice",
                 "description": "Alice é uma menina de 5 anos muito alegre e criativa e conta-nos tudo no seu Diário de Alice!",
                 "url": "https://www.rtp.pt/programa/tv/p44865/e25",
+                "review": "https://www.rtp.pt/play/p13082/e804418/o-diario-de-alice",
                 "image": [
                     {
                         "width": "384",
@@ -4372,6 +4379,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtp2",
                 "date": "2024-10-27 09:40:00",
                 "name": "A Aldeia Encantada do Pinóquio",
                 "description": "Pinóquio e o seu grupo de amigos muito especiais vivem divertidas aventuras na Aldeia Encantada!",
@@ -8374,6 +8383,7 @@
                 "name": "Folha de Sala",
                 "description": "Propostas de cultura em formato de agenda, todos os dias na RTP2",
                 "url": "https://www.rtp.pt/programa/tv/p45066",
+                "review": "https://www.rtp.pt/play/p12673/e804360/folha-de-sala",
                 "image": [
                     {
                         "width": "384",
@@ -11148,6 +11158,7 @@
                 "name": "Folha de Sala",
                 "description": "Propostas de cultura em formato de agenda, todos os dias na RTP2",
                 "url": "https://www.rtp.pt/programa/tv/p45066",
+                "review": "https://www.rtp.pt/play/p12673/e804360/folha-de-sala",
                 "image": [
                     {
                         "width": "384",
@@ -11288,8 +11299,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtp2",
                 "date": "2024-10-28 06:03:00",
                 "name": "Caminhos",
                 "description": "Igreja Apostólica Católica Ortodoxa",
@@ -13978,10 +13987,13 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtp3",
                 "date": "2024-10-27 08:00:00",
                 "name": "Bom Dia Portugal Fim de Semana",
                 "description": "E porque é de manhã que começa o dia, então inicie-o na nossa companhia!",
                 "url": "https://www.rtp.pt/programa/tv/p44904",
+                "review": "https://www.rtp.pt/play/p12660/e804421/bom-dia-portugal-fim-de-semana",
                 "image": [
                     {
                         "width": "384",
@@ -16322,8 +16334,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtp3",
                 "date": "2024-10-28 06:00:00",
                 "name": "Bom Dia Portugal",
                 "description": "E porque é de manhã que começa o dia, então inicie-o na nossa companhia!",
@@ -19102,6 +19112,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpmemoria",
                 "date": "2024-10-27 09:10:00",
                 "name": "Nelo & Idália",
                 "description": "Nelo e Idália prometem humor alternativo na RTP, numa série explosiva e mordaz",
@@ -21644,8 +21656,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpmemoria",
                 "date": "2024-10-28 06:23:00",
                 "name": "Replay",
                 "description": "Compacto",
@@ -24190,8 +24200,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpafrica",
                 "date": "2024-10-27 06:26:00",
                 "name": "Mar de Letras",
                 "description": "FOLIO - Conceição Evaristo",
@@ -24214,6 +24222,7 @@
                 "name": "Iniciativa Africana",
                 "description": "O avanço de África com a tecnologia inteligente e iniciativas que resultam...",
                 "url": "https://www.rtp.pt/programa/tv/p44953/e19",
+                "review": "https://www.rtp.pt/play/p12742/e804420/iniciativa-africana",
                 "image": [
                     {
                         "width": "384",
@@ -24246,10 +24255,13 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpafrica",
                 "date": "2024-10-27 08:00:00",
                 "name": "Bom Dia Portugal Fim de Semana",
                 "description": "E porque é de manhã que começa o dia, então inicie-o na nossa companhia!",
                 "url": "https://www.rtp.pt/programa/tv/p44904",
+                "review": "https://www.rtp.pt/play/p12660/e804421/bom-dia-portugal-fim-de-semana",
                 "image": [
                     {
                         "width": "384",
@@ -25458,6 +25470,7 @@
                 "name": "Iniciativa Africana",
                 "description": "O avanço de África com a tecnologia inteligente e iniciativas que resultam...",
                 "url": "https://www.rtp.pt/programa/tv/p44953/e19",
+                "review": "https://www.rtp.pt/play/p12742/e804420/iniciativa-africana",
                 "image": [
                     {
                         "width": "384",
@@ -26721,6 +26734,7 @@
                 "name": "Iniciativa Africana",
                 "description": "O avanço de África com a tecnologia inteligente e iniciativas que resultam...",
                 "url": "https://www.rtp.pt/programa/tv/p44953/e19",
+                "review": "https://www.rtp.pt/play/p12742/e804420/iniciativa-africana",
                 "image": [
                     {
                         "width": "384",
@@ -28685,8 +28699,6 @@
         ],
         "morning": [
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpinternacional",
                 "date": "2024-10-27 06:00:00",
                 "name": "Espaço Zig Zag",
                 "description": "Um mundo de séries de aventura e animação para os mais pequenos.",
@@ -28723,10 +28735,13 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpinternacional",
                 "date": "2024-10-27 08:00:00",
                 "name": "Bom Dia Portugal Fim de Semana",
                 "description": "E porque é de manhã que começa o dia, então inicie-o na nossa companhia!",
                 "url": "https://www.rtp.pt/programa/tv/p44904",
+                "review": "https://www.rtp.pt/play/p12660/e804421/bom-dia-portugal-fim-de-semana",
                 "image": [
                     {
                         "width": "384",
@@ -32531,6 +32546,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpacores",
                 "date": "2024-10-27 08:39:00",
                 "name": "Falar Para o Boneco",
                 "description": "Um programa para todas as meninas, meninos, senhoras e senhores, animais de estimação, plantas e demais seres vivos!",
@@ -34425,8 +34442,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpacores",
                 "date": "2024-10-28 04:55:00",
                 "name": "Teledesporto",
                 "description": "",
@@ -36105,8 +36120,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpmadeira",
                 "date": "2024-10-28 00:00:00",
                 "name": "RTP 3 (Madeira)",
                 "description": "Emissão em simultâneo com RTP 3",
@@ -36667,6 +36680,8 @@
         ],
         "morning": [
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpmadeira",
                 "date": "2024-10-27 06:30:00",
                 "name": "RTP 3 (Madeira)",
                 "description": "Emissão em simultâneo com RTP 3",
@@ -37445,8 +37460,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpmadeira",
                 "date": "2024-10-28 00:00:00",
                 "name": "RTP 3 (Madeira)",
                 "description": "Emissão em simultâneo com RTP 3",
@@ -38551,8 +38564,6 @@
         ],
         "morning": [
             {
-                "is_live": true,
-                "liveUrl": "",
                 "date": "2024-10-27 06:00:00",
                 "name": "Ao Largo",
                 "description": "(legendas em inglês)",
@@ -38625,10 +38636,13 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "",
                 "date": "2024-10-27 08:00:00",
                 "name": "Bom Dia Portugal Fim de Semana",
                 "description": "E porque é de manhã que começa o dia, então inicie-o na nossa companhia!",
                 "url": "https://www.rtp.pt/programa/tv/p44904",
+                "review": "https://www.rtp.pt/play/p12660/e804421/bom-dia-portugal-fim-de-semana",
                 "image": [
                     {
                         "width": "384",
@@ -42361,8 +42375,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "",
                 "date": "2024-10-27 06:27:00",
                 "name": "Malta Jovem",
                 "description": "",
@@ -42471,6 +42483,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "",
                 "date": "2024-10-27 08:49:00",
                 "name": "Em Casa d´ Amália",
                 "description": "Programa inspirado nas célebres noites em que Amália Rodrigues recebia em sua casa, poetas, cantores, pintores, músicos, atores para tertúlias infindáveis",
@@ -42493,6 +42507,7 @@
                 "name": "Bom Dia Portugal Fim de Semana",
                 "description": "E porque é de manhã que começa o dia, então inicie-o na nossa companhia!",
                 "url": "https://www.rtp.pt/programa/tv/p44904",
+                "review": "https://www.rtp.pt/play/p12660/e804421/bom-dia-portugal-fim-de-semana",
                 "image": [
                     {
                         "width": "384",
