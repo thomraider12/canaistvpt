@@ -21,6 +21,8 @@
   <channel site="plex.tv" lang="es" xmltv_id="TraceToca.fr"
     site_id="643054b1fc3be59477853717-63226c03e67cf9cd9011fcdf">Trace Toca</channel>
   <channel site="meo.pt" lang="pt" site_id="TRACEBR" xmltv_id="TraceBrasil.br">Trace Brasil</channel>
+  <channel site="plex.tv" lang="en" xmltv_id="TraceUK.uk"
+    site_id="608049aefa2b8ae93c2c3a63-66be8cd4871131188099527e">Trace UK</channel>
   <channel site="meo.pt" lang="pt" xmltv_id="ClubbingTV.fr" site_id="CLUBHD">Clubbing TV</channel>
   <channel site="meo.pt" lang="pt" xmltv_id="GaliciaTVEuropa.es" site_id="TVGAL">TV Galicia</channel>
   <channel site="meo.pt" lang="pt" xmltv_id="Gametoon.nl" site_id="GAMET">Gametoon</channel>
@@ -38,6 +40,4 @@
     site_id="5e20b730f2f8d5003d739db7-6377ea0e13bb6b1757e14695">LiveNOW from FOX</channel>
   <channel site="plex.tv" lang="en" xmltv_id="SKWAD.us"
     site_id="5e20b730f2f8d5003d739db7-5f12332eeca6a20040b328e5">SKWAD</channel>
-  <channel site="plex.tv" lang="en" xmltv_id="TraceUK.uk"
-    site_id="608049aefa2b8ae93c2c3a63-66be8cd4871131188099527e">SKWAD</channel>
 </channels>
