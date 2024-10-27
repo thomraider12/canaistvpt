@@ -8356,8 +8356,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtp2",
                 "date": "2024-10-27 18:42:00",
                 "name": "Temos Programa",
                 "description": "Uma viagem pela programação da RTP2 conduzida por Manuela Silva Reis",
@@ -8377,6 +8375,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtp2",
                 "date": "2024-10-27 19:13:00",
                 "name": "A Costa Britânica de Kate Humble",
                 "description": "2ª temporada da série documental que nos leva por alguns dos mais belos percursos costeiros",
