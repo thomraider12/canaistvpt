@@ -63,7 +63,7 @@ https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5
 #EXTINF:-1 group-title="Desporto" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/golofm.png" tvg-id="GoloFM.pt",Golo FM (apenas em jogos)
 https://ythls-v3.onrender.com/channel/UCX_YubBBVVzTyy9dHKHxhuQ.m3u8
 
-#EXTINF:-1 tvg-id="65c69ee3d77d450008c80438" tvg-logo="https://images.pluto.tv/channels/65c69ee3d77d450008c80438/colorLogoPNG.png"  group-title="Desporto"Formula 1 Channel
+#EXTINF:-1 tvg-id="65c69ee3d77d450008c80438" tvg-logo="https://images.pluto.tv/channels/65c69ee3d77d450008c80438/colorLogoPNG.png"  group-title="Desporto",Formula 1 Channel
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65c69ee3d77d450008c80438/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=43d64440-8644-11ef-a525-f2288c9ddd01&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=2074579a-a34b-4c46-90b9-8112b30a3a88&userId=&serverSideAds=true
 
 #EXTINF:-1 group-title="Desporto" tvg-id="Motorsport.tv" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/motorsporttv.png",Motorsport.tv (US)
@@ -84,7 +84,7 @@ https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01329-otterainc-motorvisionnz-sam
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/speedvision.png" tvg-id="SPEEDVISION.us" group-title="Desporto",SpeedVision (US)
 https://eb9a3a62.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/T05PX1NwZWVkdmlzaW9uX0hMUw/playlist.m3u8
 
-#EXTINF:0 tvg-id="636adc255bcf470007d6e0e2" tvg-logo="https://images.pluto.tv/channels/636adc255bcf470007d6e0e2/colorLogoPNG.png" group-title="Desporto"Top Gear
+#EXTINF:0 tvg-id="636adc255bcf470007d6e0e2" tvg-logo="https://images.pluto.tv/channels/636adc255bcf470007d6e0e2/colorLogoPNG.png" group-title="Desporto",Top Gear
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/636adc255bcf470007d6e0e2/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=9002e870-8e03-11ef-918a-d3324a8151ef&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=93d68cb5-2ed3-48b4-9d01-91d7438b3d62&userId=&serverSideAds=true
 
 #EXTINF:-1 group-title="Filmes, Documentários, Novelas" tvg-id="549519c3-31fa-42de-a621-15e981082fd9" tvg-logo="https://github.com/thomraider12/icones_tv/raw/refs/heads/main/SICAltaDefini%C3%A7%C3%A3o.png",SIC Alta Definição
@@ -141,7 +141,7 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/tracetvAA-trace-latina-lg-es/playlist.
 #EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tracebrasil.png" tvg-id="TraceBrasil.br",Trace Brazil (BR)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracebrazuca-xiaomi/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TraceUK.uk" tvg-logo="https://provider-static.plex.tv/epg/cms/production/23feecc3-94f6-49b7-98e6-1828f42695ea/1500X1000_PNG_w_transparent_background__Logo_suitable_for_dark_backgrounds__-_Pierre_Gournay.png" group-title="Rádios",Trace UK
+#EXTINF:-1 tvg-id="TraceUK.uk" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/traceuk.png" group-title="Rádios",Trace UK
 https://epg.provider.plex.tv/library/parts/608049aefa2b8ae93c2c3a63-66be8cd4871131188099527e.m3u8?X-Plex-Token=7_DZgexHgAKDxgwFUesV
 
 #EXTINF:-1 group-title="Rádios" tvg-id="clubbing-tv" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/clubbingtv.png",Clubbing TV
