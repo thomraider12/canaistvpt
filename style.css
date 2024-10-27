@@ -116,11 +116,24 @@ text-align: center;
 
 @media only screen and (max-width: 600px) {
     #nav_escolha a {
-      flex-basis: 45%; /* adjust the width of each button */
-      margin: 5px;
-      padding: 5px;
+        flex-basis: 45%; /* ajusta a largura de cada botão */
+        margin: 5px;
+        padding: 5px;
+    }
+
+    #escolha_player {
+        width: 100%; /* Faz o player ocupar 100% da largura da tela */
+        aspect-ratio: 16 / 9; /* Define a proporção do vídeo (ajuste conforme necessário) */
+        max-height: 100%; /* Garante que não exceda a altura do container */
+    }
+
+    video {
+        width: 100%; /* Garante que o vídeo ocupe toda a largura disponível */
+        height: 100%; /* Faz o vídeo ocupar toda a altura do player */
+        object-fit: contain; /* Ajusta o vídeo para caber sem cortar */
     }
 }
+
 
 .nomecanal {
     font-family: Tiny5;

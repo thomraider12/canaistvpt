@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,6 +26,7 @@
         <li><a href="banda_d.html">Desenhos<br>Anim.</a></li>
         <li><a href="radios.html">Rádios (Atual)</a></li>
         <li><a href="aleatorio.html">Aleatório</a></li>
+        <li><a href="gaming.html">Gaming</a></li>
         <li><a href="sobre.html">Sobre</a></li>
       </ul>
   </nav>
@@ -104,12 +105,16 @@
   </audio>
   
   <br><br><nav id="nav_escolha">
+    <a id="escolha_canal" href="#home" onclick="changeChannel('escolha_not/escolha.mp4', 'escolha_not/escolha.png'); return false;">Home</a>
     <a id="escolha_canal" href="#traceurban" onclick="changeChannel('https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00398-zeasneuropebv-traceurban-zeasn/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/traceurban.png'); return false;">Trace Urban<sup>HD</sup></a>
+    <a id="escolha_canal" href="#tracetoca" onclick="changeChannel('https://cdn-uw2-prod.tsv2.amagi.tv/linear/tracetvAA-trace-latina-lg-es/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/tracetoca.png'); return false;">Trace Toca<sup>HD</sup></a>
     <a id="escolha_canal" href="#tracebrasil" onclick="changeChannel('https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracebrazuca-xiaomi/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/tracebrasil.png'); return false;">Trace Brasil<sup>HD</sup></a>
+    <a id="escolha_canal" href="#traceuk" onclick="changeChannel('https://epg.provider.plex.tv/library/parts/608049aefa2b8ae93c2c3a63-66be8cd4871131188099527e.m3u8?X-Plex-Token=7_DZgexHgAKDxgwFUesV', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/traceuk.png'); return false;">Trace UK<sup>HD</sup></a>
     <a id="escolha_canal" href="#clubbingtv" onclick="changeChannel('https://clubbingtv-rakuten.amagi.tv/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/clubbingtv.png'); return false;">ClubbingTV<sup>HD</sup></a>
-    <a id="escolha_canal" href="#vevo" onclick="changeChannel('https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fd7bca3e0a4ee0007a38e8c/master.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/vevo.png'); return false;">VEVO<sup>HD</sup></a>
-    <a id="escolha_canal" href="#onfm" onclick="changeChannel('https://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/onfm.png'); return false;">OnFM</a>
+    <a id="escolha_canal" href="#vevo" onclick="changeChannel('https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00056-vevotv-vevopopau-samsungau/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/vevo.png'); return false;">VEVO<sup>HD</sup></a>
+    <a id="escolha_canal" href="#onfm" onclick="changeChannel('https://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/onfm.png'); return false;">OnFM<sup>HD</sup></a>
 </nav>
+
 <video
     id="escolha_player"
     class="video-js"
