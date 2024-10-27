@@ -38,8 +38,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtp1",
                 "date": "2024-10-28 00:58:00",
                 "name": "Espécie Ameaçada",
                 "description": "Uma família americana luta pela sobrevivência no Parque Nacional Amboseli, no Quénia. Um filme de M.J. Bassett, com Rebecca Romijn, Philip Winchester e Jerry O\"Connell nos papéis principais",
@@ -528,6 +526,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtp1",
                 "date": "2024-10-27 06:28:00",
                 "name": "O Diário de Alice",
                 "description": "Alice é uma menina de 5 anos muito alegre e criativa e conta-nos tudo no seu Diário de Alice!",
@@ -2116,8 +2116,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtp1",
                 "date": "2024-10-28 00:58:00",
                 "name": "Espécie Ameaçada",
                 "description": "Uma família americana luta pela sobrevivência no Parque Nacional Amboseli, no Quénia. Um filme de M.J. Bassett, com Rebecca Romijn, Philip Winchester e Jerry O\"Connell nos papéis principais",
@@ -2280,8 +2278,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtp1",
                 "date": "2024-10-29 01:24:00",
                 "name": "Grandiosa Enciclopédia do Ludopédio",
                 "description": "Na sua 10ª temporada, mais do que um programa de futebol, este é um programa que pretende compreender o futebol através da sua história ",
@@ -11202,8 +11198,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtp2",
                 "date": "2024-10-28 01:51:00",
                 "name": "Voz do Cidadão",
                 "description": "A opinião dos telespetadores conta",
@@ -11294,6 +11288,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtp2",
                 "date": "2024-10-28 06:03:00",
                 "name": "Caminhos",
                 "description": "Igreja Apostólica Católica Ortodoxa",
@@ -16164,8 +16160,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtp3",
                 "date": "2024-10-28 01:30:00",
                 "name": "Trio d´Ataque",
                 "description": "Domingos à noite, Trio D`Ataque...em direto",
@@ -16328,6 +16322,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtp3",
                 "date": "2024-10-28 06:00:00",
                 "name": "Bom Dia Portugal",
                 "description": "E porque é de manhã que começa o dia, então inicie-o na nossa companhia!",
@@ -21648,6 +21644,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpmemoria",
                 "date": "2024-10-28 06:23:00",
                 "name": "Replay",
                 "description": "Compacto",
@@ -21666,8 +21664,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpmemoria",
                 "date": "2024-10-28 06:33:00",
                 "name": "Nós os Ricos",
                 "description": "Para quem acha que vida de rico é fácil         ",
@@ -21812,8 +21808,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpmemoria",
                 "date": "2024-10-29 01:11:00",
                 "name": "Serviço de Urgência",
                 "description": "Série galardoada com 124 prémios e que segue os dramas da equipa de um Serviço de Urgência num Hospital de Chicago",
@@ -24196,6 +24190,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpafrica",
                 "date": "2024-10-27 06:26:00",
                 "name": "Mar de Letras",
                 "description": "FOLIO - Conceição Evaristo",
@@ -25480,6 +25476,7 @@
                 "name": "Grandiosa Enciclopédia do Ludopédio",
                 "description": "Na sua 10ª temporada, mais do que um programa de futebol, este é um programa que pretende compreender o futebol através da sua história ",
                 "url": "https://www.rtp.pt/programa/tv/p46204/e8",
+                "review": "https://www.rtp.pt/play/p13934/e804415/grandiosa-enciclopedia-do-ludopedio",
                 "image": [
                     {
                         "width": "384",
@@ -26810,8 +26807,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpafrica",
                 "date": "2024-10-28 05:15:00",
                 "name": "Windeck - O Preço da Ambição",
                 "description": "Todos os ingredientes se conjugam num enredo onde não falta intriga, drama, humor e glamour!",
@@ -26938,8 +26933,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpafrica",
                 "date": "2024-10-29 01:28:00",
                 "name": "África Sport",
                 "description": "O desporto africano falado em português.",
@@ -28692,6 +28685,8 @@
         ],
         "morning": [
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpinternacional",
                 "date": "2024-10-27 06:00:00",
                 "name": "Espaço Zig Zag",
                 "description": "Um mundo de séries de aventura e animação para os mais pequenos.",
@@ -30154,8 +30149,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpinternacional",
                 "date": "2024-10-28 05:38:00",
                 "name": "Terra Europa",
                 "description": "Terra Europa é uma série de atualidade europeia, com emissão semanal nos canais de televisão e rádio da RTP. O \"Terra Europa\" traz reportagens exclusivas sobre os temas que preocupam os cidadãos: criação de emprego, alterações climáticas, inovação.",
@@ -30282,8 +30275,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpinternacional",
                 "date": "2024-10-29 01:00:00",
                 "name": "Notícias do Atlântico",
                 "description": "A aproximação da diáspora com origem nas regiões autónomas dos Açores e da Madeira, com os assuntos que marcam a atualidade destas ilhas.",
@@ -34434,6 +34425,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpacores",
                 "date": "2024-10-28 04:55:00",
                 "name": "Teledesporto",
                 "description": "",
@@ -34452,8 +34445,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpacores",
                 "date": "2024-10-28 05:55:00",
                 "name": "Inesquecível",
                 "description": "Júlio Isidro convida personalidades a viajar pelas memórias da sua história na RTP neste talk-show semanal ",
@@ -38560,6 +38551,8 @@
         ],
         "morning": [
             {
+                "is_live": true,
+                "liveUrl": "",
                 "date": "2024-10-27 06:00:00",
                 "name": "Ao Largo",
                 "description": "(legendas em inglês)",
@@ -40346,8 +40339,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "",
                 "date": "2024-10-28 05:53:00",
                 "name": "Impacto Verde",
                 "description": "Impacto Verde é um programa semanal apresentado pela jornalista Daniela Santiago, com emissão aos sábados na RTP 3. ",
@@ -42370,6 +42361,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "",
                 "date": "2024-10-27 06:27:00",
                 "name": "Malta Jovem",
                 "description": "",
@@ -44822,8 +44815,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "",
                 "date": "2024-10-28 05:00:00",
                 "name": "Notícias do Atlântico",
                 "description": "A aproximação da diáspora com origem nas regiões autónomas dos Açores e da Madeira, com os assuntos que marcam a atualidade destas ilhas.",
@@ -44950,8 +44941,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "",
                 "date": "2024-10-29 01:02:00",
                 "name": "Sociedade Civil",
                 "description": "Dobragens",
