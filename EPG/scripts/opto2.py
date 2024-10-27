@@ -1,8 +1,7 @@
 import xml.etree.ElementTree as ET
 import json
-import gzip  # Alterado de lzma para gzip
+import gzip
 import os
-
 from datetime import datetime
 
 def json_to_xmltv(json_data):
@@ -19,11 +18,19 @@ def json_to_xmltv(json_data):
         # Se o canal ainda não foi adicionado, criamos a entrada para ele
         if channel_id not in channels:
             channel = ET.SubElement(tv, 'channel', id=channel_id)
+            
+            # Adicionar o nome do canal
             display_name = ET.SubElement(channel, 'display-name')
             display_name.text = entry['channel']['name']
+            
+            # Procurar e adicionar o ícone (logo) do canal, se disponível
+            logo_url = next((img['url'] for img in entry['channel']['image'] if img['name'] == 'logo'), None)
+            if logo_url:
+                icon = ET.SubElement(channel, 'icon', src=logo_url)
+            
             channels[channel_id] = channel
         
-        # Converter datas para o formato esperado no XMLTV (YYYYMMDDHHMMSS +0000)
+        # Converter datas para o formato XMLTV (YYYYMMDDHHMMSS +0000)
         start = datetime.strptime(entry['start_date'], '%Y-%m-%dT%H:%M:%SZ')
         end = datetime.strptime(entry['end_date'], '%Y-%m-%dT%H:%M:%SZ')
         
@@ -33,20 +40,21 @@ def json_to_xmltv(json_data):
         # Criar o elemento <programme>
         programme = ET.SubElement(tv, 'programme', start=start_str, stop=end_str, channel=channel_id)
         
+        # Adicionar o título do programa
         title = ET.SubElement(programme, 'title', lang='pt')
         title.text = entry['title']
-        
-        # Se houver número de episódio e temporada, adicionar informações
-        if 'season_number' in entry and 'episode_number' in entry:
-            episode_num = ET.SubElement(programme, 'episode-num', system='onscreen')
-            episode_num.text = f"S{entry['season_number']:02d}E{entry['episode_number']:02d}"
         
         # Adicionar descrição curta (se disponível)
         if 'short_description' in entry:
             desc = ET.SubElement(programme, 'desc', lang='pt')
             desc.text = entry['short_description']
         
-        # Classificação (se houver)
+        # Adicionar número de temporada e episódio, se disponíveis
+        if 'season_number' in entry and 'episode_number' in entry:
+            episode_num = ET.SubElement(programme, 'episode-num', system='onscreen')
+            episode_num.text = f"S{entry['season_number']:02d}E{entry['episode_number']:02d}"
+        
+        # Adicionar classificação
         rating = ET.SubElement(programme, 'rating')
         value = ET.SubElement(rating, 'value')
         value.text = str(entry['classification'])
@@ -62,7 +70,7 @@ def save_xml_as_gzip(xml_data, output_filename):
 
 # Exemplo de uso
 def main():
-    # Caminho do JSON de entrada (na pasta EPG) e XML de saída
+    # Caminho do JSON de entrada e XML de saída
     input_json_file = os.path.join(os.path.dirname(__file__), "..", "epg-sic-pt.json")
     output_xml_file = os.path.join(os.path.dirname(__file__), "..", "epg-sic-pt.xml.gz")  # Alterado para .xml.gz
 
