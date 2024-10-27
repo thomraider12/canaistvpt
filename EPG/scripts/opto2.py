@@ -53,11 +53,6 @@ def json_to_xmltv(json_data):
         if 'season_number' in entry and 'episode_number' in entry:
             episode_num = ET.SubElement(programme, 'episode-num', system='onscreen')
             episode_num.text = f"S{entry['season_number']:02d}E{entry['episode_number']:02d}"
-        
-        # Adicionar classificação
-        rating = ET.SubElement(programme, 'rating')
-        value = ET.SubElement(rating, 'value')
-        value.text = str(entry['classification'])
 
     # Gerar o XML como string
     xml_data = ET.tostring(tv, encoding='utf-8', method='xml').decode('utf-8')
