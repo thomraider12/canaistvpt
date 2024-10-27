@@ -11,8 +11,8 @@ start_date = int(time.time()) - ninety_minutes_in_seconds
 end_date = start_date + 7 * 24 * 60 * 60  # 2 dias em segundos
 
 # URL da EPG com as datas dinâmicas
-url = f"https://opto.sic.pt/api/v1/content/epg?startDate={start_date}&endDate={end_date}"
-
+url = f"https://opto.sic.pt/api/v1/content/epg?startDate={start_date}&endDate={end_date}&channels=549519c3-31fa-42de-a621-15e981082fd9,d47400e0-19d9-4f71-94f4-2b4cfdc1a2ca"
+print(url)
 # Realiza a requisição GET
 response = requests.get(url)
 
