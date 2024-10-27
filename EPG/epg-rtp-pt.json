@@ -4379,8 +4379,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtp2",
                 "date": "2024-10-27 09:40:00",
                 "name": "A Aldeia Encantada do Pinóquio",
                 "description": "Pinóquio e o seu grupo de amigos muito especiais vivem divertidas aventuras na Aldeia Encantada!",
@@ -4417,10 +4415,13 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtp2",
                 "date": "2024-10-27 10:05:00",
                 "name": "Pfffiratas",
                 "description": "",
                 "url": "https://www.rtp.pt/programa/tv/p45941/e15",
+                "review": "https://www.rtp.pt/play/p13604/e804365/pfffiratas",
                 "image": [
                     {
                         "width": "384",
@@ -19112,8 +19113,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpmemoria",
                 "date": "2024-10-27 09:10:00",
                 "name": "Nelo & Idália",
                 "description": "Nelo e Idália prometem humor alternativo na RTP, numa série explosiva e mordaz",
@@ -19132,6 +19131,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpmemoria",
                 "date": "2024-10-27 09:42:00",
                 "name": "Animais Anónimos",
                 "description": "Animais Anónimos é uma celebração de todas as razões que nos fazem amar os animais ",
@@ -24255,8 +24256,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpafrica",
                 "date": "2024-10-27 08:00:00",
                 "name": "Bom Dia Portugal Fim de Semana",
                 "description": "E porque é de manhã que começa o dia, então inicie-o na nossa companhia!",
@@ -24276,6 +24275,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpafrica",
                 "date": "2024-10-27 09:57:00",
                 "name": "Descomplica",
                 "description": "Tempo",
@@ -32546,8 +32547,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpacores",
                 "date": "2024-10-27 08:39:00",
                 "name": "Falar Para o Boneco",
                 "description": "Um programa para todas as meninas, meninos, senhoras e senhores, animais de estimação, plantas e demais seres vivos!",
@@ -32584,6 +32583,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpacores",
                 "date": "2024-10-27 09:08:00",
                 "name": "Todas as Palavras",
                 "description": "Os livros e os seus autores",
@@ -42483,8 +42484,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "",
                 "date": "2024-10-27 08:49:00",
                 "name": "Em Casa d´ Amália",
                 "description": "Programa inspirado nas célebres noites em que Amália Rodrigues recebia em sua casa, poetas, cantores, pintores, músicos, atores para tertúlias infindáveis",
@@ -42503,6 +42502,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "",
                 "date": "2024-10-27 10:00:00",
                 "name": "Bom Dia Portugal Fim de Semana",
                 "description": "E porque é de manhã que começa o dia, então inicie-o na nossa companhia!",
