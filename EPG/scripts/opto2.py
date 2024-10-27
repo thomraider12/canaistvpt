@@ -41,6 +41,11 @@ def json_to_xmltv(json_data):
             episode_num = ET.SubElement(programme, 'episode-num', system='onscreen')
             episode_num.text = f"S{entry['season_number']:02d}E{entry['episode_number']:02d}"
         
+        # Adicionar descrição curta (se disponível)
+        if 'short_description' in entry:
+            desc = ET.SubElement(programme, 'desc', lang='pt')
+            desc.text = entry['short_description']
+        
         # Classificação (se houver)
         rating = ET.SubElement(programme, 'rating')
         value = ET.SubElement(rating, 'value')
