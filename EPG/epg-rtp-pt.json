@@ -729,12 +729,11 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtp1",
                 "date": "2024-10-27 10:30:00",
                 "name": "Eucaristia Dominical",
                 "description": "Lisboa: XXX Domingo do Tempo Comum",
                 "url": "https://www.rtp.pt/programa/tv/p44905/e37",
+                "review": "https://www.rtp.pt/play/p12665/e804431/eucaristia-dominical",
                 "image": [
                     {
                         "width": "384",
@@ -749,10 +748,13 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtp1",
                 "date": "2024-10-27 11:39:00",
                 "name": "Aqui Portugal",
                 "description": "Vinhais",
                 "url": "https://www.rtp.pt/programa/tv/p44924/e25",
+                "review": "https://www.rtp.pt/play/p12771/e804432/aqui-portugal",
                 "image": [
                     {
                         "width": "384",
@@ -1457,6 +1459,7 @@
                 "name": "Aqui Portugal",
                 "description": "Vinhais",
                 "url": "https://www.rtp.pt/programa/tv/p44924/e25",
+                "review": "https://www.rtp.pt/play/p12771/e804432/aqui-portugal",
                 "image": [
                     {
                         "width": "384",
@@ -4529,12 +4532,11 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtp2",
                 "date": "2024-10-27 11:00:00",
                 "name": "Academia de Super-Heróis",
                 "description": "",
                 "url": "https://www.rtp.pt/programa/tv/p46257/e9",
+                "review": "https://www.rtp.pt/play/p13865/e804428/superhero-academy",
                 "image": [
                     {
                         "width": "384",
@@ -4657,6 +4659,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtp2",
                 "date": "2024-10-27 12:26:00",
                 "name": "Robin dos Bosques - Travessuras em Sherwood",
                 "description": "O jovem Robin de Locksley e os seus amigos vivem imensas aventuras, sem perder a oportunidade de se divertir!",
@@ -14030,12 +14034,11 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtp3",
                 "date": "2024-10-27 11:00:00",
                 "name": "3 às 11",
                 "description": "Notícias de Portugal e do mundo.",
                 "url": "https://www.rtp.pt/programa/tv/p44994",
+                "review": "https://www.rtp.pt/play/p12963/e804430/3-as-11",
                 "image": [
                     {
                         "width": "384",
@@ -14086,6 +14089,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtp3",
                 "date": "2024-10-27 12:00:00",
                 "name": "Jornal das 12",
                 "description": "Ao meio-dia as notícias de Portugal e do mundo.",
@@ -19172,8 +19177,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpmemoria",
                 "date": "2024-10-27 11:07:00",
                 "name": "Donos Disto Tudo",
                 "description": "Rir com os Donos do Humor ",
@@ -19192,6 +19195,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpmemoria",
                 "date": "2024-10-27 11:57:00",
                 "name": "Filhos do Vento",
                 "description": "A luta que se travou entre duas famílias: os Vieira e os Abrantes...",
@@ -24316,12 +24321,11 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpafrica",
                 "date": "2024-10-27 10:30:00",
                 "name": "Eucaristia Dominical",
                 "description": "Lisboa: XXX Domingo do Tempo Comum",
                 "url": "https://www.rtp.pt/programa/tv/p44905/e37",
+                "review": "https://www.rtp.pt/play/p12665/e804431/eucaristia-dominical",
                 "image": [
                     {
                         "width": "384",
@@ -24372,6 +24376,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpafrica",
                 "date": "2024-10-27 12:13:00",
                 "name": "Destino Selvagem: As Maravilhas Escondidas de África",
                 "description": "",
@@ -28760,12 +28766,11 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpinternacional",
                 "date": "2024-10-27 10:30:00",
                 "name": "Eucaristia Dominical",
                 "description": "Lisboa: XXX Domingo do Tempo Comum",
                 "url": "https://www.rtp.pt/programa/tv/p44905/e37",
+                "review": "https://www.rtp.pt/play/p12665/e804431/eucaristia-dominical",
                 "image": [
                     {
                         "width": "384",
@@ -28780,10 +28785,13 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpinternacional",
                 "date": "2024-10-27 11:39:00",
                 "name": "Aqui Portugal",
                 "description": "Vinhais",
                 "url": "https://www.rtp.pt/programa/tv/p44924/e25",
+                "review": "https://www.rtp.pt/play/p12771/e804432/aqui-portugal",
                 "image": [
                     {
                         "width": "384",
@@ -29290,6 +29298,7 @@
                 "name": "Aqui Portugal",
                 "description": "Vinhais",
                 "url": "https://www.rtp.pt/programa/tv/p44924/e25",
+                "review": "https://www.rtp.pt/play/p12771/e804432/aqui-portugal",
                 "image": [
                     {
                         "width": "384",
@@ -32606,12 +32615,11 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpacores",
                 "date": "2024-10-27 09:30:00",
                 "name": "Eucaristia Dominical",
                 "description": "A Eucaristia é fonte e centro de toda a vida cristã!",
                 "url": "https://www.rtp.pt/programa/tv/p44905",
+                "review": "https://www.rtp.pt/play/p12665/e804431/eucaristia-dominical",
                 "image": [
                     {
                         "width": "384",
@@ -32680,6 +32688,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpacores",
                 "date": "2024-10-27 11:15:00",
                 "name": "26º Congresso Regional do PSD -Açores",
                 "description": "",
@@ -38661,12 +38671,11 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "",
                 "date": "2024-10-27 10:30:00",
                 "name": "Eucaristia Dominical",
                 "description": "A Eucaristia é fonte e centro de toda a vida cristã!",
                 "url": "https://www.rtp.pt/programa/tv/p44905/e37",
+                "review": "https://www.rtp.pt/play/p12665/e804431/eucaristia-dominical",
                 "image": [
                     {
                         "width": "384",
@@ -38681,10 +38690,13 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "",
                 "date": "2024-10-27 11:39:00",
                 "name": "Aqui Portugal",
                 "description": "Ligue-se ao melhor do nosso país na sua RTP!",
                 "url": "https://www.rtp.pt/programa/tv/p44924",
+                "review": "https://www.rtp.pt/play/p12771/e804432/aqui-portugal",
                 "image": [
                     {
                         "width": "384",
@@ -39479,6 +39491,7 @@
                 "name": "Aqui Portugal",
                 "description": "Ligue-se ao melhor do nosso país na sua RTP!",
                 "url": "https://www.rtp.pt/programa/tv/p44924",
+                "review": "https://www.rtp.pt/play/p12771/e804432/aqui-portugal",
                 "image": [
                     {
                         "width": "384",
@@ -42526,12 +42539,11 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "",
                 "date": "2024-10-27 10:30:00",
                 "name": "Eucaristia Dominical",
                 "description": "Lisboa: XXX Domingo do Tempo Comum",
                 "url": "https://www.rtp.pt/programa/tv/p44905/e37",
+                "review": "https://www.rtp.pt/play/p12665/e804431/eucaristia-dominical",
                 "image": [
                     {
                         "width": "384",
@@ -42582,6 +42594,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "",
                 "date": "2024-10-27 12:34:00",
                 "name": "Casa das Artes",
                 "description": "",
@@ -44822,6 +44836,7 @@
                 "name": "Aqui Portugal",
                 "description": "Vinhais",
                 "url": "https://www.rtp.pt/programa/tv/p44924/e25",
+                "review": "https://www.rtp.pt/play/p12771/e804432/aqui-portugal",
                 "image": [
                     {
                         "width": "384",
