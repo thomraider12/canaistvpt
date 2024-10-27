@@ -1,10 +1,10 @@
 #EXTM3U url-tvg="https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-pt.xml.gz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-rtp-pt.xml.gz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-sic-pt.xml.gz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-extra.xml.gz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-rakuten-tv.xml.gz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-pluto-tv.xml.gz,https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-samsung-tvplus.xml.gz"
 
 #EXTINF:-1 group-title="Notícias" tvg-id="rtp-1" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp1.png",RTP 1
-https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8
+https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="Notícias" tvg-id="rtp-2" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp2.png",RTP 2
-https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
+https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="Notícias" tvg-id="14229a5c-765a-46ab-a43b-56822565e5b3" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/sic.png",SIC
 https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index_5.m3u8
