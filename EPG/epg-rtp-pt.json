@@ -8337,8 +8337,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtp2",
                 "date": "2024-10-27 18:17:00",
                 "name": "Terra de Leões",
                 "description": "2ª temporada da série documental que acompanha o projeto do jovem conservacionista inglês David Youldon para salvar o icónico leão africano",
@@ -8358,10 +8356,13 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtp2",
                 "date": "2024-10-27 18:42:00",
                 "name": "Temos Programa",
                 "description": "Uma viagem pela programação da RTP2 conduzida por Manuela Silva Reis",
                 "url": "https://www.rtp.pt/programa/tv/p45099/e36",
+                "review": "https://www.rtp.pt/play/p12692/e804370/temos-programa",
                 "image": [
                     {
                         "width": "384",
@@ -11337,6 +11338,7 @@
                 "name": "Temos Programa",
                 "description": "Uma viagem pela programação da RTP2 conduzida por Manuela Silva Reis",
                 "url": "https://www.rtp.pt/programa/tv/p45099/e36",
+                "review": "https://www.rtp.pt/play/p12692/e804370/temos-programa",
                 "image": [
                     {
                         "width": "384",
@@ -15039,12 +15041,11 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtp3",
                 "date": "2024-10-27 18:00:00",
                 "name": "3 às 18",
                 "description": "Informação na tarde da RTP3",
                 "url": "https://www.rtp.pt/programa/tv/p45006",
+                "review": "https://www.rtp.pt/play/p12707/e804483/3-as-18",
                 "image": [
                     {
                         "width": "384",
@@ -15077,6 +15078,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtp3",
                 "date": "2024-10-27 19:00:00",
                 "name": "3 às 19",
                 "description": "Notícias ao fim da tarde.",
@@ -20290,8 +20293,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpmemoria",
                 "date": "2024-10-27 16:55:00",
                 "name": "Inesquecível",
                 "description": "Júlio Isidro convida personalidades a viajar pelas memórias da sua história na RTP neste talk-show semanal ",
@@ -20311,6 +20312,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpmemoria",
                 "date": "2024-10-27 18:34:00",
                 "name": "Tributo em Estúdio",
                 "description": "Um Tributo a grandes artistas portugueses já desaparecidos ",
@@ -33304,8 +33307,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpacores",
                 "date": "2024-10-27 17:11:00",
                 "name": "Primeira Pessoa",
                 "description": "Abordagens distintas e plurais de diferentes figuras da nossa sociedade com Fátima Campos  Ferreira ",
@@ -33324,6 +33325,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpacores",
                 "date": "2024-10-27 17:43:00",
                 "name": "Cá Por Casa Com Herman José",
                 "description": "O universo de cultura popular e da atualidade são explorados, com boa disposição e espontaneidade, num programa que apela a todas as gerações",
@@ -36717,8 +36720,6 @@
         ],
         "morning": [
             {
-                "is_live": true,
-                "liveUrl": "http://www.rtp.pt/play/direto/rtpmadeira",
                 "date": "2024-10-27 06:30:00",
                 "name": "RTP 3 (Madeira)",
                 "description": "Emissão em simultâneo com RTP 3",
@@ -36847,6 +36848,8 @@
         ],
         "afternoon": [
             {
+                "is_live": true,
+                "liveUrl": "http://www.rtp.pt/play/direto/rtpmadeira",
                 "date": "2024-10-27 19:00:00",
                 "name": "Notícias do Atlântico",
                 "description": "A aproximação da diáspora com origem nas regiões autónomas dos Açores e da Madeira, com os assuntos que marcam a atualidade destas ilhas.",
@@ -43790,8 +43793,6 @@
                 ]
             },
             {
-                "is_live": true,
-                "liveUrl": "",
                 "date": "2024-10-27 18:02:00",
                 "name": "Gastronomia Local",
                 "description": "A Gastronomia da Madeira",
@@ -43810,6 +43811,8 @@
                 ]
             },
             {
+                "is_live": true,
+                "liveUrl": "",
                 "date": "2024-10-27 18:28:00",
                 "name": "Noites de Verão",
                 "description": "",
