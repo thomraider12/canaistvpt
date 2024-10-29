@@ -1,4 +1,4 @@
-name: Atualizar EPG
+name: Atualizar EPGs
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  Update-EPG:
+  Update-EPGs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout do repositório
@@ -44,7 +44,6 @@ jobs:
           rm -f epg-samsung-tvplus.xml.gz
           wget -O epg-samsung-tvplus.xml.gz "https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/SamsungTVPlus/all.xml.gz"
 
-
       - name: Atualizar lista Opto SIC
         run: |
           python EPG/scripts/opto.py
@@ -72,7 +71,7 @@ jobs:
           rm -f epg-extra.xml.gz
           gzip epg-extra.xml
 
-      - name: Filtrar EPG do PlutoTV e SamsungTVPlus
+      - name: Filtrar EPG do PlutoTV, SamsungTVPlus, RTP e RakutenTV
         run: |
           cd EPG
           python scripts/filter_epg.py
@@ -89,6 +88,10 @@ jobs:
         run: |
           mv EPG/filtered-epg-rtp-pt.xml.gz EPG/epg-rtp-pt.xml.gz
 
+      - name: Substituir EPG original da RakutenTV pelo filtrado
+        run: |
+          mv EPG/filtered-epg-rakuten-tv.xml.gz EPG/epg-rakuten-tv.xml.gz
+
       - name: Configurar Git
         run: |
           git config user.name "EPG's bot"
@@ -99,4 +102,38 @@ jobs:
           git pull
           cd EPG && git add .
           git commit -m "Atualizar EPG's"
+          git push origin main
+
+  Merge-All-EPGs:
+    runs-on: ubuntu-latest
+    needs: Update-EPGs
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: |
+          cd EPG/scripts
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Executar merge das EPGs
+        run: |
+          python EPG/scripts/merge_epg.py
+
+      - name: Configurar Git
+        run: |
+          git config user.name "EPG's merge bot"
+          git config user.email "<>"
+
+      - name: Commit do merge
+        run: |
+          git pull
+          cd EPG && git add all.xml.gz
+          git commit -m "Merge de todas as EPGs"
           git push origin main
