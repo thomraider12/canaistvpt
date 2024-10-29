@@ -32,6 +32,9 @@ jobs:
       - name: Atualizar EPGs principais
         run: sh EPG/scripts/epg-pt.sh
 
+      - name: Corrigir EPG da NOS
+        run: python EPG/scripts/corrigir_nos.py
+
       - name: Atualizar lista PlutoTV
         run: |
           cd EPG
