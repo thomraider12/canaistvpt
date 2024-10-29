@@ -2,7 +2,7 @@ import os
 import gzip
 import xml.etree.ElementTree as ET
 
-ignorar = ['epg-nos-pt.xml.gz', 'epg-rtp-pt.xml.gz']
+ignorar = ['epg-meo-pt.xml.gz', 'epg-rtp-pt.xml.gz']
 
 def merge_epgs(epg_dir, output_file):
     # Criar elemento raiz para o XML combinado
