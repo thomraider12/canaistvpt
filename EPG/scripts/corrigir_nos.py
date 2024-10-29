@@ -1,20 +1,15 @@
 import gzip
-import re
 from lxml import etree
 
 def corrigir_xml(input_file, output_file):
     try:
         # Descomprimir o arquivo .xml.gz e ler como bytes
         with gzip.open(input_file, 'rb') as f:
-            xml_content = f.read()
-
-        # Remover caracteres inválidos usando expressão regular em bytes
-        # Apenas caracteres válidos para XML são mantidos
-        xml_content = re.sub(rb'[^\x09\x0A\x0D\x20-\x7F\x85\xA0-\uD7FF\uE000-\uFFFD]', b'', xml_content)
+            xml_content = f.read().decode('utf-8', errors='ignore')  # Ignorar caracteres inválidos durante a decodificação
 
         # Corrigir tags abertas/fechadas incorretamente
         parser = etree.XMLParser(recover=True)  # Configurado para corrigir pequenos erros automaticamente
-        root = etree.fromstring(xml_content, parser=parser)
+        root = etree.fromstring(xml_content.encode('utf-8'), parser=parser)  # Reconvertido para bytes
 
         # Salvar o XML corrigido temporariamente
         temp_file = "temp.xml"
