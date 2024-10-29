@@ -2,6 +2,8 @@ import os
 import gzip
 import xml.etree.ElementTree as ET
 
+ignorar = ['epg-nos-pt.xml.gz', 'epg-rtp-pt.xml.gz']
+
 def merge_epgs(epg_dir, output_file):
     # Criar elemento raiz para o XML combinado
     combined_root = None
@@ -9,7 +11,7 @@ def merge_epgs(epg_dir, output_file):
     # Procurar todos os arquivos .xml.gz na pasta
     for file_name in os.listdir(epg_dir):
         # Ignorar o arquivo problemático
-        if file_name == 'epg-nos-pt.xml.gz':
+        if file_name in ignorar:
             print(f"Ignorando o arquivo problemático: {file_name}")
             continue
         
