@@ -4,13 +4,13 @@ from lxml import etree
 
 def corrigir_xml(input_file, output_file):
     try:
-        # Descomprimir o arquivo .xml.gz
-        with gzip.open(input_file, 'rt', encoding='utf-8') as f:
+        # Descomprimir o arquivo .xml.gz e ler como bytes
+        with gzip.open(input_file, 'rb') as f:
             xml_content = f.read()
 
-        # Remover caracteres inválidos usando expressão regular
+        # Remover caracteres inválidos usando expressão regular em bytes
         # Apenas caracteres válidos para XML são mantidos
-        xml_content = re.sub(r'[^\x09\x0A\x0D\x20-\x7F\x85\xA0-\uD7FF\uE000-\uFFFD]', '', xml_content)
+        xml_content = re.sub(rb'[^\x09\x0A\x0D\x20-\x7F\x85\xA0-\uD7FF\uE000-\uFFFD]', b'', xml_content)
 
         # Corrigir tags abertas/fechadas incorretamente
         parser = etree.XMLParser(recover=True)  # Configurado para corrigir pequenos erros automaticamente
