@@ -16,6 +16,7 @@ def merge_epgs(epg_dir, output_file):
             continue
         
         if file_name.endswith('.xml.gz'):
+            print(file_name)
             file_path = os.path.join(epg_dir, file_name)
             try:
                 with gzip.open(file_path, 'rt', encoding='utf-8') as file:
