@@ -129,6 +129,9 @@ https://ythls-v3.onrender.com/channel/UC0R-K3crhMX9jzswbmfIORw.m3u8
 #EXTINF:-1 group-title="Gaming" tvg-id="Gametoon.nl" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/gametoon.png",Gametoon
 http://iptv.prosto.tv:7000/ch256/video.m3u8
 
+#EXTINF:-1 tvg-id="ubisoft_br_tv" group-title="Gaming" tvg-logo="https://images.pluto.tv/channels/64c815e8a1c6130008fef928/colorLogoPNG.png",UbisoftTV (BR)
+https://ubl-ut-samsung.otteravision.com/ubl/ut/ut.m3u8
+
 #EXTINF:-1 tvg-id="SKWAD.us" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/skwad.png" group-title="Gaming",SKWAD
 https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-5f12332eeca6a20040b328e5.m3u8?X-Plex-Token=7_DZgexHgAKDxgwFUesV
 
