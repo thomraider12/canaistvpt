@@ -63,7 +63,7 @@ def process_multiple_days(start_timestamp, days):
         root = tree.getroot()
 
     # Adiciona o canal ao root se não estiver presente
-    add_channel(root, "ubisoft_br_tv", "Ubisoft Brasil TV", "https://example.com/ubisoft_logo.png")
+    add_channel(root, "ubisoft_br_tv", "Ubisoft Brasil TV", "https://images.pluto.tv/channels/64c815e8a1c6130008fef928/colorLogoPNG.png")
 
     # Para cada dia, faça a extração dos dados JSON e converta para XML
     timestamp = start_timestamp
@@ -87,7 +87,7 @@ def process_multiple_days(start_timestamp, days):
     with gzip.open("epg-extra.xml.gz", "wb") as f:
         f.write(pretty_xml.encode("utf-8"))
 
-    print("Processamento concluído e arquivo atualizado com sucesso.")
+    print("\nProcessamento concluído e arquivo atualizado com sucesso.")
 
 # Executar a função principal para processar múltiplos dias
 start_timestamp = int(time.time()) - 5400  # Define como 1h30min atrás

@@ -128,6 +128,9 @@ jobs:
 
       - name: Executar merge das EPGs
         run: |
+          cd EPG
+          rm -f all.xml.gz
+          cd -
           python EPG/scripts/merge_epg.py
 
       - name: Configurar Git
