@@ -9,6 +9,10 @@ from xml.dom import minidom
 def json_to_xmltv(json_data, root):
     program_count = 0
     for event in json_data.get("objects", []):
+        # Obtém o nome do programa para exibição
+        program_name = event.get("name", "Sem título")
+        print(f"Processando programa: \"{program_name}\"")  # Mensagem de processamento
+
         # Criando o elemento programa com os novos nomes de campo
         programme = ET.SubElement(root, "programme", {
             "start": event["segment_start_time"],
@@ -18,7 +22,7 @@ def json_to_xmltv(json_data, root):
 
         # Adiciona título
         title = ET.SubElement(programme, "title", {"lang": "pt"})
-        title.text = event.get("name", "Sem título")
+        title.text = program_name
 
         # Adiciona descrição
         desc = ET.SubElement(programme, "desc", {"lang": "pt"})
@@ -32,9 +36,24 @@ def json_to_xmltv(json_data, root):
 # Função para obter dados de API
 def fetch_data_for_timestamp(timestamp):
     url = f"https://api-ott.ubisoftbrasil.tv/getvideosegments?&banners=0&connection=wifi&device_type=desktop&for_user=0&image_format=widescreen&image_width=366&language=pt&linear_channel_id=114&parent_id=114&parent_type=linear_channel&partner=internal&platform=web&timestamp={timestamp}&timezone=-0000&use_device_width_widescreen=1&version=14.0"
+    print(url)
     response = requests.get(url)
     response.raise_for_status()
     return response.json()
+
+# Função para adicionar o canal ao XMLTV
+def add_channel(root, channel_id, display_name, icon_url):
+    # Verifica se o canal já existe
+    existing_channels = root.findall("channel")
+    for channel in existing_channels:
+        if channel.get("id") == channel_id:
+            return  # Canal já existe, não adiciona novamente
+
+    # Adiciona o canal se não existir
+    channel = ET.SubElement(root, "channel", {"id": channel_id})
+    display_name_element = ET.SubElement(channel, "display-name", {"lang": "pt"})
+    display_name_element.text = display_name
+    icon_element = ET.SubElement(channel, "icon", {"src": icon_url})
 
 # Função principal para processar múltiplos dias
 def process_multiple_days(start_timestamp, days):
@@ -42,6 +61,9 @@ def process_multiple_days(start_timestamp, days):
     with gzip.open("epg-extra.xml.gz", "rb") as f:
         tree = ET.parse(f)
         root = tree.getroot()
+
+    # Adiciona o canal ao root se não estiver presente
+    add_channel(root, "ubisoft_br_tv", "Ubisoft Brasil TV", "https://example.com/ubisoft_logo.png")
 
     # Para cada dia, faça a extração dos dados JSON e converta para XML
     timestamp = start_timestamp
