@@ -14,10 +14,14 @@ def convert_jsontv_to_xmltv(json_path, xml_output_path):
 
     # Iterar pelos canais no JSONTV
     for channel_key, channel_info in jsontv_data.items():
+        # Obter o nome do canal para exibir
+        channel_name = channel_info.get("_info", {}).get("name", channel_key)
+        print(f"Processando canal: {channel_name}")
+
         # Criar o elemento <channel> e adicionar detalhes
         channel_element = ET.SubElement(tv_element, "channel", id=channel_key)
         display_name = ET.SubElement(channel_element, "display-name")
-        display_name.text = channel_info.get("_info", {}).get("name", channel_key)
+        display_name.text = channel_name
         
         icon_url = channel_info.get("_info", {}).get("logoUrl", "")
         if icon_url:
@@ -30,6 +34,8 @@ def convert_jsontv_to_xmltv(json_path, xml_output_path):
         for section in sections:
             programmes = channel_info.get(section, [])
             for i, programme in enumerate(programmes):
+                print(f"  Processando programa: {programme['name']}")
+
                 start_time = datetime.strptime(programme["date"], "%Y-%m-%d %H:%M:%S")
                 start_formatted = start_time.strftime("%Y%m%d%H%M%S")
 
