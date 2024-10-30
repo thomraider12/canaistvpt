@@ -2,7 +2,7 @@
 
 Este projeto foi criado por Tomás Afonso, e tem vários canais de Portugal e do Mundo para entreter as pessoas.
 Pode ser usado com a lista M3U (<https://thomraider12.github.io/canaistvpt/pt.m3u>), com a lista de canais e rádios aqui em baixo.
-Também existe uma lista M3U das [MEO Beachcam's](https://thomraider12.github.io/canaistvpt/m3u8s/beachcams.m3u), de alguns programas (PCNELID, Eixo do Mal e Outro Lado) disponíveis [aqui](https://thomraider12.github.io/canaistvpt/m3u8s/series.m3u), de [documentários](https://thomraider12.github.io/canaistvpt/m3u8s/documentarios.m3u)  e de [filmes](https://thomraider12.github.io/canaistvpt/m3u8s/filmes.m3u).
+Também existe uma lista M3U das [MEO Beachcam's](https://thomraider12.github.io/canaistvpt/m3u8s/beachcams.m3u), de alguns programas (PCNELID, Eixo do Mal e Outro Lado) disponíveis [aqui](https://thomraider12.github.io/canaistvpt/m3u8s/series.m3u), de [documentários](https://thomraider12.github.io/canaistvpt/m3u8s/documentarios.m3u) e de [filmes](https://thomraider12.github.io/canaistvpt/m3u8s/filmes.m3u).
 
 ---
 
@@ -60,11 +60,16 @@ Também existe uma lista M3U das [MEO Beachcam's](https://thomraider12.github.io
 
 - TravelXP ᴴᴰ
 - 5-Minute-Crafts (US) ᴴᴰ
-- Gametoon (US) ᴴᴰ
 - FailArmy (US) ᴴᴰ
 - Love Nature ⁴ᴷ
 - Fireplace ⁴ᴷ
 - Aviação TV (aeroporto de Lisboa) ᴴᴰ
+
+## Gaming:
+
+- Gametoon (US) ᴴᴰ
+- Ubisoft TV (BR) ᴴᴰ
+- SKWAD (US) ᴴᴰ
 
 ## Música:
 
