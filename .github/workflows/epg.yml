@@ -120,6 +120,11 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Configurar Git
+        run: |
+          git config user.name "EPG's merge bot"
+          git config user.email "<>"
+
       - name: Instalar dependências
         run: |
           cd EPG/scripts
@@ -128,15 +133,11 @@ jobs:
 
       - name: Executar merge das EPGs
         run: |
+          git pull
           cd EPG
           rm -f all.xml.gz
           cd -
           python EPG/scripts/merge_epg.py
-
-      - name: Configurar Git
-        run: |
-          git config user.name "EPG's merge bot"
-          git config user.email "<>"
 
       - name: Commit do merge
         run: |
