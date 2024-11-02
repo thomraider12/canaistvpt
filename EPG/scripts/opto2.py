@@ -3,6 +3,7 @@ import json
 import gzip
 import os
 from datetime import datetime
+from xml.dom import minidom  # Importar a biblioteca necessária para pretty print
 
 def json_to_xmltv(json_data):
     # Criação do elemento raiz <tv>
@@ -56,7 +57,11 @@ def json_to_xmltv(json_data):
 
     # Gerar o XML como string
     xml_data = ET.tostring(tv, encoding='utf-8', method='xml').decode('utf-8')
-    return xml_data
+
+    # Usar minidom para pretty print
+    xml_pretty = minidom.parseString(xml_data).toprettyxml(indent="  ")
+    
+    return xml_pretty
 
 def save_xml_as_gzip(xml_data, output_filename):
     # Salvar o XML comprimido no formato .xml.gz
