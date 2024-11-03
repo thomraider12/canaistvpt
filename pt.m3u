@@ -198,6 +198,9 @@ http://centova.radios.pt:9478/stream/1/
 #EXTINF:-1 group-title="Rádios" radio="true" tvg-id="MEOSudoeste.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/meosudoeste.png",MEO Sudoeste
 http://centova.radio.com.pt:8495/stream/1/
 
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-id="Nove3Cinco.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/nove3cinco.png",Nove3Cinco
+https://centova.radios.pt/proxy/522?mp=/stream/1/
+
 #EXTINF:-1 group-title="Rádios" radio="true" tvg-id="Orbital.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/orbital.png",Orbital
 https://centova.radios.pt/proxy/401?mp=/stream/
 
@@ -218,9 +221,6 @@ https://play.radioregional.pt:8210/stream/2/;/stream.mp3
 
 #EXTINF:-1 radio="true" group-title="Rádios" tvg-id="batidafm.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/batidafm.png",batida.fm
 https://stream-hls.bauermedia.pt/batidafm.aac/playlist.m3u8
-
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-id="Nove3Cinco.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/nove3cinco.png",Nove3Cinco
-https://centova.radios.pt/proxy/522?mp=/stream/1/
 
 #EXTINF:-1 group-title="Rádios" radio="true" tvg-id="CidadeFM.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/cidadefm.png",Cidade FM
 https://stream-icy.bauermedia.pt/cidade.aac
