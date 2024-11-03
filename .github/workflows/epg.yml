@@ -92,6 +92,10 @@ jobs:
         run: |
           mv EPG/filtered-epg-rtp-pt.xml.gz EPG/epg-rtp-pt.xml.gz
 
+      - name: Substituir EPG original do RakutenTV pelo filtrado
+        run: |
+          mv EPG/filtered-epg-rakuten-tv.xml.gz EPG/epg-rakuten-tv.xml.gz
+
       - name: Configurar Git
         run: |
           git config user.name "EPG's bot"
