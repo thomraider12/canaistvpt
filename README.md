@@ -88,14 +88,22 @@ Também existe uma lista M3U das [MEO Beachcam's](https://thomraider12.github.io
 - Observador
 - TSF
 - Rádio Renascença
+- CM Rádio
 - M80
 - Rádio Voz Santo Tirso
 - MegaHits
 - Nova Era
 - MEO Sudoeste
 - Orbital
+- Hiper FM
+- Oxigénio
+- Radar
+- SmoothFM
+- SuperFM
+- batida.fm
 - Nove3Cinco
 - Cidade FM
+- Cidade HipHop
 - Cidade Hoje
 - Tuga FM
 - Truckers.FM

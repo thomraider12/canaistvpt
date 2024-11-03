@@ -204,8 +204,8 @@ https://centova.radios.pt/proxy/522?mp=/stream/1/
 #EXTINF:-1 group-title="Rádios" radio="true" tvg-id="Orbital.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/orbital.png",Orbital
 https://centova.radios.pt/proxy/401?mp=/stream/
 
-#EXTINF:-1 radio="true" group-title="Rádios" tvg-id="HiperFM.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/hiperfm.png",Hiper FM
-http://85.25.73.243:10460/;stream/1
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-id="HiperFM.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/hiperfm.png",HiperFM
+https://centova.radio.com.pt/proxy/500?mp=/stream
 
 #EXTINF:-1 radio="true" group-title="Rádios" tvg-id="RadioOxigenio.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/oxigenio.png",Oxigénio
 https://proic1.evspt.com/oxigenio_aac
@@ -216,7 +216,7 @@ https://proic1.evspt.com/radar_aac
 #EXTINF:-1 radio="true" group-title="Rádios" tvg-id="RadioSmoothFM.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/smoothfm.png",Smooth FM
 https://stream-hls.bauermedia.pt/smooth.aac/playlist.m3u8
 
-#EXTINF:-1 radio="true" group-title="Rádios" tvg-id="RadioSuperFM.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/superfm.png",Super FM
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-id="RadioSuperFM.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/superfm.png",SuperFM
 https://play.radioregional.pt:8210/stream/2/;/stream.mp3
 
 #EXTINF:-1 radio="true" group-title="Rádios" tvg-id="batidafm.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/batidafm.png",batida.fm
