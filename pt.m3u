@@ -60,10 +60,10 @@ https://d1kvlt93j1bc49.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTINF:-1 group-title="Secundários" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/skynews.png" tvg-id="SkyNewsInternational.uk",SkyNews (UK)
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/55b285cd2665de274553d66f/master.m3u8
 
-#EXTINF:-1 tvg-id="Eurosport1.uk" tvg-name="" group-title="Desporto" tvg-logo="https://dnl.eurosport.com/sd/img/smart_banner/eurosport_logo_360.png",Eurosport 1 🇬🇧 
+#EXTINF:-1 tvg-id="Eurosport1.uk" tvg-name="" group-title="Desporto" tvg-logo="https://dnl.eurosport.com/sd/img/smart_banner/eurosport_logo_360.png",Eurosport 1
 http://62.210.123.134:98/live/an75d/75d/144.ts
 
-#EXTINF:-1 tvg-id="Eurosport2.uk" tvg-name="" group-title="Desporto" tvg-logo="https://dnl.eurosport.com/sd/img/smart_banner/eurosport_logo_360.png",Eurosport 2 🇬🇧 
+#EXTINF:-1 tvg-id="Eurosport2.uk" tvg-name="" group-title="Desporto" tvg-logo="https://dnl.eurosport.com/sd/img/smart_banner/eurosport_logo_360.png",Eurosport 2
 http://62.210.123.134:98/live/an75d/75d/145.ts
 
 #EXTINF:-1 group-title="Desporto" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/golofm.png" tvg-id="GoloFM.pt",Golo FM (apenas em jogos)
