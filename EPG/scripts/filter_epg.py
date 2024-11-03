@@ -47,7 +47,4 @@ extract_epg('epg-samsung-tvplus.xml.gz', 'filtered-epg-samsung-tvplus.xml.gz', s
 
 extract_epg('epg-rtp-pt.xml.gz', 'filtered-epg-rtp-pt.xml.gz', rtp_channels_to_keep)
 
-extract_epg('epg-rakuten-tv.xml.gz', 'filtered-epg-rakuten-tv.xml.gz', rakuten_channels_to_keep)
-
-
 print("Filtragem concluída!")
