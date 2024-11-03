@@ -9,7 +9,7 @@ canais_extras = [
     {"id": "RadioComercial.pt", "nome": "Rádio Comercial - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/radiocomercial.png", "desc": "A Melhor Música, sempre.\nEm casa, no carro em todo o lado."},
     {"id": "RFM.pt", "nome": "RFM - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/rfm.png", "desc": "Só grandes músicas."},
     {"id": "RadioRenascença.pt", "nome": "Rádio Renascença - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/renascença.png", "desc": "A par com o mundo."},
-    {"id": "CMRadio.pt", "nome": "CM Rádio - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/cmradio.png", "desc": "CM Rádio.\nA vida ao vivo."},
+    {"id": "CMRadio.pt", "nome": "CM Rádio", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/cmradio.png", "desc": "CM Rádio.\nA vida ao vivo."},
     {"id": "Observador.pt", "nome": "Observador - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/observador.png", "desc": "O Observador é um jornal diário online, independente e livre."},
     {"id": "FamaRadio.pt", "nome": "Fama Rádio - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/famaradio.png", "desc": "A Melhor Seleção de Todas.\nUma estação de Rádio FM com um forte posicionamento nos clássicos; PopRock; anos 80 90 e 00, alternativo às atuais ofertas deste segmento."},
     {"id": "TSF.pt", "nome": "TSF - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/tsf.png", "desc": "Vamos ao fim da rua, Vamos ao fim do mundo.\nThe reference for radio news in Portugal."},
@@ -30,7 +30,7 @@ canais_extras = [
     {"id": "RadioSmoothFM.pt", "nome": "Smooth FM - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/smoothfm.png", "desc": "Parte do grupo Media Capital, a Smooth FM está no ar desde o ano de 2011 e transmite para as cidades de Lisboa e Porto e zona centro. A sua programação musical centra-se em jazz, blues e soul."},
     {"id": "RadioSuperFM.pt", "nome": "SuperFM - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/superfm.png", "desc": "A Super FM é uma rádio diferente, inovadora e com espírito, que passa os grandes êxitos do Rock e da Pop. Alguns dos seus locutores mais conhecidos são Diogo Batáguas, Ana Lucas e Mónica Amaral."},
     {"id": "batidafm.pt", "nome": "batida.fm - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/batidafm.png", "desc": "A  Batida FM é direcionada aos ouvintes jovens adultos.\nCriada em 2011, numa parceria entre a Vodafone e a Media Capital Rádios, emite essencialmente música indie e rock alternativo nas cidades de Lisboa, Porto e Coimbra."},
-    {"id": "CidadeHipHop.pt", "nome": "Cidade HipHop - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/cidadehiphop.png", "desc": "Só se quiseres\nA 1ª rádio dos exitos."}
+    {"id": "CidadeHipHop.pt", "nome": "Cidade HipHop - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/cidadefm.png", "desc": "Só se quiseres\nA 1ª rádio dos exitos."}
 ]
 
 # Criação do elemento raiz <tv>
