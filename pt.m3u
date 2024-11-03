@@ -225,7 +225,7 @@ https://stream-hls.bauermedia.pt/batidafm.aac/playlist.m3u8
 #EXTINF:-1 group-title="Rádios" radio="true" tvg-id="CidadeFM.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/cidadefm.png",Cidade FM
 https://stream-icy.bauermedia.pt/cidade.aac
 
-#EXTINF:-1 radio="true" group-title="Rádios" tvg-id="CidadeHipHop.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/cidadehiphop.png",Cidade Hip Hop
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-id="CidadeHipHop.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/cidadefm.png",Cidade Hip Hop
 https://stream-hls.bauermedia.pt/cidhiphop.aac/playlist.m3u8
 
 #EXTINF:-1 group-title="Rádios" radio="true" tvg-id="CidadeHoje.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/cidadehoje.png",Cidade Hoje
