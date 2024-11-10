@@ -188,3 +188,59 @@ text-align: center;
 .contact-form button:hover {
     background-color: #45a049;
 }
+
+.selecionarRadio {
+    font-family: cursive;
+    color: #f0f0f0;
+    font-size: larger;
+}
+
+.volumeslider {
+    font-family: cursive;
+    color: #f0f0f0;
+    font-size: larger;
+}
+
+#audioPlayer::-webkit-media-controls-timeline,
+    #audioPlayer::-moz-media-controls-timeline,
+    #audioPlayer::-ms-media-controls-timeline {
+      display: none;
+    }
+
+    /* Estilo dos botões personalizados */
+    .controls {
+        margin-top: 10px;
+      }
+  
+      /* Estilo para o botão de Parar/Continuar */
+      #stopContinueButton {
+        padding: 5px 10px;
+        cursor: pointer;
+        border: none;
+        color: white;
+        font-weight: bold;
+      }
+  
+      /* Cor vermelha para o botão quando está em "Parar" */
+      .stop {
+        background-color: red;
+      }
+  
+      /* Cor verde para o botão quando está em "Continuar" */
+      .continue {
+        background-color: green;
+      }
+  
+      /* Slider de volume */
+      #volumeControl {
+        width: 100px;
+        margin-left: 10px;
+      } 
+    .controls button {
+      padding: 5px 10px;
+      margin: 0 5px;
+      cursor: pointer;
+    }
+    .controls input[type="range"] {
+      width: 100px;
+    }
