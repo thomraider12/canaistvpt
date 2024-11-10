@@ -1,3 +1,5 @@
+Canais em XMLTV disponíveis no all.xml.gz:
+
 - bloomberg-tv-new
 - documentaries-pt-rakuten-tv
 - travelxp-pt
