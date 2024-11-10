@@ -148,6 +148,7 @@ jobs:
 
   Update-XMLTV-ids:
     runs-on: ubuntu-latest
+    needs: Merge-All-EPGs
     steps:
       - name: Checkout do repositório
         uses: actions/checkout@v4
