@@ -145,3 +145,43 @@ jobs:
           cd EPG && git add all.xml.gz
           git commit -m "Merge de todas as EPGs"
           git push origin main
+
+  Update-XMLTV-ids:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.12"
+
+      - name: Configurar Git
+        run: |
+          git config user.name "EPG' xmltv-ids bot"
+          git config user.email "<>"
+
+      - name: Instalar dependências
+        run: |
+          cd EPG/scripts
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Alterar xmltv-ids
+        run: |
+          git pull
+          cd EPG
+          python EPG/scripts/update-xmltv-ids.py
+
+      - name: Commit dos xmltv-ids
+        run: |
+          git pull
+          if ! git diff --quiet; then
+            git add EPG/xmltv-ids.txt
+            git commit -m "Atualizar xmltv-id's"
+            git push origin main
+          else
+            echo "Nenhuma mudança detectada. Nada a fazer."
+          fi
+
