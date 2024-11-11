@@ -9,7 +9,7 @@ canais_extras = [
     {"id": "RadioComercial.pt", "nome": "Rádio Comercial - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/radiocomercial.png", "desc": "A Melhor Música, sempre.\nEm casa, no carro em todo o lado."},
     {"id": "RFM.pt", "nome": "RFM - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/rfm.png", "desc": "Só grandes músicas."},
     {"id": "RadioRenascença.pt", "nome": "Rádio Renascença - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/renascença.png", "desc": "A par com o mundo."},
-    {"id": "CMRadio.pt", "nome": "CM Rádio", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/cmradio.png", "desc": "CM Rádio.\nA vida ao vivo."},
+    {"id": "CMRadio.pt", "nome": "CM Rádio - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/cmradio.png", "desc": "CM Rádio.\nA vida ao vivo."},
     {"id": "Observador.pt", "nome": "Observador - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/observador.png", "desc": "O Observador é um jornal diário online, independente e livre."},
     {"id": "FamaRadio.pt", "nome": "Fama Rádio - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/famaradio.png", "desc": "A Melhor Seleção de Todas.\nUma estação de Rádio FM com um forte posicionamento nos clássicos; PopRock; anos 80 90 e 00, alternativo às atuais ofertas deste segmento."},
     {"id": "TSF.pt", "nome": "TSF - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/tsf.png", "desc": "Vamos ao fim da rua, Vamos ao fim do mundo.\nThe reference for radio news in Portugal."},
