@@ -36,7 +36,7 @@ def extract_epg(input_file, output_file, channels_to_keep):
         os.remove(temp_output_file)
 
 # Lista de IDs de canais que você quer manter (modifique conforme necessário)
-pluto_channels_to_keep = ['65c69ee3d77d450008c80438', '636adc255bcf470007d6e0e2', '608181d420fc8500075f612a', '5f1213ba0ecebc00070e170f']
+pluto_channels_to_keep = ['65c69ee3d77d450008c80438', '636adc255bcf470007d6e0e2', '608181d420fc8500075f612a', '5f1213ba0ecebc00070e170f', '5f1ef1a8cec6be00072a7ac9']
 samsung_channels_to_keep = ['USBC3900018K6', 'ESBA3300017FA', 'CABB260002016', 'GBBA33000557H', 'CABC52000180Z']
 rtp_channels_to_keep = ['rtp-1', 'rtp-2', 'rtp-3', 'rtp-memoria']
 rakuten_channels_to_keep = ['travelxp-pt', 'bloomberg-tv-new', 'fifa-plus-pt-new', 'red-bull-tv-en', 'documentaries-pt-rakuten-tv', 'jukin-fail-army-new']
