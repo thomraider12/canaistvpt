@@ -77,5 +77,5 @@ Canais em XMLTV disponíveis no all.xml.gz:
 - ESBA3300017FA
 - GBBA33000557H
 - USBC3900018K6
-- d47400e0-19d9-4f71-94f4-2b4cfdc1a2ca
 - 549519c3-31fa-42de-a621-15e981082fd9
+- d47400e0-19d9-4f71-94f4-2b4cfdc1a2ca
