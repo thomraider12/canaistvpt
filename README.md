@@ -48,6 +48,7 @@ Também existe uma lista M3U das [MEO Beachcam's](https://thomraider12.github.io
 - SIC Alta Definição ᴴᴰ
 - SIC Replay ᴴᴰ
 - Rakuten Documentários ᴴᴰ
+- Pluto TV Documentários (BR) ᴴᴰ
 - MyTimeMovieNetwork (BR) ᴴᴰ
 - MovieSphere (BR) ᴴᴰ
 
