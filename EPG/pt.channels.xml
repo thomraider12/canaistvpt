@@ -13,7 +13,7 @@
   <channel site="nostv.pt" lang="pt" xmltv_id="RTPMemoria.pt" site_id="80">RTP Memória</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="PortoCanal.pt" site_id="423">Porto Canal</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="TVIReality.pt" site_id="567">TVI Reality</channel>  
-  <channel site="nostv.pt" lang="pt" xmltv_id="FUELTV.at" site_id="72">Fuel TV</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="FUELTV.at" site_id="FUELTV">Fuel TV</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="Eurosport1.uk" site_id="145">Eurosport 1</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="Eurosport2.uk" site_id="563">Eurosport 2</channel>  
   <channel site="tv24.co.uk" lang="en" xmltv_id="BBCNews.uk" site_id="bbc-news">BBC News</channel>
@@ -32,4 +32,5 @@
   <channel site="plex.tv" lang="en" xmltv_id="5MinuteCrafts.us" site_id="5e20b730f2f8d5003d739db7-63894c1965b848bf2c8a7800">5-Minute Crafts</channel>
   <channel site="plex.tv" lang="en" xmltv_id="LiveNOWFOX.us" site_id="5e20b730f2f8d5003d739db7-6377ea0e13bb6b1757e14695">LiveNOW from FOX</channel>
   <channel site="plex.tv" lang="en" xmltv_id="SKWAD.us" site_id="5e20b730f2f8d5003d739db7-5f12332eeca6a20040b328e5">SKWAD</channel>
+  <channel site="plex.tv" lang="en" xmltv_id="TraceUK.uk" site_id="608049aefa2b8ae93c2c3a63-66be8cd4871131188099527e">Trace UK</channel>
 </channels>
