@@ -57,7 +57,7 @@ https://8c916ce141544c85a361e55898216cf0.mediatailor.us-east-1.amazonaws.com/v1/
 #EXTINF:-1 tvg-id="BBCNews.uk" group-title="Secundários" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/bbcnews.png",BBC News (UK)
 https://d1kvlt93j1bc49.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6vpx7bvwjm7ao/v1/amcnetworks_bbcnews_1/samsungheadend_us/latest/main/hls/playlist.m3u8
 
-#EXTINF:-1 group-title="Secundários" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/skynews.png" tvg-id="SkyNewsInternational.uk",SkyNews (UK)
+#EXTINF:-1 group-title="Secundários" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/skynews.png" tvg-id="SkyNewsAustralia.au",SkyNews (UK)
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/55b285cd2665de274553d66f/master.m3u8
 
 #EXTINF:-1 tvg-id="Eurosport1.uk" group-title="Desporto" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/eurosport1.png",Eurosport 1
@@ -156,7 +156,7 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracebrazuca-xiaomi/p
 #EXTINF:-1 tvg-id="TraceUK.uk" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/traceuk.png" group-title="Rádios",Trace UK
 https://epg.provider.plex.tv/library/parts/608049aefa2b8ae93c2c3a63-66be8cd4871131188099527e.m3u8?X-Plex-Token=7_DZgexHgAKDxgwFUesV
 
-#EXTINF:-1 group-title="Rádios" tvg-id="clubbing-tv" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/clubbingtv.png",Clubbing TV
+#EXTINF:-1 group-title="Rádios" tvg-id="ClubbingTV.fr" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/clubbingtv.png",Clubbing TV
 https://clubbingtv-rakuten.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 group-title="Rádios" tvg-id="CABC52000180Z" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/vevo.png",VEVO
