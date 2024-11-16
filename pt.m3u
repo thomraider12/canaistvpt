@@ -198,7 +198,7 @@ http://25703.live.streamtheworld.com/MEGA_HITS_SC
 #EXTINF:-1 group-title="Rádios" radio="true" tvg-id="NovaEra.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/novaera.png",Nova Era
 http://centova.radios.pt:9478/stream/1/
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-id="MEOSudoeste.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/meosudoeste.png",MEO Sudoeste
+#EXTINF:-1 group-title="Rádios" radio="true" tvg-id="RadioSudoeste.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/radiosudoeste.png",Rádio Sudoeste
 http://centova.radio.com.pt:8495/stream/1/
 
 #EXTINF:-1 group-title="Rádios" radio="true" tvg-id="Nove3Cinco.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/nove3cinco.png",Nove3Cinco
