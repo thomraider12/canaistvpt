@@ -25,13 +25,13 @@ def write_validation_result(xmltv_ids_path, all_ids_present, missing_ids, extra_
     with open(xmltv_ids_path, 'a', encoding='utf-8') as file:
         file.write("\n\n")  # Adiciona uma linha em branco para separar a validação
         if all_ids_present:
-            file.write("Todos os id's estão presentes na lista pt.m3u.\n")
+            file.write("| Todos os id's estão presentes na lista pt.m3u.\n")
             if extra_ids:
-                file.write(f"Mas alguns ids extras foram encontrados no xmltv-ids.txt: {', '.join(extra_ids)}")
+                file.write(f"| Mas alguns ids extras foram encontrados no xmltv-ids.txt: {', '.join(extra_ids)}")
         else:
-            file.write("Nem todos os id's estão presentes na lista pt.m3u.\n")
+            file.write("| Nem todos os id's estão presentes na lista pt.m3u.\n")
             if missing_ids:
-                file.write(f"Faltam os seguintes ids no xmltv-ids.txt: {', '.join(missing_ids)}")
+                file.write(f"| Faltam os seguintes ids no xmltv-ids.txt: {', '.join(missing_ids)}")
 
 def main():
     m3u_path = 'pt.m3u'  # Caminho para o arquivo m3u na pasta principal

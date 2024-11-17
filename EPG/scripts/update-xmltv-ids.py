@@ -23,7 +23,7 @@ def gravar_em_arquivo(canais, output_file):
         f.write("Canais em XMLTV disponíveis no all.xml.gz:" + "\n\n")
         for canal in canais:
             # Formata o nome do canal no formato desejado
-            canal_formatado = f"- {canal}"
+            canal_formatado = f"{canal}"
             f.write(canal_formatado + "\n")
 
 # Caminho do arquivo XML comprimido
