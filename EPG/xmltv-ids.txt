@@ -79,9 +79,9 @@ CABB260002016
 ESBA3300017FA
 GBBA33000557H
 USBC3900018K6
-d47400e0-19d9-4f71-94f4-2b4cfdc1a2ca
 549519c3-31fa-42de-a621-15e981082fd9
+d47400e0-19d9-4f71-94f4-2b4cfdc1a2ca
 
 
-| Nem todos os id's estão presentes na lista pt.m3u.
-| Faltam os seguintes ids no xmltv-ids.txt: MegaHits.pt, NovaEra.pt, RTP1.pt, USBC3900018K6, RadioRenascença.pt, bloomberg-tv-new, RadioSuperFM.pt, BBCNews.uk, RTP2.pt, d47400e0-19d9-4f71-94f4-2b4cfdc1a2ca, VmaisTVI.pt, LiveNOWFOX.us, RadioSudoeste.pt, batidafm.pt, TraceUrban.fr, PortoCanal.pt, HiperFM.pt, VozSantoTirso.pt, Motorvision.de, CidadeFM.pt, CidadeHoje.pt, TraceBrasil.br, ClubbingTV.fr, 65c69ee3d77d450008c80438, RadioSmoothFM.pt, CMRadio.pt, 549519c3-31fa-42de-a621-15e981082fd9, Gametoon.nl, SkyNewsAustralia.au, Motorsport.tv, TVIReality.pt, TruckersFM.uk, RFM.pt, TraceToca.fr, RTPMemoria.pt, SIC.pt, FUELTV.at, SKWAD.us, FamaRadio.pt, 636adc255bcf470007d6e0e2, SPEEDVISION.us, 5MinuteCrafts.us, TSF.pt, RadioComercial.pt, Eurosport1.uk, CidadeHipHop.pt, RTP3.pt, ESBA3300017FA, GBBA33000557H, ARTV.pt, jukin-fail-army-new, documentaries-pt-rakuten-tv, travelxp-pt, CNNPortugal.pt, Nove3Cinco.pt, RadioOxigenio.pt, 608181d420fc8500075f612a, OnFM.pt, red-bull-tv-en, 5f1213ba0ecebc00070e170f, M80.pt, EuronewsPortuguese.fr, ubisoft_br_tv, 5f1ef1a8cec6be00072a7ac9, SICNoticias.pt, CNNInternationalEurope.us, Observador.pt, Eurosport2.uk, FamaTV.pt, GaliciaTVEuropa.es, RadioRadar.pt, AviaçãoTV.pt, CABC52000180Z, TVI.pt, TugaFM.pt, GoloFM.pt, fifa-plus-pt-new, TraceUK.uk, Orbital.pt, CABB260002016
+| Todos os id's estão presentes na lista pt.m3u.
+| Mas alguns ids extras foram encontrados no xmltv-ids.txt: FailArmy.us
