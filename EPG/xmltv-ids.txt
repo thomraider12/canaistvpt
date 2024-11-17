@@ -1,83 +1,87 @@
 Canais em XMLTV disponíveis no all.xml.gz:
 
-- bloomberg-tv-new
-- documentaries-pt-rakuten-tv
-- travelxp-pt
-- red-bull-tv-en
-- fifa-plus-pt-new
-- jukin-fail-army-new
-- FamaTV.pt
-- GoloFM.pt
-- AviaçãoTV.pt
-- OnFM.pt
-- RadioComercial.pt
-- RFM.pt
-- RadioRenascença.pt
-- CMRadio.pt
-- Observador.pt
-- FamaRadio.pt
-- TSF.pt
-- M80.pt
-- VozSantoTirso.pt
-- MegaHits.pt
-- NovaEra.pt
-- RadioSudoeste.pt
-- Orbital.pt
-- Nove3Cinco.pt
-- CidadeFM.pt
-- CidadeHoje.pt
-- TugaFM.pt
-- TruckersFM.uk
-- HiperFM.pt
-- RadioOxigenio.pt
-- RadioRadar.pt
-- RadioSmoothFM.pt
-- RadioSuperFM.pt
-- batidafm.pt
-- CidadeHipHop.pt
-- ubisoft_br_tv
-- 5MinuteCrafts.us
-- ARTV.pt
-- BBCNews.uk
-- ClubbingTV.fr
-- CNNInternationalEurope.us
-- CNNPortugal.pt
-- EuronewsPortuguese.fr
-- Eurosport1.uk
-- Eurosport2.uk
-- FailArmy.us
-- FUELTV.at
-- GaliciaTVEuropa.es
-- Gametoon.nl
-- LiveNOWFOX.us
-- Motorsport.tv
-- Motorvision.de
-- PortoCanal.pt
-- RTP1.pt
-- RTP2.pt
-- RTP3.pt
-- RTPMemoria.pt
-- SIC.pt
-- SICNoticias.pt
-- SKWAD.us
-- SkyNewsAustralia.au
-- SPEEDVISION.us
-- TraceBrasil.br
-- TraceToca.fr
-- TraceUK.uk
-- TraceUrban.fr
-- TVI.pt
-- TVIReality.pt
-- VmaisTVI.pt
-- 636adc255bcf470007d6e0e2
-- 65c69ee3d77d450008c80438
-- 608181d420fc8500075f612a
-- 5f1213ba0ecebc00070e170f
-- 5f1ef1a8cec6be00072a7ac9
-- CABC52000180Z
-- CABB260002016
-- ESBA3300017FA
-- GBBA33000557H
-- USBC3900018K6
-- 549519c3-31fa-42de-a621-15e981082fd9
-- d47400e0-19d9-4f71-94f4-2b4cfdc1a2ca
+bloomberg-tv-new
+documentaries-pt-rakuten-tv
+travelxp-pt
+red-bull-tv-en
+fifa-plus-pt-new
+jukin-fail-army-new
+FamaTV.pt
+GoloFM.pt
+AviaçãoTV.pt
+OnFM.pt
+RadioComercial.pt
+RFM.pt
+RadioRenascença.pt
+CMRadio.pt
+Observador.pt
+FamaRadio.pt
+TSF.pt
+M80.pt
+VozSantoTirso.pt
+MegaHits.pt
+NovaEra.pt
+RadioSudoeste.pt
+Orbital.pt
+Nove3Cinco.pt
+CidadeFM.pt
+CidadeHoje.pt
+TugaFM.pt
+TruckersFM.uk
+HiperFM.pt
+RadioOxigenio.pt
+RadioRadar.pt
+RadioSmoothFM.pt
+RadioSuperFM.pt
+batidafm.pt
+CidadeHipHop.pt
+ubisoft_br_tv
+5MinuteCrafts.us
+ARTV.pt
+BBCNews.uk
+ClubbingTV.fr
+CNNInternationalEurope.us
+CNNPortugal.pt
+EuronewsPortuguese.fr
+Eurosport1.uk
+Eurosport2.uk
+FailArmy.us
+FUELTV.at
+GaliciaTVEuropa.es
+Gametoon.nl
+LiveNOWFOX.us
+Motorsport.tv
+Motorvision.de
+PortoCanal.pt
+RTP1.pt
+RTP2.pt
+RTP3.pt
+RTPMemoria.pt
+SIC.pt
+SICNoticias.pt
+SKWAD.us
+SkyNewsAustralia.au
+SPEEDVISION.us
+TraceBrasil.br
+TraceToca.fr
+TraceUK.uk
+TraceUrban.fr
+TVI.pt
+TVIReality.pt
+VmaisTVI.pt
+636adc255bcf470007d6e0e2
+65c69ee3d77d450008c80438
+608181d420fc8500075f612a
+5f1213ba0ecebc00070e170f
+5f1ef1a8cec6be00072a7ac9
+CABC52000180Z
+CABB260002016
+ESBA3300017FA
+GBBA33000557H
+USBC3900018K6
+549519c3-31fa-42de-a621-15e981082fd9
+d47400e0-19d9-4f71-94f4-2b4cfdc1a2ca
+
+
+Todos os id's estão presentes na lista pt.m3u.
+Mas alguns ids extras foram encontrados no xmltv-ids.txt: FailArmy.us

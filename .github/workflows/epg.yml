@@ -175,6 +175,11 @@ jobs:
           cd EPG
           python scripts/update-xmltv-ids.py
 
+      - name: Validar IDs da lista m3u
+        run: |
+          sed -i '/^|/d' "$xmltv_ids_path"
+          python EPG/scripts/validar-ids-m3u.py
+
       - name: Commit dos xmltv-ids
         run: |
           git pull
@@ -185,4 +190,3 @@ jobs:
           else
             echo "Nenhuma mudança detectada. Nada a fazer."
           fi
-
