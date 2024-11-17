@@ -177,6 +177,7 @@ jobs:
 
       - name: Validar IDs da lista m3u
         run: |
+          xmltv_ids_path="EPG/xmltv-ids.txt"
           sed -i '/^|/d' "$xmltv_ids_path"
           python EPG/scripts/validar-ids-m3u.py
 
