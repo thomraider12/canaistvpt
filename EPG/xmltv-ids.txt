@@ -21,7 +21,7 @@ Canais em XMLTV disponíveis no all.xml.gz:
 - VozSantoTirso.pt
 - MegaHits.pt
 - NovaEra.pt
-- MEOSudoeste.pt
+- RadioSudoeste.pt
 - Orbital.pt
 - Nove3Cinco.pt
 - CidadeFM.pt
