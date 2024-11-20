@@ -132,6 +132,9 @@ https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8
 #EXTINF:-1 group-title="Aleatórios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/fireplace4k.png" tvg-id="CABB260002016",Fireplace 4K
 https://d22w22d3eu3t35.cloudfront.net/playlist.m3u8
 
+#EXTINF:-1 group-title="Aleatórios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/stingraynaturescape.png" tvg-id="USAK3508705A",Stingray Naturescape
+https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/df9a0fcd-6297-4afd-aa92-d9fe02cfe1b8/3.m3u8
+
 #EXTINF:-1 group-title="Aleatórios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/aviaçãotv.png" tvg-id="AviaçãoTV.pt",Aviação TV
 https://ythls-v3.onrender.com/channel/UC0R-K3crhMX9jzswbmfIORw.m3u8
 
