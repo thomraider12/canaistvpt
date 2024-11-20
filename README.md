@@ -64,6 +64,7 @@ Também existe uma lista M3U das [MEO Beachcam's](https://thomraider12.github.io
 - FailArmy (US) ᴴᴰ
 - Love Nature ⁴ᴷ
 - Fireplace ⁴ᴷ
+- Stingray Naturescape ᴴᴰ
 - Aviação TV (aeroporto de Lisboa) ᴴᴰ
 
 ## Gaming:
