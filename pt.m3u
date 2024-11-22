@@ -117,7 +117,7 @@ http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f12136385bccc00070142
 #EXTINF:-1 group-title="BD" tvg-id="ESBA3300017FA" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rakuten.png",Rakuten Family
 https://rakuten-family-14-pt.samsung.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="comedy-central-animation" tvg-logo="https://images.pluto.tv/channels/5f99e24636d67d0007a94e6d/colorLogoPNG.png" group-title="BD",Comedy Central Animation (US)
+#EXTINF:-1 tvg-id="comedy-central-animation" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/comedycentralanimation(us).png" group-title="BD",Comedy Central Animation (US)
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f99e24636d67d0007a94e6d/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=3291405a-a8d5-11ef-b92f-4cabd6cd075b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=314b6acd-b910-4294-a760-ee35d500d01e&userId=&serverSideAds=false
 
 #EXTINF:-1 group-title="Aleatórios" tvg-id="travelxp-pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/travelxp.png",TravelXP
