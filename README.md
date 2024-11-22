@@ -56,6 +56,7 @@ Também existe uma lista M3U das [MEO Beachcam's](https://thomraider12.github.io
 
 - Anime (BR) ᴴᴰ
 - Rakuten Família ᴴᴰ
+- Comedy Central Animation (US) ᴴᴰ
 
 ## Aleatórios:
 
