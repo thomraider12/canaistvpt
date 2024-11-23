@@ -31,7 +31,7 @@ def corrigir_xml(file_path):
 # Lista de arquivos EPG para corrigir
 epg_files = [
     'EPG/epg-pt.xml.gz'
-    'EPG/epg-test.xml.gz'
+    'EPG/epg-test-pt.xml.gz'
 ]
 
 # Corrigir e substituir todos os arquivos da lista
