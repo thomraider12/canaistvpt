@@ -1,4 +1,4 @@
-#EXTM3U 
+#EXTM3U url-tvg="https://github.com/thomraider12/canaistvpt/raw/main/EPG/epg-test-pt.xml.gz"
 #EXTINF:-1 tvg-id="RTP1.pt" tvg-name="RTP 1" tvg-logo="https://github.com/thomraider12/icones_tv/raw/main/rtp1.png" group-title="Generalistas",RTP 1
 https://github.com/thomraider12/canaistvpt/raw/refs/heads/main/CanaisTVPT.mp4
 #EXTINF:-1 tvg-id="RTP2.pt" tvg-name="RTP 2" tvg-logo="https://github.com/thomraider12/icones_tv/raw/main/rtp2.png" group-title="Generalistas",RTP 2
