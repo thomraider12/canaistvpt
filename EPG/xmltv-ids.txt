@@ -36,39 +36,6 @@ RadioSuperFM.pt
 batidafm.pt
 CidadeHipHop.pt
 ubisoft_br_tv
-5MinuteCrafts.us
-ARTV.pt
-BBCNews.uk
-ClubbingTV.fr
-CNNInternationalEurope.us
-CNNPortugal.pt
-EuronewsPortuguese.fr
-Eurosport1.uk
-Eurosport2.uk
-FailArmy.us
-FUELTV.at
-GaliciaTVEuropa.es
-Gametoon.nl
-LiveNOWFOX.us
-Motorsport.tv
-Motorvision.de
-PortoCanal.pt
-RTP1.pt
-RTP2.pt
-RTP3.pt
-RTPMemoria.pt
-SIC.pt
-SICNoticias.pt
-SKWAD.us
-SkyNewsAustralia.au
-SPEEDVISION.us
-TraceBrasil.br
-TraceToca.fr
-TraceUK.uk
-TraceUrban.fr
-TVI.pt
-TVIReality.pt
-VmaisTVI.pt
 5f99e24636d67d0007a94e6d
 636adc255bcf470007d6e0e2
 65c69ee3d77d450008c80438
@@ -86,4 +53,4 @@ d47400e0-19d9-4f71-94f4-2b4cfdc1a2ca
 
 
 | Nem todos os id's estão presentes na lista pt.m3u.
-| Faltam os seguintes ids no xmltv-ids.txt: comedy-central-animation
+| Faltam os seguintes ids no xmltv-ids.txt: RTP3.pt, Motorvision.de, GaliciaTVEuropa.es, EuronewsPortuguese.fr, ClubbingTV.fr, Eurosport1.uk, TVIReality.pt, Eurosport2.uk, Gametoon.nl, FUELTV.at, CNNPortugal.pt, 5MinuteCrafts.us, PortoCanal.pt, TVI.pt, RTP1.pt, SIC.pt, Motorsport.tv, SICNoticias.pt, RTPMemoria.pt, CNNInternationalEurope.us, SPEEDVISION.us, TraceBrasil.br, ARTV.pt, SKWAD.us, comedy-central-animation, VmaisTVI.pt, LiveNOWFOX.us, BBCNews.uk, SkyNewsAustralia.au, TraceUrban.fr, RTP2.pt, TraceUK.uk, TraceToca.fr
