@@ -262,8 +262,8 @@ VPlusTVI.pt
 WSport.za
 ZapViva.ao
 ZeeTV.in
-d47400e0-19d9-4f71-94f4-2b4cfdc1a2ca
 549519c3-31fa-42de-a621-15e981082fd9
+d47400e0-19d9-4f71-94f4-2b4cfdc1a2ca
 
 
 | Nem todos os id's estão presentes na lista pt.m3u.
