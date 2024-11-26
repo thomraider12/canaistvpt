@@ -12,7 +12,7 @@ https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/in
 #EXTINF:-1 group-title="Notícias" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tvi.png",TVI
 https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/tvi.m3u8
 
-#EXTINF:-1 group-title="Notícias" tvg-id="SICNoticias.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/sicnotícias.png",SIC Notícias
+#EXTINF:-1 group-title="Notícias" tvg-id="SICNoticias.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/sicnoticias.png",SIC Notícias
 https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/index_4.m3u8
 
 #EXTINF:-1 group-title="Notícias" tvg-id="RTP3.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp3.png",RTP 3
