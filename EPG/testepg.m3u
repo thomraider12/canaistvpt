@@ -77,7 +77,7 @@ https://github.com/thomraider12/canaistvpt/raw/refs/heads/main/CanaisTVPT.mp4
 https://github.com/thomraider12/canaistvpt/raw/refs/heads/main/CanaisTVPT.mp4
 #EXTINF:-1 tvg-id="SICNovelas.pt" tvg-name="SIC Novelas" tvg-logo="https://github.com/thomraider12/icones_tv/raw/main/sicnovelas.png" group-title="Entretenimento",SIC Novelas
 https://github.com/thomraider12/canaistvpt/raw/refs/heads/main/CanaisTVPT.mp4
-#EXTINF:-1 tvg-id="VPlusTVI.pt" tvg-name="V+ TVI" tvg-logo="https://github.com/thomraider12/icones_tv/raw/main/vtvi.png" group-title="Reality Shows",V+ TVI
+#EXTINF:-1 tvg-id="VPlusTVI.pt" tvg-name="V+ TVI" tvg-logo="https://github.com/thomraider12/icones_tv/raw/main/vmaistvi.png" group-title="Reality Shows",V+ TVI
 https://github.com/thomraider12/canaistvpt/raw/refs/heads/main/CanaisTVPT.mp4
 #EXTINF:-1 tvg-id="TVIReality.pt" tvg-name="TVI Reality" tvg-logo="https://github.com/thomraider12/icones_tv/raw/main/tvireality.png" group-title="Reality Shows",TVI Reality
 https://video-auth4.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/playlist.m3u8
@@ -89,7 +89,7 @@ https://github.com/thomraider12/canaistvpt/raw/refs/heads/main/CanaisTVPT.mp4
 https://github.com/thomraider12/canaistvpt/raw/refs/heads/main/CanaisTVPT.mp4
 #EXTINF:-1 tvg-id="AMCBreak.pt" tvg-name="AMC Break" tvg-logo="https://github.com/thomraider12/icones_tv/raw/main/amcbreak.png" group-title="Documentários",AMC Break
 https://github.com/thomraider12/canaistvpt/raw/refs/heads/main/CanaisTVPT.mp4
-#EXTINF:-1 tvg-id="RTPMemoria.pt" tvg-name="RTP Memória" tvg-logo="https://github.com/thomraider12/icones_tv/raw/main/rtpmemória.png" group-title="Entretenimento",RTP Memória
+#EXTINF:-1 tvg-id="RTPMemoria.pt" tvg-name="RTP Memória" tvg-logo="https://github.com/thomraider12/icones_tv/raw/main/rtpmemoria.png" group-title="Entretenimento",RTP Memória
 https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RTPAcores.pt" tvg-name="RTP Açores" tvg-logo="https://github.com/thomraider12/icones_tv/raw/main/rtpaçores.png" group-title="Regional",RTP Açores
 https://github.com/thomraider12/canaistvpt/raw/refs/heads/main/CanaisTVPT.mp4
@@ -157,7 +157,7 @@ https://github.com/thomraider12/canaistvpt/raw/refs/heads/main/CanaisTVPT.mp4
 https://github.com/thomraider12/canaistvpt/raw/refs/heads/main/CanaisTVPT.mp4
 #EXTINF:-1 tvg-id="BenficaTV.pt" tvg-name="BTV" tvg-logo="https://github.com/thomraider12/icones_tv/raw/main/btv.png" group-title="Desporto",BTV
 https://github.com/thomraider12/canaistvpt/raw/refs/heads/main/CanaisTVPT.mp4
-#EXTINF:-1 tvg-id="Eurosport1.fr" tvg-name="Eurosport" tvg-logo="https://github.com/thomraider12/icones_tv/raw/main/eurosport.png" group-title="Desporto",Eurosport
+#EXTINF:-1 tvg-id="Eurosport1.fr" tvg-name="Eurosport" tvg-logo="https://github.com/thomraider12/icones_tv/raw/main/eurosport1.png" group-title="Desporto",Eurosport
 https://github.com/thomraider12/canaistvpt/raw/refs/heads/main/CanaisTVPT.mp4
 #EXTINF:-1 tvg-id="Eurosport2.fr" tvg-name="Eurosport 2" tvg-logo="https://github.com/thomraider12/icones_tv/raw/main/eurosport2.png" group-title="Desporto",Eurosport 2
 https://github.com/thomraider12/canaistvpt/raw/refs/heads/main/CanaisTVPT.mp4
@@ -193,7 +193,7 @@ https://github.com/thomraider12/canaistvpt/raw/refs/heads/main/CanaisTVPT.mp4
 https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr" tvg-name="TRT World" tvg-logo="https://github.com/thomraider12/icones_tv/raw/main/trtworld.png" group-title="Internacional",TRT World
 https://github.com/thomraider12/canaistvpt/raw/refs/heads/main/CanaisTVPT.mp4
-#EXTINF:-1 tvg-id="BloombergTVEurope.uk" tvg-name="Bloomberg" tvg-logo="https://github.com/thomraider12/icones_tv/raw/main/bloomberg.png" group-title="Economia",Bloomberg
+#EXTINF:-1 tvg-id="BloombergTVEurope.uk" tvg-name="Bloomberg" tvg-logo="https://github.com/thomraider12/icones_tv/raw/main/bloombergtv.png" group-title="Economia",Bloomberg
 https://github.com/thomraider12/canaistvpt/raw/refs/heads/main/CanaisTVPT.mp4
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-name="NHK World TV" tvg-logo="https://github.com/thomraider12/icones_tv/raw/main/nhkworldtv.png" group-title="Internacional",NHK World TV
 https://github.com/thomraider12/canaistvpt/raw/refs/heads/main/CanaisTVPT.mp4
