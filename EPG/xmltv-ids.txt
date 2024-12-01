@@ -258,9 +258,9 @@ VPlusTVI.pt
 WSport.za
 ZapViva.ao
 ZeeTV.in
-549519c3-31fa-42de-a621-15e981082fd9
 d47400e0-19d9-4f71-94f4-2b4cfdc1a2ca
+549519c3-31fa-42de-a621-15e981082fd9
 
 
 | Nem todos os id's estão presentes na lista pt.m3u.
-| Faltam os seguintes ids no xmltv-ids.txt: comedy-central-animation, ESBA3300017FA
+| Faltam os seguintes ids no xmltv-ids.txt: ESBA3300017FA, comedy-central-animation
