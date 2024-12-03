@@ -4,7 +4,7 @@ from xml.dom import minidom
 from datetime import datetime, timedelta
 import gzip
 
-def convert_jsontv_to_xmltv(json_path, xml_output_path):
+def convert_jsontv_to_xmltv(json_path, xml_output_path, duracao_maxima_horas=3):
     # Carregar JSONTV e verificar a estrutura
     with open(json_path, "r", encoding="utf-8") as file:
         jsontv_data = json.load(file)
@@ -39,17 +39,21 @@ def convert_jsontv_to_xmltv(json_path, xml_output_path):
                 start_time = datetime.strptime(programme["date"], "%Y-%m-%d %H:%M:%S")
                 start_formatted = start_time.strftime("%Y%m%d%H%M%S")
 
-                # Calcular o horário de fim (se possível) ou definir uma duração padrão
+                # Calcular o horário de fim
                 if i + 1 < len(programmes):
-                    end_time = datetime.strptime(programmes[i + 1]["date"], "%Y-%m-%d %H:%M:%S")
-                    stop_time = end_time  # Usa o início do próximo programa como horário de término
+                    # Usar início do próximo programa como base
+                    next_start_time = datetime.strptime(programmes[i + 1]["date"], "%Y-%m-%d %H:%M:%S")
+                    stop_time = min(start_time + timedelta(hours=duracao_maxima_horas), next_start_time)
                 else:
-                    stop_time = start_time + timedelta(minutes=30)  # Duração padrão de 30 minutos
+                    # Último programa: limitar a duração máxima
+                    stop_time = start_time + timedelta(hours=duracao_maxima_horas)
+
+                stop_formatted = stop_time.strftime("%Y%m%d%H%M%S")
 
                 # Criar o elemento <programme>
                 programme_element = ET.SubElement(tv_element, "programme", 
                                                   start=start_formatted,
-                                                  stop=stop_time.strftime("%Y%m%d%H%M%S"),
+                                                  stop=stop_formatted,
                                                   channel=channel_key)
 
                 # Adicionar título e descrição
