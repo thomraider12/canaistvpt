@@ -16,4 +16,4 @@
 
 # Canais disponíveis (no all.xml.gz)
 
-ler o ficheiro [xmltv-ids.txt](https://thomraider12.github.io/EPG/xmltv-ids.txt)
+ler o ficheiro [xmltv-ids.txt](https://thomraider12.github.io/canaistvpt/EPG/xmltv-ids.txt)
