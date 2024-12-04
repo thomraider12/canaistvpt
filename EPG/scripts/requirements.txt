@@ -3,3 +3,4 @@ pytz~=2023.3
 lxml~=4.9.2
 xmltodict
 python-vlc
+bs4
