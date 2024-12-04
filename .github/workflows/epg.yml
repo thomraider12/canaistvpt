@@ -60,7 +60,7 @@ jobs:
           python EPG/scripts/opto2.py
           rm EPG/epg-sic-pt.json
 
-      - name: Atualizar lista Opto SIC
+      - name: Atualizar lista TVI
         run: |
           cd EPG
           python scripts/tvi.py
