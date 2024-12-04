@@ -81,19 +81,30 @@ def processar_programacao(canal, data):
         
         titulo = programa.find('h2').text.strip() if programa.find('h2') else 'Sem título'
         descricao = programa.find('div', class_='texto texto2').text.strip() if programa.find('div', class_='texto texto2') else 'Sem descrição'
+        div_capa = programa.find('div', class_='capaPrograma').find('div', class_='picture16x9') if programa.find('div', class_='capaPrograma') else None
         
         # Adicionar à lista temporária
         lista_programas.append({
             'start': start,
             'title': titulo,
             'desc': descricao,
+            'div_capa': div_capa
         })
     
-    # Adicionar programas ao XML com "stop"
+    # Adicionar programas ao XML com "stop" e imagem
     for i, programa in enumerate(lista_programas):
         start = programa['start']
         stop = lista_programas[i + 1]['start'] if i + 1 < len(lista_programas) else f"{data.strftime('%Y%m%d')}235959"
+
+        # Extrair URL da imagem (se existir)
+        div_capa = programa.get('div_capa')
+        url_imagem = ""
+        if div_capa:
+            estilo = div_capa.get('style', '')
+            if 'background-image:url(' in estilo:
+                url_imagem = estilo.split('background-image:url(')[1].split(')')[0].strip()
         
+        # Adicionar programa ao XML
         elemento_programa = ET.SubElement(raiz, 'programme', {
             'start': start,
             'stop': stop,
@@ -101,6 +112,8 @@ def processar_programacao(canal, data):
         })
         ET.SubElement(elemento_programa, 'title').text = programa['title']
         ET.SubElement(elemento_programa, 'desc').text = programa['desc']
+        if url_imagem:
+            ET.SubElement(elemento_programa, 'icon', {'src': url_imagem})
 
 # Processar a programação para todos os canais e dias
 for dia_offset in range(dias_a_extrair):
