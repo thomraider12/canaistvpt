@@ -71,6 +71,8 @@ def processar_programacao(canal, data):
     sopa = BeautifulSoup(resposta.text, 'html.parser')
     programas = sopa.find_all('div', class_='guiatv-linha')
     
+    # Guardar dados para calcular "stop"
+    lista_programas = []
     for programa in programas:
         # Extrair dados do programa
         hora = programa.find('div', class_='hora').text.strip() if programa.find('div', class_='hora') else '00:00'
@@ -80,10 +82,25 @@ def processar_programacao(canal, data):
         titulo = programa.find('h2').text.strip() if programa.find('h2') else 'Sem título'
         descricao = programa.find('div', class_='texto texto2').text.strip() if programa.find('div', class_='texto texto2') else 'Sem descrição'
         
-        # Adicionar ao XML
-        elemento_programa = ET.SubElement(raiz, 'programme', {'start': start, 'channel': canal['id']})
-        ET.SubElement(elemento_programa, 'title').text = titulo
-        ET.SubElement(elemento_programa, 'desc').text = descricao
+        # Adicionar à lista temporária
+        lista_programas.append({
+            'start': start,
+            'title': titulo,
+            'desc': descricao,
+        })
+    
+    # Adicionar programas ao XML com "stop"
+    for i, programa in enumerate(lista_programas):
+        start = programa['start']
+        stop = lista_programas[i + 1]['start'] if i + 1 < len(lista_programas) else f"{data.strftime('%Y%m%d')}235959"
+        
+        elemento_programa = ET.SubElement(raiz, 'programme', {
+            'start': start,
+            'stop': stop,
+            'channel': canal['id']
+        })
+        ET.SubElement(elemento_programa, 'title').text = programa['title']
+        ET.SubElement(elemento_programa, 'desc').text = programa['desc']
 
 # Processar a programação para todos os canais e dias
 for dia_offset in range(dias_a_extrair):
