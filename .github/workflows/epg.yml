@@ -47,18 +47,23 @@ jobs:
           rm -f epg-samsung-tvplus.xml.gz
           wget -O epg-samsung-tvplus.xml.gz "https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/SamsungTVPlus/all.xml.gz"
 
-      - name: Atualizar lista Opto SIC
-        run: |
-          python EPG/scripts/opto.py
-          python EPG/scripts/opto2.py
-          rm EPG/epg-sic-pt.json
-
       - name: Atualizar lista RTP
         run: |
           cd EPG
           python scripts/rtp-json.py
           python scripts/rtp-xmltv.py
           rm epg-rtp-pt.json
+
+      - name: Atualizar lista Opto SIC
+        run: |
+          python EPG/scripts/opto.py
+          python EPG/scripts/opto2.py
+          rm EPG/epg-sic-pt.json
+
+      - name: Atualizar lista Opto SIC
+        run: |
+          cd EPG
+          python scripts/tvi.py
 
       - name: Atualizar listas RakutenTV
         run: |

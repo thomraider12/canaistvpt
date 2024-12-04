@@ -66,8 +66,20 @@ https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5
 #EXTINF:-1 tvg-id="rtp-internacional" group-title="Internacionais PT" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpinternacional.png",RTP Internacional
 https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="tvi-internacional" group-title="Internacionais PT" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tviinternacional.png",TVI Internacional
+#EXTINF:-1 tvg-id="rtp-madeira" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpmadeira.png" group-title="Internacionais PT",RTP Madeira
+https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="rtp-acores" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpacores.png" group-title="Internacionais PT",RTP Açores
+https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="rtp-africa" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpafrica.png" group-title="Internacionais PT",RTP África
+https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="tviinternacional" group-title="Internacionais PT" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tviinternacional.png",TVI Internacional
 https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/tviint.m3u8
+
+#EXTINF:-1 tvg-id="tviafrica" group-title="Internacionais PT" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tviafrica.png",TVI África
+https://video-auth4.iol.pt/live_tvi_africa/live_tvi_africa/edge_servers/tviafrica-480p/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Eurosport1.uk" group-title="Desporto" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/eurosport1.png",Eurosport 1
 http://62.210.123.134:98/live/an75d/75d/144.ts
