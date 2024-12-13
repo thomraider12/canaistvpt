@@ -25,14 +25,26 @@ Também existe uma lista M3U das [MEO Beachcam's](https://thomraider12.github.io
 - RTP Memória ѕᴅ
 - TVI Reality ᴴᴰ
 - Fama TV ᴴᴰ
+- LocalVisão TV ᴴᴰ
 - TVGalicia (ESP) ᴴᴰ
 - CNN (US) ᴴᴰ
 - Fox Now (US) ᴴᴰ
 - BBC News (UK) ᴴᴰ
 - SkyNews (UK) ᴴᴰ
 
+## Internacionais PT:
+
+- RTP Internacional ᴴᴰ
+- RTP Madeira ѕᴅ
+- RTP Açores ᴴᴰ
+- RTP África ѕᴅ
+- TVI Internacional ᴴᴰ
+- TVI África ѕᴅ
+
 ## Desporto:
 
+- Eurosport 1 ᴴᴰ
+- Eurosport 2 ᴴᴰ
 - Golo FM (apenas em jogos) ᴴᴰ
 - Formula 1 Channel (US) ᴴᴰ
 - Motorsport.tv (US) ᴴᴰ

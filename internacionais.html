@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secundários - Canais TV PT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://vjs.zencdn.net/7.20.3/video-js.css" rel="stylesheet" />
+    <script defer src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<main><header>
+  <div style="text-align: center;">
+    <img src="logo.png" height="150" alt="Image">
+  </div>
+  <nav>   
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="desporto.html">Desporto</a></li>
+        <li><a href="noticias.html">Notícias</a></li>
+        <li><a href="secundarios.html">Secundários<br>(Atual)</a></li>
+        <li><a href="internacionais.html">Internacionais<br>(Atual)</a></li>
+        <li><a href="fildocnov.html">Filmes/
+          <br>Doc./Nov.</a></li>
+          <li><a href="banda_d.html">Desenhos<br>Anim.</a></li>
+        <li><a href="radios.html">Rádios</a></li>
+        <li><a href="aleatorio.html">Aleatório</a></li>
+        <li><a href="gaming.html">Gaming</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+      </ul>
+  </nav>
+</header></main>
+<body>
+    <nav id="nav_escolha">
+        <a id="escolha_canal" href="#" onclick="changeChannel('https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpinternacional.png'); return false;">RTP Internacional</a>
+        <a id="escolha_canal" href="#" onclick="changeChannel('https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpmadeira.png'); return false;">RTP Madeira</a>
+        <a id="escolha_canal" href="#" onclick="changeChannel('https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpacores.png'); return false;">RTP Açores</a>
+        <a id="escolha_canal" href="#" onclick="changeChannel('https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpafrica.png'); return false;">RTP África</a>
+        <a id="escolha_canal" href="#" onclick="changeChannel('https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/tviint.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/tviinternacional.png'); return false;">TVI Internacional</a>
+        <a id="escolha_canal" href="#" onclick="changeChannel('https://video-auth4.iol.pt/live_tvi_africa/live_tvi_africa/edge_servers/tviafrica-480p/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/tviafrica.png'); return false;">TVI África</a>
+    </nav>    
+    <video
+        id="escolha_player"
+        class="video-js"
+        controls
+        preload="auto"
+        width="900"
+        height="500"
+        poster="escolha_sec/escolha.png"
+        data-setup="{}"
+    >
+        <source
+            id="video_source"
+            src="escolha_sec/escolha.mp4"
+            type="video/mp4"
+        />
+    </video><br><br>
+    <script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var player = videojs('escolha_player');
+
+            window.changeChannel = function(url, poster) {
+                player.poster(poster);
+                player.src({ src: url, type: url.endsWith('.m3u8') ? 'application/x-mpegURL' : 'video/mp4' });
+
+                // Adiciona um atraso de 500ms antes de reproduzir o vídeo
+                setTimeout(function() {
+                    player.play();
+                }, 500);
+            };
+        });
+    </script>
+
+    <footer>Feito por Tomás Afonso. 2024</footer>
+</body>
+</html>
