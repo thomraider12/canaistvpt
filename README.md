@@ -45,6 +45,8 @@ Também existe uma lista M3U das [MEO Beachcam's](https://thomraider12.github.io
 
 - Eurosport 1 ᴴᴰ
 - Eurosport 2 ᴴᴰ
+- RTP Desporto 1 ᴴᴰ (não 24/7)
+- RTP Desporto 2 ᴴᴰ (não 24/7)
 - Golo FM (apenas em jogos) ᴴᴰ
 - Formula 1 Channel (US) ᴴᴰ
 - Motorsport.tv (US) ᴴᴰ
