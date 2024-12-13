@@ -87,10 +87,10 @@ http://62.210.123.134:98/live/an75d/75d/144.ts
 #EXTINF:-1 tvg-id="Eurosport2.uk" group-title="Desporto" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/eurosport2.png",Eurosport 2
 http://62.210.123.134:98/live/an75d/75d/145.ts
 
-#EXTINF:-1 tvg-id="RTPDesporto1.pt" group-title="Desporto" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpdesporto1.png",RTP Desporto 1
+#EXTINF:-1 tvg-id="RTPDesporto1.pt" group-title="Desporto" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpdesporto1.png",RTP Desporto 1 (não 24/7)
 https://streaming-live.rtp.pt/liverepeater/smil:desporto1HD.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="RTPDesporto2.pt" group-title="Desporto" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpdesporto2.png",RTP Desporto 2
+#EXTINF:-1 tvg-id="RTPDesporto2.pt" group-title="Desporto" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpdesporto2.png",RTP Desporto 2 (não 24/7)
 https://streaming-live.rtp.pt/liverepeater/smil:desporto2HD.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="Desporto" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/golofm.png" tvg-id="GoloFM.pt",Golo FM (apenas em jogos)
