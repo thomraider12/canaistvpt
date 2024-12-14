@@ -27,7 +27,19 @@ def json_to_xmltv(json_data, root):
         # Adiciona descrição
         desc = ET.SubElement(programme, "desc", {"lang": "pt"})
         desc.text = event.get("long_description", event.get("short_description", "Sem descrição"))
-        
+
+        # Adiciona sub-título (inline_text -> details)
+        inline_text = event.get("inline_text", {})
+        details = inline_text.get("details")
+        if details:
+            sub_title = ET.SubElement(programme, "sub-title", {"lang": "pt"})
+            sub_title.text = details
+
+        # Adiciona ícone (original_thumbnail_url)
+        thumbnail_url = event.get("original_thumbnail_url")
+        if thumbnail_url:
+            icon = ET.SubElement(programme, "icon", {"src": thumbnail_url})
+
         program_count += 1  # Incrementa a contagem de programas adicionados
 
     print(f"{program_count} programas adicionados.")
