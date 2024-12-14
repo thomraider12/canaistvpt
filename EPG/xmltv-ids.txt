@@ -1,10 +1,13 @@
 Canais em XMLTV disponíveis no all.xml.gz:
 
 bloomberg-tv-new
+documentaries-rakuten-tv
 travelxp-pt
 red-bull-tv-en
+mavtv-motorsports-network-new
 fifa-plus-pt-new
 jukin-fail-army-new
+family-rakuten-tv
 RTPDesporto1.pt
 RTPDesporto2.pt
 FamaTV.pt
@@ -94,6 +97,7 @@ tviafrica
 CABC52000180Z
 CABB260002016
 GBBA33000557H
+INBA4900004W9
 USBC3900018K6
 USAK3508705A
 1Plus1International.ua
@@ -277,4 +281,4 @@ d47400e0-19d9-4f71-94f4-2b4cfdc1a2ca
 
 
 | Nem todos os id's estão presentes na lista pt.m3u.
-| Faltam os seguintes ids no xmltv-ids.txt: documentaries-pt-rakuten-tv, comedy-central-animation, ESBA3300017FA
+| Faltam os seguintes ids no xmltv-ids.txt: documentaries-pt-rakuten-tv, ESBA3300017FA
