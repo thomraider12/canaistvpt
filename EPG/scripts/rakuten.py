@@ -89,14 +89,14 @@ url_string = (f"classification_id=64&device_identifier=web"
 url = "https://gizmo.rakuten.tv/v3/live_channels?" + url_string.replace(":", "%3A")
 print(url)
 times.sleep(4)
-print("Grabbing data")
+print("A buscar informações...")
 res = requests.get(url)
 if res.status_code != 200:
     print(url)
     raise ConnectionError(f"HTTP{res.status_code}: could not get info from server!")
-print("Loading JSON")
+print("A carregar o JSON.")
 json = res.json()['data']
-print(f"\nRetrieved {len(json)} channels:")
+print(f"\nRetribuídos {len(json)} canais:")
 
 channels_data = []
 programme_data = []
@@ -122,7 +122,7 @@ for channel in json:
         if labels.get('languages') is not None:
             ch_language = labels.get('languages')[0].get('id')
         if labels.get('tags') is not None:
-            ch_tags = labels.get('tags']
+            ch_tags = labels.get('tags')
     
     ch_age_rating = None
     if channel['classification'] is not None:
