@@ -66,6 +66,11 @@ def build_xmltv(channels: list, programmes: list) -> bytes:
             category.set('lang', 'pt')
             category.text = remove_control_characters(pr.get('tags')[0].get("name"))
 
+        # Adicionar a imagem se existir
+        if pr.get("snapshot") is not None:
+            icon = etree.SubElement(programme, "icon")
+            icon.set("src", pr.get("snapshot"))
+
     return etree.tostring(data, pretty_print=True, encoding='utf-8')
 
 
@@ -117,7 +122,7 @@ for channel in json:
         if labels.get('languages') is not None:
             ch_language = labels.get('languages')[0].get('id')
         if labels.get('tags') is not None:
-            ch_tags = labels.get('tags')
+            ch_tags = labels.get('tags']
     
     ch_age_rating = None
     if channel['classification'] is not None:
@@ -139,6 +144,11 @@ for channel in json:
         description = item['description']
         start = datetime.strptime(item['starts_at'], '%Y-%m-%dT%H:%M:%S.000%z').timestamp()
         end = datetime.strptime(item['ends_at'][:-6], '%Y-%m-%dT%H:%M:%S.000').timestamp()
+        
+        # Verificar a presença de imagens
+        snapshot = None
+        if item.get('images') is not None:
+            snapshot = item['images'].get('snapshot')
 
         programme_data.append({
             "title":       title,
@@ -149,6 +159,7 @@ for channel in json:
             "channel_id":  ch_id,
             "language":    ch_language,
             "tags":        ch_tags,
+            "snapshot":    snapshot,  # Adicionar o snapshot à lista de dados
         })
 
 channel_xml = build_xmltv(channels_data, programme_data)
