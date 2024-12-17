@@ -2,7 +2,7 @@ import os
 import gzip
 import xml.etree.ElementTree as ET
 
-ignorar = ['epg-meo-pt.xml.gz']
+ignorar = ['epg-meo-pt.xml.gz', 'epg-test-pt.xml.gz']
 
 def merge_epgs(epg_dir, output_file):
     # Criar elemento raiz para o XML combinado
@@ -23,13 +23,24 @@ def merge_epgs(epg_dir, output_file):
                     tree = ET.parse(file)
                     root = tree.getroot()
 
-                    # Se ainda não inicializou o root do combinado, faz isso agora
+                    # Exibir mensagem de processamento do arquivo
+                    print(f'Processando "{file_name}":')
+
+                    # Inicializar o root do combinado, se necessário
                     if combined_root is None:
                         combined_root = root
                     else:
-                        # Adicionar cada elemento do arquivo atual ao XML combinado
+                        # Adicionar cada elemento ao combinado e mostrar a mensagem
                         for element in root:
                             combined_root.append(element)
+
+                            # Identificar o tipo de elemento e mostrar a mensagem
+                            if element.tag == 'channel':
+                                canal_id = element.get('id')
+                                print(f"Juntando a tudo, o canal {canal_id}")
+                            elif element.tag == 'programme':
+                                canal_ref = element.get('channel')
+                                print(f"Juntando a tudo, a programação do canal {canal_ref}")
             except ET.ParseError as e:
                 print(f"Erro ao processar {file_name}: {e}")
                 continue
