@@ -8,6 +8,8 @@ Também existe uma lista M3U das [MEO Beachcam's](https://thomraider12.github.io
 
 # Canais:
 
+## Notícias:
+
 - RTP 1 ᴴᴰ
 - RTP 2 ᴴᴰ
 - SIC ᴴᴰ
