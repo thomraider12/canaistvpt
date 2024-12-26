@@ -100,9 +100,9 @@ GBBA33000557H
 INBA4900004W9
 USBC3900018K6
 USAK3508705A
-549519c3-31fa-42de-a621-15e981082fd9
 d47400e0-19d9-4f71-94f4-2b4cfdc1a2ca
+549519c3-31fa-42de-a621-15e981082fd9
 
 
 | Todos os id's estão presentes na lista pt.m3u.
-| Mas alguns ids extras foram encontrados no xmltv-ids.txt: TVIReality.pt, RTP3.pt, CNNPortugal.pt, RTP1.pt, VmaisTVI.pt, RTP2.pt, FailArmy.us, TVI.pt, RTPMemoria.pt
+| Mas alguns ids extras foram encontrados no xmltv-ids.txt: TVIReality.pt, FailArmy.us, RTPMemoria.pt, RTP1.pt, RTP3.pt, TVI.pt, CNNPortugal.pt, RTP2.pt, VmaisTVI.pt
