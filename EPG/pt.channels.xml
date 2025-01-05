@@ -18,7 +18,6 @@
   <channel site="nostv.pt" lang="pt" xmltv_id="Eurosport1.uk" site_id="145">Eurosport 1</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="Eurosport2.uk" site_id="563">Eurosport 2</channel>  
   <channel site="tv24.co.uk" lang="en" xmltv_id="BBCNews.uk" site_id="bbc-news">BBC News</channel>
-  <channel site="nostv.pt" lang="en" xmltv_id="SkyNewsAustralia.au" site_id="39">Sky News</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="TraceUrban.fr" site_id="65">Trace Urban</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="TraceToca.fr" site_id="543">Trace Toca</channel>
   <channel site="meo.pt" lang="pt" xmltv_id="TraceBrasil.br" site_id="TRACEBR">Trace Brasil</channel>
