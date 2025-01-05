@@ -49,7 +49,7 @@ https://ythls-v3.onrender.com/channel/UCeU2E_1jSjw4SWiNOwaJ__Q.m3u8
 https://crtvg-europa.flumotion.cloud/crtvg/europa_high/chunks.m3u8
 
 #EXTINF:-1 group-title="Secundários" tvg-id="CNNInternationalEurope.us" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/cnn.png",CNN (US)
-https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_3_1464000.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/foxnews.png" tvg-id="LiveNOWFOX.us" group-title="Secundários",Fox Now (US)
 https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8
