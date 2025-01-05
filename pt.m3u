@@ -48,8 +48,8 @@ https://ythls-v3.onrender.com/channel/UCeU2E_1jSjw4SWiNOwaJ__Q.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tvgalicia.png" tvg-id="GaliciaTVEuropa.es" group-title="Secundários",TVGalicia (ESP)
 https://crtvg-europa.flumotion.cloud/crtvg/europa_high/chunks.m3u8
 
-#EXTINF:-1 group-title="Secundários" tvg-id="CNNInternationalEurope.us" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/cnn.png",CNN (US)
-https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_3_1464000.m3u8
+#EXTINF:-1 group-title="Secundários" tvg-id="66c45afaa72e7b0008a2b153" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/cnn.png",CNN International (US)
+https://stitcher.pluto.tv/stitch/hls/channel/66c45afaa72e7b0008a2b153/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=9438b638-7b18-11ef-9825-de7fcdd69a13
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/foxnews.png" tvg-id="LiveNOWFOX.us" group-title="Secundários",Fox Now (US)
 https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8
