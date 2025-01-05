@@ -9,6 +9,7 @@ USAK3508705A
 5f99e24636d67d0007a94e6d
 636adc255bcf470007d6e0e2
 65c69ee3d77d450008c80438
+66c45afaa72e7b0008a2b153
 608181d420fc8500075f612a
 5f1213ba0ecebc00070e170f
 5f1ef1a8cec6be00072a7ac9
@@ -38,7 +39,6 @@ rtp-madeira
 ARTV.pt
 BBCNews.uk
 ClubbingTV.fr
-CNNInternationalEurope.us
 CNNPortugal.pt
 EuronewsPortuguese.fr
 Eurosport1.uk
@@ -105,4 +105,4 @@ d47400e0-19d9-4f71-94f4-2b4cfdc1a2ca
 
 
 | Todos os id's estão presentes na lista pt.m3u.
-| Mas alguns ids extras foram encontrados no xmltv-ids.txt: RTP2.pt, CNNPortugal.pt, FailArmy.us, RTP3.pt, TVI.pt, TVIReality.pt, RTP1.pt, RTPMemoria.pt, VmaisTVI.pt
+| Mas alguns ids extras foram encontrados no xmltv-ids.txt: TVIReality.pt, CNNPortugal.pt, TVI.pt, FailArmy.us, VmaisTVI.pt, RTP2.pt, RTP3.pt, RTPMemoria.pt, RTP1.pt
