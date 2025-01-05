@@ -8,6 +8,7 @@ USBC3900018K6
 USAK3508705A
 5f99e24636d67d0007a94e6d
 636adc255bcf470007d6e0e2
+55b285cd2665de274553d66f
 65c69ee3d77d450008c80438
 66c45afaa72e7b0008a2b153
 608181d420fc8500075f612a
@@ -59,7 +60,6 @@ RTPMemoria.pt
 SIC.pt
 SICNoticias.pt
 SKWAD.us
-SkyNewsAustralia.au
 SPEEDVISION.us
 TraceBrasil.br
 TraceToca.fr
@@ -100,9 +100,9 @@ RadioSuperFM.pt
 batidafm.pt
 CidadeHipHop.pt
 ubisoft_br_tv
-549519c3-31fa-42de-a621-15e981082fd9
 d47400e0-19d9-4f71-94f4-2b4cfdc1a2ca
+549519c3-31fa-42de-a621-15e981082fd9
 
 
 | Todos os id's estão presentes na lista pt.m3u.
-| Mas alguns ids extras foram encontrados no xmltv-ids.txt: TVIReality.pt, CNNPortugal.pt, TVI.pt, FailArmy.us, VmaisTVI.pt, RTP2.pt, RTP3.pt, RTPMemoria.pt, RTP1.pt
+| Mas alguns ids extras foram encontrados no xmltv-ids.txt: TVIReality.pt, RTPMemoria.pt, RTP2.pt, TVI.pt, FailArmy.us, CNNPortugal.pt, RTP1.pt, RTP3.pt, VmaisTVI.pt
