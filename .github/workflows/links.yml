@@ -34,5 +34,6 @@ jobs:
           git pull
           git add m3u8s/cnnpt.m3u8
           git add m3u8s/tvi.m3u8
+          git add m3u8s/tviint.m3u8
           git commit -m "Atualização automática dos m3u8"
           git push origin main
