@@ -105,4 +105,4 @@ d47400e0-19d9-4f71-94f4-2b4cfdc1a2ca
 
 
 | Todos os id's estão presentes na lista pt.m3u.
-| Mas alguns ids extras foram encontrados no xmltv-ids.txt: RTP3.pt, RTP2.pt, VmaisTVI.pt, CNNPortugal.pt, TVI.pt, RTP1.pt, FailArmy.us, RTPMemoria.pt, TVIReality.pt
+| Mas alguns ids extras foram encontrados no xmltv-ids.txt: RTPMemoria.pt, TVI.pt, RTP2.pt, RTP1.pt, RTP3.pt, FailArmy.us, TVIReality.pt, VmaisTVI.pt, CNNPortugal.pt
