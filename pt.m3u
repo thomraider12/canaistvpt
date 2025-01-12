@@ -1,7 +1,7 @@
 #EXTM3U url-tvg="https://github.com/thomraider12/canaistvpt/raw/main/EPG/all.xml.gz"
 
 #EXTINF:-1 group-title="Notícias" tvg-id="rtp-1" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp1.png",RTP 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-user-agent=Firefox
 #EXTVLCOPT:http-referrer=https://www.rtp.pt
 https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
 
