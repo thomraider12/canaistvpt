@@ -100,9 +100,9 @@ RadioSuperFM.pt
 batidafm.pt
 CidadeHipHop.pt
 ubisoft_br_tv
-549519c3-31fa-42de-a621-15e981082fd9
 d47400e0-19d9-4f71-94f4-2b4cfdc1a2ca
+549519c3-31fa-42de-a621-15e981082fd9
 
 
 | Todos os id's estão presentes na lista pt.m3u.
-| Mas alguns ids extras foram encontrados no xmltv-ids.txt: VmaisTVI.pt, CNNPortugal.pt, FailArmy.us, TVIReality.pt, RTP1.pt, TVI.pt, RTP2.pt, RTPMemoria.pt, RTP3.pt
+| Mas alguns ids extras foram encontrados no xmltv-ids.txt: TVIReality.pt, VmaisTVI.pt, RTP2.pt, CNNPortugal.pt, RTP1.pt, RTPMemoria.pt, RTP3.pt, TVI.pt, FailArmy.us
