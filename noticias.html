@@ -1,69 +1,74 @@
 <!DOCTYPE html>
-
 <html lang="pt">
+
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Notícias - Canais TV PT</title>
-<link href="style.css" rel="stylesheet"/>
-<link href="favicon.ico" rel="shortcut icon" type="image/x-icon"/>
-<script defer="" src="script.js"></script>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Notícias - Canais TV PT</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script defer="" src="script.js"></script>
 </head>
-<main><header>
-<div style="text-align: center;">
-<img alt="Image" height="150" src="logo.png"/>
-</div>
-<nav>
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="desporto.html">Desporto</a></li>
-<li><a href="noticias.html">Notícias (Atual)</a></li>
-<li><a href="secundarios.html">Secundários</a></li>
-<li><a href="internacionais.html">Internacionais</a></li>
-<li><a href="fildocnov.html">Filmes/<br/>Doc./Nov.</a></li>
-<li><a href="banda_d.html">Desenhos<br/>Anim.</a></li>
-<li><a href="radios.html">Rádios</a></li>
-<li><a href="aleatorio.html">Aleatório</a></li>
-<li><a href="gaming.html">Gaming</a></li>
-<li><a href="sobre.html">Sobre</a></li>
-</ul>
-</nav>
-</header></main>
+
+<main>
+    <header>
+        <div style="text-align: center;">
+            <img alt="Image" height="150" src="logo.png" />
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="desporto.html">Desporto</a></li>
+                <li><a href="noticias.html">Notícias (Atual)</a></li>
+                <li><a href="secundarios.html">Secundários</a></li>
+                <li><a href="internacionais.html">Internacionais</a></li>
+                <li><a href="fildocnov.html">Filmes/<br />Doc./Nov.</a></li>
+                <li><a href="banda_d.html">Desenhos<br />Anim.</a></li>
+                <li><a href="radios.html">Rádios</a></li>
+                <li><a href="aleatorio.html">Aleatório</a></li>
+                <li><a href="gaming.html">Gaming</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+</main>
+
 <body>
-<nav id="nav_escolha">
-<a href="#home" id="escolha_canal" onclick="changeChannel('escolha_not/escolha.mp4', 'escolha_not/escolha.png'); return false;">Home</a>
-<a class="rtp1" href="#rtp1" id="escolha_canal" onclick="changeChannel('https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp1.png'); return false;">RTP 1<sup>HD</sup> - Portugal em Direto</a>
-<a class="rtp2" href="#rtp2" id="escolha_canal" onclick="changeChannel('https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp2.png'); return false;">RTP 2<sup>HD</sup> - A Ovelha Choné</a>
-<a class="sic" href="#sic" id="escolha_canal" onclick="changeChannel('https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index_5.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/sic.png'); return false;">SIC<sup>HD</sup> - O Outro Lado do Paraíso</a>
-<a class="tvi" href="#tvi" id="escolha_canal" onclick="changeChannel('https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvi.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/tvi.png'); return false;">TVI<sup>HD</sup> - Secret Story - Desafio Final - Última Hora com Mafalda Castro</a>
-<a class="sicnot" href="#sicnoticias" id="escolha_canal" onclick="changeChannel('https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/index_4.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/sicnoticias.png'); return false;">SIC Noticias<sup>HD</sup> - Primeira Página</a>
-<a class="rtp3" href="#rtp3" id="escolha_canal" onclick="changeChannel('https://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp3.png'); return false;">RTP 3<sup>HD</sup> - 18/20</a>
-<a class="cnnportugal" href="#cnnportugal" id="escolha_canal" onclick="changeChannel('https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/cnnpt.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/cnnpt.png'); return false;">CNN Portugal<sup>HD</sup> - CNN Fim de Tarde</a>
-<a class="vmaistvi" href="#vmaistvi" id="escolha_canal" onclick="changeChannel('https://video-auth2.iol.pt/live_vmais/live_vmais/edge_servers/vmais-720p/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/vmaistvi.png'); return false;">V+ TVI<sup>HD</sup> - V+ Futebol - Estúdio Estádio - pré match, o jogo, tempo final</a>
-<a class="portocanal" href="#portocanal" id="escolha_canal" onclick="changeChannel('https://bcovlive-a.akamaihd.net/34ec8f209dcc48dda853aca054c97ab2/eu-west-1/6415811594001/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/portocanal.png'); return false;">Porto Canal<sup>HD</sup> - Jogo ao Minuto - FCP x Olympiacos</a>
-<a class="euronewspt" href="#euronewspt" id="escolha_canal" onclick="changeChannel('https://0ff3c09c7580460e8e018cdcaacbadee.mediatailor.us-east-1.amazonaws.com/v1/manifest/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pt_EuroNewsLive/de58ab88-b103-4df8-b87a-71190e6f9482/5.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/euronews.png'); return false;">Euronews Portuguese<sup>HD</sup> - Euronews</a>
-</nav>
-<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-<video controls="" height="500" id="escolha_player" poster="escolha_not/escolha.png" width="900"></video>
-<script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
-<script>
-    function changeChannel(url, poster) {
-        var video = document.getElementById('escolha_player');
-        video.poster = poster;
+    <nav id="nav_escolha">
+        <a href="#home" id="escolha_canal" onclick="changeChannel('escolha_not/escolha.mp4', 'escolha_not/escolha.png'); return false;">Home</a>
+        <a class="rtp1" href="#rtp1" id="escolha_canal" onclick="changeChannel('https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp1.png'); return false;">RTP 1<sup>HD</sup></a>
+        <a class="rtp2" href="#rtp2" id="escolha_canal" onclick="changeChannel('https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp2.png'); return false;">RTP 2<sup>HD</sup></a>
+        <a class="sic" href="#sic" id="escolha_canal" onclick="changeChannel('https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index_5.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/sic.png'); return false;">SIC<sup>HD</sup></a>
+        <a class="tvi" href="#tvi" id="escolha_canal" onclick="changeChannel('https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tvi.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/tvi.png'); return false;">TVI<sup>HD</sup></a>
+        <a class="sicnot" href="#sicnoticias" id="escolha_canal" onclick="changeChannel('https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/index_4.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/sicnoticias.png'); return false;">SIC Notícias<sup>HD</sup></a>
+        <a class="rtp3" href="#rtp3" id="escolha_canal" onclick="changeChannel('https://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp3.png'); return false;">RTP 3<sup>HD</sup></a>
+        <a class="cnnportugal" href="#cnnportugal" id="escolha_canal" onclick="changeChannel('https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/cnnpt.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/cnnpt.png'); return false;">CNN Portugal<sup>HD</sup></a>
+        <a class="vmaistvi" href="#vmaistvi" id="escolha_canal" onclick="changeChannel('https://video-auth2.iol.pt/live_vmais/live_vmais/edge_servers/vmais-720p/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/vmaistvi.png'); return false;">V+ TVI<sup>HD</sup></a>
+        <a class="portocanal" href="#portocanal" id="escolha_canal" onclick="changeChannel('https://bcovlive-a.akamaihd.net/34ec8f209dcc48dda853aca054c97ab2/eu-west-1/6415811594001/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/portocanal.png'); return false;">Porto Canal<sup>HD</sup></a>
+        <a class="euronewspt" href="#euronewspt" id="escolha_canal" onclick="changeChannel('https://0ff3c09c7580460e8e018cdcaacbadee.mediatailor.us-east-1.amazonaws.com/v1/manifest/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pt_EuroNewsLive/de58ab88-b103-4df8-b87a-71190e6f9482/5.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/euronews.png'); return false;">Euronews Portuguese<sup>HD</sup></a>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <video controls="" height="500" id="escolha_player" poster="escolha_not/escolha.png" width="900"></video>
+    <script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
+    <script>
+        function changeChannel(url, poster) {
+            var video = document.getElementById('escolha_player');
+            video.poster = poster;
 
-        if (Hls.isSupported()) {
-            var hls = new Hls();
-            hls.loadSource(url);
-            hls.attachMedia(video);
-        } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-            video.src = url;
-        } else {
-            console.error('HLS não é suportado.');
+            if (Hls.isSupported()) {
+                var hls = new Hls();
+                hls.loadSource(url);
+                hls.attachMedia(video);
+            } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = url;
+            } else {
+                console.error('HLS não é suportado.');
+            }
+
+            video.play();
         }
-
-        video.play();
-    }
-</script>
-<footer>Feito por Tomás Afonso. 2024</footer>
+    </script>
+    <footer>Feito por Tomás Afonso. 2025 &copy;</footer>
 </body>
+
 </html>
