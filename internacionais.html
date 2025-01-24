@@ -34,10 +34,10 @@
 </header></main>
 <body>
     <nav id="nav_escolha">
-        <a id="escolha_canal" href="#" onclick="changeChannel('https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpinternacional.png'); return false;">RTP Internacional</a>
-        <a id="escolha_canal" href="#" onclick="changeChannel('https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpmadeira.png'); return false;">RTP Madeira</a>
-        <a id="escolha_canal" href="#" onclick="changeChannel('https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpacores.png'); return false;">RTP Açores</a>
-        <a id="escolha_canal" href="#" onclick="changeChannel('https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpafrica.png'); return false;">RTP África</a>
+        <a id="escolha_canal" href="#" onclick="abrirRTPInternacional()">RTP Internacional</a>
+        <a id="escolha_canal" href="#" onclick="abrirRTPMadeira()">RTP Madeira</a>
+        <a id="escolha_canal" href="#" onclick="abrirRTPAcores()">RTP Açores</a>
+        <a id="escolha_canal" href="#" onclick="abrirRTPAfrica()">RTP África</a>
         <a id="escolha_canal" href="#" onclick="changeChannel('https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/tviint.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/tviinternacional.png'); return false;">TVI Internacional</a>
         <a id="escolha_canal" href="#" onclick="changeChannel('https://video-auth4.iol.pt/live_tvi_africa/live_tvi_africa/edge_servers/tviafrica-480p/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/tviafrica.png'); return false;">TVI África</a>
     </nav>    
@@ -72,6 +72,27 @@
                 }, 500);
             };
         });
+
+        function abrirRTPInternacional() {
+    const url = "https://www.rtp.pt/play/direto/rtpinternacional";
+    window.open(url, "_blank", "width=800,height=600");
+}
+
+function abrirRTPMadeira() {
+    const url = "https://www.rtp.pt/play/direto/rtpmadeira";
+    window.open(url, "_blank", "width=800,height=600");
+}
+
+function abrirRTPAcores() {
+    const url = "https://www.rtp.pt/play/direto/rtpacores";
+    window.open(url, "_blank", "width=800,height=600");
+}
+
+function abrirRTPAfrica() {
+    const url = "https://www.rtp.pt/play/direto/rtpafrica";
+    window.open(url, "_blank", "width=800,height=600");
+}
+
     </script>
 
     <footer>Feito por Tomás Afonso. 2025 &copy;</footer>

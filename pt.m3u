@@ -251,6 +251,30 @@ https://centova.radios.pt/proxy/401?mp=/stream/
 #EXTINF:-1 radio="true" group-title="Rádios" tvg-id="HiperFM.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/hiperfm.png",HiperFM
 https://centova.radio.com.pt/proxy/500?mp=/stream
 
+#EXTINF:-1 group-title="Rádio" tvg-id="antena-1" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/antena1.png",Antena 1
+https://streaming-live.rtp.pt/liveradio/antena180a/playlist.m3u8?DVR
+
+#EXTINF:-1 group-title="Rádio" tvg-id="antena-2" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/antena2.png",Antena 2
+https://streaming-live.rtp.pt/liveradio/antena280a/playlist.m3u8?DVR
+
+#EXTINF:-1 group-title="Rádio" tvg-id="antena-3" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/antena3.png",Antena 3
+https://streaming-live.rtp.pt/liveradio/antena380a/playlist.m3u8?DVR
+
+#EXTINF:-1 group-title="Rádio" tvg-id="rdp-africa" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rdpafrica.png",RDP África
+https://streaming-live.rtp.pt/liveradio/rdpafrica80a/playlist.m3u8?DVR
+
+#EXTINF:-1 group-title="Rádio" tvg-id="rdp-internacional" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rdpinternacional.png",RDP Internacional
+https://streaming-live.rtp.pt/liveradio/rdpint80a/playlist.m3u8?DVR
+
+#EXTINF:-1 group-title="Rádio" tvg-id="rdp-acores-antena-1" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rdpacores.png",RDP Açores
+https://streaming-live.rtp.pt/liveradio/antena1acores80a/playlist.m3u8?DVR
+
+#EXTINF:-1 group-title="Rádio" tvg-id="rdp-madeira-antena-1" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rdpmadeira.png",RDP Madeira
+https://streaming-live.rtp.pt/liveradio/antena1madeira80a/playlist.m3u8?DVR
+
+#EXTINF:-1 group-title="Rádio" tvg-id="RadioZigZag.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/radiozigzag.png",Rádio ZigZag
+https://streaming-live.rtp.pt/liveradio/zigzag80a/playlist.m3u8?DVR
+
 #EXTINF:-1 radio="true" group-title="Rádios" tvg-id="RadioOxigenio.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/oxigenio.png",Oxigénio
 https://proic1.evspt.com/oxigenio_aac
 
