@@ -36,7 +36,7 @@
     <nav id="nav_escolha">
         <a id="escolha_canal" href="#" onclick="changeChannel('escolha_sec/escolha.mp4', 'escolha_sec/escolha.png'); return false;">Home</a>
         <a id="escolha_canal" href="#" onclick="changeChannel('https://playout175.livextend.cloud/livenlin4/_definst_/2liveartvpub2/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/artv.png'); return false;">ARTV</a>
-        <a id="escolha_canal" href="#" onclick="changeChannel('https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpmemoria.png'); return false;">RTP Memória*</a>
+        <a id="escolha_canal" href="#" onclick="abrirRTPMemoria()">RTP Memória</a>
         <a id="escolha_canal" href="#" onclick="changeChannel('https://video-auth4.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/tvireality.png'); return false;">TVI Reality</a>
         <a id="escolha_canal" href="#" onclick="changeChannel('https://204280.global.ssl.fastly.net/64cd4f589272294ee667108d/live_2f24d2e05bfd11eeb524673aae68b8ac/tracks-v2a1/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/famatv.png'); return false;">Fama TV</a>
         <a id="escolha_canal" href="#" onclick="changeChannel('https://ythls-v3.onrender.com/channel/UCeU2E_1jSjw4SWiNOwaJ__Q.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/localvisãotv.png'); return false;">LocalVisão TV</a>
@@ -79,6 +79,12 @@
                 }, 500);
             };
         });
+
+        function abrirRTPMemoria() {
+            const url = "https://www.rtp.pt/play/direto/rtpmemoria";
+            window.open(url, "_blank", "width=800,height=600");
+        }
+
     </script>
 
     <footer>Feito por Tomás Afonso. 2025 &copy;</footer>
