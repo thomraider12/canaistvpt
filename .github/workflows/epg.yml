@@ -70,6 +70,8 @@ jobs:
         run: |
           cd EPG/scripts
           python extra.py
+          cd -
+          cd EPG
           python scripts/ubisofttv.py
 
       - name: Filtrar EPG do PlutoTV, SamsungTVPlus, RTP e RakutenTV
