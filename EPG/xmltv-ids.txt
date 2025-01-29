@@ -1,7 +1,9 @@
 Canais em XMLTV disponíveis no all.xml.gz:
 
-549519c3-31fa-42de-a621-15e981082fd9
-d47400e0-19d9-4f71-94f4-2b4cfdc1a2ca
+SIC.pt
+SICAltaDefinicao.pt
+SICNoticias.pt
+SICReplay.pt
 CABC52000180Z
 CABB260002016
 GBBA33000557H
@@ -49,12 +51,12 @@ rdp-acores-antena-1
 rdp-madeira-antena-1
 rdp-madeira-antena-3
 ubisoft_br_tv
+cnn
 tvi
-cnnpt
-vmaistvi
-tvireality
-tviinternacional
 tviafrica
+tviinternacional
+tvireality
+vmais
 5MinuteCrafts.us
 ARTV.pt
 BBCNews.uk
@@ -113,5 +115,5 @@ jukin-fail-army-new
 5f1ef1a8cec6be00072a7ac9
 
 
-| Todos os id's estão presentes na lista pt.m3u.
-| Mas alguns ids extras foram encontrados no xmltv-ids.txt: RTP2.pt, RTP3.pt, CNNPortugal.pt, RTPMemoria.pt, VmaisTVI.pt, rdp-madeira-antena-3, TVI.pt, FailArmy.us, TVIReality.pt, RTP1.pt
+| Nem todos os id's estão presentes na lista pt.m3u.
+| Faltam os seguintes ids no xmltv-ids.txt: cnnpt, vmaistvi
