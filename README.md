@@ -1,5 +1,8 @@
 # CanaisTVPT
 
+[![update](https://github.com/thomraider12/canaistvpt/actions/workflows/epg.yml/badge.svg)](https://github.com/thomraider12/canaistvpt/actions/workflows/epg.yml)
+[![update](https://github.com/thomraider12/canaistvpt/actions/workflows/links.yml/badge.svg)](https://github.com/thomraider12/canaistvpt/actions/workflows/links.yml)
+
 Este projeto foi criado por Tomás Afonso, e tem vários canais de Portugal e do Mundo para entreter as pessoas.
 Pode ser usado com a lista M3U (<https://thomraider12.github.io/canaistvpt/pt.m3u>), com a lista de canais e rádios aqui em baixo.
 Também existe uma lista M3U das [MEO Beachcam's](https://thomraider12.github.io/canaistvpt/m3u8s/beachcams.m3u), e de [documentários](https://thomraider12.github.io/canaistvpt/m3u8s/documentarios.m3u).
