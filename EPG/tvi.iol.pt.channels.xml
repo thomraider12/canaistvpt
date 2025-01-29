@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+    <channel site="tvi.iol.pt" lang="pt" xmltv_id="tvi" site_id="tvi">TVI</channel>
+    <channel site="tvi.iol.pt" lang="pt" xmltv_id="cnn" site_id="cnn">CNN Portugal</channel>
+    <channel site="tvi.iol.pt" lang="pt" xmltv_id="vmais" site_id="vmais">V+ TVI</channel>
+    <channel site="tvi.iol.pt" lang="pt" xmltv_id="tvireality" site_id="tvireality">TVI Reality</channel>
+    <channel site="tvi.iol.pt" lang="pt" xmltv_id="tviinternacional" site_id="tviinternacional">TVI
+        Internacional</channel>
+    <channel site="tvi.iol.pt" lang="pt" xmltv_id="tviafrica" site_id="tviafrica">TVI África</channel>
+</channels>

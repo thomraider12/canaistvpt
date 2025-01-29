@@ -27,6 +27,7 @@ def corrigir_xml(file_path):
 
     except Exception as e:
         print(f"Erro ao corrigir o XML para o arquivo {file_path}: {e}")
+        pass
 
 # Lista de arquivos EPG para corrigir
 epg_files = [
