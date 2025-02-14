@@ -134,6 +134,9 @@ https://production-fast-sic.content.okast.tv/fa2e8c4385712f9aa54bbe52b1bd9b6b/ch
 #EXTINF:-1 group-title="Filmes/Documentários/Novelas" tvg-id="SICReplay.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/sicreplay.png",SIC Replay
 https://production-fast-sic.content.okast.tv/fa2e8c4385712f9a7dce4ff2dcebac2e/channels/d9070446-8448-455e-8075-773b1ba12562/d47eae0f-ad77-414a-9a1d-2a6628ba18c3/media_.m3u8
 
+#EXTINF:-1 group-title="Filmes/Documentários/Novelas" tvg-id="tvificcao" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tvificcao.png",TVI Ficção
+https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/tvificcao.m3u8
+
 #EXTINF:-1 group-title="Filmes/Documentários/Novelas" tvg-id="documentaries-rakuten-tv" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rakutendocumentarios.png",Rakuten Documentaries
 https://ead2625dd95b42dabfd015fadcf144e3.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6222/master.m3u8
 
