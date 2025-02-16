@@ -15,9 +15,6 @@ echo "EPG de Teste atualizada!"
 npm run grab -- --channels=../EPG/opto.sic.pt.channels.xml --output=../EPG/epg-sic-pt.xml --days=8 --maxConnections=200
 echo "EPG da Opto atualizada!"
 
-npm run grab -- --channels=../EPG/tvi.iol.pt.channels.xml --output=../EPG/epg-tvi-pt.xml --days=12 --maxConnections=200
-echo "EPG da TVI atualizada!"
-
 # Mudar para a pasta EPG para comprimir e apagar os ficheiros
 cd ../EPG
 
