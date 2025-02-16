@@ -107,13 +107,13 @@ TraceUrban.fr
 TVI.pt
 TVIReality.pt
 VmaisTVI.pt
-cnn
+cnnpt
 tvi
 tviafrica
 tviinternacional
 tvireality
-vmais
+vmaistvi
 
 
 | Nem todos os id's estão presentes na lista pt.m3u.
-| Faltam os seguintes ids no xmltv-ids.txt: vmaistvi, cnnpt, tvificcao
+| Faltam os seguintes ids no xmltv-ids.txt: tvificcao
