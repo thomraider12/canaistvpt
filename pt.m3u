@@ -131,7 +131,7 @@ https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6
 #EXTINF:-1 group-title="Filmes/Documentários/Novelas" tvg-id="SICAltaDefinicao.pt" tvg-logo="https://github.com/thomraider12/icones_tv/raw/refs/heads/main/sicaltadefinicao.png",SIC Alta Definição
 https://production-fast-sic.content.okast.tv/fa2e8c4385712f9aa54bbe52b1bd9b6b/channels/d9070446-8448-455e-8075-773b1ba12562/fc831b20-f252-4e7d-8cc5-2d05f4d43c1c/media_.m3u8
 
-#EXTINF:-1 group-title="Filmes/Documentários/Novelas" tvg-id="SICReplay.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/sicreplay.png",SIC Replay
+#EXTINF:-1 group-title="Filmes/Documentários/Novelas" tvg-id="SICReplay.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/SICReplay.png",SIC Replay
 https://production-fast-sic.content.okast.tv/fa2e8c4385712f9a7dce4ff2dcebac2e/channels/d9070446-8448-455e-8075-773b1ba12562/d47eae0f-ad77-414a-9a1d-2a6628ba18c3/media_.m3u8
 
 #EXTINF:-1 group-title="Filmes/Documentários/Novelas" tvg-id="tvificcao" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tvificcao.png",TVI Ficção
