@@ -117,4 +117,4 @@ tviafrica
 
 
 | Todos os id's estão presentes na lista pt.m3u.
-| Mas alguns ids extras foram encontrados no xmltv-ids.txt: TVI.pt, VmaisTVI.pt, RTP3.pt, CNNPortugal.pt, RTP1.pt, RTPMemoria.pt, rdp-madeira-antena-3, FailArmy.us, TVIReality.pt, RTP2.pt
+| Mas alguns ids extras foram encontrados no xmltv-ids.txt: rdp-madeira-antena-3, RTP1.pt, TVI.pt, TVIReality.pt, RTPMemoria.pt, VmaisTVI.pt, FailArmy.us, RTP2.pt, CNNPortugal.pt, RTP3.pt
