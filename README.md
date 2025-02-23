@@ -13,12 +13,12 @@ Também existe uma lista M3U das [MEO Beachcam's](https://thomraider12.github.io
 
 ## Notícias:
 
-- RTP 1 ᴴᴰ
-- RTP 2 ᴴᴰ
+- RTP 1 ᴴᴰ (não disponível, bloqueado pela RTP)
+- RTP 2 ᴴᴰ (não disponível, bloqueado pela RTP)
 - SIC ᴴᴰ
 - TVI ᴴᴰ
 - SIC Notícias ᴴᴰ
-- RTP 3 ᴴᴰ
+- RTP 3 ᴴᴰ (não disponível, bloqueado pela RTP)
 - CNN Portugal ᴴᴰ
 - V+TVI ᴴᴰ
 - Porto Canal ᴴᴰ
