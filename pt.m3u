@@ -30,7 +30,7 @@ https://video-auth2.iol.pt/live_vmais/live_vmais/edge_servers/vmais-720p/playlis
 https://pull-live-156-1.global.ssl.fastly.net/pc5865dc25400thmb-ea6bf03b14fa318f7133/smil:pc1-jhrgyuoqe5865db-68tkgb14fa318f7133f03.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="Notícias" tvg-id="EuronewsPortuguese.fr" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/euronews.png",Euronews PT
-https://0ff3c09c7580460e8e018cdcaacbadee.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pt_EuroNewsLive/playlist.m3u8
+https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-6245cd154f27f4e9c76d67e9.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=h5vQsYzDCEV_oPAc1yN_
 
 #EXTINF:-1 group-title="Secundários" tvg-id="ARTV.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/artv.png",ARTV
 https://playout175.livextend.cloud/livenlin4/_definst_/2liveartvpub2/playlist.m3u8
@@ -42,10 +42,7 @@ https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8
 https://video-auth4.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/playlist.m3u8
 
 #EXTINF:-1 group-title="Secundários" tvg-id="FamaTV.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/famatv.png",Fama TV
-https://204280.global.ssl.fastly.net/64cd4f589272294ee667108d/live_2f24d2e05bfd11eeb524673aae68b8ac/playlist.m3u8
-
-#EXTINF:-1 group-title="Secundários" tvg-id="LocalVisaoTV.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/localvisãotv.png",LocalVisão TV
-https://ythls-v3.onrender.com/channel/UCeU2E_1jSjw4SWiNOwaJ__Q.m3u8
+https://tv2.fastcast4u.com:3310/live/famatvlive.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tvgalicia.png" tvg-id="GaliciaTVEuropa.es" group-title="Secundários",TVGalicia (ESP)
 https://crtvg-europa.flumotion.cloud/crtvg/europa_high/chunks.m3u8
@@ -94,9 +91,6 @@ https://streaming-live.rtp.pt/liverepeater/smil:desporto1HD.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="RTPDesporto2.pt" group-title="Desporto" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpdesporto2.png",RTP Desporto 2 (não 24/7)
 https://streaming-live.rtp.pt/liverepeater/smil:desporto2HD.smil/playlist.m3u8
-
-#EXTINF:-1 group-title="Desporto" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/golofm.png" tvg-id="GoloFM.pt",Golo FM (apenas em jogos)
-https://ythls-v3.onrender.com/channel/UCX_YubBBVVzTyy9dHKHxhuQ.m3u8
 
 #EXTINF:-1 group-title="Desporto" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/infasttv.png" tvg-id="INBA4900004W9",InFast TV
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00861-terninternation-lifestyle-xiaomi/playlist.m3u8
@@ -147,7 +141,7 @@ http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f1ef1a8cec6be00072a7a
 https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 group-title="Filmes/Documentários/Novelas" tvg-id="GBBA33000557H" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/moviesphere.png",MovieSphere
-https://moviesphere-plex.amagi.tv/playlist.m3u8
+https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/645e7828e1979c00087b75b4/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=13cafb20-f1e6-11ef-82f6-8f65ffe96131&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=fe63fd10-5676-41f9-a8fe-271c0aad861f&userId=&serverSideAds=true
 
 #EXTINF:-1 group-title="BD" tvg-id="608181d420fc8500075f612a" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/anime.png",Anime
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f12136385bccc00070142ed/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7bTARGETOPT%7d&deviceId=%7bPSID%7d&advertisingId=%7bPSID%7d&us_privacy=1YNY&samsung_app_domain=%7bAPP_DOMAIN%7d&samsung_app_name=%7bAPP_NAME%7d&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
@@ -165,7 +159,7 @@ https://b3cc72d0160f4e168712e880c78c4dcc.mediatailor.us-east-1.amazonaws.com/v1/
 https://rakutenaa-soul-5mincraftenglish-rakuten-du9p7.amagi.tv/playlist/rakutenAA-soul-5mincraftenglish-rakuten/playlist.m3u8
 
 #EXTINF:-1 group-title="Aleatórios" tvg-id="jukin-fail-army-new" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/failarmy.png",FailArmy (US)
-https://jukin-failarmy-international-1-eu.vidaa.wurl.tv/playlist.m3u8
+https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/554158e864526b29254ff105/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=13cb0c0a-f1e6-11ef-8b9c-8f65ffe96131&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=39ab40ee-9dc5-4c21-92b4-e3c0a4854ce7&userId=&serverSideAds=true
 
 #EXTINF:-1 group-title="Aleatórios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/lovenature4k.png" tvg-id="5f1213ba0ecebc00070e170f",Love Nature 4K (CAN)
 https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8
@@ -174,10 +168,7 @@ https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8
 https://d22w22d3eu3t35.cloudfront.net/playlist.m3u8
 
 #EXTINF:-1 group-title="Aleatórios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/stingraynaturescape.png" tvg-id="USAK3508705A",Stingray Naturescape
-https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/df9a0fcd-6297-4afd-aa92-d9fe02cfe1b8/3.m3u8
-
-#EXTINF:-1 group-title="Aleatórios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/aviaçãotv.png" tvg-id="AviaçãoTV.pt",Aviação TV
-https://ythls-v3.onrender.com/channel/UC0R-K3crhMX9jzswbmfIORw.m3u8
+https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/bd42ac1e-451b-4930-a0d4-fa159bd4cb97/3.m3u8
 
 #EXTINF:-1 group-title="Gaming" tvg-id="Gametoon.nl" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/gametoon.png",Gametoon
 http://iptv.prosto.tv:7000/ch256/video.m3u8
@@ -186,7 +177,7 @@ http://iptv.prosto.tv:7000/ch256/video.m3u8
 https://ubl-ut-samsung.otteravision.com/ubl/ut/ut.m3u8
 
 #EXTINF:-1 tvg-id="SKWAD.us" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/skwad.png" group-title="Gaming",SKWAD
-https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-5f12332eeca6a20040b328e5.m3u8?X-Plex-Token=7_DZgexHgAKDxgwFUesV
+https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-5f12332eeca6a20040b328e5.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=4J9r1QPr4fmPTb5mZdhs
 
 #EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/traceurban.png" tvg-id="TraceUrban.fr",Trace Urban (FR)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00398-zeasneuropebv-traceurban-zeasn/playlist.m3u8
@@ -198,7 +189,7 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/tracetvAA-trace-latina-lg-es/playlist.
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracebrazuca-xiaomi/playlist.m3u8
 
 #EXTINF:-1 tvg-id="TraceUK.uk" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/traceuk.png" group-title="Rádios",Trace UK
-https://epg.provider.plex.tv/library/parts/608049aefa2b8ae93c2c3a63-66be8cd4871131188099527e.m3u8?X-Plex-Token=7_DZgexHgAKDxgwFUesV
+https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-66be8cd4871131188099527e.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=GhvSQJ4tsPMEh3HA6Sib
 
 #EXTINF:-1 group-title="Rádios" tvg-id="ClubbingTV.fr" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/clubbingtv.png",Clubbing TV
 https://clubbingtv-rakuten.amagi.tv/playlist.m3u8
@@ -237,7 +228,7 @@ https://stream-icy.bauermedia.pt/m80.aac
 https://radios.justweb.pt/8024/stream
 
 #EXTINF:-1 group-title="Rádios" radio="true" tvg-id="MegaHits.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/megahits.png",MegaHits
-http://25703.live.streamtheworld.com/MEGA_HITS_SC
+https://22353.live.streamtheworld.com/MEGA_HITS_SC
 
 #EXTINF:-1 group-title="Rádios" radio="true" tvg-id="NovaEra.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/novaera.png",Nova Era
 http://centova.radios.pt:9478/stream/1/
