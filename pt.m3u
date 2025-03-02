@@ -15,7 +15,7 @@ https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/tvi.m3u8
 #EXTINF:-1 group-title="Notícias" tvg-id="SICNoticias.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/sicnoticias.png",SIC Notícias
 https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/index_4.m3u8
 
-#EXTINF:-1 group-title="Notícias" tvg-id="rtp-3" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp3.png",RTP 3
+#EXTINF:-1 group-title="Notícias" tvg-id="rtp-3" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp3.png",RTP 3 (não disponível)
 https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="Notícias" tvg-id="cnnpt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/cnnpt.png",CNN Portugal
@@ -33,7 +33,7 @@ https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-6245cd154f27
 #EXTINF:-1 group-title="Secundários" tvg-id="ARTV.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/artv.png",ARTV
 https://playout175.livextend.cloud/livenlin4/_definst_/2liveartvpub2/playlist.m3u8
 
-#EXTINF:-1 group-title="Secundários" tvg-id="rtp-memoria" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpmemoria.png",RTP Memória
+#EXTINF:-1 group-title="Secundários" tvg-id="rtp-memoria" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpmemoria.png",RTP Memória (não disponível)
 https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="Secundários" tvg-id="tvireality" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tvireality.png",TVI Reality
@@ -60,16 +60,16 @@ https://d1kvlt93j1bc49.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTINF:-1 group-title="Secundários" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/skynews.png" tvg-id="55b285cd2665de274553d66f",SkyNews (UK)
 https://stitcher.pluto.tv/stitch/hls/channel/55b285cd2665de274553d66flivestitch/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=cb5874fc-6948-11ef-b8e3-ea3db3d97a96&profilesFromStream=true
 
-#EXTINF:-1 tvg-id="rtp-internacional" group-title="Internacionais PT" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpinternacional.png",RTP Internacional
+#EXTINF:-1 tvg-id="rtp-internacional" group-title="Internacionais PT" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpinternacional.png",RTP Internacional (não disponível)
 https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="rtp-madeira" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpmadeira.png" group-title="Internacionais PT",RTP Madeira
+#EXTINF:-1 tvg-id="rtp-madeira" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpmadeira.png" group-title="Internacionais PT",RTP Madeira (não disponível)
 https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="rtp-acores" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpacores.png" group-title="Internacionais PT",RTP Açores
+#EXTINF:-1 tvg-id="rtp-acores" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpacores.png" group-title="Internacionais PT",RTP Açores (não disponível)
 https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="rtp-africa" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpafrica.png" group-title="Internacionais PT",RTP África
+#EXTINF:-1 tvg-id="rtp-africa" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpafrica.png" group-title="Internacionais PT",RTP África (não disponível)
 https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="tviinternacional" group-title="Internacionais PT" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tviinternacional.png",TVI Internacional
@@ -243,28 +243,28 @@ https://centova.radios.pt/proxy/401?mp=/stream/
 #EXTINF:-1 radio="true" group-title="Rádios" tvg-id="HiperFM.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/hiperfm.png",HiperFM
 https://centova.radio.com.pt/proxy/500?mp=/stream
 
-#EXTINF:-1 group-title="Rádio" tvg-id="antena-1" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/antena1.png",Antena 1
+#EXTINF:-1 group-title="Rádios" tvg-id="antena-1" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/antena1.png",Antena 1
 https://streaming-live.rtp.pt/liveradio/antena180a/playlist.m3u8?DVR
 
-#EXTINF:-1 group-title="Rádio" tvg-id="antena-2" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/antena2.png",Antena 2
+#EXTINF:-1 group-title="Rádios" tvg-id="antena-2" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/antena2.png",Antena 2
 https://streaming-live.rtp.pt/liveradio/antena280a/playlist.m3u8?DVR
 
-#EXTINF:-1 group-title="Rádio" tvg-id="antena-3" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/antena3.png",Antena 3
+#EXTINF:-1 group-title="Rádios" tvg-id="antena-3" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/antena3.png",Antena 3
 https://streaming-live.rtp.pt/liveradio/antena380a/playlist.m3u8?DVR
 
-#EXTINF:-1 group-title="Rádio" tvg-id="rdp-africa" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rdpafrica.png",RDP África
+#EXTINF:-1 group-title="Rádios" tvg-id="rdp-africa" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rdpafrica.png",RDP África
 https://streaming-live.rtp.pt/liveradio/rdpafrica80a/playlist.m3u8?DVR
 
-#EXTINF:-1 group-title="Rádio" tvg-id="rdp-internacional" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rdpinternacional.png",RDP Internacional
+#EXTINF:-1 group-title="Rádios" tvg-id="rdp-internacional" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rdpinternacional.png",RDP Internacional
 https://streaming-live.rtp.pt/liveradio/rdpint80a/playlist.m3u8?DVR
 
-#EXTINF:-1 group-title="Rádio" tvg-id="rdp-acores-antena-1" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rdpacores.png",RDP Açores
+#EXTINF:-1 group-title="Rádios" tvg-id="rdp-acores-antena-1" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rdpacores.png",RDP Açores
 https://streaming-live.rtp.pt/liveradio/antena1acores80a/playlist.m3u8?DVR
 
-#EXTINF:-1 group-title="Rádio" tvg-id="rdp-madeira-antena-1" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rdpmadeira.png",RDP Madeira
+#EXTINF:-1 group-title="Rádios" tvg-id="rdp-madeira-antena-1" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rdpmadeira.png",RDP Madeira
 https://streaming-live.rtp.pt/liveradio/antena1madeira80a/playlist.m3u8?DVR
 
-#EXTINF:-1 group-title="Rádio" tvg-id="RadioZigZag.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/radiozigzag.png",Rádio ZigZag
+#EXTINF:-1 group-title="Rádios" tvg-id="RadioZigZag.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/radiozigzag.png",Rádio ZigZag
 https://streaming-live.rtp.pt/liveradio/zigzag80a/playlist.m3u8?DVR
 
 #EXTINF:-1 radio="true" group-title="Rádios" tvg-id="RadioOxigenio.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/oxigenio.png",Oxigénio
