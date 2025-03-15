@@ -214,7 +214,7 @@ https://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8
 https://stream-icy.bauermedia.pt/comercial.aac
 
 #EXTINF:-1 group-title="Rádios" radio="true" tvg-id="RFM.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rfm.png",RFM
-https://playerservices.streamtheworld.com/api/livestream-redirect/RFMAAC_SC
+https://playerservices.streamtheworld.com/api/livestream-redirect/RFM_SC
 
 #EXTINF:-1 group-title="Rádios" radio="true" tvg-id="FamaRadio.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/famaradio.png",Fama Rádio
 http://famaradio.mywire.org:8000/digitalfm64
