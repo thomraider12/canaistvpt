@@ -53,6 +53,9 @@ tviinternacional
 tviafrica
 RTPDesporto1.pt
 RTPDesporto2.pt
+Linear.pt
+Radio5.pt
+OndaViva.pt
 FamaTV.pt
 GoloFM.pt
 AviaçãoTV.pt
@@ -117,4 +120,4 @@ jukin-fail-army-new
 
 
 | Todos os id's estão presentes na lista pt.m3u.
-| Mas alguns ids extras foram encontrados no xmltv-ids.txt: TVI.pt, RTP3.pt, VmaisTVI.pt, AviaçãoTV.pt, GoloFM.pt, CNNPortugal.pt, RTPMemoria.pt, FailArmy.us, RTP2.pt, TVIReality.pt, RTP1.pt, LocalVisaoTV.pt, rdp-madeira-antena-3
+| Mas alguns ids extras foram encontrados no xmltv-ids.txt: FailArmy.us, CNNPortugal.pt, RTPMemoria.pt, LocalVisaoTV.pt, RTP1.pt, TVIReality.pt, RTP2.pt, VmaisTVI.pt, AviaçãoTV.pt, RTP3.pt, TVI.pt, rdp-madeira-antena-3, GoloFM.pt
