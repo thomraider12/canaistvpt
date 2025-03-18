@@ -87,11 +87,15 @@ def processar_programacao(canal, data):
         
         titulo = programa.find('h2').text.strip() if programa.find('h2') else 'Sem título'
         descricao = programa.find('div', class_='texto texto2').text.strip() if programa.find('div', class_='texto texto2') else 'Sem descrição'
+        # Encontrar a div da imagem do programa (se existir)
+        div_capa = programa.find('div', class_='capaPrograma').find('div', class_='picture16x9') if programa.find('div', class_='capaPrograma') else None
+
         
         lista_programas.append({
             'start': start,
             'title': titulo,
-            'desc': descricao
+            'desc': descricao,
+            'div_capa': div_capa
         })
     
     for i, programa in enumerate(lista_programas):
@@ -105,6 +109,15 @@ def processar_programacao(canal, data):
         })
         ET.SubElement(elemento_programa, 'title').text = programa['title']
         ET.SubElement(elemento_programa, 'desc').text = programa['desc']
+        # Extrair URL da imagem (se existir)
+        div_capa = programa.get('div_capa')
+        url_imagem = ""
+        if div_capa:
+            estilo = div_capa.get('style', '')
+            if 'background-image:url(' in estilo:
+                url_imagem = estilo.split('background-image:url(')[1].split(')')[0].strip()
+        if url_imagem:
+             ET.SubElement(elemento_programa, 'icon', {'src': url_imagem})
         
     print(f"Programas adicionados para o canal {canal['nome']}: {lista_programas}")
 
