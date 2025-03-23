@@ -12,7 +12,7 @@
     <script src="script.js" defer></script>
 </head>
 
-<main><header>
+<header>
   <div style="text-align: center;">
     <img src="logo.png" height="150" alt="Image">
   </div>
@@ -32,27 +32,29 @@
         <li><a href="sobre.html">Sobre</a></li>
       </ul>
   </nav>
-</header></main>
+</header>
 <body><br>
   <label class="selecionarRadio" for="radioSelect">Escolhe a Rádio:</label>
   <select id="radioSelect">
    <option value="">Nenhuma</option> 
     <option value="https://stream-icy.bauermedia.pt/comercial.aac">Rádio Comercial</option>
-    <option value="https://playerservices.streamtheworld.com/api/livestream-redirect/RFMAAC_SC">RFM</option>
+    <option value="https://playerservices.streamtheworld.com/api/livestream-redirect/RFM_SC">RFM</option>
     <option value="http://famaradio.mywire.org:8000/digitalfm64">Fama Rádio</option>
+    <option value="https://radios.justweb.pt/8042/stream">Rádio 5</option>
     <option value="https://playerservices.streamtheworld.com/api/livestream-redirect/OBSERVADORAAC.aac?dist=web-popup&devicename=aac">Observador</option>
     <option value="http://tsfdirecto.tsf.pt/tsfdirecto.mp3#">TSF</option>
     <option value="https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_RENASCENCAAAC.aac">Rádio Renascença</option>
     <option value="https://emdireto.cmradio.pt/audio2/output-stream_1.m3u8">CMRádio</option>
     <option value="https://stream-icy.bauermedia.pt/m80.aac">M80</option>
-    <option value="https://streaming-live.rtp.pt/liveradio/zigzag80a/playlist.m3u8">Rádio ZigZag</option>
+    <option value="https://streaming-live.rtp.pt/liveradio/zigzag80a/playlist.m3u8?DVR">Rádio ZigZag</option>
     <option value="https://radios.justweb.pt/8024/stream">Rádio Voz Santo Tirso</option>
-    <option value="http://25703.live.streamtheworld.com/MEGA_HITS_SC">MegaHits</option>
+    <option value="https://22353.live.streamtheworld.com/MEGA_HITS_SC">MegaHits</option>
+    <option value="https://centova.radio.com.pt/proxy/524?mp=/stream">Onda Viva</option>    <option value="https://streaming-live.rtp.pt/liveradio/antena180a/playlist.m3u8?DVR">Antena 1</option>
     <option value="http://centova.radios.pt:9478/stream/1/">Nova Era</option>
     <option value="http://centova.radio.com.pt:8495/stream/1/">Rádio Sudoeste</option>
     <option value="https://centova.radios.pt/proxy/401?mp=/stream/">Orbital</option>
     <option value="https://centova.radio.com.pt/proxy/500?mp=/stream">HiperFM</option>
-    <option value="https://streaming-live.rtp.pt/liveradio/antena180a/playlist.m3u8?DVR">Antena 1</option>
+    <option value="https://radios2.justweb.pt/8080/stream">Linear</option>
     <option value="https://streaming-live.rtp.pt/liveradio/antena280a/playlist.m3u8?DVR">Antena 2</option>
     <option value="https://streaming-live.rtp.pt/liveradio/antena380a/playlist.m3u8?DVR">Antena 3</option>
     <option value="https://streaming-live.rtp.pt/liveradio/rdpint80a/playlist.m3u8?DVR">RDP Internacional</option>
@@ -68,7 +70,7 @@
     <option value="https://stream-icy.bauermedia.pt/cidade.aac">Cidade FM</option>
     <option value="https://stream-hls.bauermedia.pt/cidhiphop.aac/playlist.m3u8">Cidade Hip Hop</option>
     <option value="http://centova.radio.com.pt:8119/;">Cidade Hoje</option>
-    <option value="https://stream.zenolive.com/sy89zzvs0rquv.aac">Tuga FM</option>
+    <option value="https://tugafm.stream.laut.fm/tugafm">Tuga FM</option>
     <option value="https://live.truckers.fm/">Truckers FM</option>
   </select>
   <br><br>
@@ -137,7 +139,7 @@
           stopContinueButton.textContent = "Parar";
           stopContinueButton.classList.remove("continue");
           stopContinueButton.classList.add("stop");
-        } else {
+        } else if (!isPlaying) {
           stopContinueButton.textContent = "Continuar";
           stopContinueButton.classList.remove("stop");
           stopContinueButton.classList.add("continue");
@@ -170,6 +172,20 @@
     
       loadRadioStream(radioSelect.value);
     
+
+      document.addEventListener('DOMContentLoaded', function () {
+        var player = videojs('escolha_player');
+        
+            window.changeChannel = function(url, poster) {
+                player.poster(poster);
+                player.src({ src: url, type: url.endsWith('.m3u8') ? 'application/x-mpegURL' : 'video/mp4' });
+
+                // Adiciona um atraso de 500ms antes de reproduzir o vídeo
+                setTimeout(function() {
+                    player.play();
+                }, 500);
+            };
+        });
     </script>  <br>
   <br>
   <footer>Feito por Tomás Afonso. 2025 &copy;</footer>    

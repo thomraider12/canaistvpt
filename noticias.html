@@ -12,7 +12,6 @@
     <link href="https://vjs.zencdn.net/7.20.3/video-js.css" rel="stylesheet" />
 </head>
 
-<main>
     <header>
         <div style="text-align: center;">
             <img alt="Image" height="150" src="logo.png" />
@@ -33,7 +32,6 @@
             </ul>
         </nav>
     </header>
-</main>
 
 <body>
     <nav id="nav_escolha">
@@ -46,8 +44,8 @@
         <a class="rtp3" href="#rtp3" id="escolha_canal" onclick="abrirRTPPlay3()">RTP3<sup>HD</sup></a>
         <a class="cnnportugal" href="#cnnportugal" id="escolha_canal" onclick="changeChannel('https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/cnnpt.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/cnnpt.png'); return false;">CNN Portugal<sup>HD</sup></a>
         <a class="vmaistvi" href="#vmaistvi" id="escolha_canal" onclick="changeChannel('https://video-auth2.iol.pt/live_vmais/live_vmais/edge_servers/vmais-720p/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/vmaistvi.png'); return false;">V+ TVI<sup>HD</sup></a>
-        <a class="portocanal" href="#portocanal" id="escolha_canal" onclick="changeChannel('https://bcovlive-a.akamaihd.net/34ec8f209dcc48dda853aca054c97ab2/eu-west-1/6415811594001/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/portocanal.png'); return false;">Porto Canal<sup>HD</sup></a>
-        <a class="euronewspt" href="#euronewspt" id="escolha_canal" onclick="changeChannel('https://0ff3c09c7580460e8e018cdcaacbadee.mediatailor.us-east-1.amazonaws.com/v1/manifest/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pt_EuroNewsLive/de58ab88-b103-4df8-b87a-71190e6f9482/5.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/euronews.png'); return false;">Euronews Portuguese<sup>HD</sup></a>
+        <a class="portocanal" href="#portocanal" id="escolha_canal" onclick="changeChannel('https://pull-live-156-1.global.ssl.fastly.net/pc5865dc25400thmb-ea6bf03b14fa318f7133/smil:pc1-jhrgyuoqe5865db-68tkgb14fa318f7133f03.smil/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/portocanal.png'); return false;">Porto Canal<sup>HD</sup></a>
+        <a class="euronewspt" href="#euronewspt" id="escolha_canal" onclick="changeChannel('https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-6245cd154f27f4e9c76d67e9.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=h5vQsYzDCEV_oPAc1yN_', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/euronews.png'); return false;">Euronews Portuguese<sup>HD</sup></a>
     </nav>
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <video
