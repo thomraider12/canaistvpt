@@ -13,8 +13,8 @@ Também existe uma lista M3U das [MEO Beachcam's](https://thomraider12.github.io
 
 ## Notícias:
 
-- RTP 1 ᴴᴰ (não disponível, bloqueado pela RTP)
-- RTP 2 ᴴᴰ (não disponível, bloqueado pela RTP)
+- RTP 1 ᴴᴰ
+- RTP 2 ᴴᴰ
 - SIC ᴴᴰ
 - TVI ᴴᴰ
 - SIC Notícias ᴴᴰ
@@ -52,7 +52,6 @@ Também existe uma lista M3U das [MEO Beachcam's](https://thomraider12.github.io
 - Eurosport 2 ᴴᴰ
 - RTP Desporto 1 ᴴᴰ (não 24/7)
 - RTP Desporto 2 ᴴᴰ (não 24/7)
-- Golo FM (apenas em jogos) ᴴᴰ
 - InFast TV ᴴᴰ
 - MAYTV International (US) ᴴᴰ
 - Formula 1 Channel (US) ᴴᴰ
@@ -88,7 +87,6 @@ Também existe uma lista M3U das [MEO Beachcam's](https://thomraider12.github.io
 - Love Nature ⁴ᴷ
 - Fireplace ⁴ᴷ
 - Stingray Naturescape ᴴᴰ
-- Aviação TV (aeroporto de Lisboa) ᴴᴰ
 
 ## Gaming:
 
