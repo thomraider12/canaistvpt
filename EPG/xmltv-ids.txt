@@ -120,4 +120,4 @@ jukin-fail-army-new
 
 
 | Todos os id's estão presentes na lista pt.m3u.
-| Mas alguns ids extras foram encontrados no xmltv-ids.txt: LocalVisaoTV.pt, TVI.pt, RTP1.pt, AviaçãoTV.pt, CNNPortugal.pt, FailArmy.us, VmaisTVI.pt, rdp-madeira-antena-3, RTPMemoria.pt, GoloFM.pt, RTP2.pt, RTP3.pt, TVIReality.pt
+| Mas alguns ids extras foram encontrados no xmltv-ids.txt: TVIReality.pt, RTPMemoria.pt, GoloFM.pt, RTP3.pt, RTP1.pt, LocalVisaoTV.pt, VmaisTVI.pt, TVI.pt, RTP2.pt, AviaçãoTV.pt, CNNPortugal.pt, FailArmy.us, rdp-madeira-antena-3
