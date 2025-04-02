@@ -109,7 +109,6 @@ red-bull-tv-en
 mavtv-motorsports-network-new
 fifa-plus-pt-new
 jukin-fail-army-new
-5f99e24636d67d0007a94e6d
 636adc255bcf470007d6e0e2
 55b285cd2665de274553d66f
 65c69ee3d77d450008c80438
@@ -119,5 +118,5 @@ jukin-fail-army-new
 5f1ef1a8cec6be00072a7ac9
 
 
-| Todos os id's estão presentes na lista pt.m3u.
-| Mas alguns ids extras foram encontrados no xmltv-ids.txt: TVIReality.pt, rdp-madeira-antena-3, RTP3.pt, FailArmy.us, GoloFM.pt, CNNPortugal.pt, RTP2.pt, TVI.pt, RTPMemoria.pt, RTP1.pt, VmaisTVI.pt, LocalVisaoTV.pt, AviaçãoTV.pt
+| Nem todos os id's estão presentes na lista pt.m3u.
+| Faltam os seguintes ids no xmltv-ids.txt: 5f99e24636d67d0007a94e6d
