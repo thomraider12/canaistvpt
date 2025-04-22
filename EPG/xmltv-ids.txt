@@ -118,4 +118,4 @@ jukin-fail-army-new
 
 
 | Nem todos os id's estão presentes na lista pt.m3u.
-| Faltam os seguintes ids no xmltv-ids.txt: 5f99e24636d67d0007a94e6d, mavtv-motorsports-network-new
+| Faltam os seguintes ids no xmltv-ids.txt: mavtv-motorsports-network-new, 5f99e24636d67d0007a94e6d
