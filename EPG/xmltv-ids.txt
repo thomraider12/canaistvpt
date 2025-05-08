@@ -101,6 +101,9 @@ rdp-acores-antena-1
 rdp-madeira-antena-1
 rdp-madeira-antena-3
 ubisoft_br_tv
+636adc255bcf470007d6e0e2
+55b285cd2665de274553d66f
+65c69ee3d77d450008c80438
 66c45afaa72e7b0008a2b153
 608181d420fc8500075f612a
 5f1213ba0ecebc00070e170f
@@ -115,4 +118,4 @@ tviafrica
 
 
 | Nem todos os id's estão presentes na lista pt.m3u.
-| Faltam os seguintes ids no xmltv-ids.txt: 65c69ee3d77d450008c80438, mavtv-motorsports-network-new, 55b285cd2665de274553d66f, 636adc255bcf470007d6e0e2, 5f99e24636d67d0007a94e6d
+| Faltam os seguintes ids no xmltv-ids.txt: mavtv-motorsports-network-new, 5f99e24636d67d0007a94e6d
