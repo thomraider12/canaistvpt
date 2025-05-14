@@ -1,9 +1,30 @@
 Canais em XMLTV disponíveis no all.xml.gz:
 
+bloomberg-tv-new
+documentaries-rakuten-tv
+family-rakuten-tv
+travelxp-pt
+red-bull-tv-en
+fifa-plus-pt-new
+jukin-fail-army-new
+rtp-1
+rtp-2
+rtp-3
+rtp-memoria
+rtp-africa
+rtp-internacional
+rtp-acores
+rtp-madeira
 SIC.pt
 SICAltaDefinicao.pt
 SICNoticias.pt
 SICReplay.pt
+CABC52000180Z
+CABB260002016
+GBBA33000557H
+INBA4900004W9
+USBC3900018K6
+USAK3508705A
 5MinuteCrafts.us
 ARTV.pt
 BBCNews.uk
@@ -80,34 +101,6 @@ rdp-acores-antena-1
 rdp-madeira-antena-1
 rdp-madeira-antena-3
 ubisoft_br_tv
-bloomberg-tv-new
-documentaries-rakuten-tv
-family-rakuten-tv
-travelxp-pt
-red-bull-tv-en
-fifa-plus-pt-new
-jukin-fail-army-new
-CABC52000180Z
-CABB260002016
-GBBA33000557H
-INBA4900004W9
-USBC3900018K6
-USAK3508705A
-tvi
-cnnpt
-tvificcao
-vmaistvi
-tvireality
-tviinternacional
-tviafrica
-rtp-1
-rtp-2
-rtp-3
-rtp-memoria
-rtp-africa
-rtp-internacional
-rtp-acores
-rtp-madeira
 636adc255bcf470007d6e0e2
 55b285cd2665de274553d66f
 65c69ee3d77d450008c80438
@@ -115,7 +108,14 @@ rtp-madeira
 608181d420fc8500075f612a
 5f1213ba0ecebc00070e170f
 5f1ef1a8cec6be00072a7ac9
+tvi
+cnnpt
+tvificcao
+vmaistvi
+tvireality
+tviinternacional
+tviafrica
 
 
 | Nem todos os id's estão presentes na lista pt.m3u.
-| Faltam os seguintes ids no xmltv-ids.txt: mavtv-motorsports-network-new, 5f99e24636d67d0007a94e6d
+| Faltam os seguintes ids no xmltv-ids.txt: 5f99e24636d67d0007a94e6d, mavtv-motorsports-network-new
