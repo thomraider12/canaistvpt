@@ -148,6 +148,9 @@ https://ead2625dd95b42dabfd015fadcf144e3.mediatailor.eu-west-1.amazonaws.com/v1/
 #EXTINF:-1 group-title="Filmes/Documentários/Novelas" tvg-id="5f1ef1a8cec6be00072a7ac9" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/plutotvdocumentarios.png",Pluto TV Documentários (BR)
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f1ef1a8cec6be00072a7ac9/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7bTARGETOPT%7d&deviceId=%7bPSID%7d&advertisingId=%7bPSID%7d&us_privacy=1YNY&samsung_app_domain=%7bAPP_DOMAIN%7d&samsung_app_name=%7bAPP_NAME%7d&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
 
+#EXTINF:-1 group-title="Filmes/Documentários/Novelas" tvg-id="top-movies-rakuten-tv" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rakutentopmovies.png",Rakuten Top Movies
+https://top-movies-rakuten-tv-pt.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6741/bd46ff3c-1bfd-4060-b71a-51977f279da2/5.m3u8
+
 #EXTINF:-1 group-title="Filmes/Documentários/Novelas" tvg-id="USBC3900018K6" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/mtmn.png",MyTime Movie Network (BR)
 https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8
 
