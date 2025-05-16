@@ -53,7 +53,6 @@ Também existe uma lista M3U das [MEO Beachcam's](https://thomraider12.github.io
 - RTP Desporto 1 ᴴᴰ (não 24/7)
 - RTP Desporto 2 ᴴᴰ (não 24/7)
 - InFast TV ᴴᴰ
-- MAYTV International (US) ᴴᴰ
 - Formula 1 Channel (US) ᴴᴰ
 - Motorsport.tv (US) ᴴᴰ
 - FIFA+ ᴴᴰ
@@ -77,7 +76,7 @@ Também existe uma lista M3U das [MEO Beachcam's](https://thomraider12.github.io
 
 - Anime (BR) ᴴᴰ
 - Rakuten Família ᴴᴰ
-- Comedy Central Animation (US) ᴴᴰ
+- Comedy Central Pluto TV (US) ᴴᴰ
 
 ## Aleatórios:
 
