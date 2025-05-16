@@ -69,6 +69,7 @@ Também existe uma lista M3U das [MEO Beachcam's](https://thomraider12.github.io
 - TVI Ficção ᴴᴰ
 - Rakuten Documentários ᴴᴰ
 - Pluto TV Documentários (BR) ᴴᴰ
+- Rakuten Top Movies ᴴᴰ
 - MyTimeMovieNetwork (BR) ᴴᴰ
 - MovieSphere (BR) ᴴᴰ
 
