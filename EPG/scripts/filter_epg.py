@@ -39,7 +39,7 @@ def extract_epg(input_file, output_file, channels_to_keep):
 pluto_channels_to_keep = ['65c69ee3d77d450008c80438', '636adc255bcf470007d6e0e2', '608181d420fc8500075f612a', '5f1213ba0ecebc00070e170f', '5f1ef1a8cec6be00072a7ac9', '5ca671f215a62078d2ec0abf', '66c45afaa72e7b0008a2b153', '55b285cd2665de274553d66f']
 samsung_channels_to_keep = ['USBC3900018K6', 'CABB260002016', 'GBBA33000557H', 'CABC52000180Z', 'USAK3508705A', 'INBA4900004W9']
 rtp_channels_to_keep = ['rtp-1', 'rtp-2', 'rtp-3', 'rtp-memoria', 'rtp-internacional', 'rtp-madeira', 'rtp-acores', 'rtp-africa']
-rakuten_channels_to_keep = ['travelxp-pt', 'bloomberg-tv-new', 'fifa-plus-pt-new', 'red-bull-tv-en', 'jukin-fail-army-new', 'family-rakuten-tv', 'documentaries-rakuten-tv']
+rakuten_channels_to_keep = ['travelxp-pt', 'bloomberg-tv-new', 'fifa-plus-pt-new', 'red-bull-tv-en', 'jukin-fail-army-new', 'family-rakuten-tv', 'documentaries-rakuten-tv', 'top-movies-rakuten-tv']
 
 extract_epg('epg-pluto-tv.xml.gz', 'filtered-epg-pluto-tv.xml.gz', pluto_channels_to_keep)
 
