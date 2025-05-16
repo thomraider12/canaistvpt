@@ -109,9 +109,6 @@ https://streaming-live.rtp.pt/liverepeater/smil:desporto2HD.smil/playlist.m3u8
 #EXTINF:-1 group-title="Desporto" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/infasttv.png" tvg-id="INBA4900004W9",InFast TV
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00861-terninternation-lifestyle-xiaomi/playlist.m3u8
 
-#EXTINF:-1 group-title="Desporto" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/maytvinternational.png" tvg-id="mavtv-motorsports-network-new",MAYTV International
-https://amg00378-mavtv-amg00378c2-rakuten-us-1048.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-rakutenus/playlist.m3u8?ads_amagi_channel=872&ads_amznbrmid=&ads_amznregion=&ads_amznslots=&ads_app_bundle=com.rakutentv.web&ads_app_store_url=rakuten.tv&ads_app_version=&ads_brand_name=&ads_content_classification=6&ads_device_lmt=0&ads_device_make=chrome&ads_device_model=GENERIC&ads_device_type=web&ads_device_year=1970&ads_env=prod&ads_gam_correlator=1097658430550050&ads_gdpr_consent=CQEHLdgQEHLdgAcABBPTBDFgAAAAAAAAACiQKVwAAUVgAgA4AAAA.YAAAAAAAAAAA&ads_market=pt&ads_os_language=&ads_player_height=1080&ads_player_width=1920&ads_pod_type=playerpage_midroll&ads_ppid=80468c00-cffa-492b-9f15-5b0a76093204&ads_rtv_content_id=5456&ads_rtv_content_language=eng&ads_rtvid=271863&ads_streaming_id=4f49f3ec-eed8-4b4c-a13d-a7413c64e55e&ads_tivo_devcountry=&ads_tivo_devmakedate=&ads_tivo_mvpd=&ads_tivo_platform=&ads_tivo_usid=&ads_tivo_uxloc=&ads_user_type=visitor
-
 #EXTINF:-1 tvg-id="65c69ee3d77d450008c80438" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/formula1channel.png" group-title="Desporto",Formula 1 Channel
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65c69ee3d77d450008c80438/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=43d64440-8644-11ef-a525-f2288c9ddd01&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=2074579a-a34b-4c46-90b9-8112b30a3a88&userId=&serverSideAds=true
 
@@ -163,8 +160,8 @@ http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f12136385bccc00070142
 #EXTINF:-1 group-title="BD" tvg-id="family-rakuten-tv" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rakutenfamilia.png",Rakuten Family
 https://48faa1daf24549fab34594bc5bdd99f2.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6213/master.m3u8
 
-#EXTINF:-1 tvg-id="5f99e24636d67d0007a94e6d" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/comedycentralanimation(us).png" group-title="BD",Comedy Central Animation (US)
-https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f99e24636d67d0007a94e6d/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=3291405a-a8d5-11ef-b92f-4cabd6cd075b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=314b6acd-b910-4294-a760-ee35d500d01e&userId=&serverSideAds=false
+#EXTINF:-1 tvg-id="5ca671f215a62078d2ec0abf" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/comedycentralanimation(us).png" group-title="BD",Comedy Central Pluto TV (US)
+https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ca671f215a62078d2ec0abf/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=e7cd83c4-326a-11f0-866b-fb29b62928d7&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=ae34ce3e-1e84-4b15-9a97-caa6dff96dbe&userId=&serverSideAds=true
 
 #EXTINF:-1 group-title="Aleatórios" tvg-id="travelxp-pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/travelxp.png",TravelXP
 https://b3cc72d0160f4e168712e880c78c4dcc.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pt_TravelXP/playlist.m3u8
