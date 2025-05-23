@@ -39,7 +39,7 @@ https://video-auth2.iol.pt/live_vmais/live_vmais/edge_servers/vmais-720p/playlis
 https://pull-live-156-1.global.ssl.fastly.net/pc5865dc25400thmb-ea6bf03b14fa318f7133/smil:pc1-jhrgyuoqe5865db-68tkgb14fa318f7133f03.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="Notícias" tvg-id="EuronewsPortuguese.fr" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/euronews.png",Euronews PT
-https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-6245cd154f27f4e9c76d67e9.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=h5vQsYzDCEV_oPAc1yN_
+https://euronews-live-por-pt.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6572/81ea7373-82bb-4293-a245-303e82ba3e3e/5.m3u8
 
 #EXTINF:-1 group-title="Secundários" tvg-id="ARTV.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/artv.png",ARTV
 https://playout175.livextend.cloud/livenlin4/_definst_/2liveartvpub2/playlist.m3u8
@@ -113,7 +113,7 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00861-terninternation-lifestyle-xia
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65c69ee3d77d450008c80438/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=43d64440-8644-11ef-a525-f2288c9ddd01&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=2074579a-a34b-4c46-90b9-8112b30a3a88&userId=&serverSideAds=true
 
 #EXTINF:-1 group-title="Desporto" tvg-id="Motorsport.tv" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/motorsporttv.png",Motorsport.tv (US)
-https://7c8b579d.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/T05PX01vdG9yc3BvcnR0dl9ITFM/playlist.m3u8
+https://25dee28f.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X01vdG9yc3BvcnR0di0xX0hMUw/62d7e87e-9b95-4465-9f79-941ac193ac89/0.m3u8
 
 #EXTINF:-1 tvg-id="fifa-plus-pt-new" group-title="Desporto" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/fifaplus.png",FIFA+
 https://f7ccf7fc.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXB0X0ZJRkFQbHVzUG9ydHVndWVzZV9ITFM/playlist.m3u8
@@ -182,16 +182,13 @@ https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8
 https://d22w22d3eu3t35.cloudfront.net/playlist.m3u8
 
 #EXTINF:-1 group-title="Aleatórios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/stingraynaturescape.png" tvg-id="USAK3508705A",Stingray Naturescape
-https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/bd42ac1e-451b-4930-a0d4-fa159bd4cb97/3.m3u8
+https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/d9ec72fa-65ce-445c-ac84-d2f65b63568e/3.m3u8
 
 #EXTINF:-1 group-title="Gaming" tvg-id="Gametoon.nl" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/gametoon.png",Gametoon
 http://iptv.prosto.tv:7000/ch256/video.m3u8
 
 #EXTINF:-1 tvg-id="ubisoft_br_tv" group-title="Gaming" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/ubisofttv.png",UbisoftTV (BR)
 https://ubl-ut-samsung.otteravision.com/ubl/ut/ut.m3u8
-
-#EXTINF:-1 tvg-id="SKWAD.us" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/skwad.png" group-title="Gaming",SKWAD
-https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-5f12332eeca6a20040b328e5.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=4J9r1QPr4fmPTb5mZdhs
 
 #EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/traceurban.png" tvg-id="TraceUrban.fr",Trace Urban (FR)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00398-zeasneuropebv-traceurban-zeasn/playlist.m3u8
@@ -201,9 +198,6 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/tracetvAA-trace-latina-lg-es/playlist.
 
 #EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tracebrasil.png" tvg-id="TraceBrasil.br",Trace Brazil (BR)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracebrazuca-xiaomi/playlist.m3u8
-
-#EXTINF:-1 tvg-id="TraceUK.uk" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/traceuk.png" group-title="Rádios",Trace UK
-https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-66be8cd4871131188099527e.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=GhvSQJ4tsPMEh3HA6Sib
 
 #EXTINF:-1 group-title="Rádios" tvg-id="ClubbingTV.fr" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/clubbingtv.png",Clubbing TV
 https://clubbingtv-rakuten.amagi.tv/playlist.m3u8
@@ -241,14 +235,11 @@ https://radios.justweb.pt/8024/stream
 #EXTINF:-1 group-title="Rádios" radio="true" tvg-id="FamaRadio.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/famaradio.png",Fama Rádio
 http://famaradio.mywire.org:8000/digitalfm64
 
-#EXTINF:-1 group-title="Rádios" radio="true" tvg-id="Radio5.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/radio5.png",Rádio 5
-https://radios.justweb.pt/8042/stream
-
 #EXTINF:-1 group-title="Rádios" radio="true" tvg-id="OndaViva.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/ondaviva.png",Onda Viva
 https://centova.radio.com.pt/proxy/524?mp=/stream
 
 #EXTINF:-1 group-title="Rádios" radio="true" tvg-id="MegaHits.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/megahits.png",MegaHits
-https://22353.live.streamtheworld.com/MEGA_HITS_SC
+https://25243.live.streamtheworld.com/MEGA_HITS_SC
 
 #EXTINF:-1 group-title="Rádios" radio="true" tvg-id="NovaEra.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/novaera.png",Nova Era
 http://centova.radios.pt:9478/stream/1/
@@ -260,7 +251,7 @@ http://centova.radio.com.pt:8495/stream/1/
 https://centova.radios.pt/proxy/522?mp=/stream/1/
 
 #EXTINF:-1 group-title="Rádios" radio="true" tvg-id="Orbital.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/orbital.png",Orbital
-https://centova.radios.pt/proxy/401?mp=/stream/
+https://ec2.yesstreaming.net:3025/stream
 
 #EXTINF:-1 radio="true" group-title="Rádios" tvg-id="HiperFM.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/hiperfm.png",HiperFM
 https://centova.radio.com.pt/proxy/500?mp=/stream
