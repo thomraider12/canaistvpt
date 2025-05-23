@@ -54,44 +54,47 @@ https://video-auth4.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvirea
 #EXTINF:-1 group-title="Secundários" tvg-id="FamaTV.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/famatv.png",Fama TV
 https://tv2.fastcast4u.com:3310/live/famatvlive.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tvgalicia.png" tvg-id="GaliciaTVEuropa.es" group-title="Secundários",TVGalicia (ESP)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/24h-espana.png" tvg-id="TVE24h.pt" group-title="Internacionais",24h (ESP)
+https://ztnr.rtve.es/ztnr/1694255.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tvgalicia.png" tvg-id="GaliciaTVEuropa.es" group-title="Internacionais",TVGalicia (ESP)
 https://crtvg-europa.flumotion.cloud/crtvg/europa_high/chunks.m3u8
 
-#EXTINF:-1 group-title="Secundários" tvg-id="66c45afaa72e7b0008a2b153" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/cnn.png",CNN International (US)
+#EXTINF:-1 group-title="Internacionais" tvg-id="66c45afaa72e7b0008a2b153" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/cnn.png",CNN International (US)
 https://stitcher.pluto.tv/stitch/hls/channel/66c45afaa72e7b0008a2b153/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=9438b638-7b18-11ef-9825-de7fcdd69a13
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/foxnews.png" tvg-id="LiveNOWFOX.us" group-title="Secundários",Fox Now (US)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/foxnews.png" tvg-id="LiveNOWFOX.us" group-title="Internacionais",Fox Now (US)
 https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/bloombergtv.png" tvg-id="bloomberg-tv-new" group-title="Secundários",Bloomberg TV (US)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/bloombergtv.png" tvg-id="bloomberg-tv-new" group-title="Internacionais",Bloomberg TV (US)
 https://8c916ce141544c85a361e55898216cf0.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_Bloomberg-2/playlist.m3u8
 
-#EXTINF:-1 tvg-id="BBCNews.uk" group-title="Secundários" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/bbcnews.png",BBC News (UK)
+#EXTINF:-1 tvg-id="BBCNews.uk" group-title="Internacionais" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/bbcnews.png",BBC News (UK)
 https://d1kvlt93j1bc49.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6vpx7bvwjm7ao/v1/amcnetworks_bbcnews_1/samsungheadend_us/latest/main/hls/playlist.m3u8
 
-#EXTINF:-1 group-title="Secundários" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/skynews.png" tvg-id="55b285cd2665de274553d66f",SkyNews (UK)
+#EXTINF:-1 group-title="Internacionais" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/skynews.png" tvg-id="55b285cd2665de274553d66f",SkyNews (UK)
 https://stitcher.pluto.tv/stitch/hls/channel/55b285cd2665de274553d66flivestitch/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=cb5874fc-6948-11ef-b8e3-ea3db3d97a96&profilesFromStream=true
 
-#EXTINF:-1 tvg-id="rtp-internacional" group-title="Internacionais PT" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpinternacional.png",RTP Internacional
+#EXTINF:-1 tvg-id="rtp-internacional" group-title="Internacionais" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpinternacional.png",RTP Internacional
 #EXTVLCOPT:http-user-agent=IE
 http://streaming-live.rtp.pt/liverepeater/rtpi.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="rtp-madeira" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpmadeira.png" group-title="Internacionais PT",RTP Madeira
+#EXTINF:-1 tvg-id="rtp-madeira" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpmadeira.png" group-title="Internacionais",RTP Madeira
 #EXTVLCOPT:http-user-agent=IE
 http://streaming-live.rtp.pt/liverepeater/rtpmadeira.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="rtp-acores" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpacores.png" group-title="Internacionais PT",RTP Açores
+#EXTINF:-1 tvg-id="rtp-acores" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpacores.png" group-title="Internacionais",RTP Açores
 #EXTVLCOPT:http-user-agent=IE
 http://streaming-live.rtp.pt/liverepeater/rtpacoresHD.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="rtp-africa" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpafrica.png" group-title="Internacionais PT",RTP África
+#EXTINF:-1 tvg-id="rtp-africa" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpafrica.png" group-title="Internacionais",RTP África
 #EXTVLCOPT:http-user-agent=IE
 http://streaming-live.rtp.pt/liverepeater/rtpafrica.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="tviinternacional" group-title="Internacionais PT" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tviinternacional.png",TVI Internacional
+#EXTINF:-1 tvg-id="tviinternacional" group-title="Internacionais" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tviinternacional.png",TVI Internacional
 https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/tviint.m3u8
 
-#EXTINF:-1 tvg-id="tviafrica" group-title="Internacionais PT" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tviafrica.png",TVI África
+#EXTINF:-1 tvg-id="tviafrica" group-title="Internacionais" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tviafrica.png",TVI África
 https://video-auth4.iol.pt/live_tvi_africa/live_tvi_africa/edge_servers/tviafrica-480p/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Eurosport1.uk" group-title="Desporto" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/eurosport1.png",Eurosport 1
@@ -193,7 +196,7 @@ https://ubl-ut-samsung.otteravision.com/ubl/ut/ut.m3u8
 #EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/traceurban.png" tvg-id="TraceUrban.fr",Trace Urban (FR)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00398-zeasneuropebv-traceurban-zeasn/playlist.m3u8
 
-#EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tracetoca.png" tvg-id="TraceToca.fr",Trace Toca (ESP)
+#EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tracetoca.png" tvg-id="TraceToca.fr",Trace Toca (FR)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/tracetvAA-trace-latina-lg-es/playlist.m3u8
 
 #EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tracebrasil.png" tvg-id="TraceBrasil.br",Trace Brazil (BR)
