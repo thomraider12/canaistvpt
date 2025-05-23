@@ -22,6 +22,7 @@
   <channel site="nostv.pt" lang="pt" xmltv_id="TraceToca.fr" site_id="543">Trace Toca</channel>
   <channel site="meo.pt" lang="pt" xmltv_id="TraceBrasil.br" site_id="TRACEBR">Trace Brasil</channel>
   <channel site="meo.pt" lang="pt" xmltv_id="ClubbingTV.fr" site_id="CLUBHD">Clubbing TV</channel>
+  <channel site="nostv.pt" lang="pt" xmltv_id="TVE24h.pt" site_id="172">TVE 24h</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="GaliciaTVEuropa.es" site_id="54">TV Galicia</channel>
   <channel site="meo.pt" lang="pt" xmltv_id="Gametoon.nl" site_id="GAMET">Gametoon</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="Motorvision.de" site_id="354">Motorvision</channel>
