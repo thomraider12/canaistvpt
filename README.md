@@ -31,14 +31,15 @@ Também existe uma lista M3U das [MEO Beachcam's](https://thomraider12.github.io
 - TVI Reality ᴴᴰ
 - Fama TV ᴴᴰ
 - LocalVisão TV ᴴᴰ
+
+## Internacionais:
+
+- 24h (ESP) ᴴᴰ
 - TVGalicia (ESP) ᴴᴰ
 - CNN (US) ᴴᴰ
 - Fox Now (US) ᴴᴰ
 - BBC News (UK) ᴴᴰ
 - SkyNews (UK) ᴴᴰ
-
-## Internacionais PT:
-
 - RTP Internacional ᴴᴰ
 - RTP Madeira ѕᴅ
 - RTP Açores ᴴᴰ
@@ -92,8 +93,7 @@ Também existe uma lista M3U das [MEO Beachcam's](https://thomraider12.github.io
 
 - Gametoon (US) ᴴᴰ
 - Ubisoft TV (BR) ᴴᴰ
-- SKWAD (US) ᴴᴰ
-
+  
 ## Música:
 
 - Trace Urban ᴴᴰ
