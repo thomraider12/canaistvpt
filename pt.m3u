@@ -54,11 +54,26 @@ https://video-auth4.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvirea
 #EXTINF:-1 group-title="Secundários" tvg-id="FamaTV.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/famatv.png",Fama TV
 https://tv2.fastcast4u.com:3310/live/famatvlive.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/24h-espana.png" tvg-id="TVE24h.pt" group-title="Internacionais",24h (ESP)
-https://ztnr.rtve.es/ztnr/1694255.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/24h-espana.png" tvg-id="TVE24h.es" group-title="Internacionais",24h (ESP)
+https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr_720.m3u8
+
+#EXTINF:-1 group-title="Internacionais" tvg-id="La1.es" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/la1.png",La 1 (ESP)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr_720.m3u8
+
+#EXTINF:-1 group-title="Internacionais" tvg-id="La2.es" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/la2.png",La 2 (ESP)
+https://rtvelivestream.rtve.es/rtvesec/la2/la2_main_dvr_720.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tvgalicia.png" tvg-id="GaliciaTVEuropa.es" group-title="Internacionais",TVGalicia (ESP)
 https://crtvg-europa.flumotion.cloud/crtvg/europa_high/chunks.m3u8
+
+#EXTINF:-1 group-title="Internacionais" tvg-id="France24English.fr" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/france24.png",France 24 English
+https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
+
+#EXTINF:-1 group-title="Internacionais" tvg-id="France24French.fr" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/france24.png",France 24 Français
+https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8
+
+#EXTINF:-1 group-title="Internacionais" tvg-id="DasErste.de" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/daserste.png",Das Erste (GER)
+https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8
 
 #EXTINF:-1 group-title="Internacionais" tvg-id="66c45afaa72e7b0008a2b153" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/cnn.png",CNN International (US)
 https://stitcher.pluto.tv/stitch/hls/channel/66c45afaa72e7b0008a2b153/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=9438b638-7b18-11ef-9825-de7fcdd69a13
