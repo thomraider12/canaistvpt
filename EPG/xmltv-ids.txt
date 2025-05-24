@@ -121,4 +121,4 @@ rtp-madeira
 
 
 | Todos os id's estão presentes na lista pt.m3u.
-| Mas alguns ids extras foram encontrados no xmltv-ids.txt: TVI.pt, RTPMemoria.pt, SKWAD.us, CNNPortugal.pt, rdp-madeira-antena-3, RTP2.pt, FailArmy.us, Radio5.pt, AviaçãoTV.pt, VmaisTVI.pt, LocalVisaoTV.pt, RTP1.pt, GoloFM.pt, TraceUK.uk, RTP3.pt, TVIReality.pt
+| Mas alguns ids extras foram encontrados no xmltv-ids.txt: AviaçãoTV.pt, Radio5.pt, GoloFM.pt, VmaisTVI.pt, RTPMemoria.pt, FailArmy.us, LocalVisaoTV.pt, RTP3.pt, rdp-madeira-antena-3, RTP1.pt, CNNPortugal.pt, TVI.pt, SKWAD.us, TraceUK.uk, TVIReality.pt, RTP2.pt
