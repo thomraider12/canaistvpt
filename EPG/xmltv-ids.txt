@@ -9,13 +9,18 @@ ARTV.pt
 BBCNews.uk
 ClubbingTV.fr
 CNNPortugal.pt
+DasErste.de
 EuronewsPortuguese.fr
 Eurosport1.uk
 Eurosport2.uk
 FailArmy.us
+France24English.fr
+France24French.fr
 FUELTV.at
 GaliciaTVEuropa.es
 Gametoon.nl
+La1.es
+La2.es
 LiveNOWFOX.us
 LocalVisaoTV.pt
 Motorsport.tv
@@ -33,7 +38,7 @@ TraceBrasil.br
 TraceToca.fr
 TraceUK.uk
 TraceUrban.fr
-TVE24h.pt
+TVE24h.es
 TVI.pt
 TVIReality.pt
 VmaisTVI.pt
@@ -121,4 +126,4 @@ rtp-madeira
 
 
 | Todos os id's estão presentes na lista pt.m3u.
-| Mas alguns ids extras foram encontrados no xmltv-ids.txt: VmaisTVI.pt, RTP3.pt, rdp-madeira-antena-3, LocalVisaoTV.pt, SKWAD.us, CNNPortugal.pt, RTP2.pt, RTP1.pt, Radio5.pt, FailArmy.us, GoloFM.pt, TVIReality.pt, RTPMemoria.pt, TraceUK.uk, AviaçãoTV.pt, TVI.pt
+| Mas alguns ids extras foram encontrados no xmltv-ids.txt: SKWAD.us, TVI.pt, RTPMemoria.pt, Radio5.pt, TVIReality.pt, RTP1.pt, TraceUK.uk, FailArmy.us, AviaçãoTV.pt, VmaisTVI.pt, LocalVisaoTV.pt, RTP3.pt, rdp-madeira-antena-3, RTP2.pt, GoloFM.pt, CNNPortugal.pt
