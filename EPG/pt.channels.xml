@@ -23,6 +23,8 @@
   <channel site="meo.pt" lang="pt" xmltv_id="TraceBrasil.br" site_id="TRACEBR">Trace Brasil</channel>
   <channel site="meo.pt" lang="pt" xmltv_id="ClubbingTV.fr" site_id="CLUBHD">Clubbing TV</channel>
   <channel site="meo.pt" lang="pt" xmltv_id="DasErste.de" site_id="ARD">ARD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="La1.es" site_id="1010">LA 1 HD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="La2.es" site_id="1062">La 2 HD</channel>
   <channel site="nostv.pt" lang="pt" xmltv_id="TVE24h.es" site_id="172">TVE 24h</channel>
   <channel site="nostv.pt" lang="en" xmltv_id="France24English.fr" site_id="109">France 24 English</channel>
   <channel site="nostv.pt" lang="fr" xmltv_id="France24French.fr" site_id="132">France 24 Français</channel>
