@@ -126,4 +126,4 @@ SICReplay.pt
 
 
 | Todos os id's estão presentes na lista pt.m3u.
-| Mas alguns ids extras foram encontrados no xmltv-ids.txt: AviaçãoTV.pt, CNNPortugal.pt, SKWAD.us, LocalVisaoTV.pt, TraceUK.uk, TVI.pt, TVIReality.pt, RTP1.pt, RTP3.pt, RTP2.pt, VmaisTVI.pt, RTPMemoria.pt, Radio5.pt, rdp-madeira-antena-3, GoloFM.pt, FailArmy.us
+| Mas alguns ids extras foram encontrados no xmltv-ids.txt: RTP1.pt, CNNPortugal.pt, TVI.pt, GoloFM.pt, FailArmy.us, TraceUK.uk, rdp-madeira-antena-3, RTPMemoria.pt, AviaçãoTV.pt, RTP2.pt, TVIReality.pt, RTP3.pt, SKWAD.us, Radio5.pt, LocalVisaoTV.pt, VmaisTVI.pt
