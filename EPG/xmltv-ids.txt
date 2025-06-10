@@ -1,21 +1,12 @@
 Canais em XMLTV disponíveis no all.xml.gz:
 
-5ca671f215a62078d2ec0abf
-636adc255bcf470007d6e0e2
-55b285cd2665de274553d66f
-65c69ee3d77d450008c80438
-66c45afaa72e7b0008a2b153
-608181d420fc8500075f612a
-5f1213ba0ecebc00070e170f
-5f1ef1a8cec6be00072a7ac9
-bloomberg-tv-new
-documentaries-rakuten-tv
-family-rakuten-tv
-travelxp-pt
-red-bull-tv-en
-fifa-plus-pt-new
-jukin-fail-army-new
-top-movies-rakuten-tv
+tvi
+cnnpt
+tvificcao
+vmaistvi
+tvireality
+tviinternacional
+tviafrica
 5MinuteCrafts.us
 ARTV.pt
 BBCNews.uk
@@ -54,12 +45,6 @@ TVE24h.es
 TVI.pt
 TVIReality.pt
 VmaisTVI.pt
-CABC52000180Z
-CABB260002016
-GBBA33000557H
-INBA4900004W9
-USBC3900018K6
-USAK3508705A
 rtp-1
 rtp-2
 rtp-3
@@ -68,13 +53,31 @@ rtp-africa
 rtp-internacional
 rtp-acores
 rtp-madeira
-tvi
-cnnpt
-tvificcao
-vmaistvi
-tvireality
-tviinternacional
-tviafrica
+documentaries-rakuten-tv
+family-rakuten-tv
+travelxp-pt
+red-bull-tv-en
+fifa-plus-pt-new
+jukin-fail-army-new
+top-movies-rakuten-tv
+SIC.pt
+SICAltaDefinicao.pt
+SICNoticias.pt
+SICReplay.pt
+5ca671f215a62078d2ec0abf
+636adc255bcf470007d6e0e2
+55b285cd2665de274553d66f
+65c69ee3d77d450008c80438
+66c45afaa72e7b0008a2b153
+608181d420fc8500075f612a
+5f1213ba0ecebc00070e170f
+5f1ef1a8cec6be00072a7ac9
+CABC52000180Z
+CABB260002016
+GBBA33000557H
+INBA4900004W9
+USBC3900018K6
+USAK3508705A
 RTPDesporto1.pt
 RTPDesporto2.pt
 Linear.pt
@@ -119,11 +122,7 @@ rdp-acores-antena-1
 rdp-madeira-antena-1
 rdp-madeira-antena-3
 ubisoft_br_tv
-SIC.pt
-SICAltaDefinicao.pt
-SICNoticias.pt
-SICReplay.pt
 
 
-| Todos os id's estão presentes na lista pt.m3u.
-| Mas alguns ids extras foram encontrados no xmltv-ids.txt: Radio5.pt, TVIReality.pt, GoloFM.pt, RTP3.pt, RTP1.pt, VmaisTVI.pt, rdp-madeira-antena-3, TVI.pt, AviaçãoTV.pt, FailArmy.us, CNNPortugal.pt, SKWAD.us, TraceUK.uk, RTPMemoria.pt, RTP2.pt, LocalVisaoTV.pt
+| Nem todos os id's estão presentes na lista pt.m3u.
+| Faltam os seguintes ids no xmltv-ids.txt: bloomberg-tv-new
