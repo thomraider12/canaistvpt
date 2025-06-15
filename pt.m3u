@@ -85,7 +85,7 @@ https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8
 https://8c916ce141544c85a361e55898216cf0.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_Bloomberg-2/playlist.m3u8
 
 #EXTINF:-1 tvg-id="BBCNews.uk" group-title="Internacionais" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/bbcnews.png",BBC News (UK)
-https://d1kvlt93j1bc49.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6vpx7bvwjm7ao/v1/amcnetworks_bbcnews_1/samsungheadend_us/latest/main/hls/playlist.m3u8
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 
 #EXTINF:-1 group-title="Internacionais" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/skynews.png" tvg-id="55b285cd2665de274553d66f",SkyNews (UK)
 https://stitcher.pluto.tv/stitch/hls/channel/55b285cd2665de274553d66flivestitch/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=cb5874fc-6948-11ef-b8e3-ea3db3d97a96&profilesFromStream=true
