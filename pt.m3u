@@ -79,7 +79,7 @@ https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8
 https://stitcher.pluto.tv/stitch/hls/channel/66c45afaa72e7b0008a2b153/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=9438b638-7b18-11ef-9825-de7fcdd69a13
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/foxnews.png" tvg-id="LiveNOWFOX.us" group-title="Internacionais",Fox Now (US)
-https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8
+https://livetv-fa.tubi.video/fox-live-now/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/bloombergtv.png" tvg-id="bloomberg-tv-new" group-title="Internacionais",Bloomberg TV (US)
 https://8c916ce141544c85a361e55898216cf0.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_Bloomberg-2/playlist.m3u8
@@ -143,7 +143,7 @@ https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01074-fueltv-fueltvbrpt-lgbr/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/motorvision.png" group-title="Desporto" tvg-id="Motorvision.de",Motorvision (NZ)
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=758
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=535
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/speedvision.png" tvg-id="SPEEDVISION.us" group-title="Desporto",SpeedVision (US)
 https://eb9a3a62.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/T05PX1NwZWVkdmlzaW9uX0hMUw/playlist.m3u8
@@ -167,8 +167,7 @@ https://ead2625dd95b42dabfd015fadcf144e3.mediatailor.eu-west-1.amazonaws.com/v1/
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f1ef1a8cec6be00072a7ac9/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7bTARGETOPT%7d&deviceId=%7bPSID%7d&advertisingId=%7bPSID%7d&us_privacy=1YNY&samsung_app_domain=%7bAPP_DOMAIN%7d&samsung_app_name=%7bAPP_NAME%7d&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
 
 #EXTINF:-1 group-title="Filmes/Documentários/Novelas" tvg-id="top-movies-rakuten-tv" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rakutentopmovies.png",Rakuten Top Movies
-https://top-movies-rakuten-tv-pt.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6741/bd46ff3c-1bfd-4060-b71a-51977f279da2/5.m3u8
-
+https://top-movies-rakuten-tv-pt.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6741/master.m3u8?ads.Rakuten+TV+EU_channel=&ads.amznbrmid=&ads.amznregion=&ads.amznslots=&ads.app_bundle=com.rakutentv.web&ads.app_name=RakutenTV&ads.app_store_url=rakuten.tv&ads.app_version=&ads.brand_name=&ads.content_classification=16&ads.content_url=rakutentv&ads.device_lmt=0&ads.device_make=chrome&ads.device_model=GENERIC&ads.device_year=1970&ads.did=80468c00-cffa-492b-9f15-5b0a76093204&ads.env=prod&ads.gam_correlator=979433581816667&ads.gdpr_consent=CQRgHNgQRgHNgAcABBPTBrFsAP_gAEPgACiQKrMRxC5cTWFgeTp1QPsEeYQH1sAwgkAAAACBAqABCCAEMBQAgiAgMASABAACAAIAIBBBAQAkCAAEAEAAQAAAAABIIACAgBAIIABAABEBAABACAACAAAAAACIgAAVAAAAkAAAAFKEAEAAAAAAAkAAAAAAAAAAAAIABAAIAAIAAEAIACgAAQAAAAAAAAAAARgAAAkAAAAAAAAAAAAAABAQEAAAAAAgABAAAAAAABBVaCAAAsACoAFwAOAAeABAACQAFQAMoAaABqADgAHgARwAmABQgC4ALoAYgA0ABvAD8AIQAQ0AiACJAEsAMMAZQAzQBogDnAHwAP0AhABFgCOgElAMUAa8A3ABxADqAH9AP-AiYBF4CRAErAJiAUiArsBbAC8wGLAMsAaqA1kB44D9wH9gR2Am8BOYCdwFFQKrAAAA.f_wACHwAAAAA&ads.google_ad_manager_nonce=&ads.ifa_type=ppid&ads.market=pt&ads.os_language=&ads.platform=web&ads.player_height=1080&ads.player_width=1920&ads.pod_type=playerpage_midroll&ads.ppid=80468c00-cffa-492b-9f15-5b0a76093204&ads.rtv_channel_name=top-movies-rakuten-tv_pt&ads.rtv_content_id=6741&ads.rtv_content_language=por&ads.rtv_language=por&ads.rtvid=271863&ads.streaming_id=a026a146-9f9d-425e-a3e2-1ac14fd9022e&ads.tivo_devcountry=&ads.tivo_devmakedate=&ads.tivo_mvpd=&ads.tivo_platform=&ads.tivo_usid=&ads.tivo_uxloc=&ads.user_type=visitor&channel_id=6741&publishing_platform_id=5
 #EXTINF:-1 group-title="Filmes/Documentários/Novelas" tvg-id="USBC3900018K6" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/mtmn.png",MyTime Movie Network (BR)
 https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8
 
@@ -217,7 +216,7 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/tracetvAA-trace-latina-lg-es/playlist.
 #EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tracebrasil.png" tvg-id="TraceBrasil.br",Trace Brazil (BR)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracebrazuca-xiaomi/playlist.m3u8
 
-#EXTINF:-1 group-title="Rádios" tvg-id="ClubbingTV.fr" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/clubbingtv.png",Clubbing TV
+#EXTINF:-1 group-title="Rádios" tvg-id="ClubbingTV.fr" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/clubbingtv.png",Clubbing TV (não dá)
 https://clubbingtv-rakuten.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 group-title="Rádios" tvg-id="CABC52000180Z" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/vevo.png",VEVO
@@ -251,7 +250,7 @@ https://stream-icy.bauermedia.pt/m80.aac
 https://radios.justweb.pt/8024/stream
 
 #EXTINF:-1 group-title="Rádios" radio="true" tvg-id="FamaRadio.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/famaradio.png",Fama Rádio
-http://famaradio.mywire.org:8000/digitalfm64
+https://eu10.fastcast4u.com/famaradio
 
 #EXTINF:-1 group-title="Rádios" radio="true" tvg-id="OndaViva.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/ondaviva.png",Onda Viva
 https://centova.radio.com.pt/proxy/524?mp=/stream
