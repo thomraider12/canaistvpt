@@ -75,10 +75,10 @@ https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8
 #EXTINF:-1 group-title="Internacionais" tvg-id="DasErste.de" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/daserste.png",Das Erste (GER)
 https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8
 
-#EXTINF:-1 group-title="Internacionais" tvg-id="Globo.br" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/globo.png",Globo (SP, BRA)
+#EXTINF:-1 group-title="Internacionais" tvg-id="Globo.br" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/globo.png",Globo (BRA)
 https://canal2.cdntv.com.br/unitv/unitv88665522/12.m3u8
 
-#EXTINF:-1 group-title="Internacionais" tvg-id="Record.br" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/record.png",Record (SP, BRA)
+#EXTINF:-1 group-title="Internacionais" tvg-id="Record.br" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/record.png",Record (BRA)
 https://canal2.cdntv.com.br/unitv/unitv88665522/57.m3u8
 
 #EXTINF:-1 group-title="Internacionais" tvg-id="66c45afaa72e7b0008a2b153" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/cnn.png",CNN International (US)
