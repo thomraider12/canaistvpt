@@ -30,14 +30,21 @@ Também existe uma lista M3U das [MEO Beachcam's](https://thomraider12.github.io
 - RTP Memória ѕᴅ
 - TVI Reality ᴴᴰ
 - Fama TV ᴴᴰ
-- LocalVisão TV ᴴᴰ
 
 ## Internacionais:
 
 - 24h (ESP) ᴴᴰ
+- La 1 (ESP) ᴴᴰ
+- La 2 (ESP) ᴴᴰ
 - TVGalicia (ESP) ᴴᴰ
-- CNN (US) ᴴᴰ
+- France 24 English ᴴᴰ
+- France 24 Français ᴴᴰ
+- Das Erste (GER) ᴴᴰ
+- Globo (SP, Brasil) ᴴᴰ
+- Record (SP, Brasil) ᴴᴰ
+- CNN International (US) ᴴᴰ
 - Fox Now (US) ᴴᴰ
+- Bloomberg TV (US) ᴴᴰ
 - BBC News (UK) ᴴᴰ
 - SkyNews (UK) ᴴᴰ
 - RTP Internacional ᴴᴰ
@@ -58,7 +65,7 @@ Também existe uma lista M3U das [MEO Beachcam's](https://thomraider12.github.io
 - Motorsport.tv (US) ᴴᴰ
 - FIFA+ ᴴᴰ
 - RedBull TV (US) ᴴᴰ
-- Fuel TV (ESP) ᴴᴰ
+- Fuel TV (BR) ᴴᴰ
 - Motorvision (NZ) ᴴᴰ
 - SpeedVision (US) ᴴᴰ
 - Top Gear (US) ѕᴅ/ᴴᴰ
@@ -107,29 +114,39 @@ Também existe uma lista M3U das [MEO Beachcam's](https://thomraider12.github.io
 
 - Rádio Comercial
 - RFM
-- Fama Rádio
 - Observador
 - TSF
 - Rádio Renascença
-- CM Rádio
+- CMRádio
 - M80
 - Rádio Voz Santo Tirso
+- Fama Rádio
+- Onda Viva
 - MegaHits
 - Nova Era
-- MEO Sudoeste
+- Rádio Sudoeste
+- Nove3Cinco
 - Orbital
-- Hiper FM
+- HiperFM
+- Linear
+- Antena 1
+- Antena 2
+- Antena 3
+- RDP África
+- RDP Internacional
+- RDP Açores
+- RDP Madeira
+- Rádio ZigZag
 - Oxigénio
 - Radar
-- SmoothFM
+- Smooth FM
 - SuperFM
-- batida.fm
-- Nove3Cinco
+- Batida.fm
 - Cidade FM
-- Cidade HipHop
+- Cidade Hip Hop
 - Cidade Hoje
 - Tuga FM
-- Truckers.FM
+- Truckers FM
 
 # Beachcam's:
 
