@@ -87,6 +87,7 @@ France24French.fr
 FUELTV.at
 GaliciaTVEuropa.es
 Gametoon.nl
+Globo.br
 La1.es
 La2.es
 LiveNOWFOX.us
@@ -94,6 +95,7 @@ LocalVisaoTV.pt
 Motorsport.tv
 Motorvision.de
 PortoCanal.pt
+Record.br
 RTP1.pt
 RTP2.pt
 RTP3.pt
