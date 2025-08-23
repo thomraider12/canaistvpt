@@ -37,6 +37,7 @@ def obter_dados_radios_rtp():
 root = ET.Element('tv')
 
 canais_extras = [
+    {"id": "Fogos.pt", "nome": "ACOMPANHE A SITUAÇÃO DOS INCÊNDIOS EM PORTUGAL", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/fogos.png", "desc": "Atualizado de 15 em 15 minutos com informação geral, e de seguida info dos incêncios com >90 operacionais. É um canal temporário enquanto Portugal passa por esta crise."},
     {"id": "RTPDesporto1.pt", "nome": "RTP Desporto 1", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpdesporto1.png", "desc": ""},
     {"id": "RTPDesporto2.pt", "nome": "RTP Desporto 2", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpdesporto2.png", "desc": ""},
     {"id": "Linear.pt", "nome": "Linear - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/linear.png", "desc": "A rádio de Vila do Conde\n\nA Rádio Linear é a rádio de Vila do Conde, distrito do Porto.\nA sua programação é bastante variada, mas da mesma podem destacar-se Hora Desportiva,\nSucessos Linear e o Diário de Vila do Conde, entre outros programas."},
