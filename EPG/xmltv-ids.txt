@@ -68,6 +68,7 @@ vmaistvi
 tvireality
 tviinternacional
 tviafrica
+Fogos.pt
 RTPDesporto1.pt
 RTPDesporto2.pt
 Linear.pt
@@ -127,4 +128,4 @@ SICReplay.pt
 
 
 | Nem todos os id's estão presentes na lista pt.m3u.
-| Faltam os seguintes ids no xmltv-ids.txt: Fogos.pt, bloomberg-tv-new
+| Faltam os seguintes ids no xmltv-ids.txt: bloomberg-tv-new
