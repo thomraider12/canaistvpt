@@ -3,21 +3,13 @@
 #EXTINF:-1 group-title="ESPECIAL" tvg-id="Fogos.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/fogos.png",INCÊNDIOS [ESPECIAL]
 https://raw.githubusercontent.com/thomraider12/extractfogospt/refs/heads/main/video/playlist.m3u8
 
-# Graças ao user LITUATUI
 #EXTINF:-1 group-title="Notícias" tvg-id="rtp-1" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp1.png",RTP 1
 #EXTVLCOPT:http-user-agent=IE
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f80351a117ba3f17a26e0e8cd4dc00c4:a2226def4bc8f249de2daf36b7c12b1e
-http://streaming-live-app.rtp.pt/liverepeater/rtpClean1HD.smil/manifest.mpd
+https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
 
-# Graças ao user LITUATUI
 #EXTINF:-1 group-title="Notícias" tvg-id="rtp-2" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp2.png",RTP 2
 #EXTVLCOPT:http-user-agent=IE
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=761e7af421a4386e82eaa861a49b3d73:f1eb56955a79e555b1f8b96aec3afa25
-http://streaming-live-app.rtp.pt/liverepeater/rtpClean2HD.smil/manifest.mpd
+https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="Notícias" tvg-id="SIC.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/sic.png",SIC
 https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index_5.m3u8
@@ -338,5 +330,6 @@ https://tugafm.stream.laut.fm/tugafm
 
 #EXTINF:-1 group-title="Rádios" radio="true" tvg-id="TruckersFM.uk" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/truckersfm.png",Truckers FM
 https://live.truckers.fm/
+
 
 
