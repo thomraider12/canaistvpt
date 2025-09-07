@@ -144,7 +144,7 @@ https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01074-fueltv-fueltvbrpt-lgbr/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/motorvision.png" group-title="Desporto" tvg-id="Motorvision.de",Motorvision (NZ)
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=535
+https://api-ott.motorvision.tv/loggingmediaurlpassthrough/a.m3u8?version=12&id=1199&partner=sportstribal&channel_name=Motorvision&content_genre=Drag%20Racing%2CMotor%20Racing%2CMotorsport%2CRacing%2CSport&ic=IAB17%2CIAB17-1&provider=FreeLiveSports&us_privacy=&gdpr=1&gdpr_consent=CQXX-4AQXX-4AAHABBENB6FgAAAAAAAAAAAAAAAAAAAA.YAAAAAAAAAAA&coppa=0&content_livestream=1&content_url=https%3A%2F%2Fwww.freelivesports.tv%2F&lmt=0&did=b1uPgi
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/speedvision.png" tvg-id="SPEEDVISION.us" group-title="Desporto",SpeedVision (US)
 https://eb9a3a62.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/T05PX1NwZWVkdmlzaW9uX0hMUw/playlist.m3u8
@@ -202,11 +202,14 @@ https://d22w22d3eu3t35.cloudfront.net/playlist.m3u8
 #EXTINF:-1 group-title="Aleatórios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/stingraynaturescape.png" tvg-id="USAK3508705A",Stingray Naturescape
 https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/d9ec72fa-65ce-445c-ac84-d2f65b63568e/3.m3u8
 
-#EXTINF:-1 group-title="Gaming" tvg-id="Gametoon.nl" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/gametoon.png",Gametoon
+#EXTINF:-1 group-title="Gaming" tvg-id="Gametoon.nl" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/gametoon.png",Gametoon (US)
 http://iptv.prosto.tv:7000/ch256/video.m3u8
 
 #EXTINF:-1 tvg-id="ubisoft_br_tv" group-title="Gaming" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/ubisofttv.png",UbisoftTV (BR)
 https://ubl-ut-samsung.otteravision.com/ubl/ut/ut.m3u8
+
+#EXTINF:-1 tvg-id="" group-title="Gaming" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/GINXeSports.png",GINX e-Sports (US)
+https://amg00348-amg00348c3-freelivesports-emea-7552.playouts.now.amagi.tv/playlist/amg00348-dooyamediagroupinc-ginxtv-freelivesportsemea/playlist.m3u8
 
 #EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/traceurban.png" tvg-id="TraceUrban.fr",Trace Urban (FR)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00398-zeasneuropebv-traceurban-zeasn/playlist.m3u8
@@ -330,6 +333,7 @@ https://tugafm.stream.laut.fm/tugafm
 
 #EXTINF:-1 group-title="Rádios" radio="true" tvg-id="TruckersFM.uk" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/truckersfm.png",Truckers FM
 https://live.truckers.fm/
+
 
 
 
