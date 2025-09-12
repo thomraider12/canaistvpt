@@ -1,43 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
-  <channel site="nostv.pt" lang="pt" xmltv_id="RTP1.pt" site_id="139">RTP 1</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="RTP2.pt" site_id="554">RTP 2</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="SIC.pt" site_id="418">SIC</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="TVI.pt" site_id="555">TVI</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="SICNoticias.pt" site_id="419">SIC Notícias</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="RTP3.pt" site_id="556">RTP 3</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="CNNPortugal.pt" site_id="557">CNN Portugal</channel>
+  <!--
+<channel site="nostv.pt" lang="pt" xmltv_id="RTP1.pt" site_id="139">RTP 1</channel>
+-->
+
+  <!--
+<channel site="nostv.pt" lang="pt" xmltv_id="RTP2.pt" site_id="554">RTP 2</channel>
+-->
+
+  <!--
+<channel site="nostv.pt" lang="pt" xmltv_id="SIC.pt" site_id="418">SIC</channel>
+-->
+
+  <!--
+<channel site="nostv.pt" lang="pt" xmltv_id="TVI.pt" site_id="555">TVI</channel>
+-->
+
+  <!--
+<channel site="nostv.pt" lang="pt" xmltv_id="SICNoticias.pt" site_id="419">SIC Notícias</channel>
+-->
+
+  <!--
+<channel site="nostv.pt" lang="pt" xmltv_id="RTP3.pt" site_id="556">RTP 3</channel>
+-->
+
+  <!--
+<channel site="nostv.pt" lang="pt" xmltv_id="CNNPortugal.pt" site_id="557">CNN Portugal</channel>
+-->
+
   <channel site="nostv.pt" lang="pt" xmltv_id="VmaisTVI.pt" site_id="574">V+ TVI</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="EuronewsPortuguese.fr" site_id="25">Euronews PT</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="ARTV.pt" site_id="49">ARTV</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="RTPMemoria.pt" site_id="80">RTP Memória</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="PortoCanal.pt" site_id="423">Porto Canal</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="LocalVisaoTV.pt" site_id="229">Localvisão TV</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="TVIReality.pt" site_id="567">TVI Reality</channel>  
-  <channel site="nostv.pt" lang="pt" xmltv_id="FUELTV.at" site_id="72">Fuel TV</channel>
+  <!--
+<channel site="nostv.pt" lang="pt" xmltv_id="EuronewsPortuguese.fr" site_id="25">Euronews
+  PT</channel>
+-->
+
+  <!--
+<channel site="nostv.pt" lang="pt" xmltv_id="ARTV.pt" site_id="49">ARTV</channel>
+-->
+
+  <!--
+<channel site="nostv.pt" lang="pt" xmltv_id="RTPMemoria.pt" site_id="80">RTP Memória</channel>
+-->
+
+  <!--
+<channel site="nostv.pt" lang="pt" xmltv_id="PortoCanal.pt" site_id="423">Porto Canal</channel>
+-->
+
+  <!--
+<channel site="nostv.pt" lang="pt" xmltv_id="LocalVisaoTV.pt" site_id="229">Localvisão TV</channel>
+-->
+
+  <channel site="nostv.pt" lang="pt" xmltv_id="TVIReality.pt" site_id="567">TVI Reality</channel>
+  <!--
+<channel site="nostv.pt" lang="pt" xmltv_id="FUELTV.at" site_id="72">Fuel TV</channel>
+-->
+
   <channel site="nostv.pt" lang="pt" xmltv_id="Eurosport1.uk" site_id="145">Eurosport 1</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="Eurosport2.uk" site_id="563">Eurosport 2</channel>  
+  <channel site="nostv.pt" lang="pt" xmltv_id="Eurosport2.uk" site_id="563">Eurosport 2</channel>
   <channel site="tv24.co.uk" lang="en" xmltv_id="BBCNews.uk" site_id="bbc-news">BBC News</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="TraceUrban.fr" site_id="65">Trace Urban</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="TraceToca.fr" site_id="543">Trace Toca</channel>
+  <!--
+<channel site="nostv.pt" lang="pt" xmltv_id="TraceUrban.fr" site_id="65">Trace Urban</channel>
+-->
+
+  <!--
+<channel site="nostv.pt" lang="pt" xmltv_id="TraceToca.fr" site_id="543">Trace Toca</channel>
+-->
+
   <channel site="meo.pt" lang="pt" xmltv_id="TraceBrasil.br" site_id="TRACEBR">Trace Brasil</channel>
   <channel site="meo.pt" lang="pt" xmltv_id="ClubbingTV.fr" site_id="CLUBHD">Clubbing TV</channel>
   <channel site="meo.pt" lang="pt" xmltv_id="DasErste.de" site_id="ARD">ARD</channel>
   <channel site="orangetv.orange.es" lang="es" xmltv_id="La1.es" site_id="1010">LA 1 HD</channel>
   <channel site="orangetv.orange.es" lang="es" xmltv_id="La2.es" site_id="1062">La 2 HD</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="TVE24h.es" site_id="172">TVE 24h</channel>
+  <!--
+<channel site="nostv.pt" lang="pt" xmltv_id="24Horas.es" site_id="172">TVE 24h</channel>
+-->
+
   <channel site="nostv.pt" lang="en" xmltv_id="France24English.fr" site_id="109">France 24 English</channel>
   <channel site="nostv.pt" lang="fr" xmltv_id="France24French.fr" site_id="132">France 24 Français</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="GaliciaTVEuropa.es" site_id="54">TV Galicia</channel>
+  <!--
+<channel site="nostv.pt" lang="pt" xmltv_id="GaliciaTVEuropa.es" site_id="54">TV Galicia</channel>
+-->
+
   <channel site="vivoplay.com.br" lang="pt" xmltv_id="Globo.br" site_id="lch57">Globo SP HD</channel>
   <channel site="vivoplay.com.br" lang="pt" xmltv_id="Record.br" site_id="lch95">Record HD</channel>
-  <channel site="meo.pt" lang="pt" xmltv_id="Gametoon.nl" site_id="GAMET">Gametoon</channel>
+  <!--
+<channel site="meo.pt" lang="pt" xmltv_id="Gametoon.nl" site_id="GAMET">Gametoon</channel>
+-->
+
   <channel site="nostv.pt" lang="pt" xmltv_id="Motorvision.de" site_id="354">Motorvision</channel>
-  <channel site="plex.tv" lang="en" xmltv_id="FailArmy.us" site_id="5e20b730f2f8d5003d739db7-5f170d62b898490041b4936e">FailArmy</channel>
-  <channel site="plex.tv" lang="en" xmltv_id="SPEEDVISION.us" site_id="5e20b730f2f8d5003d739db7-6349ed0eb1adc4cfa571fd37">SPEEDVISION</channel>
-  <channel site="plex.tv" lang="en" xmltv_id="Motorsport.tv" site_id="5e20b730f2f8d5003d739db7-6408c82eebb23ab878e8ddbb">Motorsport.tv</channel>
-  <channel site="plex.tv" lang="en" xmltv_id="5MinuteCrafts.us" site_id="5e20b730f2f8d5003d739db7-63894c1965b848bf2c8a7800">5-Minute Crafts</channel>
-  <channel site="plex.tv" lang="en" xmltv_id="LiveNOWFOX.us" site_id="5e20b730f2f8d5003d739db7-6377ea0e13bb6b1757e14695">LiveNOW from FOX</channel>
-  <channel site="plex.tv" lang="en" xmltv_id="SKWAD.us" site_id="5e20b730f2f8d5003d739db7-5f12332eeca6a20040b328e5">SKWAD</channel>
-  <channel site="plex.tv" lang="en" xmltv_id="TraceUK.uk" site_id="608049aefa2b8ae93c2c3a63-66be8cd4871131188099527e">Trace UK</channel>
+  <channel site="plex.tv" lang="en" xmltv_id="FailArmy.us"
+    site_id="5e20b730f2f8d5003d739db7-5f170d62b898490041b4936e">FailArmy</channel>
+  <channel site="plex.tv" lang="en" xmltv_id="SPEEDVISION.us"
+    site_id="5e20b730f2f8d5003d739db7-6349ed0eb1adc4cfa571fd37">SPEEDVISION</channel>
+  <channel site="plex.tv" lang="en" xmltv_id="Motorsport.tv"
+    site_id="5e20b730f2f8d5003d739db7-6408c82eebb23ab878e8ddbb">Motorsport.tv</channel>
+  <channel site="plex.tv" lang="en" xmltv_id="5MinuteCrafts.us"
+    site_id="5e20b730f2f8d5003d739db7-63894c1965b848bf2c8a7800">5-Minute Crafts</channel>
+  <channel site="plex.tv" lang="en" xmltv_id="LiveNOWFOX.us"
+    site_id="5e20b730f2f8d5003d739db7-6377ea0e13bb6b1757e14695">LiveNOW from FOX</channel>
+  <channel site="plex.tv" lang="en" xmltv_id="SKWAD.us"
+    site_id="5e20b730f2f8d5003d739db7-5f12332eeca6a20040b328e5">SKWAD</channel>
+  <channel site="plex.tv" lang="en" xmltv_id="TraceUK.uk"
+    site_id="608049aefa2b8ae93c2c3a63-66be8cd4871131188099527e">Trace UK</channel>
 </channels>

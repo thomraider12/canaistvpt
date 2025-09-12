@@ -1,3 +1,7 @@
+# VODAFONE EPG
+python vodafonept.py
+echo "EPG da Vodafone atualizada!"
+
 # Mover para a pasta iptv-org-epg onde o npm está instalado
 cd /home/runner/work/canaistvpt/canaistvpt/iptv-org-epg && npm install
 
