@@ -74,38 +74,20 @@ rtp-africa
 rtp-internacional
 rtp-acores
 rtp-madeira
-RTP1.pt
-RTP2.pt
-SIC.pt
-TVI.pt
-SICNoticias.pt
-RTP3.pt
-CNNPortugal.pt
 VmaisTVI.pt
-EuronewsPortuguese.fr
-ARTV.pt
-RTPMemoria.pt
-PortoCanal.pt
-LocalVisaoTV.pt
 TVIReality.pt
-FUELTV.at
 Eurosport1.uk
 Eurosport2.uk
 BBCNews.uk
-TraceUrban.fr
-TraceToca.fr
 TraceBrasil.br
 ClubbingTV.fr
 DasErste.de
 La1.es
 La2.es
-TVE24h.es
 France24English.fr
 France24French.fr
-GaliciaTVEuropa.es
 Globo.br
 Record.br
-Gametoon.nl
 Motorvision.de
 FailArmy.us
 SPEEDVISION.us
@@ -128,4 +110,4 @@ top-movies-rakuten-tv
 
 
 | Nem todos os id's estão presentes na lista pt.m3u.
-| Faltam os seguintes ids no xmltv-ids.txt: bloomberg-tv-new
+| Faltam os seguintes ids no xmltv-ids.txt: FUELTV.at, Gametoon.nl, 24Horas.es, ARTV.pt, TraceToca.fr, GaliciaTVEuropa.es, TraceUrban.fr, bloomberg-tv-new, PortoCanal.pt, EuronewsPortuguese.fr
