@@ -1,8 +1,9 @@
 # VODAFONE EPG
-python vodafonept.py
+cd EPG
+python scripts/vodafonept.py
 echo "EPG da Vodafone atualizada!"
 
-# Mover para a pasta iptv-org-epg onde o npm está instalado
+cd ..
 cd /home/runner/work/canaistvpt/canaistvpt/iptv-org-epg && npm install
 
 # PT EPG
@@ -19,10 +20,8 @@ echo "EPG de Teste atualizada!"
 npm run grab --- --channels=../EPG/opto.sic.pt.channels.xml --output=../EPG/epg-sic-pt.xml --days=8 --maxConnections=100
 echo "EPG da Opto atualizada!"
 
-# Mudar para a pasta EPG para comprimir e apagar os ficheiros
 cd ../EPG
 
-# Comprimir ficheiros XML na pasta EPG
 gzip -f -9 epg*.xml
 echo "Ficheiros comprimidos."
 
