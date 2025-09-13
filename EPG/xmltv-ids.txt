@@ -110,4 +110,4 @@ top-movies-rakuten-tv
 
 
 | Nem todos os id's estão presentes na lista pt.m3u.
-| Faltam os seguintes ids no xmltv-ids.txt: EuronewsPortuguese.fr, TraceToca.fr, bloomberg-tv-new, PortoCanal.pt, GaliciaTVEuropa.es, ARTV.pt, Gametoon.nl, FUELTV.at, 24Horas.es, TraceUrban.fr
+| Faltam os seguintes ids no xmltv-ids.txt: ARTV.pt, TraceUrban.fr, bloomberg-tv-new, GaliciaTVEuropa.es, Gametoon.nl, EuronewsPortuguese.fr, PortoCanal.pt, FUELTV.at, TraceToca.fr, 24Horas.es
