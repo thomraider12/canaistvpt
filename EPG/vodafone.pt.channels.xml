@@ -547,9 +547,6 @@
     <!--
 <channel site="vodafone.pt" lang="pt" xmltv_id="" site_id="8601">BenficaTV Multicam 4</channel>
 -->
-
-    <!--
-<channel site="vodafone.pt" lang="pt" xmltv_id="" site_id="8933">Conta Lá</channel>
--->
+    <channel site="vodafone.pt" lang="pt" xmltv_id="ContaLa.pt" site_id="8933">Conta Lá</channel>
 
 </channels>
