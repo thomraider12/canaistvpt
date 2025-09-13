@@ -23,10 +23,7 @@
 <channel site="vodafone.pt" lang="pt" xmltv_id="Canal11.pt" site_id="5585">Canal 11</channel>
 -->
 
-    <!--
-<channel site="vodafone.pt" lang="pt" xmltv_id="VPlusTVI.pt" site_id="8399">V+ TVI</channel>
--->
-
+    <channel site="vodafone.pt" lang="pt" xmltv_id="VPlusTVI.pt" site_id="8399">V+ TVI</channel>
     <channel site="vodafone.pt" lang="pt" xmltv_id="PortoCanal.pt" site_id="2768">Porto Canal</channel>
     <!--
 <channel site="vodafone.pt" lang="pt" xmltv_id="SICCaras.pt" site_id="2937">SIC Caras</channel>
@@ -73,13 +70,9 @@
 <channel site="vodafone.pt" lang="pt" xmltv_id="SportTV7.pt" site_id="8743">SportTV7</channel>
 -->
 
-    <!--
-<channel site="vodafone.pt" lang="pt" xmltv_id="Eurosport1.fr" site_id="2675">Eurosport 1</channel>
--->
 
-    <!--
-<channel site="vodafone.pt" lang="pt" xmltv_id="Eurosport2.fr" site_id="5043">Eurosport 2</channel>
--->
+    <channel site="vodafone.pt" lang="pt" xmltv_id="Eurosport1.fr" site_id="2675">Eurosport 1</channel>
+    <channel site="vodafone.pt" lang="pt" xmltv_id="Eurosport2.fr" site_id="5043">Eurosport 2</channel>
 
     <!--
 <channel site="vodafone.pt" lang="pt" xmltv_id="ABolaTV.pt" site_id="5583">A Bola TV</channel>
@@ -344,6 +337,8 @@
         Discovery</channel>
 -->
 
+    <channel site="vodafone.pt" lang="pt" xmltv_id="TVIReality.pt"></channel>
+
     <!--
 <channel site="vodafone.pt" lang="pt" xmltv_id="RecordTVEuropa.pt" site_id="2854">Record
     Europa</channel>
@@ -384,9 +379,8 @@
     Box</channel>
 -->
 
-    <!--
-<channel site="vodafone.pt" lang="pt" xmltv_id="GINXTV.uk" site_id="8013">GINX ESports TV</channel>
--->
+
+    <channel site="vodafone.pt" lang="pt" xmltv_id="GINXTV.uk" site_id="8013">GINX ESports TV</channel>
 
     <!--
 <channel site="vodafone.pt" lang="pt" xmltv_id="LuxeTV.lu" site_id="2762">Luxe.tv</channel>
@@ -426,10 +420,8 @@
     site_id="2849">SkyNews</channel>
 -->
 
-    <!--
-<channel site="vodafone.pt" lang="pt" xmltv_id="BBCNews.uk@Europe" site_id="2746">BBC World
-    News</channel>
--->
+    <channel site="vodafone.pt" lang="pt" xmltv_id="BBCNews.uk" site_id="2746">BBC World
+        News</channel>
 
     <!--
 <channel site="vodafone.pt" lang="pt" xmltv_id="CNBCEurope.uk" site_id="2750">CNBC</channel>
@@ -449,15 +441,10 @@
 <channel site="vodafone.pt" lang="pt" xmltv_id="DW.de" site_id="2781">DW</channel>
 -->
 
-    <!--
-<channel site="vodafone.pt" lang="pt" xmltv_id="France24.fr@French" site_id="2770">France 24
+    <channel site="vodafone.pt" lang="pt" xmltv_id="France24French.fr" site_id="2770">France 24
         Français</channel>
--->
-
-    <!--
-<channel site="vodafone.pt" lang="pt" xmltv_id="France24.fr@English" site_id="2769">France 24
+    <channel site="vodafone.pt" lang="pt" xmltv_id="France24English.fr" site_id="2769">France 24
         English</channel>
--->
 
     <!--
 <channel site="vodafone.pt" lang="pt" xmltv_id="TCVInternacional.cv" site_id="2884">TCV
@@ -469,18 +456,10 @@
     site_id="2766">Phoenix</channel>
 -->
 
-    <!--
-<channel site="vodafone.pt" lang="pt" xmltv_id="RTPMadeira.pt" site_id="8424">RTP Madeira</channel>
--->
-
-    <!--
-<channel site="vodafone.pt" lang="pt" xmltv_id="RTPAcores.pt" site_id="7084">RTP Açores</channel>
--->
-
+    <channel site="vodafone.pt" lang="pt" xmltv_id="RTPMadeira.pt" site_id="8424">RTP Madeira</channel>
+    <channel site="vodafone.pt" lang="pt" xmltv_id="RTPAcores.pt" site_id="7084">RTP Açores</channel>
     <channel site="vodafone.pt" lang="pt" xmltv_id="LocalVisaoTV.pt" site_id="2843">Localvisão TV</channel>
-    <!--
-<channel site="vodafone.pt" lang="pt" xmltv_id="RTPAfrica.pt" site_id="2728">RTP África</channel>
--->
+    <channel site="vodafone.pt" lang="pt" xmltv_id="RTPAfrica.pt" site_id="2728">RTP África</channel>
 
     <!--
 <channel site="vodafone.pt" lang="pt" xmltv_id="TPAi.ao" site_id="2751">TPA</channel>
