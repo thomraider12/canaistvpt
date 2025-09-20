@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/thomraider12/extractfogospt/refs/heads/main/vi
 #EXTVLCOPT:http-user-agent=IE
 https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="Notícias" tvg-id="RTP3.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp2.png",RTP 2
+#EXTINF:-1 group-title="Notícias" tvg-id="RTP2.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp2.png",RTP 2
 #EXTVLCOPT:http-user-agent=IE
 https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/playlist.m3u8
 
@@ -336,6 +336,7 @@ https://tugafm.stream.laut.fm/tugafm
 
 #EXTINF:-1 group-title="Rádios" radio="true" tvg-id="TruckersFM.uk" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/truckersfm.png",Truckers FM
 https://live.truckers.fm/
+
 
 
 
