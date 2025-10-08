@@ -20,7 +20,7 @@ https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/tvi.m3u8
 #EXTINF:-1 group-title="Notícias" tvg-id="SICNoticias.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/sicnoticias.png",SIC Notícias
 https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/index_4.m3u8
 
-#EXTINF:-1 group-title="Notícias" tvg-id="RTP3.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp3.png",RTP 3
+#EXTINF:-1 group-title="Notícias" tvg-id="RTP3.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp3.png",RTP Notícias (RTP3)
 #EXTVLCOPT:http-user-agent=IE
 https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8?DVR
 
@@ -336,6 +336,7 @@ https://tugafm.stream.laut.fm/tugafm
 
 #EXTINF:-1 group-title="Rádios" radio="true" tvg-id="TruckersFM.uk" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/truckersfm.png",Truckers FM
 https://live.truckers.fm/
+
 
 
 
