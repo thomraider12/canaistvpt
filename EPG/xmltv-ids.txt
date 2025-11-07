@@ -91,7 +91,7 @@ RTP2.pt
 SIC.pt
 TVI.pt
 SICNoticias.pt
-RTP3.pt
+RTPNoticias.pt
 CNNPortugal.pt
 VPlusTVI.pt
 PortoCanal.pt
