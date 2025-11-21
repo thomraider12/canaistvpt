@@ -1,8 +1,5 @@
 #EXTM3U url-tvg="https://github.com/thomraider12/canaistvpt/raw/main/EPG/all.xml.gz"
 
-#EXTINF:-1 group-title="ESPECIAL" tvg-id="Fogos.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/fogos.png",INCÊNDIOS [ESPECIAL]
-https://raw.githubusercontent.com/thomraider12/extractfogospt/refs/heads/main/video/incendios_gt90_video.mp4
-
 #EXTINF:-1 group-title="Notícias" tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp1.png",RTP 1
 #EXTVLCOPT:http-user-agent=IE
 https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
@@ -18,7 +15,10 @@ https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/in
 https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/tvi.m3u8
 
 #EXTINF:-1 group-title="Notícias" tvg-id="SICNoticias.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/sicnoticias.png",SIC Notícias
-https://d277k9d1h9dro4.cloudfront.net/out/v1/293e7c3464824cbd8818ab8e49dc5fe9/index_4.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0
+#EXTVLCOPT:http-origin=https://sicnoticias.pt
+#EXTVLCOPT:http-referrer=https://sicnoticias.pt/
+https://sicnot.live.impresa.pt/sicnot.m3u8
 
 #EXTINF:-1 group-title="Notícias" tvg-id="RTPNoticias.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpn.png",RTP Notícias
 #EXTVLCOPT:http-user-agent=IE
@@ -336,6 +336,7 @@ https://tugafm.stream.laut.fm/tugafm
 
 #EXTINF:-1 group-title="Rádios" radio="true" tvg-id="TruckersFM.uk" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/truckersfm.png",Truckers FM
 https://live.truckers.fm/
+
 
 
 
