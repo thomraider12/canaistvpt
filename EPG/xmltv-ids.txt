@@ -128,4 +128,4 @@ tviafrica
 
 
 | Nem todos os id's estão presentes na lista pt.m3u.
-| Faltam os seguintes ids no xmltv-ids.txt: bloomberg-tv-new, LiveModeTV.pt, GoloFM.tv
+| Faltam os seguintes ids no xmltv-ids.txt: bloomberg-tv-new, GoloFM.tv, LiveModeTV.pt
