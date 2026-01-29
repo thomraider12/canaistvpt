@@ -55,6 +55,14 @@ RadioSuperFM.pt
 batidafm.pt
 CidadeHipHop.pt
 RadioZigZag.pt
+antena-1
+antena-2
+antena-3
+rdp-africa
+rdp-internacional
+rdp-acores-antena-1
+rdp-madeira-antena-1
+rdp-madeira-antena-3
 ubisoft_br_tv
 5ca671f215a62078d2ec0abf
 636adc255bcf470007d6e0e2
@@ -120,4 +128,4 @@ tviafrica
 
 
 | Nem todos os id's estão presentes na lista pt.m3u.
-| Faltam os seguintes ids no xmltv-ids.txt: GoloFM.tv, rdp-africa, LiveModeTV.pt, bloomberg-tv-new, rdp-madeira-antena-1, antena-3, antena-1, rdp-acores-antena-1, rdp-internacional, antena-2
+| Faltam os seguintes ids no xmltv-ids.txt: GoloFM.tv, LiveModeTV.pt, bloomberg-tv-new
