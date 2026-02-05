@@ -1,4 +1,4 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=2225412,RESOLUTION=1280x720,CODECS="avc1.640029,mp4a.40.2"
-https://video-auth6.iol.pt/edge_servers/tviinternacional-720p/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi81LzIwMjYgNToyNzoxOCBQTSZoYXNoX3ZhbHVlPW5vMnl5ektSZ0FBUGpGbUlzekxGeEE9PSZ2YWxpZG1pbnV0ZXM9MTQ0MCZpZD01NWI4OGNkNy1lZWM0LTRjMjgtOTBjNC1lNDgzOWJiMDVhNjk=
+https://video-auth6.iol.pt/edge_servers/tviinternacional-720p/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi81LzIwMjYgOTowOjIxIFBNJmhhc2hfdmFsdWU9RGlXb2lDOGVkZTk5akRsNS9yS1c0QT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTYxOWVkOTk5LTAyNDItNDIxMy04MDdhLTBiNmUwMzBiZDNiNg==
