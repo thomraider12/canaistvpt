@@ -103,14 +103,6 @@ RadioSuperFM.pt
 batidafm.pt
 CidadeHipHop.pt
 RadioZigZag.pt
-antena-1
-antena-2
-antena-3
-rdp-africa
-rdp-internacional
-rdp-acores-antena-1
-rdp-madeira-antena-1
-rdp-madeira-antena-3
 ubisoft_br_tv
 TraceBrasil.br
 ClubbingTV.fr
@@ -128,4 +120,4 @@ LiveNOWFOX.us
 
 
 | Nem todos os id's estão presentes na lista pt.m3u.
-| Faltam os seguintes ids no xmltv-ids.txt: LiveModeTV.pt, GoloFM.tv, bloomberg-tv-new
+| Faltam os seguintes ids no xmltv-ids.txt: LiveModeTV.pt, rdp-acores-antena-1, rdp-madeira-antena-1, antena-2, GoloFM.tv, bloomberg-tv-new, rdp-internacional, antena-3, rdp-africa, antena-1
