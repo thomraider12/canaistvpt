@@ -52,6 +52,11 @@ GBBA33000557H
 INBA4900004W9
 USBC3900018K6
 USAK3508705A
+5ca671f215a62078d2ec0abf
+636adc255bcf470007d6e0e2
+55b285cd2665de274553d66f
+65c69ee3d77d450008c80438
+66c45afaa72e7b0008a2b153
 rtp-1
 rtp-2
 rtp-memoria
@@ -120,4 +125,4 @@ LiveNOWFOX.us
 
 
 | Nem todos os id's estão presentes na lista pt.m3u.
-| Faltam os seguintes ids no xmltv-ids.txt: 5f1213ba0ecebc00070e170f, 608181d420fc8500075f612a, GoloFM.tv, 636adc255bcf470007d6e0e2, LiveModeTV.pt, bloomberg-tv-new, 65c69ee3d77d450008c80438, 5f1ef1a8cec6be00072a7ac9, 5ca671f215a62078d2ec0abf, 55b285cd2665de274553d66f, 66c45afaa72e7b0008a2b153
+| Faltam os seguintes ids no xmltv-ids.txt: 608181d420fc8500075f612a, LiveModeTV.pt, 5f1213ba0ecebc00070e170f, 5f1ef1a8cec6be00072a7ac9, bloomberg-tv-new, GoloFM.tv
