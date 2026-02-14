@@ -28,10 +28,10 @@ https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/cnnpt.m3u8
 https://video-auth2.iol.pt/live_vmais/live_vmais/edge_servers/vmais-720p/playlist.m3u8
 
 #EXTINF:-1 group-title="Notícias" tvg-id="PortoCanal.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/portocanal.png",Porto Canal
-https://pull-live-156-1.global.ssl.fastly.net/pc5865dc25400thmb-ea6bf03b14fa318f7133/smil:pc1-jhrgyuoqe5865db-68tkgb14fa318f7133f03.smil/playlist.m3u8
+https://pull-live-156-1.global.ssl.fastly.net/pc5865dc25400thmb-ea6bf03b14fa318f7133/pc1-jhrgyuoqe5865db-68tkgb14fa318f7133f03.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="Notícias" tvg-id="EuronewsPortuguese.fr" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/euronews.png",Euronews PT
-https://euronews-live-por-pt.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6572/81ea7373-82bb-4293-a245-303e82ba3e3e/5.m3u8
+https://38cf202f635c4e6d9a9ecd1dc805222a.mediatailor.eu-west-1.amazonaws.com/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6572/aa7d84c5-ed1b-4706-aa89-11c525faf07d/5.m3u8
 
 #EXTINF:-1 group-title="Secundários" tvg-id="ContaLa.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/contala.png",Conta Lá
 https://raw.githubusercontent.com/thomraider12/YouTube_to_m3u/refs/heads/main/canais/contala.m3u8
@@ -70,20 +70,11 @@ https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8
 #EXTINF:-1 group-title="Internacionais" tvg-id="DasErste.de" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/daserste.png",Das Erste (GER)
 https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8
 
-#EXTINF:-1 group-title="Internacionais" tvg-id="Globo.br" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/globo.png",Globo (BRA)
-https://canal2.cdntv.com.br/unitv/unitv88665522/12.m3u8
-
-#EXTINF:-1 group-title="Internacionais" tvg-id="Record.br" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/record.png",Record (BRA)
-https://canal2.cdntv.com.br/unitv/unitv88665522/57.m3u8
-
-#EXTINF:-1 group-title="Internacionais" tvg-id="66c45afaa72e7b0008a2b153" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/cnn.png",CNN International (US)
-https://stitcher.pluto.tv/stitch/hls/channel/66c45afaa72e7b0008a2b153/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=9438b638-7b18-11ef-9825-de7fcdd69a13
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/foxnews.png" tvg-id="LiveNOWFOX.us" group-title="Internacionais",Fox Now (US)
-https://livetv-fa.tubi.video/fox-live-now/index.m3u8
+https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/bloombergtv.png" tvg-id="bloomberg-tv-new" group-title="Internacionais",Bloomberg TV (US)
-https://8c916ce141544c85a361e55898216cf0.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_Bloomberg-2/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/bloombergtv.png" tvg-id="bloomberg-tv-new" group-title="Internacionais",Bloomberg TV Europe (UK)
+https://viamotionhsi.netplus.ch/live/eds/bloomberg/browser-HLS8/bloomberg.m3u8
 
 #EXTINF:-1 tvg-id="BBCNews.uk" group-title="Internacionais" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/bbcnews.png",BBC News (UK)
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8

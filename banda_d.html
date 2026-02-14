@@ -11,28 +11,27 @@
     <script src="script.js" defer></script>
 </head>
 
-<header>
-  <div style="text-align: center;">
-    <img src="logo.png" height="150" alt="Image">
-  </div>
-  <nav>   
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="desporto.html">Desporto</a></li>
-        <li><a href="noticias.html">Notícias</a></li>
-        <li><a href="secundarios.html">Secun-<br>dários</a></li>
-        <li><a href="internacionais.html">Internacionais</a></li>
-        <li><a href="fildocnov.html">Filmes/
-          <br>Doc./Nov.</a></li>
-        <li><a href="banda_d.html">Desenhos<br>Anim. (Atual)</a></li>
-        <li><a href="radios.html">Rádios</a></li>
-        <li><a href="aleatorio.html">Aleatório</a></li>
-        <li><a href="gaming.html">Gaming</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-      </ul>
+
+<body>
+<header class="site-header">
+  <div class="logo"><a href="index.html"><img src="logo.png" alt="CanaisTVPT logo"></a></div>
+  <button class="menu-toggle" aria-label="Abrir menu">&#9776;</button>
+  <nav class="main-nav">
+    <ul>
+      <li><a href="desporto.html">Desporto</a></li>
+      <li><a href="noticias.html">Notícias</a></li>
+      <li><a href="secundarios.html">Secundários</a></li>
+      <li><a href="internacionais.html">Internacionais</a></li>
+      <li><a href="fildocnov.html">Filmes/Doc./Novelas</a></li>
+      <li><a href="radios.html">Rádios</a></li>
+      <li><a href="banda_d.html">Desenhos Anim.</a></li>
+      <li><a href="aleatorio.html">Aleatório</a></li>
+      <li><a href="gaming.html">Gaming</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+    </ul>
   </nav>
 </header>
-<body>
+<main class="container">
   <nav id="nav_escolha">
     <a id="escolha_canal" href="#home" onclick="changeChannel('escolha_not/escolha.mp4', 'escolha_not/escolha.png'); return false;">Home</a>
     <a id="escolha_canal" href="#anime" onclick="changeChannel('http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f12136385bccc00070142ed/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7bTARGETOPT%7d&deviceId=%7bPSID%7d&advertisingId=%7bPSID%7d&us_privacy=1YNY&samsung_app_domain=%7bAPP_DOMAIN%7d&samsung_app_name=%7bAPP_NAME%7d&profileLimit=&profileFloor=&embedPartner=samsung-tvplus', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/anime.png'); return false;">Anime<sup>HD</sup></a>
@@ -58,7 +57,6 @@
 </video>
     <br>
     <br>
-    <script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         var player = videojs('escolha_player');
@@ -74,6 +72,8 @@
         };
     });
 </script>
-    <footer>Feito por Tomás Afonso. 2025 &copy;</footer>
+</main>
+    <footer>Feito por Tomás Afonso. 2026 &copy;</footer>
+
 </body>
 </html>

@@ -11,28 +11,27 @@
     <script src="script.js" defer></script>
 </head>
 
-<header>
-  <div style="text-align: center;">
-    <img src="logo.png" height="150" alt="Image">
-  </div>
-  <nav>   
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="desporto.html">Desporto</a></li>
-        <li><a href="noticias.html">Notícias</a></li>
-        <li><a href="secundarios.html">Secundários</a></li>
-        <li><a href="internacionais.html">Internacionais<br>(Atual)</a></li>
-        <li><a href="fildocnov.html">Filmes/
-          <br>Doc./Nov.</a></li>
-          <li><a href="banda_d.html">Desenhos<br>Anim.</a></li>
-        <li><a href="radios.html">Rádios</a></li>
-        <li><a href="aleatorio.html">Aleatório</a></li>
-        <li><a href="gaming.html">Gaming</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-      </ul>
+
+<body>
+<header class="site-header">
+  <div class="logo"><a href="index.html"><img src="logo.png" alt="CanaisTVPT logo"></a></div>
+  <button class="menu-toggle" aria-label="Abrir menu">&#9776;</button>
+  <nav class="main-nav">
+    <ul>
+      <li><a href="desporto.html">Desporto</a></li>
+      <li><a href="noticias.html">Notícias</a></li>
+      <li><a href="secundarios.html">Secundários</a></li>
+      <li><a href="internacionais.html">Internacionais</a></li>
+      <li><a href="fildocnov.html">Filmes/Doc./Novelas</a></li>
+      <li><a href="radios.html">Rádios</a></li>
+      <li><a href="banda_d.html">Desenhos Anim.</a></li>
+      <li><a href="aleatorio.html">Aleatório</a></li>
+      <li><a href="gaming.html">Gaming</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+    </ul>
   </nav>
 </header>
-<body>
+<main class="container">
     <nav id="nav_escolha">
         <a id="escolha_canal" href="#" onclick="changeChannel('escolha_sec/escolha.mp4', 'escolha_sec/escolha.png'); return false;">Home</a>
         <a id="escolha_canal" href="#24h" onclick="changeChannel('https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr_720.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/24h-espana.png'); return false;">24h (ESP)<sup>HD</sup></a>
@@ -42,20 +41,16 @@
         <a id="escolha_canal" href="#france24en" onclick="changeChannel('https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/france24.png'); return false;">France 24 English<sup>HD</sup></a>
         <a id="escolha_canal" href="#france24fr" onclick="changeChannel('https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/france24.png'); return false;">France 24 Français<sup>HD</sup></a>
         <a id="escolha_canal" href="#daserste" onclick="changeChannel('https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/daserste.png'); return false;">Das Erste (GER)<sup>HD</sup></a>
-        <a id="escolha_canal" href="#globo" onclick="changeChannel('https://canal2.cdntv.com.br/unitv/unitv88665522/12.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/globo.png'); return false;">Globo (SP, Brasil)<sup>HD</sup></a>
-        <a id="escolha_canal" href="#record" onclick="changeChannel('https://canal2.cdntv.com.br/unitv/unitv88665522/57.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/record.png'); return false;">Record (SP, Brasil)<sup>HD</sup></a>
-        <a id="escolha_canal" href="#" onclick="changeChannel('https://crtvg-europa.flumotion.cloud/crtvg/europa_high/chunks.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/tvgalicia.png'); return false;">TVGalicia (ESP)</a>        
-        <a id="escolha_canal" href="#" onclick="changeChannel('https://stitcher.pluto.tv/stitch/hls/channel/66c45afaa72e7b0008a2b153/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=9438b638-7b18-11ef-9825-de7fcdd69a13', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/cnn.png'); return false;">CNN (USA)</a>
-        <a id="escolha_canal" href="#" onclick="changeChannel('https://livetv-fa.tubi.video/fox-live-now/index.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/foxnews.png'); return false;">Fox Now (USA)</a>
-        <a id="escolha_canal" href="#" onclick="changeChannel('https://8c916ce141544c85a361e55898216cf0.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_Bloomberg-2/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/bloombergtv.png'); return false;">BloombergTV (USA)</a>
-        <a id="escolha_canal" href="#" onclick="changeChannel('https://d1kvlt93j1bc49.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6vpx7bvwjm7ao/v1/amcnetworks_bbcnews_1/samsungheadend_us/latest/main/hls/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/bbcnews.png'); return false;">BBC News (UK)</a>
-        <a id="escolha_canal" href="#" onclick="changeChannel('https://stitcher.pluto.tv/stitch/hls/channel/55b285cd2665de274553d66flivestitch/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=cb5874fc-6948-11ef-b8e3-ea3db3d97a96&profilesFromStream=true', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/skynews.png'); return false;">SkyNews (UK)</a>
-        <a id="escolha_canal" href="#" onclick="abrirRTPInternacional()">RTP Internacional</a>
-        <a id="escolha_canal" href="#" onclick="abrirRTPMadeira()">RTP Madeira</a>
-        <a id="escolha_canal" href="#" onclick="abrirRTPAcores()">RTP Açores</a>
-        <a id="escolha_canal" href="#" onclick="abrirRTPAfrica()">RTP África</a>
-        <a id="escolha_canal" href="#" onclick="changeChannel('https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tviint.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/tviinternacional.png'); return false;">TVI Internacional</a>
-        <a id="escolha_canal" href="#" onclick="changeChannel('https://video-auth4.iol.pt/live_tvi_africa/live_tvi_africa/edge_servers/tviafrica-480p/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/tviafrica.png'); return false;">TVI África</a>
+        <a id="escolha_canal" href="#foxnow" onclick="changeChannel('https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/foxnews.png'); return false;">Fox Now (USA)</a>
+        <a id="escolha_canal" href="#bloomberg" onclick="changeChannel('https://viamotionhsi.netplus.ch/live/eds/bloomberg/browser-HLS8/bloomberg.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/bloombergtv.png'); return false;">BloombergTV (USA)</a>
+        <a id="escolha_canal" href="#bbc" onclick="changeChannel('https://d1kvlt93j1bc49.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6vpx7bvwjm7ao/v1/amcnetworks_bbcnews_1/samsungheadend_us/latest/main/hls/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/bbcnews.png'); return false;">BBC News (UK)</a>
+        <a id="escolha_canal" href="#skynews" onclick="changeChannel('https://stitcher.pluto.tv/stitch/hls/channel/55b285cd2665de274553d66flivestitch/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=cb5874fc-6948-11ef-b8e3-ea3db3d97a96&profilesFromStream=true', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/skynews.png'); return false;">SkyNews (UK)</a>
+        <a id="escolha_canal" href="#rtpinter" onclick="abrirRTPInternacional()">RTP Internacional</a>
+        <a id="escolha_canal" href="#rtpmadeira" onclick="abrirRTPMadeira()">RTP Madeira</a>
+        <a id="escolha_canal" href="#rtpacores" onclick="abrirRTPAcores()">RTP Açores</a>
+        <a id="escolha_canal" href="#rtpafrica" onclick="abrirRTPAfrica()">RTP África</a>
+        <a id="escolha_canal" href="#tviinter" onclick="changeChannel('https://raw.githubusercontent.com/thomraider12/canaistvpt/main/m3u8s/tviint.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/tviinternacional.png'); return false;">TVI Internacional</a>
+        <a id="escolha_canal" href="#tviafrica" onclick="changeChannel('https://video-auth4.iol.pt/live_tvi_africa/live_tvi_africa/edge_servers/tviafrica-480p/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/tviafrica.png'); return false;">TVI África</a>
     </nav>    
     <video
         id="escolha_player"
@@ -72,8 +67,7 @@
             src="escolha_sec/escolha.mp4"
             type="video/mp4"
         />
-    </video><br><br>
-    <script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
+    </video>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
         var player = videojs('escolha_player');
@@ -111,6 +105,8 @@ function abrirRTPAfrica() {
 
     </script>
 
-    <footer>Feito por Tomás Afonso. 2025 &copy;</footer>
+</main>
+    <footer>Feito por Tomás Afonso. 2026 &copy;</footer>
+
 </body>
 </html>

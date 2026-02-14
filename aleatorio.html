@@ -11,28 +11,27 @@
     <script src="script.js" defer></script>
 </head>
 
-<header>
-  <div style="text-align: center;">
-    <img src="logo.png" height="150" alt="Image">
-  </div>
-  <nav>   
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="desporto.html">Desporto</a></li>
-        <li><a href="noticias.html">Notícias</a></li>
-        <li><a href="secundarios.html">Secun-<br>dários</a></li>
-        <li><a href="internacionais.html">Internacionais</a></li>
-        <li><a href="fildocnov.html">Filmes/
-          <br>Doc./Nov.</a></li>
-        <li><a href="banda_d.html">Desenhos<br>Anim.</a></li>
-        <li><a href="radios.html">Rádios</a></li>
-        <li><a href="aleatorio.html">Aleatório (Atual)</a></li>
-        <li><a href="gaming.html">Gaming</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-      </ul>
+
+<body>
+<header class="site-header">
+  <div class="logo"><a href="index.html"><img src="logo.png" alt="CanaisTVPT logo"></a></div>
+  <button class="menu-toggle" aria-label="Abrir menu">&#9776;</button>
+  <nav class="main-nav">
+    <ul>
+      <li><a href="desporto.html">Desporto</a></li>
+      <li><a href="noticias.html">Notícias</a></li>
+      <li><a href="secundarios.html">Secundários</a></li>
+      <li><a href="internacionais.html">Internacionais</a></li>
+      <li><a href="fildocnov.html">Filmes/Doc./Novelas</a></li>
+      <li><a href="radios.html">Rádios</a></li>
+      <li><a href="banda_d.html">Desenhos Anim.</a></li>
+      <li><a href="aleatorio.html">Aleatório</a></li>
+      <li><a href="gaming.html">Gaming</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+    </ul>
   </nav>
 </header>
-<body>
+<main class="container">
   <nav id="nav_escolha">
     <a id="escolha_canal" href="#home" onclick="changeChannel('escolha_not/escolha.mp4', 'escolha_not/escolha.png'); return false;">Home</a>
     <a id="escolha_canal" href="#travelxp" onclick="changeChannel('https://b3cc72d0160f4e168712e880c78c4dcc.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pt_TravelXP/playlist.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/travelxp.png'); return false;">TravelXP<sup>HD</sup></a>
@@ -59,7 +58,7 @@
         type="video/mp4"
     />
 </video>
-<script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
+
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         var player = videojs('escolha_player');
@@ -75,8 +74,7 @@
         };
     });
 </script>
-    <br>
-    <br>
-    <footer>Feito por Tomás Afonso. 2025 &copy;</footer>
+</main>
+    <footer>Feito por Tomás Afonso. 2026 &copy;</footer>
 </body>
 </html>

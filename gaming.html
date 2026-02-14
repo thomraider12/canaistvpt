@@ -11,27 +11,27 @@
 <script defer="" src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
 <script defer="" src="script.js"></script>
 </head>
-<header>
-<div style="text-align: center;">
-<img alt="Image" height="150" src="logo.png"/>
-</div>
-<nav>
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="desporto.html">Desporto</a></li>
-<li><a href="noticias.html">Notícias (Atual)</a></li>
-<li><a href="secundarios.html">Secundários</a></li>
-<li><a href="internacionais.html">Internacionais</a></li>
-<li><a href="fildocnov.html">Filmes/<br/>Doc./Nov.</a></li>
-<li><a href="banda_d.html">Desenhos<br/>Anim.</a></li>
-<li><a href="radios.html">Rádios</a></li>
-<li><a href="aleatorio.html">Aleatório</a></li>
-<li><a href="gaming.html">Gaming (Atual)</a></li>
-<li><a href="sobre.html">Sobre</a></li>
-</ul>
-</nav>
-</header>
+
 <body>
+<header class="site-header">
+  <div class="logo"><a href="index.html"><img src="logo.png" alt="CanaisTVPT logo"></a></div>
+  <button class="menu-toggle" aria-label="Abrir menu">&#9776;</button>
+  <nav class="main-nav">
+    <ul>
+      <li><a href="desporto.html">Desporto</a></li>
+      <li><a href="noticias.html">Notícias</a></li>
+      <li><a href="secundarios.html">Secundários</a></li>
+      <li><a href="internacionais.html">Internacionais</a></li>
+      <li><a href="fildocnov.html">Filmes/Doc./Novelas</a></li>
+      <li><a href="radios.html">Rádios</a></li>
+      <li><a href="banda_d.html">Desenhos Anim.</a></li>
+      <li><a href="aleatorio.html">Aleatório</a></li>
+      <li><a href="gaming.html">Gaming</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+    </ul>
+  </nav>
+</header>
+<main class="container">
     <nav id="nav_escolha">
         <a href="#home" id="escolha_canal" onclick="changeChannel('escolha_not/escolha.mp4', 'escolha_not/escolha.png'); return false;">Home</a>
         <a class="gametoon" href="#gametoon" id="escolha_canal" onclick="changeChannel('http://iptv.prosto.tv:7000/ch256/video.m3u8', 'https://raw.githubusercontent.com/thomraider12/icones_tv/main/gametoon.png'); return false;">Gametoon<sup>HD</sup></a>
@@ -41,7 +41,7 @@
     <video class="video-js" controls="" data-setup="{}" height="500" id="escolha_player" poster="escolha_not/escolha.png" preload="auto" width="900">
     <source id="video_source" src="escolha_not/escolha.mp4" type="video/mp4"/>
     </video>
-    <script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
+
     <script>
             document.addEventListener('DOMContentLoaded', function () {
                 var player = videojs('escolha_player');
@@ -57,6 +57,7 @@
                 };
             });
     </script>
-<footer>Feito por Tomás Afonso. 2025 &copy;</footer>
+</main>
+    <footer>Feito por Tomás Afonso. 2026 &copy;</footer>
 </body>
 </html>

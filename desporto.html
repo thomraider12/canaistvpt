@@ -11,28 +11,27 @@
     <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
     <script src="script.js" defer></script>
 </head>
-<header>
-    <div style="text-align: center;">
-      <img src="logo.png" height="150" alt="Image">
-    </div>
-    <nav>   
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="desporto.html">Desporto (Atual)</a></li>
-          <li><a href="noticias.html">Notícias</a></li>
-          <li><a href="secundarios.html">Secun-<br>dários</a></li>
-        <li><a href="internacionais.html">Internacionais</a></li>
-          <li><a href="fildocnov.html">Filmes/
-            <br>Doc./Nov.</a></li>
-            <li><a href="banda_d.html">Desenhos<br>Anim.</a></li>
-          <li><a href="radios.html">Rádios</a></li>
-          <li><a href="aleatorio.html">Aleatório</a></li>
-          <li><a href="gaming.html">Gaming</a></li>
-          <li><a href="sobre.html">Sobre</a></li>
-        </ul>
-    </nav>
-  </header>
+
 <body>
+<header class="site-header">
+  <div class="logo"><a href="index.html"><img src="logo.png" alt="CanaisTVPT logo"></a></div>
+  <button class="menu-toggle" aria-label="Abrir menu">&#9776;</button>
+  <nav class="main-nav">
+    <ul>
+      <li><a href="desporto.html">Desporto</a></li>
+      <li><a href="noticias.html">Notícias</a></li>
+      <li><a href="secundarios.html">Secundários</a></li>
+      <li><a href="internacionais.html">Internacionais</a></li>
+      <li><a href="fildocnov.html">Filmes/Doc./Novelas</a></li>
+      <li><a href="radios.html">Rádios</a></li>
+      <li><a href="banda_d.html">Desenhos Anim.</a></li>
+      <li><a href="aleatorio.html">Aleatório</a></li>
+      <li><a href="gaming.html">Gaming</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+    </ul>
+  </nav>
+</header>
+<main class="container">
     <br><br><nav id="nav_escolha">
       <a id="escolha_canal" href='escolha_d/escolha.html' target='vid'>Home</a>
         <a id="escolha_canal" href='https://v1.sportsonline.ps/channels/pt/sporttv1.php' target='vid'>SportTV1</a>
@@ -81,7 +80,7 @@
           src="escolha_not/escolha.mp4"
           type="video/mp4"
       />
-  </video><script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
+  </video>
   <script>
       document.addEventListener('DOMContentLoaded', function () {
           var player = videojs('escolha_player2');
@@ -97,7 +96,8 @@
           };
       });
   </script>
-  <br>
-  <br>
-  </body>
+</main>
+    <footer>Feito por Tomás Afonso. 2026 &copy;</footer>
+
+</body>
 </html>
