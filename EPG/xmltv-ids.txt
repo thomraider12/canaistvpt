@@ -128,4 +128,4 @@ LiveNOWFOX.us
 
 
 | Nem todos os id's estão presentes na lista pt.m3u.
-| Faltam os seguintes ids no xmltv-ids.txt: GoloFM.tv, LiveModeTV.pt, bloomberg-tv-new
+| Faltam os seguintes ids no xmltv-ids.txt: bloomberg-tv-new, LiveModeTV.pt, GoloFM.tv
