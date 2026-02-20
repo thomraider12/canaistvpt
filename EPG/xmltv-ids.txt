@@ -58,11 +58,6 @@ RadioZigZag.pt
 antena-1
 antena-2
 antena-3
-rdp-africa
-rdp-internacional
-rdp-acores-antena-1
-rdp-madeira-antena-1
-rdp-madeira-antena-3
 ubisoft_br_tv
 5ca671f215a62078d2ec0abf
 636adc255bcf470007d6e0e2
@@ -73,12 +68,8 @@ ubisoft_br_tv
 5f1213ba0ecebc00070e170f
 5f1ef1a8cec6be00072a7ac9
 rtp-1
-rtp-2
-rtp-memoria
 rtp-africa
-rtp-internacional
 rtp-acores
-rtp-madeira
 documentaries-rakuten-tv
 family-rakuten-tv
 travelxp-pt
@@ -128,4 +119,4 @@ tviafrica
 
 
 | Nem todos os id's estão presentes na lista pt.m3u.
-| Faltam os seguintes ids no xmltv-ids.txt: LiveModeTV.pt, GoloFM.tv, bloomberg-tv-new
+| Faltam os seguintes ids no xmltv-ids.txt: rdp-africa, rdp-madeira-antena-1, LiveModeTV.pt, rdp-internacional, rdp-acores-antena-1, GoloFM.tv, bloomberg-tv-new, rtp-internacional
