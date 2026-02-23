@@ -119,4 +119,4 @@ tviafrica
 
 
 | Nem todos os id's estão presentes na lista pt.m3u.
-| Faltam os seguintes ids no xmltv-ids.txt: rdp-internacional, rdp-africa, rdp-madeira-antena-1, rdp-acores-antena-1, GoloFM.tv, rtp-internacional, LiveModeTV.pt, bloomberg-tv-new
+| Faltam os seguintes ids no xmltv-ids.txt: rdp-acores-antena-1, rdp-africa, rtp-internacional, rdp-madeira-antena-1, bloomberg-tv-new, rdp-internacional, GoloFM.tv, LiveModeTV.pt
