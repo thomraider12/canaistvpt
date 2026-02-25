@@ -68,8 +68,12 @@ ubisoft_br_tv
 5f1213ba0ecebc00070e170f
 5f1ef1a8cec6be00072a7ac9
 rtp-1
+rtp-2
+rtp-memoria
 rtp-africa
+rtp-internacional
 rtp-acores
+rtp-madeira
 documentaries-rakuten-tv
 family-rakuten-tv
 travelxp-pt
@@ -119,4 +123,4 @@ tviafrica
 
 
 | Nem todos os id's estão presentes na lista pt.m3u.
-| Faltam os seguintes ids no xmltv-ids.txt: rdp-acores-antena-1, rdp-internacional, rdp-africa, LiveModeTV.pt, bloomberg-tv-new, rdp-madeira-antena-1, GoloFM.tv, rtp-internacional
+| Faltam os seguintes ids no xmltv-ids.txt: rdp-africa, GoloFM.tv, rdp-internacional, LiveModeTV.pt, rdp-acores-antena-1, bloomberg-tv-new, rdp-madeira-antena-1
