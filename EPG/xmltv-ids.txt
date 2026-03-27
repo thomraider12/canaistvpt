@@ -122,4 +122,4 @@ LiveNOWFOX.us
 
 
 | Nem todos os id's estão presentes na lista pt.m3u.
-| Faltam os seguintes ids no xmltv-ids.txt: bloomberg-tv-new, GoloFM.tv, rdp-madeira-antena-1, rdp-internacional, rdp-acores-antena-1, LiveModeTV.pt, rdp-africa
+| Faltam os seguintes ids no xmltv-ids.txt: LiveModeTV.pt, GoloFM.tv, rdp-acores-antena-1, rdp-madeira-antena-1, rdp-internacional, bloomberg-tv-new, rdp-africa
