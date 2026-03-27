@@ -62,6 +62,8 @@ RadioZigZag.pt
 antena-1
 antena-2
 antena-3
+rdp-africa
+rdp-internacional
 ubisoft_br_tv
 TraceBrasil.br
 ClubbingTV.fr
@@ -122,4 +124,4 @@ ContaLa.pt
 
 
 | Nem todos os id's estão presentes na lista pt.m3u.
-| Faltam os seguintes ids no xmltv-ids.txt: bloomberg-tv-new, rdp-internacional, GoloFM.tv, rdp-africa, rdp-acores-antena-1, LiveModeTV.pt, rdp-madeira-antena-1
+| Faltam os seguintes ids no xmltv-ids.txt: rdp-madeira-antena-1, rdp-acores-antena-1, bloomberg-tv-new, GoloFM.tv, LiveModeTV.pt
