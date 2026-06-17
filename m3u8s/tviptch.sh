@@ -1,10 +1,4 @@
 #!/bin/bash
 
-file1="m3u8s/cnnpt.m3u8"
-file2="m3u8s/tvi.m3u8"
-file3="m3u8s/tviint.m3u8"
-
-for file in "$file1" "$file2" "$file3"; do
-  sed -i "s#wmsAuthSign=[^&]*#wmsAuthSign=$(wget -qO- https://services.iol.pt/matrix?userId -o /dev/null)#g" "$file"
-done
+sed -i "s#wmsAuthSign=[^&]*#wmsAuthSign=$(wget -qO- https://services.iol.pt/matrix?userId -o /dev/null)#g" *.m3u8
 exit 0
