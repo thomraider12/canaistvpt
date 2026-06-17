@@ -1,39 +1,43 @@
 name: Atualizar links
+
 on:
   schedule:
-    - cron: '30 */4 * * *'
+    - cron: "0 */4 * * *"
   workflow_dispatch:
 
 jobs:
   update-stream:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Atualizar links
         run: |
-          #!/bin/bash
-          file1="m3u8s/cnnpt.m3u8"
-          file2="m3u8s/tvi.m3u8"
-          file3="m3u8s/tviint.m3u8"
+          cd m3u8s
+          bash streams.sh
 
-          for file in "$file1" "$file2" "$file3"; do
-            sed -i "s#wmsAuthSign=[^&]*#wmsAuthSign=$(wget -qO- https://services.iol.pt/matrix?userId -o /dev/null)#g" "$file"
-          done
-          echo "Ficheiros atualizados."
-          exit 0
-
-      - name: Setup Git config
+      - name: Configurar Git
         run: |
           git config user.name "tvi-pt ch bot"
-          git config user.email "<>"
+          git config user.email "actions@github.com"
 
       - name: Commit e Push
         run: |
-          git pull
+          git pull origin main
+
           git add m3u8s/cnnpt.m3u8
           git add m3u8s/tvi.m3u8
           git add m3u8s/tviint.m3u8
+          git add m3u8s/tvificcao.m3u8
+          git add m3u8s/tvireality.m3u8
+          git add m3u8s/vmaistvi.m3u8
+
+          if git diff --cached --quiet; then
+            echo "Sem alterações."
+            exit 0
+          fi
+
           git commit -m "Atualização automática dos m3u8"
           git push origin main
