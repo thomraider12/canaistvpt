@@ -9,7 +9,10 @@ https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
 https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="Notícias" tvg-id="SIC.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/sic.png",SIC
-https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index_5.m3u8
+#EXTVLCOPT:http-user-agent=Firefox
+#EXTVLCOPT:http-origin=https://sic.pt
+#EXTVLCOPT:http-referrer=https://sic.pt/
+https://sic.live.impresa.pt/sic1080p.m3u8
 
 #EXTINF:-1 group-title="Notícias" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tvi.png",TVI
 https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/tvi.m3u8
@@ -28,7 +31,7 @@ https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8?DVR
 https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/cnnpt.m3u8
 
 #EXTINF:-1 group-title="Notícias" tvg-id="VPlusTVI.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/vmaistvi.png",V+TVI
-https://video-auth2.iol.pt/live_vmais/live_vmais/edge_servers/vmais-720p/playlist.m3u8
+https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/vmaistvi.m3u8
 
 #EXTINF:-1 group-title="Notícias" tvg-id="PortoCanal.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/portocanal.png",Porto Canal
 https://pull-live-156-1.global.ssl.fastly.net/pc5865dc25400thmb-ea6bf03b14fa318f7133/pc1-jhrgyuoqe5865db-68tkgb14fa318f7133f03.smil/playlist.m3u8
@@ -44,7 +47,7 @@ https://playout175.livextend.cloud/livenlin4/_definst_/2liveartvpub2/playlist.m3
 https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="Secundários" tvg-id="TVIReality.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tvireality.png",TVI Reality
-https://video-auth4.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/playlist.m3u8
+https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/tvireality.m3u8
 
 #EXTINF:-1 group-title="Secundários" tvg-id="FamaTV.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/famatv.png",Fama TV
 https://tv2.fastcast4u.com:3310/live/famatvlive.m3u8
@@ -74,7 +77,7 @@ https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8
 https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/bloombergtv.png" tvg-id="bloomberg-tv-new" group-title="Internacionais",Bloomberg TV Europe (UK)
-https://viamotionhsi.netplus.ch/live/eds/bloomberg/browser-HLS8/bloomberg.m3u8
+https://86ebec83.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0Jsb29tYmVyZ1RWUGx1c19ITFM/playlist.m3u8
 
 #EXTINF:-1 tvg-id="BBCNews.uk" group-title="Internacionais" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/bbcnews.png",BBC News (UK)
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
@@ -123,7 +126,7 @@ https://production-fast-sic.content.okast.tv/fa2e8c4385712f9aa54bbe52b1bd9b6b/ch
 https://production-fast-sic.content.okast.tv/fa2e8c4385712f9a7dce4ff2dcebac2e/channels/d9070446-8448-455e-8075-773b1ba12562/d47eae0f-ad77-414a-9a1d-2a6628ba18c3/media_.m3u8
 
 #EXTINF:-1 group-title="Filmes/Documentários/Novelas" tvg-id="tvificcao" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tvificcao.png",TVI Ficção
-https://video-auth2.iol.pt/live_tvi_ficcao/live_tvi_ficcao/edge_servers/tvificcao-720p/playlist.m3u8
+https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/tvificcao.m3u8
 
 #EXTINF:-1 group-title="Filmes/Documentários/Novelas" tvg-id="documentaries-rakuten-tv" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rakutendocumentarios.png",Rakuten Documentaries
 https://documentaries-rakuten-tv-pt.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6222/master.m3u8
@@ -145,9 +148,6 @@ https://rakutenaa-soul-5mincraftenglish-rakuten-du9p7.amagi.tv/playlist/rakutenA
 
 #EXTINF:-1 group-title="Aleatórios" tvg-id="jukin-fail-army-new" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/failarmy.png",FailArmy (US)
 https://bd93cfed.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZhaWxBcm15X0hMUw/playlist.m3u8
-
-#EXTINF:-1 group-title="Aleatórios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/stingraynaturescape.png" tvg-id="USAK3508705A",Stingray Naturescape
-https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8
 
 #EXTINF:-1 tvg-id="ubisoft_br_tv" group-title="Gaming" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/ubisofttv.png",UbisoftTV (BR)
 https://ubl-ut-samsung.otteravision.com/ubl/ut/ut.m3u8
@@ -213,7 +213,7 @@ https://ec2.yesstreaming.net:3025/stream
 https://centova.radio.com.pt/proxy/500?mp=/stream
 
 #EXTINF:-1 radio="true" group-title="Rádios" tvg-id="Linear.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/linear.png",Linear
-https://radios2.justweb.pt/8080/stream
+https://nl.digitalrm.pt:8184/stream
 
 #EXTINF:-1 group-title="Rádios" radio="true" tvg-id="antena-1" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/antena1.png",RTP Antena 1
 https://streaming-live.rtp.pt/liveradio/antena180a/playlist.m3u8?DVR
