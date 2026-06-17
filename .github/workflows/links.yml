@@ -16,7 +16,7 @@ jobs:
       - name: Atualizar links
         run: |
           cd m3u8s
-          bash streams.sh
+          bash tviptch.sh
 
       - name: Configurar Git
         run: |
