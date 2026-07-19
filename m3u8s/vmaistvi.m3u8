@@ -1,4 +1,4 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=1873457,RESOLUTION=1280x720,CODECS="avc1.64001f,mp4a.40.2"
-https://video-auth2.iol.pt/edge_servers/vmais-720p/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xOS8yMDI2IDU6NToxIFBNJmhhc2hfdmFsdWU9aWJ0VnBPQ0F5YXJlQXo2NDhjUFFtZz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWI4Mjg0NDFmLTdiYmEtNDQ5OS1iMzFmLTgxODg4MGY5NzczMw==
+https://video-auth2.iol.pt/edge_servers/vmais-720p/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xOS8yMDI2IDg6NTg6MzEgUE0maGFzaF92YWx1ZT1Cb1g0eHBtU3NIaFB6THhuR056cjBnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MmNmNjEwZDUtMzBiMC00OTg4LTg2MzktYTcxNjFkMTkyNzg3
