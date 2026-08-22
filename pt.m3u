@@ -1,65 +1,65 @@
 #EXTM3U url-tvg="https://github.com/thomraider12/canaistvpt/raw/main/EPG/all.xml.gz"
 
-#EXTINF:-1 group-title="Notícias" tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp1.png",RTP 1
+#EXTINF:-1 group-title="Generalistas" tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp1.png",RTP 1
 #EXTVLCOPT:http-user-agent=IE
 https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="Notícias" tvg-id="RTP2.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp2.png",RTP 2
+#EXTINF:-1 group-title="Generalistas" tvg-id="RTP2.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtp2.png",RTP 2
 #EXTVLCOPT:http-user-agent=IE
 https://streaming-live.rtp.pt/liverepeater/smil:rtp2HD.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="Notícias" tvg-id="SIC.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/sic.png",SIC
+#EXTINF:-1 group-title="Generalistas" tvg-id="SIC.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/sic.png",SIC
 #EXTVLCOPT:http-user-agent=Firefox
 #EXTVLCOPT:http-origin=https://sic.pt
 #EXTVLCOPT:http-referrer=https://sic.pt/
 https://sic.live.impresa.pt/sic1080p.m3u8
 
-#EXTINF:-1 group-title="Notícias" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tvi.png",TVI
+#EXTINF:-1 group-title="Generalistas" tvg-id="TVI.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tvi.png",TVI
 https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/tvi.m3u8
 
-#EXTINF:-1 group-title="Notícias" tvg-id="SICNoticias.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/sicnoticias.png",SIC Notícias
+#EXTINF:-1 group-title="Generalistas" tvg-id="SICNoticias.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/sicnoticias.png",SIC Notícias
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:149.0) Gecko/20100101 Firefox/149.0
 #EXTVLCOPT:http-origin=https://sicnoticias.pt
 #EXTVLCOPT:http-referrer=https://sicnoticias.pt/
 https://sicnot.live.impresa.pt/sicnot.m3u8
 
-#EXTINF:-1 group-title="Notícias" tvg-id="RTPNoticias.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpn.png",RTP Notícias
+#EXTINF:-1 group-title="Generalistas" tvg-id="RTPNoticias.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpn.png",RTP Notícias
 #EXTVLCOPT:http-user-agent=IE
 https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8?DVR
 
-#EXTINF:-1 group-title="Notícias" tvg-id="CNNPortugal.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/cnnpt.png",CNN Portugal
+#EXTINF:-1 group-title="Generalistas" tvg-id="CNNPortugal.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/cnnpt.png",CNN Portugal
 https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/cnnpt.m3u8
 
-#EXTINF:-1 group-title="Notícias" tvg-id="VPlusTVI.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/vmaistvi.png",V+TVI
+#EXTINF:-1 group-title="Generalistas" tvg-id="VPlusTVI.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/vmaistvi.png",V+TVI
 https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/vmaistvi.m3u8
 
-#EXTINF:-1 group-title="Notícias" tvg-id="PortoCanal.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/portocanal.png",Porto Canal
+#EXTINF:-1 group-title="Generalistas" tvg-id="PortoCanal.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/portocanal.png",Porto Canal
 https://pull-live-156-1.global.ssl.fastly.net/pc5865dc25400thmb-ea6bf03b14fa318f7133/pc1-jhrgyuoqe5865db-68tkgb14fa318f7133f03.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="Notícias" tvg-id="EuronewsPortuguese.fr" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/euronews.png",Euronews PT
+#EXTINF:-1 group-title="Generalistas" tvg-id="EuronewsPortuguese.fr" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/euronews.png",Euronews PT
 https://6e52fb8b.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c1BvcnR1Z3Vlc19ITFM/playlist.m3u8
 
-#EXTINF:-1 group-title="Secundários" tvg-id="ARTV.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/artv.png",ARTV
+#EXTINF:-1 group-title="Outros" tvg-id="ARTV.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/artv.png",ARTV
 https://playout175.livextend.cloud/livenlin4/_definst_/2liveartvpub2/playlist.m3u8
 
-#EXTINF:-1 group-title="Secundários" tvg-id="RTPMemoria.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpmemoria.png",RTP Memória
+#EXTINF:-1 group-title="Outros" tvg-id="RTPMemoria.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpmemoria.png",RTP Memória
 #EXTVLCOPT:http-user-agent=IE
 https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="Secundários" tvg-id="TVIReality.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tvireality.png",TVI Reality
+#EXTINF:-1 group-title="Outros" tvg-id="TVIReality.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tvireality.png",TVI Reality
 https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/tvireality.m3u8
 
-#EXTINF:-1 group-title="Secundários" tvg-id="FamaTV.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/famatv.png",Fama TV
+#EXTINF:-1 group-title="Outros" tvg-id="FamaTV.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/famatv.png",Fama TV
 https://tv2.fastcast4u.com:3310/live/famatvlive.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/24h-espana.png" tvg-id="24Horas.es" group-title="Internacionais",24h (ESP)
 https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr_720.m3u8
 
 #EXTINF:-1 group-title="Internacionais" tvg-id="La1.es" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/la1.png",La 1 (ESP)
-https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr_720.m3u8
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8
 
 #EXTINF:-1 group-title="Internacionais" tvg-id="La2.es" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/la2.png",La 2 (ESP)
-https://rtvelivestream.rtve.es/rtvesec/la2/la2_main_dvr_720.m3u8
+https://rtvelivestream.rtve.es/rtvesec/la2/la2_main_dvr.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tvgalicia.png" tvg-id="GaliciaTVEuropa.es" group-title="Internacionais",TVGalicia (ESP)
 https://crtvg-europa.flumotion.cloud/crtvg/europa_high/chunks.m3u8
@@ -83,7 +83,7 @@ https://86ebec83.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 
 #EXTINF:-1 group-title="Internacionais" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/skynews.png" tvg-id="55b285cd2665de274553d66f",SkyNews (UK)
-https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8
+https://linear901-oo-hls0-prd-gtm.delivery.skycdp.com/v1/master/6404a5d732e04991ed59ac7790b61cc065c9aabd/prod-gb-lin-skynews-hls-25-web/stream06/streamPlaylist.m3u8
 
 #EXTINF:-1 tvg-id="rtp-internacional" group-title="Internacionais" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpmundo.png",RTP Mundo (tv)
 #EXTVLCOPT:http-user-agent=IE
@@ -104,6 +104,9 @@ http://streaming-live.rtp.pt/liverepeater/rtpafrica.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="tviinternacional" group-title="Internacionais" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tviinternacional.png",TVI Internacional
 https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/tviint.m3u8
 
+#EXTINF:-1 group-title="Desporto" tvg-id="Canal11.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/canal11.png",Canal 11 Internacional
+https://dy4isoelz3s0x.cloudfront.net/0_hd.m3u8
+
 #EXTINF:-1 tvg-id="RTPDesporto1.pt" group-title="Desporto" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpdesporto1.png",RTP Desporto 1
 https://streaming-live.rtp.pt/liverepeater/smil:desporto1HD.smil/playlist.m3u8
 
@@ -119,25 +122,25 @@ https://f7ccf7fc.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/fueltv.png" group-title="Desporto" tvg-id="FUELTV.at",Fuel TV (BR)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01074-fueltv-fueltvbrpt-lgbr/playlist.m3u8
 
-#EXTINF:-1 group-title="Filmes/Documentários/Novelas" tvg-id="SICAltaDefinicao.pt" tvg-logo="https://github.com/thomraider12/icones_tv/raw/refs/heads/main/sicaltadefinicao.png",SIC Alta Definição
+#EXTINF:-1 group-title="Entretenimento" tvg-id="SICAltaDefinicao.pt" tvg-logo="https://github.com/thomraider12/icones_tv/raw/refs/heads/main/sicaltadefinicao.png",SIC Alta Definição
 https://production-fast-sic.content.okast.tv/fa2e8c4385712f9aa54bbe52b1bd9b6b/channels/d9070446-8448-455e-8075-773b1ba12562/fc831b20-f252-4e7d-8cc5-2d05f4d43c1c/media_.m3u8
 
-#EXTINF:-1 group-title="Filmes/Documentários/Novelas" tvg-id="SICReplay.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/SICReplay.png",SIC Replay
+#EXTINF:-1 group-title="Entretenimento" tvg-id="SICReplay.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/SICReplay.png",SIC Replay
 https://production-fast-sic.content.okast.tv/fa2e8c4385712f9a7dce4ff2dcebac2e/channels/d9070446-8448-455e-8075-773b1ba12562/d47eae0f-ad77-414a-9a1d-2a6628ba18c3/media_.m3u8
 
-#EXTINF:-1 group-title="Filmes/Documentários/Novelas" tvg-id="tvificcao" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tvificcao.png",TVI Ficção
+#EXTINF:-1 group-title="Entretenimento" tvg-id="tvificcao" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tvificcao.png",TVI Ficção
 https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/tvificcao.m3u8
 
-#EXTINF:-1 group-title="Filmes/Documentários/Novelas" tvg-id="documentaries-rakuten-tv" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rakutendocumentarios.png",Rakuten Documentaries
+#EXTINF:-1 group-title="Entretenimento" tvg-id="documentaries-rakuten-tv" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rakutendocumentarios.png",Rakuten Documentaries
 https://documentaries-rakuten-tv-pt.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6222/master.m3u8
 
-#EXTINF:-1 group-title="Filmes/Documentários/Novelas" tvg-id="top-movies-rakuten-tv" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rakutentopmovies.png",Rakuten Top Movies
+#EXTINF:-1 group-title="Entretenimento" tvg-id="top-movies-rakuten-tv" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rakutentopmovies.png",Rakuten Top Movies
 https://top-movies-rakuten-tv-pt.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6741/master.m3u8
 
-#EXTINF:-1 group-title="Filmes/Documentários/Novelas" tvg-id="USBC3900018K6" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/mtmn.png",MyTime Movie Network (BR)
+#EXTINF:-1 group-title="Entretenimento" tvg-id="USBC3900018K6" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/mtmn.png",MyTime Movie Network (BR)
 https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 group-title="BD" tvg-id="family-rakuten-tv" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rakutenfamilia.png",Rakuten Family
+#EXTINF:-1 group-title="Infantil" tvg-id="family-rakuten-tv" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rakutenfamilia.png",Rakuten Family
 https://48faa1daf24549fab34594bc5bdd99f2.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6213/master.m3u8
 
 #EXTINF:-1 group-title="Aleatórios" tvg-id="travelxp-pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/travelxp.png",TravelXP
@@ -160,9 +163,6 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/tracetvAA-trace-latina-lg-es/playlist.
 
 #EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tracebrasil.png" tvg-id="TraceBrasil.br",Trace Brazil (BR)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracebrazuca-xiaomi/playlist.m3u8
-
-#EXTINF:-1 group-title="Rádios" tvg-id="CABC52000180Z" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/vevo.png",VEVO
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00056-vevotv-vevopopau-samsungau/playlist.m3u8
 
 #EXTINF:-1 group-title="Rádios" tvg-id="OnFM.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/onfm.png",ONFM
 https://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8
@@ -271,13 +271,3 @@ https://tugafm.stream.laut.fm/tugafm
 
 #EXTINF:-1 group-title="Rádios" radio="true" tvg-id="TruckersFM.uk" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/truckersfm.png",Truckers FM
 https://live.truckers.fm/
-
-
-
-
-
-
-
-
-
-
