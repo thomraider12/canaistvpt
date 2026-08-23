@@ -126,4 +126,4 @@ LiveNOWFOX.us
 
 
 | Nem todos os id's estão presentes na lista pt.m3u.
-| Faltam os seguintes ids no xmltv-ids.txt: bloomberg-tv-new, Canal11.pt
+| Faltam os seguintes ids no xmltv-ids.txt: Canal11.pt, bloomberg-tv-new
