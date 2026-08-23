@@ -1,8 +1,3 @@
-# VODAFONE EPG
-cd EPG
-python scripts/vodafonept.py
-echo "EPG da Vodafone atualizada!"
-
 cd ..
 cd /home/runner/work/canaistvpt/canaistvpt/iptv-org-epg && npm install
 

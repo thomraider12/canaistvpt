@@ -37,15 +37,16 @@ def obter_dados_radios_rtp():
 root = ET.Element('tv')
 
 canais_extras = [
-    {"id": "Fogos.pt", "nome": "ACOMPANHE A SITUAÇÃO DOS INCÊNDIOS EM PORTUGAL", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/fogos.png", "desc": "Atualizado de 15 em 15 minutos com informação geral, e de seguida info dos incêncios com >90 operacionais. É um canal temporário enquanto Portugal passa por esta crise."},
+    {"id": "KuriakosMusic.pt", "nome": "Kuriakos Music - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/kuriakosmusic.png", "desc": ""},
+    {"id": "KuriakosCine.pt", "nome": "Kuriakos Cine - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/cinekuriakos.png", "desc": ""},
+    {"id": "KuriakosKids.pt", "nome": "Kuriakos Kids - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/kuriakoskids.png", "desc": ""},
+    {"id": "ADBTV.pt", "nome": "ADB TV - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/adbtv.png", "desc": ""},
+    {"id": "RadioSines.pt", "nome": "Rádio Sines - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/radiosines.png", "desc": ""},
     {"id": "RTPDesporto1.pt", "nome": "RTP Desporto 1", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpdesporto1.png", "desc": ""},
     {"id": "RTPDesporto2.pt", "nome": "RTP Desporto 2", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpdesporto2.png", "desc": ""},
     {"id": "Linear.pt", "nome": "Linear - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/linear.png", "desc": "A rádio de Vila do Conde\n\nA Rádio Linear é a rádio de Vila do Conde, distrito do Porto.\nA sua programação é bastante variada, mas da mesma podem destacar-se Hora Desportiva,\nSucessos Linear e o Diário de Vila do Conde, entre outros programas."},
-    {"id": "Radio5.pt", "nome": "Rádio 5 - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/radio5.png", "desc": "Só música portuguesa.\n\nEm 89FM e 88.4FM para o Grande Porto, a\nRádio 5 dedica 24 horas por dia à música dos portugueses.\nCom emissão online."},
     {"id": "OndaViva.pt", "nome": "Onda Viva - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/ondaviva.png", "desc": "No ar desde o final dos anos 80,\na Rádio Onda Viva é uma das rádios mais ouvidos do Litoral Norte Português.\nA sua programação é variada e inclui desporto, música, entretenimento, passatempos e muito mais."},
     {"id": "FamaTV.pt", "nome": "FamaTV - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/famatv.png", "desc": "A FamaTV é uma televisão/publicação local generalista, com raízes em Vila Nova de Famalicão, mas atenta aos acontecimentos e valores dos municípios limítrofes.\nA FamaTV esforça-se por apresentar uma programação interessante e atual promovendo as características da cultura local e regional."},
-    {"id": "GoloFM.pt", "nome": "Golo FM - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/golofm.png", "desc": "A Primeira Rádio Desporto.\nA maior fábrica de notícias de Portugal que pode ouvir em FM e online."},
-    {"id": "AviaçãoTV.pt", "nome": "AviaçãoTV - Direto (Lisboa)", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/aviaçãotv.png", "desc": "Assiste ao aeroporto de Lisboa em direto todos os dias."},
     {"id": "OnFM.pt", "nome": "OnFM - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/onfm.png", "desc": "Liga-te.\nA OnFM é a primeira visual rádio em Portugal."},
     {"id": "RadioComercial.pt", "nome": "Rádio Comercial - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/radiocomercial.png", "desc": "A Melhor Música, sempre.\nEm casa, no carro em todo o lado."},
     {"id": "RFM.pt", "nome": "RFM - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/rfm.png", "desc": "Só grandes músicas."},
@@ -55,7 +56,7 @@ canais_extras = [
     {"id": "FamaRadio.pt", "nome": "Fama Rádio - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/famaradio.png", "desc": "A Melhor Seleção de Todas.\nUma estação de Rádio FM com um forte posicionamento nos clássicos; PopRock; anos 80 90 e 00, alternativo às atuais ofertas deste segmento."},
     {"id": "TSF.pt", "nome": "TSF - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/tsf.png", "desc": "Vamos ao fim da rua, Vamos ao fim do mundo.\nThe reference for radio news in Portugal."},
     {"id": "M80.pt", "nome": "M80 - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/m80.png", "desc": "Se a sua vida tem uma música, ela passa na M80."},
-    {"id": "VozSantoTirso.pt", "nome": "Rádio Voz Santo Tirso - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/radiovozsantotirso.png", "desc": "Uma voz amiga\n\nA Rádio Voz de Santo Tirso é uma estação local, generalista com uma programação diversificada,\ncultural, entertenimento e musical de forma a integrar os valores artísticos\nlocais, nacionais e estrangeiros."},
+    {"id": "RadioFestival.pt", "nome": "Rádio Festival - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/radiofestival.png", "desc": "Esta rádio oferece uma programação vibrante e diversificada, focada em música portuguesa e internacional. Com transmissões diárias, encanta os ouvintes com uma seleção que vai dos clássicos aos contemporâneos."},
     {"id": "MegaHits.pt", "nome": "MegaHits - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/megahits.png", "desc": "Mais Música Nova\n45 minutos de música sem parar."},
     {"id": "NovaEra.pt", "nome": "Nova Era - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/novaera.png", "desc": "Música Sem Parar.\nAnimar, agitar e fazer vibrar os melhores ouvintes do Mundo."},
     {"id": "RadioSudoeste.pt", "nome": "Rádio Sudoeste - Direto", "logo": "https://raw.githubusercontent.com/thomraider12/icones_tv/main/radiosudoeste.png", "desc": "Um Festival de Rádio dedicado ao festival MEO Sudoeste, promovido pelo grupo Altice e originalmente chamado Festival Sudoeste na década de 1990.\nAtualmente, também é uma estação de rádio com várias frequências em Portugal."},
@@ -110,18 +111,40 @@ for canal, programas in epg_radios.items():
     display_name = ET.SubElement(channel, 'display-name')
     display_name.text = canal  # ou outro nome se disponível
 
+    # Junta todos os programas de todos os "periodos" (manha, tarde, noite, etc.)
+    # numa única lista, para conseguirmos calcular corretamente a hora de fim
+    # de cada programa com base no início do programa seguinte.
+    lista_completa = []
     for periodo, lista_programas in programas.items():
-        for programa in lista_programas:
-            start_time = datetime.strptime(programa["date"], "%Y-%m-%d %H:%M:%S")
-            start_str = start_time.strftime('%Y%m%d%H%M%S +0000')
-            stop_time = start_time + timedelta(hours=1)  # Duração padrão de 1 hora
-            end_str = stop_time.strftime('%Y%m%d%H%M%S +0000')
+        lista_completa.extend(lista_programas)
 
-            programme = ET.SubElement(root, 'programme', start=start_str, stop=end_str, channel=canal)
-            title = ET.SubElement(programme, 'title', lang="pt")
-            title.text = programa["name"]
-            description = ET.SubElement(programme, 'desc', lang="pt")
-            description.text = programa["description"]
+    # Ordena cronologicamente pela data/hora de início
+    lista_completa.sort(key=lambda p: p["date"])
+
+    for idx, programa in enumerate(lista_completa):
+        start_time = datetime.strptime(programa["date"], "%Y-%m-%d %H:%M:%S")
+
+        # A hora de fim é a hora de início do programa seguinte.
+        # Só usamos o fallback de +1h para o último programa da lista
+        # (não há próximo programa com que calcular a hora de fim real).
+        if idx + 1 < len(lista_completa):
+            stop_time = datetime.strptime(lista_completa[idx + 1]["date"], "%Y-%m-%d %H:%M:%S")
+            # Salvaguarda: se por algum motivo o próximo programa tiver
+            # a mesma hora de início (dados duplicados) ou uma hora anterior,
+            # evita durações negativas/zero usando o fallback de 1h.
+            if stop_time <= start_time:
+                stop_time = start_time + timedelta(hours=1)
+        else:
+            stop_time = start_time + timedelta(hours=1)
+
+        start_str = start_time.strftime('%Y%m%d%H%M%S +0000')
+        end_str = stop_time.strftime('%Y%m%d%H%M%S +0000')
+
+        programme = ET.SubElement(root, 'programme', start=start_str, stop=end_str, channel=canal)
+        title = ET.SubElement(programme, 'title', lang="pt")
+        title.text = programa["name"]
+        description = ET.SubElement(programme, 'desc', lang="pt")
+        description.text = programa["description"]
 
 def formatar_xml(element):
     rough_string = ET.tostring(element, 'utf-8')

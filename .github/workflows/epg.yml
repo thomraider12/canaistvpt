@@ -57,10 +57,10 @@ jobs:
           cd EPG
           python scripts/tvi.py
 
-#      - name: Atualizar listas RakutenTV
-#        run: |
-#          cd EPG/scripts
-#          python rakuten.py
+      - name: Atualizar listas RakutenTV
+        run: |
+          cd EPG/scripts
+          python rakuten.py
 
       - name: Atualizar listas extra
         run: |
