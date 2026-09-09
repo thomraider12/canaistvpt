@@ -179,17 +179,17 @@ https://rakutenaa-soul-5mincraftenglish-rakuten-du9p7.amagi.tv/playlist/rakutenA
 #EXTINF:-1 group-title="Outros" tvg-id="jukin-fail-army-new" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/failarmy.png",FailArmy (US)
 https://bd93cfed.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZhaWxBcm15X0hMUw/playlist.m3u8
 
-#EXTINF:-1 group-title="Rádios" tvg-id="stingray-total-hits-pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/stingraytotalhitsportugal.png",Stingray Total Hits Portugal
-https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/3a0184af-50b3-4974-9139-10f518ce9637/1.m3u8
+#EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/traceurban.png" tvg-id="TraceUrban.fr",Trace Urban
+https://channels.trace.plus/Traceprod/URBAN_INTER_hd/index.m3u8
 
-#EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/traceurban.png" tvg-id="TraceUrban.fr",Trace Urban (FR)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00398-zeasneuropebv-traceurban-zeasn/playlist.m3u8
+#EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tracetoca.png" tvg-id="TraceToca.fr",Trace Toca
+https://channels.trace.plus/Traceprod/TOCA_hd/index.m3u8
 
-#EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tracetoca.png" tvg-id="TraceToca.fr",Trace Toca (FR)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/tracetvAA-trace-latina-lg-es/playlist.m3u8
+#EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tracelatina.png" tvg-id="TraceLatina.fr",Trace Latina (FR)
+https://channels.trace.plus/Traceprod/LATINA_hd/index.m3u8
 
-#EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tracebrasil.png" tvg-id="TraceBrasil.br",Trace Brazil (BR)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracebrazuca-xiaomi/playlist.m3u8
+#EXTINF:-1 group-title="Rádios" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tracebrasil.png" tvg-id="TraceBrasil.br",Trace Brasil (BR)
+https://amg01131-tracetv-tracebrazuca-samsungbr-rfenz.amagi.tv/playlist/amg01131-tracetv-tracebrazuca-samsungbr/playlist.m3u8
 
 #EXTINF:-1 group-title="Rádios" tvg-id="OnFM.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/onfm.png",ONFM
 https://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8
