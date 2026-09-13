@@ -104,6 +104,9 @@ http://streaming-live.rtp.pt/liverepeater/rtpacoresHD.smil/playlist.m3u8
 #EXTVLCOPT:http-user-agent=IE
 http://streaming-live.rtp.pt/liverepeater/rtpafrica.smil/playlist.m3u8
 
+#EXTINF:-1 tvg-id="SICInternacional.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/sicinternacional.png" group-title="Internacionais",SIC Internacional
+https://stream.mdc.akamaized.net/live/ngrp:sicinternational_web/playlist.m3u8
+
 #EXTINF:-1 tvg-id="tviinternacional" group-title="Internacionais" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/tviinternacional.png",TVI Internacional
 https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/tviint.m3u8
 
