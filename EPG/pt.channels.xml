@@ -43,12 +43,14 @@
   <channel site="meo.pt" lang="pt" xmltv_id="ClubbingTV.fr" site_id="CLUBHD">Clubbing TV</channel>
   <channel site="meo.pt" lang="pt" xmltv_id="DasErste.de" site_id="ARD">ARD</channel>
 
-
   <!-- ==================== ORANGE TV ==================== -->
 
   <channel site="orangetv.orange.es" lang="es" xmltv_id="La1.es" site_id="1010">LA 1 HD</channel>
   <channel site="orangetv.orange.es" lang="es" xmltv_id="La2.es" site_id="1062">La 2 HD</channel>
 
+  <!-- ==================== MEUGUIA.TV ==================== -->
+  <channel site="meuguia.tv" site_id="SIC" lang="pt" xmltv_id="SICInternacional.pt">SIC International</channel>
+  
   <!-- ==================== PLEX ==================== -->
 
   <channel site="plex.tv" lang="en" xmltv_id="FailArmy.us" site_id="5e20b730f2f8d5003d739db7-5f170d62b898490041b4936e">FailArmy</channel>
