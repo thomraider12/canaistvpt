@@ -30,6 +30,9 @@ https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8?DVR
 #EXTINF:-1 group-title="Generalistas" tvg-id="CNNPortugal.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/cnnpt.png",CNN Portugal
 https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/cnnpt.m3u8
 
+#EXTINF:-1 group-title="Desporto" tvg-id="Canal11.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/canal11.png",Canal 11
+http://50.7.120.34:8080/CANAL_11/index.m3u8
+
 #EXTINF:-1 group-title="Generalistas" tvg-id="VPlusTVI.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/vmaistvi.png",V+TVI
 https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/vmaistvi.m3u8
 
@@ -113,6 +116,9 @@ https://github.com/thomraider12/canaistvpt/raw/main/m3u8s/tviint.m3u8
 #EXTINF:-1 group-title="Desporto" tvg-id="Canal11.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/canal11internacional.png",Canal 11 Internacional
 https://dy4isoelz3s0x.cloudfront.net/0_hd.m3u8
 
+#EXTINF:-1 group-title="Desporto" tvg-id="SportTVPlus.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/sporttvplus.png",SportTV+
+http://50.7.120.34:8080/SPORT_TV_MAIS/index.m3u8
+
 #EXTINF:-1 tvg-id="RTPDesporto1.pt" group-title="Desporto" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rtpdesporto1.png",RTP Desporto 1
 https://streaming-live.rtp.pt/liverepeater/smil:desporto1HD.smil/playlist.m3u8
 
@@ -148,6 +154,12 @@ https://top-movies-rakuten-tv-pt.fast.rakuten.tv/v1/master/0547f18649bd788bec7b6
 
 #EXTINF:-1 group-title="Entretenimento" tvg-id="USBC3900018K6" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/mtmn.png",MyTime Movie Network (BR)
 https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="Entretenimento" tvg-id="FashionBox.nl" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/fashionbox.png",Fashion Box
+https://dash2.antik.sk/live/test_fashionbox_medium_atk/playlist.m3u8
+
+#EXTINF:-1 group-title="Entretenimento" tvg-id="FastFunBox.pt" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/fastfunbox.png",Fast & Fun Box
+https://dash3.antik.sk/live/test_fast_and_funbox_medium_atk/playlist.m3u8
 
 #EXTINF:-1 group-title="Infantil" tvg-id="family-rakuten-tv" tvg-logo="https://raw.githubusercontent.com/thomraider12/icones_tv/main/rakutenfamilia.png",Rakuten Family
 https://48faa1daf24549fab34594bc5bdd99f2.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6213/master.m3u8
