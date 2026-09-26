@@ -13,19 +13,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Atualizar links TVI
+      - name: Atualizar TVI
         run: |
           cd m3u8s
           bash tviptch.sh
 
-      - name: Atualizar SIC
-        run: |
-          cd m3u8s
-          bash sicptch.sh
-
       - name: Configurar Git
         run: |
-          git config user.name "links bot"
+          git config user.name "tvi-pt ch links bot"
           git config user.email "actions@github.com"
 
       - name: Commit e Push
@@ -38,7 +33,6 @@ jobs:
           git add m3u8s/tvificcao.m3u8
           git add m3u8s/tvireality.m3u8
           git add m3u8s/vmaistvi.m3u8
-          git add m3u8s/sic.m3u8
 
           if git diff --cached --quiet; then
             echo "Sem alterações."
