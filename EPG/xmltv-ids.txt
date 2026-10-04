@@ -127,4 +127,4 @@ USAK3508705A
 
 
 | Nem todos os id's estão presentes na lista pt.m3u.
-| Faltam os seguintes ids no xmltv-ids.txt: TraceLatina.fr, bloomberg-tv-plus, TVIReality.pt, SportTVPlus.pt, FashionBox.nl, ConecTVAlgarve.pt, FastFunBox.pt
+| Faltam os seguintes ids no xmltv-ids.txt: bloomberg-tv-plus, TraceLatina.fr, FashionBox.nl, TVIReality.pt, ConecTVAlgarve.pt, FastFunBox.pt, SportTVPlus.pt
