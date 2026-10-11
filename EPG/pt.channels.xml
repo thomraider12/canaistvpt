@@ -12,7 +12,9 @@
   <channel site="vodafone.pt" lang="pt" xmltv_id="CNNPortugal.pt" site_id="5678">CNN Portugal</channel>
   <channel site="vodafone.pt" lang="pt" xmltv_id="Canal11.pt" site_id="5585">Canal 11</channel>
   <channel site="vodafone.pt" lang="pt" xmltv_id="VPlusTVI.pt" site_id="8399">V+ TVI</channel>
+  <channel site="vodafone.pt" lang="pt" xmltv_id="SportTVPlus.pt" site_id="2930">SportTV+</channel>
   <channel site="vodafone.pt" lang="pt" xmltv_id="PortoCanal.pt" site_id="2768">Porto Canal</channel>
+  <channel site="vodafone.pt" lang="pt" xmltv_id="TVIReality.pt" site_id="8397">TVI Reality</channel>
   <channel site="vodafone.pt" lang="pt" xmltv_id="RTPMemoria.pt" site_id="2727">RTP Memória</channel>
   <channel site="vodafone.pt" lang="pt" xmltv_id="Eurosport1.fr" site_id="2675">Eurosport 1</channel>
   <channel site="vodafone.pt" lang="pt" xmltv_id="Eurosport2.fr" site_id="5043">Eurosport 2</channel>
@@ -36,20 +38,26 @@
   <channel site="vodafone.pt" lang="pt" xmltv_id="RTPAfrica.pt" site_id="2728">RTP África</channel>
   <channel site="vodafone.pt" lang="pt" xmltv_id="GaliciaTVEuropa.es" site_id="2710">Galicia</channel>
   <channel site="vodafone.pt" lang="pt" xmltv_id="ContaLa.pt" site_id="8933">Conta Lá</channel>
+  <channel site="vodafone.pt" lang="pt" xmltv_id="FastFunBox.pt" site_id="2721">Fast&amp;FunBox</channel>
 
   <!-- ==================== MEO ==================== -->
 
   <channel site="meo.pt" lang="pt" xmltv_id="TraceBrasil.br" site_id="TRACEBR">Trace Brasil</channel>
   <channel site="meo.pt" lang="pt" xmltv_id="ClubbingTV.fr" site_id="CLUBHD">Clubbing TV</channel>
   <channel site="meo.pt" lang="pt" xmltv_id="DasErste.de" site_id="ARD">ARD</channel>
+  <channel site="meo.pt" site_id="CONECTV" lang="pt" xmltv_id="ConecTVAlgarve.pt@SD">Conectv</channel>
 
   <!-- ==================== ORANGE TV ==================== -->
 
   <channel site="orangetv.orange.es" lang="es" xmltv_id="La1.es" site_id="1010">LA 1 HD</channel>
   <channel site="orangetv.orange.es" lang="es" xmltv_id="La2.es" site_id="1062">La 2 HD</channel>
+  <channel site="orangetv.orange.es" lang="es" xmltv_id="TraceLatina.fr" site_id="11106">Trace Latina</channel>
 
-  <!-- ==================== MEUGUIA.TV ==================== -->
-  <channel site="meuguia.tv" site_id="SIC" lang="pt" xmltv_id="SICInternacional.pt">SIC International</channel>
+  <!-- ==================== TVPROFIL.COM ==================== -->
+  
+  <channel site="tvprofil.com" site_id="pt/programacao#sic-internacional" lang="pt" xmltv_id="SICInternacional.pt">SIC Internacional</channel>
+  <channel site="tvprofil.com" site_id="pt/programacao#fast-funbox-hd" lang="pt" xmltv_id="FastFunBox.pt">Fast&amp;FunBox</channel>
+  <channel site="tvprofil.com" site_id="pt/programacao#fashionbox-hd" lang="pt" xmltv_id="FashionBox.nl">FashionBox</channel>
   
   <!-- ==================== PLEX ==================== -->
 
