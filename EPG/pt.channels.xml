@@ -55,9 +55,9 @@
 
   <!-- ==================== TVPROFIL.COM ==================== -->
   
-  <channel site="tvprofil.com" site_id="pt/programacao#sic-internacional" lang="pt" xmltv_id="SICInternacional.pt">SIC Internacional</channel>
-  <channel site="tvprofil.com" site_id="pt/programacao#fast-funbox-hd" lang="pt" xmltv_id="FastFunBox.pt">Fast&amp;FunBox</channel>
-  <channel site="tvprofil.com" site_id="pt/programacao#fashionbox-hd" lang="pt" xmltv_id="FashionBox.nl">FashionBox</channel>
+  <channel site="tvprofil.com" site_id="pt/programacao/#!kanal=sic-internacional" lang="pt" xmltv_id="SICInternacional.pt">SIC Internacional</channel>
+  <channel site="tvprofil.com" site_id="pt/programacao/#!kanal=fast-funbox-hd" lang="pt" xmltv_id="FastFunBox.pt">Fast&amp;FunBox</channel>
+  <channel site="tvprofil.com" site_id="pt/programacao/#!kanal=fashionbox-hd" lang="pt" xmltv_id="FashionBox.nl">FashionBox</channel>
   
   <!-- ==================== PLEX ==================== -->
 
