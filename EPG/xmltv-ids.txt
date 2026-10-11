@@ -82,7 +82,9 @@ RTPNoticias.pt
 CNNPortugal.pt
 Canal11.pt
 VPlusTVI.pt
+SportTVPlus.pt
 PortoCanal.pt
+TVIReality.pt
 RTPMemoria.pt
 Eurosport1.fr
 Eurosport2.fr
@@ -105,12 +107,17 @@ LocalVisaoTV.pt
 RTPAfrica.pt
 GaliciaTVEuropa.es
 ContaLa.pt
+FastFunBox.pt
 TraceBrasil.br
 ClubbingTV.fr
 DasErste.de
+ConecTVAlgarve.pt@SD
 La1.es
 La2.es
+TraceLatina.fr
 SICInternacional.pt
+FastFunBox.pt
+FashionBox.nl
 FailArmy.us
 SPEEDVISION.us
 Motorsport.tv
@@ -127,4 +134,4 @@ USAK3508705A
 
 
 | Nem todos os id's estão presentes na lista pt.m3u.
-| Faltam os seguintes ids no xmltv-ids.txt: TVIReality.pt, bloomberg-tv-plus, SportTVPlus.pt, TraceLatina.fr, ConecTVAlgarve.pt, FashionBox.nl, FastFunBox.pt
+| Faltam os seguintes ids no xmltv-ids.txt: ConecTVAlgarve.pt, bloomberg-tv-plus
