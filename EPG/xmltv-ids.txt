@@ -65,6 +65,7 @@ Motorsport.tv
 LiveNOWFOX.us
 rtp-1
 rtp-2
+rtp-memoria
 rtp-africa
 rtp-internacional
 rtp-acores
