@@ -12,13 +12,13 @@ GBBA33000557H
 INBA4900004W9
 USBC3900018K6
 USAK3508705A
-rtp-memoria
-rtp-africa
-rtp-acores
-rtp-madeira
 rtp-1
 rtp-2
+rtp-memoria
+rtp-africa
 rtp-internacional
+rtp-acores
+rtp-madeira
 5ca671f215a62078d2ec0abf
 636adc255bcf470007d6e0e2
 55b285cd2665de274553d66f
